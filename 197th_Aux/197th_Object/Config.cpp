@@ -62,4 +62,6 @@ class CfgVehicles {
 //Loadout
     #include "Loadout\CfgVehicles.hpp"
 
+//Arsenal
+    #include "Arsenal\CfgVehicles.hpp"
 };
