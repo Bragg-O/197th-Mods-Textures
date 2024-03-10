@@ -22,12 +22,12 @@ class 197th_M12A1_LRV: OPTRE_M12A1_LRV
 	hiddenselectionstextures[]=
 	{
 		"197th_Vehicule\Warthog\Data\extupper_co.paa",
-		"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-		"optre_vehicles\warthog\data\snow\m12_turret_snow_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\m12_turret_night_co.paa",
 		"",
 		"197th_Vehicule\Warthog\Data\interior_co.paa",
-		"optre_vehicles\warthog\data\turrets\m39_turret_co.paa",
-		"optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa"
+		"\OPTRE_Vehicles\warthog\data\turrets\m39_turret_co.paa",
+		""
 	};
 	class textureSources
 	{
@@ -37,12 +37,12 @@ class 197th_M12A1_LRV: OPTRE_M12A1_LRV
 			author = "197th Compagnie Chimaera";
 			textures[] = {
 				"197th_Vehicule\Warthog\Data\extupper_co.paa",
-				"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-				"optre_vehicles\warthog\data\snow\m12_turret_snow_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\m12_turret_night_co.paa",
 				"",
 				"197th_Vehicule\Warthog\Data\interior_co.paa",
-				"optre_vehicles\warthog\data\turrets\m39_turret_co.paa",
-				"optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa"
+				"\OPTRE_Vehicles\warthog\data\turrets\m39_turret_co.paa",
+				""
 			};
 		};
 	};
@@ -75,13 +75,13 @@ class 197th_M12_APC: OPTRE_M12_FAV_APC
 	hiddenselectionstextures[]=
 	{
 		"197th_Vehicule\Warthog\Data\extupper_co.paa",
-		"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-		"optre_vehicles\warthog\data\snow\transp_lopo_snow_co.paa",
-		"optre_vehicles\warthog\data\snow\hog_apc_snow_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\transp_lopo_night_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\hog_apc_night_co.paa",
 		"",
 		"197th_Vehicule\Warthog\Data\interior_co.paa",
-		"optre_vehicles\warthog\data\warthog_transport_decals_ca.paa",
-		"optre_vehicles\warthog\data\warthog_transport_net_ca.paa"
+		"",
+		""
 	};
 	class textureSources
 	{
@@ -96,8 +96,8 @@ class 197th_M12_APC: OPTRE_M12_FAV_APC
 				"optre_vehicles\warthog\data\snow\hog_apc_snow_co.paa",
 				"",
 				"197th_Vehicule\Warthog\Data\interior_co.paa",
-				"optre_vehicles\warthog\data\warthog_transport_decals_ca.paa",
-				"optre_vehicles\warthog\data\warthog_transport_net_ca.paa"
+				"",
+				""
 			};
 		};
 	};
@@ -130,10 +130,10 @@ class 197th_M914_RV: OPTRE_M914_RV
 	hiddenselectionstextures[]=
 	{
 		"197th_Vehicule\Warthog\Data\extupper_co.paa",
-		"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
 		"",
 		"197th_Vehicule\Warthog\Data\interior_co.paa",
-		"optre_vehicles\warthog\data\net_ca.paa"
+		""
 	};
 	class textureSources
 	{
@@ -143,10 +143,10 @@ class 197th_M914_RV: OPTRE_M914_RV
 			author = "197th Compagnie Chimaera";
 			textures[] = {
 				"197th_Vehicule\Warthog\Data\extupper_co.paa",
-				"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
 				"",
 				"197th_Vehicule\Warthog\Data\interior_co.paa",
-				"optre_vehicles\warthog\data\net_ca.paa"
+				""
 			};
 		};
 	};
@@ -179,9 +179,9 @@ class 197th_M12G1_LRV: OPTRE_M12G1_LRV
 	hiddenselectionstextures[]=
 	{
 		"197th_Vehicule\Warthog\Data\extupper_co.paa",
-		"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-		"optre_vehicles\warthog\data\snow\m68_turret_snow_co.paa",
-		"optre_vehicles\warthog\data\snow\m12_turret_snow_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\m68_turret_night_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\m12_turret_night_co.paa",
 		"",
 		"197th_Vehicule\Warthog\Data\interior_co.paa"
 	};
@@ -193,9 +193,9 @@ class 197th_M12G1_LRV: OPTRE_M12G1_LRV
 			author = "197th Compagnie Chimaera";
 			textures[] = {
 				"197th_Vehicule\Warthog\Data\extupper_co.paa",
-				"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-				"optre_vehicles\warthog\data\snow\m68_turret_snow_co.paa",
-				"optre_vehicles\warthog\data\snow\m12_turret_snow_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\m68_turret_night_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\m12_turret_night_co.paa",
 				"",
 				"197th_Vehicule\Warthog\Data\interior_co.paa"
 			};
@@ -230,8 +230,8 @@ class 197th_M12R_AA: OPTRE_M12R_AA
 	hiddenselectionstextures[]=
 	{
 		"197th_Vehicule\Warthog\Data\extupper_co.paa",
-		"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-		"optre_vehicles\warthog\data\snow\m79_turret_snow_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\m79_turret_night_co.paa",
 		"",
 		"197th_Vehicule\Warthog\Data\interior_co.paa"
 	};
@@ -243,8 +243,8 @@ class 197th_M12R_AA: OPTRE_M12R_AA
 			author = "197th Compagnie Chimaera";
 			textures[] = {
 				"197th_Vehicule\Warthog\Data\extupper_co.paa",
-				"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-				"optre_vehicles\warthog\data\snow\m79_turret_snow_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\m79_turret_night_co.paa",
 				"",
 				"197th_Vehicule\Warthog\Data\interior_co.paa"
 			};
@@ -279,12 +279,12 @@ class 197th_M813_TT: OPTRE_M813_TT
 	hiddenselectionstextures[]=
 	{
 		"197th_Vehicule\Warthog\Data\extupper_co.paa",
-		"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-		"optre_vehicles\warthog\data\snow\transp_lopo_snow_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\transp_lopo_night_co.paa",
 		"",
 		"197th_Vehicule\Warthog\Data\interior_co.paa",
-		"optre_vehicles\warthog\data\warthog_transport_net_ca.paa",
-		"optre_vehicles\warthog\data\warthog_transport_decals_ca.paa"
+		"",
+		""
 	};
 	class textureSources
 	{
@@ -294,12 +294,12 @@ class 197th_M813_TT: OPTRE_M813_TT
 			author = "197th Compagnie Chimaera";
 			textures[] = {
 				"197th_Vehicule\Warthog\Data\extupper_co.paa",
-				"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-				"optre_vehicles\warthog\data\snow\transp_lopo_snow_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\transp_lopo_night_co.paa",
 				"",
 				"197th_Vehicule\Warthog\Data\interior_co.paa",
-				"optre_vehicles\warthog\data\warthog_transport_net_ca.paa",
-				"optre_vehicles\warthog\data\warthog_transport_decals_ca.paa"
+				"",
+				""
 			};
 		};
 	};
@@ -332,11 +332,11 @@ class 197th_M12_LRV: OPTRE_M12_LRV
 	hiddenselectionstextures[]=
 	{
 		"197th_Vehicule\Warthog\Data\extupper_co.paa",
-		"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-		"optre_vehicles\warthog\data\snow\m12_turret_snow_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\m12_turret_night_co.paa",
 		"",
 		"197th_Vehicule\Warthog\Data\interior_co.paa",
-		"optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa",
+		"",
 		"optre_vehicles\warthog\data\turrets\sight_co.paa"
 	};
 	class textureSources
@@ -347,11 +347,11 @@ class 197th_M12_LRV: OPTRE_M12_LRV
 			author = "197th Compagnie Chimaera";
 			textures[] = {
 				"197th_Vehicule\Warthog\Data\extupper_co.paa",
-				"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
-				"optre_vehicles\warthog\data\snow\m12_turret_snow_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\m12_turret_night_co.paa",
 				"",
 				"197th_Vehicule\Warthog\Data\interior_co.paa",
-				"optre_vehicles\warthog\data\turrets\m12_turret_decals_ca.paa",
+				"",
 				"optre_vehicles\warthog\data\turrets\sight_co.paa"
 			};
 		};
@@ -385,7 +385,7 @@ class 197th_M12_FAV: OPTRE_M12_FAV
 	hiddenselectionstextures[]=
 	{
 		"197th_Vehicule\Warthog\Data\extupper_co.paa",
-		"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
+		"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
 		"",
 		"197th_Vehicule\Warthog\Data\interior_co.paa"
 	};
@@ -397,7 +397,7 @@ class 197th_M12_FAV: OPTRE_M12_FAV
 			author = "197th Compagnie Chimaera";
 			textures[] = {
 				"197th_Vehicule\Warthog\Data\extupper_co.paa",
-				"optre_vehicles\warthog\data\snow\m12hogmaav_extunder_snow_co.paa",
+				"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
 				"",
 				"197th_Vehicule\Warthog\Data\interior_co.paa"
 			};
