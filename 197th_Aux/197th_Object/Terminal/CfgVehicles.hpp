@@ -72,6 +72,9 @@ class 197th_Terminal_Medical: 197th_Terminal {
 		"197th_Object\Terminal\Data\Screen_Medical_co.paa"
 	};
 	editorPreview = "197th_Object\_EditorPreviews\Terminal_Medical_ca.jpg";
+    class EventHandlers {
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\exec\UnitTrait.sqf';};";
+    };
 };
 
 class 197th_Terminal_Repair: 197th_Terminal {
@@ -92,4 +95,7 @@ class 197th_Terminal_Sapeur: 197th_Terminal {
 		"197th_Object\Terminal\Data\Screen_Sapeur_co.paa"
 	};
 	editorPreview = "197th_Object\_EditorPreviews\Terminal_Sapeur_ca.jpg";
+    class EventHandlers {
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\exec\UnitTrait.sqf';};";
+    };
 };
