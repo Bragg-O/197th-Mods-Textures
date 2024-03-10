@@ -25,8 +25,8 @@ class 197th_NVG : SWLB_clone_nvg {
 class 197th_NVG_Rangefinder : SWLB_clone_rangefinder {
 	author = "197th Compagnie Chimaera";
 	displayName = "[197th] Rangefinder Base";
-	scope = 2;
-	scopearsenal = 2;
+	scope = 0;
+	scopearsenal = 0;
 	modelOptics = "\lsd_equipment_bluefor\nvg\gar\visor\swlb_clone_nvg_optic_dummy.p3d";
 	ace_nightvision_border="";
 	model = "\SWLB_clones\SWLB_clone_rangefinder_on.p3d";
