@@ -1,0 +1,26 @@
+class lsd_gar_phase2_base;
+class 197th_Unit : lsd_gar_phase2_base {
+	author = "197th Compagnie Chimaera";
+	displayName = "[197th] Unit Base";
+	editorPreview = "";
+	scope = 0;
+	scopecurator = 0;
+	armor = 2;
+	armorStructural = 3;
+	explosionShielding = 0.3;
+	minTotalDamageThreshold = 0.001;
+	impactDamageMultiplier = 0.5;
+	nakedUniform = "lsd_gar_bodyGlove_uniform";
+	model = "ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform.p3d";
+	weapons[] = {"197th_DC15S_Regs_scoped", "197th_DC17SA_Regs_scoped", "Throw", "Put"};
+	respawnWeapons[] = {"197th_DC15S_Regs_scoped", "197th_DC17SA_Regs_scoped", "Throw", "Put"};
+	magazines[] = {"197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC17SA_mag", "197th_DC17SA_mag", "197th_DC17SA_mag", "SWLW_beltGrenade_mag"};
+	respawnMagazines[] = {"197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC15S_mag", "197th_DC17SA_mag", "197th_DC17SA_mag", "197th_DC17SA_mag", "SWLW_beltGrenade_mag"};
+	items[] = {"FirstAidKit", "FirstAidKit", "FirstAidKit"};
+	respawnItems[] = {"FirstAidKit", "FirstAidKit", "FirstAidKit"};
+    linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "JLTS_clone_comlink"};
+    respawnlinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "JLTS_clone_comlink"};
+	faction = "197th_Units";
+	uniformClass = "197th_Uniform";
+	hiddenSelections[] = {"camo1", "camo2", "undersuit", "insignia"};
+};
