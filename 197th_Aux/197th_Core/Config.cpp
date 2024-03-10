@@ -31,6 +31,7 @@ class CfgEditorCategories {
     Categories_197th_XX(Object);
     Categories_197th_XX(Vehicle);
     Categories_197th_XX(Weapon);
+	Categories_197th_XX(WorldEdit);
 };
 
 class CfgEditorSubcategories {
@@ -47,6 +48,7 @@ class CfgEditorSubcategories {
 	Categories_197th_XX(Loadout);
     Categories_197th_XX(Explosive);
     Categories_197th_XX(Terminal);
+    Categories_197th_XX(Arsenal);
     Categories_197th_XX(Flag);
     Categories_197th_XX(Supply);
     Categories_197th_XX(Aerien);
