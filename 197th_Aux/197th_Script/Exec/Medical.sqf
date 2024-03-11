@@ -21,6 +21,6 @@ _actionId = _Terminal addAction ["Mraitement médical", {
 	sleep 1;
 	hint parseText format["<t color='#fb0000' size='1.5'>Traitement médical</t><br/>END<br/><br/><img size='5' image='\197th_Script\Data\Medical_emblem.paa'/><br/><br/>Vous avez été complètement soigné"];
 	[player] call ace_medical_treatment_fnc_fullHealLocal;
-}];
+}, nil, 1.5, true, true, "", "true", 5, false, "", ""];
 
 _Terminal setUserActionText [_actionId, "<t color='#fb0000' size='1.5'>Recevoir un traitement médical</t>", "<img size='3' image='\197th_Script\Data\Medical_emblem.paa'/>"];
