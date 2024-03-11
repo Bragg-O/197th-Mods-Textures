@@ -1,4 +1,4 @@
-name 			= "197th Compagnie Chimaera - Auxiliary (WIP)"; // Name of your mod
+name 			= "197th Compagnie Chimaera - Auxiliary"; // Name of your mod
 author 			= "197th Compagnie Chimaera - Bragg"; // Affects Arma 3 Launcher, when the mod are loaded as local
 logo 			= "logo.paa"; // Logo displayed in the main menu
 logoOver 		= "logo1.paa"; // When the mouse is over, in the main menu
