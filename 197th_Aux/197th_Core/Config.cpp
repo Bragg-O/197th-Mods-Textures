@@ -63,6 +63,9 @@ class CfgMissions {
 		class spaceMenuSceneAltis {
 			directory = "197th_core\scenes\Intro1.Altis";
 		};
+		class spaceMenuSceneArcadia {
+			directory = "197th_core\scenes\Intro1.OPTRE_Arcadia";
+		};
 	};
 };
 
@@ -74,6 +77,9 @@ class CfgWorlds {
     class VR : CAWorld {
 		cutscenes[] = {"spaceMenuSceneVR"};
 	};
+	class OPTRE_Arcadia : CAWorld {
+		cutscenes[] = {"spaceMenuSceneArcadia"};
+	}
 	initWorld = "Altis";
 	demoWorld = "Altis";
 };
