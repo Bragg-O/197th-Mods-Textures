@@ -18,7 +18,7 @@
 //Add MapIcon
 [] execVM "197th_Script\Init\MapIcon.sqf";
 
-//Add MapIcon
+//Add Earplugs
 [] execVM "197th_Script\Init\Earplugs.sqf";
 
 // Cinematique
