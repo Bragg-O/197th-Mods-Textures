@@ -1,4 +1,4 @@
-["InitDummy", [worldName,(getPosATL cam_pos),(getDir cam_pos),0.75,[-9.9163,0],2.35474,30.6255,0,0,1,1,0,1]] call BIS_fnc_camera;
+["InitDummy", [worldName,(getPosWorld cam_pos),(getDir cam_pos),0.75,[-9.9163,0],2.35474,30.6255,0,0,1,1,0,1]] call BIS_fnc_camera;
 
 setAperture 100;
 
@@ -14,7 +14,9 @@ execVM "mse6.sqf";
 
 execVM "space.sqf";
 
-execVM "hallway.sqf";
+execVM "hallway1.sqf";
+execVM "hallway2.sqf";
+execVM "hallway3.sqf";
 
 sleep 1;
 
