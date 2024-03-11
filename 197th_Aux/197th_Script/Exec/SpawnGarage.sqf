@@ -85,7 +85,7 @@ params ["_Terminal"];
 	
 	{
 		_VehiculeName = getText(configfile >> "CfgVehicles" >> _x >> "displayName");
-		if ("528th" in _VehiculeName) then {
+		if ("197th" in _VehiculeName) then {
 			_VehiculeName = format ["<t size='1.2' color='#27AE60'>%1</t>", _VehiculeName];
 		} else {
 			_VehiculeName = format ["<t size='1.2'>%1</t>", _VehiculeName];
@@ -98,7 +98,7 @@ params ["_Terminal"];
 				{
 					_deletevehclass = typeOf _x;
 					        _deletevehname = getText(configfile >> "CfgVehicles" >> _deletevehclass >> "displayName");
-					if ("528th" in _deletevehname) then {
+					if ("197th" in _deletevehname) then {
 						_deletevehname = format ["<t size='1.2' color='#27AE60'>%1</t>", _deletevehname];
 					} else {
 						_deletevehname = format ["<t size='1.2'>%1</t>", _deletevehname];
@@ -129,7 +129,7 @@ params ["_Terminal"];
 			{
 				_deletevehclass = typeOf _x;
 				        _deletevehname = getText(configfile >> "CfgVehicles" >> _deletevehclass >> "displayName");
-				if ("528th" in _deletevehname) then {
+				if ("197th" in _deletevehname) then {
 					_deletevehname = format ["<t size='1.2' color='#27AE60'>%1</t>", _deletevehname];
 				} else {
 					_deletevehname = format ["<t size='1.2'>%1</t>", _deletevehname];
