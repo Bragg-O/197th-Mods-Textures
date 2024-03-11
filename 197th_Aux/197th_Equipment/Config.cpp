@@ -165,6 +165,8 @@ class CfgVehicles {
         Unit_197th_XX(Regs,Sergent,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Sergent","","","");
         Unit_197th_XX(Regs,Lieutenant,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Pauldron","","","");
         Unit_197th_XX(Regs,Capitain,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Officier","","","");
+    
+    //UnitCC_197th_XX(type,name,sac,"helmet","vest","accessories1","accessories2","accessories3") -> 197th_Unit_##type##_##name##
         UnitCC_197th_XX(Customs,Bragg,197th_Backpack_Customs_Bragg,"197th_Helmet_Customs_Bragg","197th_Vest_Customs_Bragg","197th_NVG_Customs_Bragg","","");
 
 //Helmets

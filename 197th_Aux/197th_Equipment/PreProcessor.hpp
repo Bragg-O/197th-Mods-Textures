@@ -37,6 +37,25 @@
 	}
 
 
+#define UnitCC_197th_XX(type,name,sac,helmet,vest,accessories1,accessories2,accessories3) \
+	class 197th_Unit_##type##_##name## : 197th_Unit_Commander { \
+		author = 197th Compagnie Chimaera; \
+		displayName = [197th] ##name##; \
+		scope = 2; \
+		scopecurator = 2; \
+		editorSubcategory = 197th_##type##_Unit; \
+		uniformClass = 197th_Uniform_##type##_##name##; \
+		backpack = ##sac##; \
+		linkedItems[] += {##helmet##,##vest##,##accessories1##,##accessories2##,##accessories3##}; \
+		respawnlinkedItems[] += {##helmet##,##vest##,##accessories1##,##accessories2##,##accessories3##}; \
+        hiddenSelectionsTextures[] = { \
+			197th_Equipment\Uniform\Data\##type##\##name##\camo1_co.paa, \
+			197th_Equipment\Uniform\Data\##type##\##name##\camo2_co.paa, \
+			197th_Equipment\Uniform\Data\undersuit_co.paa \
+		}; \
+	}
+
+
 #define Helmet_197th_XX(type,name) \
     class 197th_Helmet_##type##_##name## : 197th_Helmet { \
 		author = 197th Compagnie Chimaera; \
