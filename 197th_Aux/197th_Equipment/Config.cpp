@@ -95,6 +95,7 @@ class CfgWeapons {
     //Helmet_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         Helmet_197th_XX(Regs,Cadet);
         Helmet_197th_XX(Regs,Trooper);
+    //HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         HelmetVisorLight_197th_XX(Customs,Bragg);
     //HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
         HelmetPilot_197th_XX(Regs,Pilot);

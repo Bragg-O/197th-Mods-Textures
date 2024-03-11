@@ -70,6 +70,24 @@
     }
 
 
+#define HelmetVisorLight_197th_XX(type,name) \
+    class 197th_Helmet_##type##_##name## : 197th_Helmet { \
+		author = 197th Compagnie Chimaera; \
+        displayName = [197th] Helmet (##name##); \
+		scope = 2; \
+		scopearsenal = 2; \
+		picture = \197th_Equipment\_ui\helmet_##type##.paa; \
+        hiddenSelectionsTextures[] = { \
+			197th_Equipment\helmet\Data\##type##\##name##\camo_co.paa, \
+			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa, \
+		}; \
+		hiddenSelectionsMaterials[] = { \
+			, \
+			\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat \
+		}; \
+    }
+
+
 #define HeadgearItem_197th_XX(type,id) \
     class 197th_Headgear_##type##_##id## : 197th_Headgear { \
 		author = 197th Compagnie Chimaera; \
