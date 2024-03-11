@@ -7,11 +7,11 @@
 */
 
 while {true} do {
-    if (count (nearestObjects [player, ["BulletBase"], 50]) > 0) then {
-        player switchCamera "INTERNAL";
+    if ((count (nearestObjects [player, ["BulletBase"], 50]) > 0) && (vehicle player == player)) then {
         for [{ _i = 0 }, { _i < 120 }, { _i = _i + 1 }] do {
-            if (cameraView == "External") then {
-                hint parseText format["<img size='2' image='197th_Script/waves.paa'/><br/>Communication entrante de %1<br/><t color='#FB0000' size='1.5'> Reste concentré soldat !</t>",name (leader group player)];
+            if (vehicle player != player) then {_i = 120;};
+            if (player in cameraOn && cameraView == "External") then {
+                hint parseText format["<img size='2' image='\197th_Script\Data\waves.paa'/><br/>Communication entrante de %1<br/><t color='#FB0000' size='1.5'> Reste concentré soldat !</t>",name (leader group player)];
                 player switchCamera "INTERNAL";
             };
             sleep 0.5;
