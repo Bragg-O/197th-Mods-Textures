@@ -218,6 +218,22 @@
 	}
 
 
+#define BackpackSacocheCeinturRTO_197th_XX(type,name) \
+    class 197th_Backpack_##type##_##name## : 197th_Backpack_Bag_RTO { \
+		author = 197th Compagnie Chimaera; \
+		displayName = [197th] Sacoche (##name##); \
+		scope = 2; \
+		scopearsenal = 2; \
+		scopecurator = 2; \
+		editorSubcategory = 197th_##type##_Backpack; \
+		picture = \197th_Equipment\_ui\backpack_bag_##type##.paa; \
+		hiddenselectionstextures[] = { \
+			197th_Equipment\Backpack\Data\##type##\##name##\backpack_co.paa, \
+			\
+		}; \
+	}
+
+
 #define BackpackSacocheJambe_197th_XX(type,name) \
     class 197th_Backpack_##type##_##name## : 197th_Backpack_Bag { \
 		author = 197th Compagnie Chimaera; \

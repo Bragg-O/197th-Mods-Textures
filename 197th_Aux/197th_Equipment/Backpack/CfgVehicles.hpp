@@ -100,3 +100,22 @@ class 197th_Backpack_ARC : SWLB_clone_arc_backpack {
 	maximumload = 500;
 	hiddenSelections[] = {"camo1"};
 };
+
+class 197th_Backpack_Bag_RTO : SWLB_clone_bag {
+	author = "197th Compagnie Chimaera";
+	displayName = "[197th] Sacoche Basic";
+	editorPreview = "";
+	editorCategory = "197th_Equipment";
+	scope = 0;
+	scopearsenal = 0;
+	scopecurator = 0;
+	model = "\SWLB_equipment\backpacks\SWLB_clone_bag.p3d";
+	maximumload = 200;
+	hiddenSelections[] = {"camo1", "camo2"};
+	tf_dialog = "JLTS_clone_lr_programmer_radio_dialog";
+	tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+	tf_encryptionCode = "tf_west_radio_code";
+	tf_hasLRradio = 1;
+	tf_range = 30000;
+	tf_subtype = "digital_lr";
+};

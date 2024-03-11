@@ -197,5 +197,6 @@ class CfgVehicles {
         BackpackSacoche_197th_XX(Regs,Complete);
     //BackpackARC_197th_XX(type,name) -> 197th_Backpack_##type##_##name##
         BackpackARC_197th_XX(Regs,ARC);
+    //BackpackSacocheCeinturRTO_197th_XX(type,name) -> 197th_Backpack_##type##_##name##
         BackpackSacocheCeinturRTO_197th_XX(Customs,Bragg);
 };
