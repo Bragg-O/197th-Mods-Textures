@@ -149,7 +149,7 @@ class CfgWeapons {
     //NVG_Visor_197th_XX(type,name) -> 197th_NVG_##type##_##name##
         NVG_Visor_197th_XX(Customs,Bragg);
     //NVG_VisorProtection_197th_XX(type,name) -> 197th_NVG_##type##_##name##
-
+        NVG_VisorProtection_197th_XX(Regs,Visor);
     //NVG_Scanner_197th_XX(type,name) -> 197th_NVG_##type##_##name##
         NVG_Scanner_197th_XX(Regs,MedicalScanner);
     //NVG_Headlamp_197th_XX(type,name) -> 197th_NVG_##type##_##name##
