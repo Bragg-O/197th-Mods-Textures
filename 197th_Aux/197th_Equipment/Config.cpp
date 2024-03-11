@@ -88,12 +88,14 @@ class CfgWeapons {
         Uniform_197th_XX(Regs,Sergent);
         Uniform_197th_XX(Regs,Lieutenant);
         Uniform_197th_XX(Regs,Capitain);
+        Uniform_197th_XX(Customs,Bragg);
 
 //Helmets
     #include "Helmet\CfgWeapons.hpp"
     //Helmet_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         Helmet_197th_XX(Regs,Cadet);
         Helmet_197th_XX(Regs,Trooper);
+        HelmetVisorLight_197th_XX(Customs,Bragg);
     //HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
         HelmetPilot_197th_XX(Regs,Pilot);
     //HelmetARF_197th_XX(type,name) -> 197th_HelmetARF_##type##_##name##
@@ -109,6 +111,7 @@ class CfgWeapons {
         VestPauldron_197th_XX(Regs,Pauldron);
     //VestSergent_197th_XX(type,name) -> 197th_Vest_##type##_##name##
         VestSergent_197th_XX(Regs,Sergent);
+        VestSergent_197th_XX(Customs,Bragg);
     //VestARC_197th_XX(type,name) -> 197th_Vest_##type##_##name##
         VestARC_197th_XX(Regs,ARC);
     //VestHolster_197th_XX(type,name) -> 197th_Vest_##type##_##name##
@@ -143,7 +146,7 @@ class CfgWeapons {
     //NVG_Rangefinder_197th_XX(type,name) -> 197th_NVG_##type##_##name##
         NVG_Rangefinder_197th_XX(Regs,Rangefinder);
     //NVG_Visor_197th_XX(type,name) -> 197th_NVG_##type##_##name##
-
+        NVG_Visor_197th_XX(Customs,Bragg);
     //NVG_VisorProtection_197th_XX(type,name) -> 197th_NVG_##type##_##name##
 
     //NVG_Scanner_197th_XX(type,name) -> 197th_NVG_##type##_##name##
@@ -162,12 +165,14 @@ class CfgVehicles {
         Unit_197th_XX(Regs,Sergent,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Sergent","","","");
         Unit_197th_XX(Regs,Lieutenant,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Pauldron","","","");
         Unit_197th_XX(Regs,Capitain,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Officier","","","");
+        UnitCC_197th_XX(Customs,Bragg,197th_Backpack_Customs_Bragg,"197th_Helmet_Customs_Bragg","197th_Vest_Customs_Bragg","197th_NVG_Customs_Bragg","","");
 
 //Helmets
     #include "Helmet\CfgVehicles.hpp"
     //HeadgearItem_197th_XX(type,name) -> 197th_Headgear_##type##_##name##
         HeadgearItem_197th_XX(Regs,Cadet);
         HeadgearItem_197th_XX(Regs,Trooper);
+        HeadgearItem_197th_XX(Customs,Bragg);
     //HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
         HeadgearItemPilot_197th_XX(Regs,Pilot);
     //HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
@@ -192,4 +197,5 @@ class CfgVehicles {
         BackpackSacoche_197th_XX(Regs,Complete);
     //BackpackARC_197th_XX(type,name) -> 197th_Backpack_##type##_##name##
         BackpackARC_197th_XX(Regs,ARC);
+        BackpackSacocheCeinturRTO_197th_XX(Customs,Bragg);
 };
