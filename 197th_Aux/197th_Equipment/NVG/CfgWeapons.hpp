@@ -50,6 +50,10 @@ class 197th_NVG_Visor : lsd_gar_p2Commander_nvg {
 	model = "\lsd_equipment_bluefor\nvg\gar\commander\lsd_gar_p2Commander_nvg";
 	visionMode[] = {"Normal", NVG};
 	hiddenSelections[] = {"camo1", "camo2", "camo3"};
+	ls_lighting_hasLight=1;
+	ls_lighting_offset[]={-0.175,-0.001,0.13500001};
+	ls_lighting_attachedBone="head";
+	ls_lighting_itemType="hmd";
 	class ItemInfo {
 		type = 616;
 		uniformModel = "\lsd_equipment_bluefor\nvg\gar\commander\lsd_gar_p2Commander_nvg";
