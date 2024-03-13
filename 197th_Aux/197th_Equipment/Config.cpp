@@ -14,42 +14,7 @@ class CfgPatches {
         author = "Bragg for 197th Compagnie Chimaera";
         url = "http://www.197th.fr";
         requiredAddons[] = {"197th_weapon"};
-        weapons[] = { //All for arsenal
-        //CfgPatches_XX(model,type,name) -> 197th_##model##_##type##_##name##
-            CfgPatches_XX(Uniform,Regs,Cadet),
-            CfgPatches_XX(Uniform,Regs,Trooper),
-            CfgPatches_XX(Uniform,Regs,Medecin),
-            CfgPatches_XX(Uniform,Regs,Sergent),
-            CfgPatches_XX(Uniform,Regs,Lieutenant),
-            CfgPatches_XX(Uniform,Regs,Capitain),
-            CfgPatches_XX(Helmet,Regs,Cadet),
-            CfgPatches_XX(Helmet,Regs,Trooper),
-            CfgPatches_XX(HelmetPilot,Regs,Pilot),
-            CfgPatches_XX(HelmetARF,Regs,ARF),
-            CfgPatches_XX(Vest,Regs,Officier),
-            CfgPatches_XX(Vest,Regs,Kama),
-            CfgPatches_XX(Vest,Regs,Pauldron),
-            CfgPatches_XX(Vest,Regs,Sergent),
-            CfgPatches_XX(Vest,Regs,ARC),
-            CfgPatches_XX(Vest,Regs,Holster),
-            CfgPatches_XX(Vest,Regs,Medical),
-            CfgPatches_XX(Vest,Regs,0),
-            CfgPatches_XX(Vest,Regs,1),
-            CfgPatches_XX(Vest,Regs,2),
-            CfgPatches_XX(Vest,Regs,3),
-            CfgPatches_XX(Vest,Regs,4),
-            CfgPatches_XX(Vest,Regs,5),
-            CfgPatches_XX(Vest,Regs,6),
-            CfgPatches_XX(Vest,Regs,7),
-            CfgPatches_XX(Vest,Regs,8),
-            CfgPatches_XX(NVG,Regs,Trooper),
-            CfgPatches_XX(NVG,Regs,Specialist),
-            CfgPatches_XX(NVG,Regs,Rangefinder),
-            CfgPatches_XX(NVG,Regs,Visor),
-            CfgPatches_XX(NVG,Regs,VisorProtection),
-            CfgPatches_XX(NVG,Regs,MedicalScanner),
-            CfgPatches_XX(NVG,Regs,Headlamp)
-        };
+        weapons[] = {};
         units[] = { //All for curator
         //CfgPatches_XX(model,type,name) -> 197th_##model##_##type##_##name##
             CfgPatches_XX(Unit,Regs,Cadet),
@@ -61,19 +26,14 @@ class CfgPatches {
             CfgPatches_XX(Unit,Regs,Pilote),
             CfgPatches_XX(Unit,Regs,ARF),
             CfgPatches_XX(Unit,Regs,ARC),
+            CfgPatches_XX(Unit,Customs,Bragg),
+            CfgPatches_XX(Unit,Customs,Apollyon),
             CfgPatches_XX(Headgear,Regs,Cadet),
             CfgPatches_XX(Headgear,Regs,Trooper),
+            CfgPatches_XX(Headgear,Customs,Bragg),
+            CfgPatches_XX(Headgear,Customs,Apollyon),
             CfgPatches_XX(HeadgearPilot,Regs,Pilot),
-            CfgPatches_XX(HeadgearARF,Regs,ARF),
-            CfgPatches_XX(Backpack,Regs,Trooper),
-            CfgPatches_XX(Backpack,Regs,Sapeur),
-            CfgPatches_XX(Backpack,Regs,Rocket),
-            CfgPatches_XX(Backpack,Regs,Radio),
-            CfgPatches_XX(Backpack,Regs,Medecin),
-            CfgPatches_XX(Backpack,Regs,Ceinture),
-            CfgPatches_XX(Backpack,Regs,Jambe),
-            CfgPatches_XX(Backpack,Regs,Complete),
-            CfgPatches_XX(Backpack,Regs,ARC)
+            CfgPatches_XX(HeadgearARF,Regs,ARF)
         };
     };
 };
@@ -89,12 +49,14 @@ class CfgWeapons {
         Uniform_197th_XX(Regs,Lieutenant);
         Uniform_197th_XX(Regs,Capitain);
         Uniform_197th_XX(Customs,Bragg);
+        Uniform_197th_XX(Customs,Apollyon);
 
 //Helmets
     #include "Helmet\CfgWeapons.hpp"
     //Helmet_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         Helmet_197th_XX(Regs,Cadet);
         Helmet_197th_XX(Regs,Trooper);
+        Helmet_197th_XX(Customs,Apollyon);
     //HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         HelmetVisorLight_197th_XX(Customs,Bragg);
     //HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
@@ -125,6 +87,7 @@ class CfgWeapons {
         Vest1_197th_XX(Regs,1);
     //Vest2_197th_XX(type,name) -> 197th_Vest_##type##_##name##
         Vest2_197th_XX(Regs,2);
+        Vest2_197th_XX(Customs,Apollyon);
     //Vest3_197th_XX(type,name) -> 197th_Vest_##type##_##name##
         Vest3_197th_XX(Regs,3);
     //Vest4_197th_XX(type,name) -> 197th_Vest_##type##_##name##
@@ -149,7 +112,7 @@ class CfgWeapons {
     //NVG_Visor_197th_XX(type,name) -> 197th_NVG_##type##_##name##
         NVG_Visor_197th_XX(Customs,Bragg);
     //NVG_VisorProtection_197th_XX(type,name) -> 197th_NVG_##type##_##name##
-        NVG_VisorProtection_197th_XX(Regs,Visor);
+        NVG_VisorProtection_197th_XX(Customs,Apollyon);
     //NVG_Scanner_197th_XX(type,name) -> 197th_NVG_##type##_##name##
         NVG_Scanner_197th_XX(Regs,MedicalScanner);
     //NVG_Headlamp_197th_XX(type,name) -> 197th_NVG_##type##_##name##
@@ -166,6 +129,7 @@ class CfgVehicles {
         Unit_197th_XX(Regs,Sergent,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Sergent","","","");
         Unit_197th_XX(Regs,Lieutenant,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Pauldron","","","");
         Unit_197th_XX(Regs,Capitain,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Officier","","","");
+        Unit_197th_XX(Customs,Apollyon,197th_Backpack_Customs_Apollyon,"197th_Helmet_Customs_Apollyon","197th_Vest_Customs_Apollyon","197th_NVG_Customs_Apollyon","","");
     
     //UnitCC_197th_XX(type,name,sac,"helmet","vest","accessories1","accessories2","accessories3") -> 197th_Unit_##type##_##name##
         UnitCC_197th_XX(Customs,Bragg,197th_Backpack_Customs_Bragg,"197th_Helmet_Customs_Bragg","197th_Vest_Customs_Bragg","197th_NVG_Customs_Bragg","","");
@@ -176,6 +140,7 @@ class CfgVehicles {
         HeadgearItem_197th_XX(Regs,Cadet);
         HeadgearItem_197th_XX(Regs,Trooper);
         HeadgearItem_197th_XX(Customs,Bragg);
+        HeadgearItem_197th_XX(Customs,Apollyon);
     //HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
         HeadgearItemPilot_197th_XX(Regs,Pilot);
     //HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
@@ -202,4 +167,5 @@ class CfgVehicles {
         BackpackARC_197th_XX(Regs,ARC);
     //BackpackSacocheCeinturRTO_197th_XX(type,name) -> 197th_Backpack_##type##_##name##
         BackpackSacocheCeinturRTO_197th_XX(Customs,Bragg);
+        BackpackSacocheCeinturRTO_197th_XX(Customs,Apollyon);
 };
