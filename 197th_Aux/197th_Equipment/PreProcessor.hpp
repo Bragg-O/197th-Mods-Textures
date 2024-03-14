@@ -165,6 +165,36 @@
 	}
 
 
+#define HelmetBARC_197th_XX(type,name) \
+    class 197th_HelmetBarc_##type##_##name## : 197th_HelmetBarc { \
+		author = 197th Compagnie Chimaera; \
+        displayName = [197th] BARC Helmet (##name##); \
+		scope = 2; \
+		scopearsenal = 2; \
+		picture = \197th_Equipment\_ui\helmet_barc_##type##.paa; \
+        hiddenSelectionsTextures[] = { \
+			197th_Equipment\helmet\Data\##type##\##name##\camo_co.paa, \
+			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa \
+		}; \
+    }
+
+
+#define HeadgearItemBARC_197th_XX(type,id) \
+    class 197th_HeadgearBarc_##type##_##id## : 197th_Headgear { \
+		author = 197th Compagnie Chimaera; \
+		displayName = [197th] BARC Helmet (##id##); \
+		scope = 2; \
+		scopecurator = 2; \
+		editorSubcategory = 197th_##type##_Helmet; \
+		class TransportItems { \
+			class XX_197th_HelmetBarc_##type##_##id## { \
+				name = 197th_HelmetBarc_##type##_##id##; \
+				count = 1; \
+			}; \
+		}; \
+	}
+
+
 #define Backpack_197th_XX(type,name) \
     class 197th_Backpack_##type##_##name## : 197th_Backpack { \
 		author = 197th Compagnie Chimaera; \

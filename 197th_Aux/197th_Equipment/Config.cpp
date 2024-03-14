@@ -33,7 +33,8 @@ class CfgPatches {
             CfgPatches_XX(Headgear,Customs,Bragg),
             CfgPatches_XX(Headgear,Customs,Apollyon),
             CfgPatches_XX(HeadgearPilot,Regs,Pilot),
-            CfgPatches_XX(HeadgearARF,Regs,ARF)
+            CfgPatches_XX(HeadgearARF,Regs,ARF),
+            CfgPatches_XX(HeadgearBARC,Regs,BARC)
         };
     };
 };
@@ -63,6 +64,8 @@ class CfgWeapons {
         HelmetPilot_197th_XX(Regs,Pilot);
     //HelmetARF_197th_XX(type,name) -> 197th_HelmetARF_##type##_##name##
         HelmetARF_197th_XX(Regs,ARF);
+    //HelmetBARC_197th_XX(type,name) -> 197th_HelmetBARC_##type##_##name##
+        HelmetBARC_197th_XX(Regs,BARC);
 
 //Vest
     #include "Vest\CfgWeapons.hpp"
@@ -145,6 +148,8 @@ class CfgVehicles {
         HeadgearItemPilot_197th_XX(Regs,Pilot);
     //HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
         HeadgearItemARF_197th_XX(Regs,ARF);
+    //HeadgearItemBARC_197th_XX(type,name) -> 197th_HeadgearBARC_##type##_##name##
+        HeadgearItemBARC_197th_XX(Regs,BARC);
 
 //Backpack
     #include "Backpack\CfgVehicles.hpp"

@@ -88,3 +88,33 @@ class 197th_HelmetArf : ls_gar_phase1Arf_helmet {
 		};
 	};
 };
+
+class ls_gar_barc_helmet;
+class 197th_HelmetBarc : ls_gar_barc_helmet {
+	author = "197th Compagnie Chimaera";
+	displayName = "[197th] helmet BARC Base";
+	scope = 0;
+	scopearsenal = 0;
+	hiddenSelections[] = {"camo1", "visor"};
+	model = "\ls_armor_bluefor\helmet\gar\barc\ls_gar_barc_helmet.p3d";    
+	subItems[] = {};
+	class ItemInfo : HeadgearItem {
+		mass = 10;
+		uniformModel = "\ls_armor_bluefor\helmet\gar\barc\ls_gar_barc_helmet.p3d";
+		allowedSlots[] = {801, 901, 701, 605};
+		modelSides[] = {6};
+		hiddenSelections[] = {"camo1", "visor"};		
+		class HitpointsProtectionInfo {
+			class Head {
+				hitpointName = "HitHead";
+				armor = 8;
+				passThrough = 0.2;
+			};
+			class Face {
+				hitpointName = "HitFace";
+				armor = 8;
+				passThrough = 0.2;
+			};
+		};
+	};
+};
