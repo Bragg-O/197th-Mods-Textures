@@ -108,5 +108,5 @@
 		displayName="[197th] DC-15A Scope";
 		author = "197th Compagnie Chimaera";
 		picture = "\197th_Weapon\_ui\DC15X_scope.paa";
-		scope=2;
+		scope = 1;
 	};
