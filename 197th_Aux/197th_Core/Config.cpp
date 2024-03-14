@@ -45,6 +45,7 @@ class CfgEditorSubcategories {
     AdvancedCategories_197th_XX(Regs,Uniform);
     AdvancedCategories_197th_XX(Regs,Weapon);
     AdvancedCategories_197th_XX(Regs,Unit);
+	Categories_197th_XX(Number);
 	Categories_197th_XX(Loadout);
     Categories_197th_XX(Explosive);
     Categories_197th_XX(Terminal);
