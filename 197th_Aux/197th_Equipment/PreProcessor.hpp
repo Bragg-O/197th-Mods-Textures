@@ -65,7 +65,7 @@
 		picture = \197th_Equipment\_ui\helmet_##type##.paa; \
         hiddenSelectionsTextures[] = { \
 			197th_Equipment\helmet\Data\##type##\##name##\camo_co.paa, \
-			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa, \
+			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa \
 		}; \
     }
 
@@ -79,7 +79,7 @@
 		picture = \197th_Equipment\_ui\helmet_##type##.paa; \
         hiddenSelectionsTextures[] = { \
 			197th_Equipment\helmet\Data\##type##\##name##\camo_co.paa, \
-			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa, \
+			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa \
 		}; \
 		hiddenSelectionsMaterials[] = { \
 			, \
@@ -113,7 +113,7 @@
 		picture = \197th_Equipment\_ui\helmet_pilot_##type##.paa; \
         hiddenSelectionsTextures[] = { \
 			197th_Equipment\helmet\Data\##type##\##name##\camo_co.paa, \
-			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa, \
+			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa \
 		}; \
     }
 
@@ -144,7 +144,7 @@
         hiddenSelectionsTextures[] = { \
 			197th_Equipment\helmet\Data\##type##\##name##\camo_co.paa, \
 			, \
-			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa, \
+			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa \
 		}; \
     }
 
