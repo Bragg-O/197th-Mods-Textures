@@ -19,6 +19,7 @@ _all197items = [];
 _197Backpacks = [];
 _197Miscshits = [];
 _197Guns = [];
+_ComLinkList = [];
 
 _allvehicules = "'197th' in (getText (_x >>'displayName'))" configClasses (configFile >> "CfgVehicles");
 
@@ -80,6 +81,10 @@ _allitems = "'197th' in (getText (_x >>'displayName'))" configClasses (configFil
 
 // Lists of items to include
 
+for [{ _i = 0 }, { _i < 21 }, { _i = _i + 1 }] do {
+	_ComLinkList pushBack (format ["JLTS_clone_comlink_%1", _i]);
+};
+
 _BackpackRegs = [];
 
 _MiscshitRegs = [
@@ -121,7 +126,6 @@ _MiscshitRegs = [
 	"ace_SpraypaintRed",
 	"ace_Tripod",
 	"Attachable_Helistretcher",
-	"MRH_TacticalDisplay",
 	"MineDetector",
 	"ToolKit",
 	"ace_marker_flags_black",
@@ -133,7 +137,6 @@ _MiscshitRegs = [
 	"ace_marker_flags_white",
 	"ace_marker_flags_yellow",
 	"ls_holoprojector_bountyPuck",
-	"tsp_lockpick",
 	"ace_CableTie",
 	"ace_Clacker",
 	"ace_DefusalKit",
@@ -143,6 +146,7 @@ _MiscshitRegs = [
 	"ace_Fortify",
 	"ace_adenosine",
 	"ace_bloodIV",
+	"ace_bloodIV_250",
 	"ace_bloodIV_500",
 	"ace_bodyBag",
 	"ace_elasticBandage",
@@ -153,14 +157,19 @@ _MiscshitRegs = [
 	"ace_salineIV",
 	"ace_salineIV_250",
 	"ace_salineIV_500",
+	"ace_plasmaIV",
+	"ace_plasmaIV_250",
+	"ace_plasmaIV_500",
 	"ace_splint",
 	"ace_surgicalKit",
 	"ace_tourniquet",
 	"ace_wirecutter",
 	"JLTS_repairkit_weapon_mini",
 	"JLTS_repairkit_weapon",
+	"ACE_IR_Strobe_Item",
 
 	// Basic
+	"JLTS_ids_gar_army",
 	"ace_Altimeter",
 	"ItemCompass",
 	"ItemGPS",
@@ -180,11 +189,10 @@ _MagazinesRegs = [
 	"3AS_ThrowableCharge",
 	"1Rnd_HE_Grenade_shell",
 	"UGL_FlareWhite_F",
-	"ace_HandFlare_Green",
-	"ace_HandFlare_Red",
-	"ace_HandFlare_White",
-	"ace_HandFlare_Yellow",
-	"ace_IR_Strobe_Item",
+	"ACE_HandFlare_Green",
+	"ACE_HandFlare_Red",
+	"ACE_HandFlare_White",
+	"ACE_HandFlare_Yellow",
 	"B_IR_Grenade",
 	"ls_mag_glowrod_hiBlue",
 	"ls_mag_glowrod_hiGreen",
@@ -197,10 +205,9 @@ _MagazinesRegs = [
 	"OPTRE_1Rnd_MasterKey_Slugs",
 	"OPTRE_ELB47_Strobe",
 	"SquadShieldMagazine",
-	"tsp_popperCharge_mag",
-	"tsp_stickCharge_mag",
 	"1Rnd_HE_Grenade_shell",
 	"JLTS_stun_mag_long",
+	"JLTS_stun_mag_short",
 	"OPTRE_signalSmokeR",
 	"OPTRE_signalSmokeG",
 	"OPTRE_signalSmokeB",
@@ -218,8 +225,6 @@ _MagazinesRegs = [
 	"197th_AA_mag",
 	"197th_AT_mag",
 	"197th_HE_mag",
-	"tsp_stickCharge_auto_mag",
-	"tsp_popperCharge_auto_mag",
 	"APERSMineDispenser_Mag",
 	"JLTS_grenade_emp_mag",
 	"197th_Breach_Mag",
@@ -233,6 +238,6 @@ _GunsRegs = [
 
 // Populate with predefined items and whatever is already in the crate
 [_crate, ((backpackCargo _crate) + _197Backpacks + _BackpackRegs)] call BIS_fnc_addVirtualBackpackCargo;
-[_crate, ((itemCargo _crate) + _MiscshitRegs + _197Miscshits)] call BIS_fnc_addVirtualItemCargo;
+[_crate, ((itemCargo _crate) + _MiscshitRegs + _197Miscshits + _ComLinkList)] call BIS_fnc_addVirtualItemCargo;
 [_crate, ((magazineCargo _crate) + _MagazinesRegs)] call BIS_fnc_addVirtualMagazineCargo;
 [_crate, ((weaponCargo _crate) + _GunsRegs + _197Guns)] call BIS_fnc_addVirtualWeaponCargo;
