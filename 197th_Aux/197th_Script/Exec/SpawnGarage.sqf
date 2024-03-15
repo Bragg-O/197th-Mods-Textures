@@ -4,8 +4,8 @@
 	    Description: Please do not [Copy, Modify, Plagiarize] the following content without prior authorization from its creator.
 	    
 	    Website: [www.197th.fr]
-
-		null = [this, SpawnPadVarName] execVM "197th_Script\Exec\SpawnGarage.sqf";
+	
+	null = [this, SpawnPadVarName] execVM "197th_Script\Exec\SpawnGarage.sqf";
 */
 
 params ["_Terminal"];
@@ -62,20 +62,18 @@ params ["_Terminal"];
 /* --- SCRIPT --- */
 	_ListVehicule = [];
 	
-	_ClassNameTerminal = typeOf (_this select 0);
-
-	switch (true) do {
-		case (_ClassNameTerminal == "197th_Terminal_Car") : {
+	switch (typeOf (_this select 0)) do {
+		case "197th_Terminal_Car" : {
 			_ListVehicule = _CarVehicules;
 		};
-		    case (_ClassNameTerminal == "197th_Terminal_Supply") : {
+		case "197th_Terminal_Supply" : {
 			_ListVehicule = _BoxVehicules;
 		};
-		    case (_ClassNameTerminal == "197th_Terminal_Air") : {
+		case "197th_Terminal_Air" : {
 			_ListVehicule = _AirVehicules;
 		};
 	};
-
+	
 	_pos = getPosATL (_this select 1);
 	_dir = getDir (_this select 1);
 	
@@ -86,7 +84,8 @@ params ["_Terminal"];
 	{
 		_VehiculeName = getText(configfile >> "CfgVehicles" >> _x >> "displayName");
 		if ("197th" in _VehiculeName) then {
-			_VehiculeName = format ["<t size='1.2' color='#27AE60'>%1</t>", _VehiculeName];
+			_VehiculeName = _VehiculeName select [7];
+			_VehiculeName = format ["<t size='1.2' color='#27AE60'>[197th]</t><t size='1.2'>%1</t>", _VehiculeName];
 		} else {
 			_VehiculeName = format ["<t size='1.2'>%1</t>", _VehiculeName];
 		};
@@ -99,7 +98,8 @@ params ["_Terminal"];
 					_deletevehclass = typeOf _x;
 					        _deletevehname = getText(configfile >> "CfgVehicles" >> _deletevehclass >> "displayName");
 					if ("197th" in _deletevehname) then {
-						_deletevehname = format ["<t size='1.2' color='#27AE60'>%1</t>", _deletevehname];
+						_deletevehname = _deletevehname select [7];
+						_deletevehname = format ["<t size='1.2' color='#27AE60'>[197th]</t><t size='1.2'>%1</t>", _deletevehname];
 					} else {
 						_deletevehname = format ["<t size='1.2'>%1</t>", _deletevehname];
 					};
@@ -130,7 +130,8 @@ params ["_Terminal"];
 				_deletevehclass = typeOf _x;
 				        _deletevehname = getText(configfile >> "CfgVehicles" >> _deletevehclass >> "displayName");
 				if ("197th" in _deletevehname) then {
-					_deletevehname = format ["<t size='1.2' color='#27AE60'>%1</t>", _deletevehname];
+					_deletevehname = _deletevehname select [7];
+					_deletevehname = format ["<t size='1.2' color='#27AE60'>[197th]</t><t size='1.2'>%1</t>", _deletevehname];
 				} else {
 					_deletevehname = format ["<t size='1.2'>%1</t>", _deletevehname];
 				};
