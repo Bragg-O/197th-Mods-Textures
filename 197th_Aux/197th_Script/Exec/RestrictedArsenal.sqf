@@ -139,6 +139,7 @@ _MiscshitRegs = [
 	"ls_holoprojector_bountyPuck",
 	"ace_CableTie",
 	"ace_Clacker",
+	"ace_M26_Clacker",
 	"ace_DefusalKit",
 	"ace_EntrenchingTool",
 	"ace_Flashlight_MX991",
