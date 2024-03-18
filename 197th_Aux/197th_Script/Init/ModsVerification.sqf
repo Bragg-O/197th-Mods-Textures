@@ -118,8 +118,8 @@ switch true do {
 		if ((getPlayerUID player) in _bypassuser) then {} else {
 			cutText [format["<img image='197th_Script\Data\Error.paa' size='6'/><br/><br/><t size='1.5' color='#FF0000'>Vous avez %2 mods qui ne sont pas autorisés :</t><br/>%1<br/>Télécharger le Preset depuis notre site et assurez-vous de les activer correctement.<br/><br/>Pour réinstaller le preset, veuillez visiter le lien suivant :<br/><t color='#87CEEB'>https://197th.fr/installation</t>", _ModnameErrorText, (count _loadedModsError)], "BLACK", -1, true, true];
 			while { true } do {
-				playSound "bip1";
-				sleep 2;
+				playSound "AlarmCar";
+				sleep 4;
 			};
 		};
 	};
@@ -140,8 +140,8 @@ switch true do {
 		if ((getPlayerUID player) in _bypassuser) then {} else {
 			cutText [format["<img image='197th_Script\Data\Error.paa' size='6'/><br/><br/><t size='1.5' color='#FF0000'>Vous avez %2 mods qui ne sont pas autorisés :</t><br/>%1<br/>Télécharger le Preset depuis notre site et assurez-vous de les activer correctement.<br/><br/>Pour réinstaller le preset, veuillez visiter le lien suivant :<br/><t color='#87CEEB'>https://197th.fr/installation</t>", _ModnameErrorText, (count _loadedModsError)], "BLACK", -1, true, true];
 			while { true } do {
-				playSound "bip1";
-				sleep 2;
+				playSound "AlarmCar";
+				sleep 4;
 			};
 		};
 	};
@@ -162,8 +162,8 @@ switch true do {
 		if ((getPlayerUID player) in _bypassuser) then {} else {
 			cutText [format["<img image='197th_Script\Data\Error.paa' size='6'/><br/><br/><t size='1.5' color='#FF0000'>Vous avez %1 mods manquant</t><br/><br/>Télécharger le Preset depuis notre site et assurez-vous de les activer correctement.<br/><br/>Pour réinstaller le preset, veuillez visiter le lien suivant :<br/><t color='#87CEEB'>https://197th.fr/installation</t>", (count _RequiredloadedModsError)], "BLACK", -1, true, true];
 			while { true } do {
-				playSound "bip1";
-				sleep 2;
+				playSound "AlarmCar";
+				sleep 4;
 			};
 		};
 	};
