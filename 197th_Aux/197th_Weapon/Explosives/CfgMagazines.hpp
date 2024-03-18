@@ -5,7 +5,7 @@
 		scope=2;
 		author = "197th Compagnie Chimaera";
 		displayName="[197th] Breaching Charge";
-		useAction=1;
+		useAction=0;
 		picture="\197th_Weapon\_ui\breach_mag_ca.paa";
 		model="ls_weapons\explosives\breach\ls_explosives_breach";
 		ammo="197th_Breach_Ammo";
@@ -21,7 +21,7 @@
 		scope=2;
 		author = "197th Compagnie Chimaera";
 		displayName="[197th] Seismic Pack";
-		useAction=1;
+		useAction=0;
 		picture="\197th_Weapon\_ui\demoPack_mag_ca.paa";
 		model="ls_weapons\explosives\demo\ls_explosives_demoPack";
 		ammo="197th_DemoPack_Ammo";
@@ -38,7 +38,7 @@
 		scope=2;
 		author = "197th Compagnie Chimaera";
 		displayName="[197th] Detonation Pack";
-		useAction=1;
+		useAction=0;
 		picture="\197th_Weapon\_ui\detPack_mag_ca.paa";
 		model="ls_weapons\explosives\detPack\ls_explosives_detpack";
 		ammo="197th_DetPack_Ammo";
