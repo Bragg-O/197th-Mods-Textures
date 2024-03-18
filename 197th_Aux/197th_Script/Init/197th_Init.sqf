@@ -15,9 +15,6 @@
 //param FortifyTools
 [] execVM "197th_Script\Init\FortifyTools.sqf";
 
-//Add MapIcon
-[] execVM "197th_Script\Init\MapIcon.sqf";
-
 //Add Earplugs
 [] execVM "197th_Script\Init\Earplugs.sqf";
 
