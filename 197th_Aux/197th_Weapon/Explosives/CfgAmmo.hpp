@@ -65,6 +65,9 @@
 		defaultMagazine="197th_DemoPack_Mag";
 		ExplosionEffects="HeavyBombExplosion";
 		CraterEffects="HeavyBombCrater";
+		lightColor[] = {0, 0, 1, 1};
+		tracerColor[] = {0, 0, 1, 1};
+		tracerColorR[] = {0, 0, 1, 1};
 		whistleDist=150;
 		mineInconspicuousness=150;
 		mineTrigger="RemoteTrigger";

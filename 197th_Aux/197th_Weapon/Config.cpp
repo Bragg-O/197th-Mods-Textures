@@ -51,6 +51,10 @@ class PointerSlot;
 class Mode_SemiAuto;
 class Mode_FullAuto;
 
+class CfgCloudlets {
+    #include "Explosives\CfgCloudlets.hpp"
+};
+
 class CfgSoundSets {
     #include "Explosives\CfgSoundSets.hpp"
 };
@@ -122,3 +126,5 @@ class CfgVehicles {
 //Explosives
     #include "Explosives\CfgVehicles.hpp"
 };
+
+#include "BlastWaveEffect\Effect.hpp"
