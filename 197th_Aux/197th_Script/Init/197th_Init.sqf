@@ -15,9 +15,6 @@
 //param FortifyTools
 [] execVM "197th_Script\Init\FortifyTools.sqf";
 
-//Add Earplugs
-[] execVM "197th_Script\Init\Earplugs.sqf";
-
 // Cinematique
 ["197th_Script\Data\DebutMission.ogv"] call BIS_fnc_quotations;
 ["<t color='#ffffff' size='.5'>Bienvenue à bord de la 197th Compagnie Chimaera !<br />Vous avez déjà vu l'introduction ?<br />Appuyez sur la touche [Espace] pour la passer.</t>", -1, 1, 6, 1, 0, 789] spawn BIS_fnc_dynamicText;
