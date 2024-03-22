@@ -6,32 +6,42 @@
 	    Website: [www.197th.fr]
 */
 
-[west, 250, [
+[west, 2500, [
+	// H-Barrier
+	["Land_lsb_fob_hBarrier_ramp", 5, "H-Barrier"],
+	["Land_lsb_fob_hBarrier_1", 5, "H-Barrier"],
+	["Land_lsb_fob_hBarrier_wall", 10, "H-Barrier"],
+	["Land_lsb_fob_hBarrier_3", 15, "H-Barrier"],
+	["Land_lsb_fob_hBarrier_5", 25, "H-Barrier"],
+	["Land_lsb_fob_hBarrierWall_invertedCorner", 45, "H-Barrier"],
+	["Land_lsb_fob_hBarrierWall_exvertedCorner", 45, "H-Barrier"],
+	["Land_lsb_fob_hBarrierWall_7", 60, "H-Barrier"],
+	["Land_lsb_fob_hBarrier_tower", 90, "H-Barrier"],
 
-	// Mortier
-	["3AS_Republic_Mortar", 15, "Mortier"],
+	// Barricades
+	["3AS_Cover2", 5, "Barricades"],
+	["442_barricade3", 10, "Barricades"],
+	["442_barricade1_rep", 15, "Barricades"],
 
-	// Armement
-	["3AS_HeavyRepeater_Armoured", 15, "Tourelle"],
+	// Checkpoint
+	["3AS_Short_Wall_Curved", 5, "Checkpoint"],
+	["3AS_Short_Wall_Long", 5, "Checkpoint"],
+	["3AS_Short_Wall_Bunker", 30, "Checkpoint"],
+	["land_3AS_Imperial_Checkpoint_Long", 30, "Checkpoint"],
 
-	// barricade
-	["3AS_Barricade_Cover_1_Prop", 5, "Barricade"],
-	["3AS_Barricade_Cover_2_Prop", 10, "Barricade"],
-	["442_barricade1_rep", 20, "Barricade"],
-	["3AS_Shield_3_prop", 30, "Barricade"],
-	["3AS_Shield_5_prop", 45, "Barricade"],
+	// Divers
+	["197th_Banner", 5, "Divers"],
+	["197th_Flag", 10, "Divers"],
+	["3as_GNK_music", 10, "Divers"],
+	["land_3AS_light_s_small", 10, "Divers"],
+	["land_3AS_light_s_tall", 15, "Divers"],
+	["fob_light_gar_tall", 25, "Divers"],
+	["land_3AS_Tent_Med", 60, "Divers"],
+	["land_3AS_Tent_Grey", 60, "Divers"],
 
-	// Fob
-	["Land_lsb_fob_hBarrier_3", 30, "Fob"],
-	["Land_lsb_fob_hBarrier_5", 45, "Fob"],
-	["Land_lsb_fob_hBarrierWall_4", 60, "Fob"],
-	["Land_lsb_fob_hBarrierWall_7", 75, "Fob"],
-	["Land_lsb_fob_hBarrier_tower", 240, "Fob"],
-
-	// Tente
-	["Land_MedicalTent_01_white_generic_outer_F", 30, "Tente"],
-	["Land_MedicalTent_01_white_generic_open_F", 30, "Tente"],
-
-	["3as_GNK_music", 60]
-
+	// Weapons
+	["3AS_Republic_Mortar", 60, "Weapons"],
+	["3AS_StationaryTurret", 60, "Weapons"],
+	["3AS_HeavyRepeater_Armoured", 50, "Weapons"],
+	["3AS_HeavyRepeater_Unarmoured", 30, "Weapons"]
 ]] call acex_fortify_fnc_registerObjects;
