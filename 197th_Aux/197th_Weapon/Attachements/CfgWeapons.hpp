@@ -16,7 +16,7 @@
 		author = "197th Compagnie Chimaera";
 		scope = 2;
 
-		model = "\MRC\JLTS\weapons\Shield\shield_501.p3d";
+		model = "\MRC\JLTS\weapons\Shield\shield_101.p3d";
 
 		picture = "\197th_Weapon\_ui\shield.paa";
 	};
@@ -27,7 +27,7 @@
 
 		scope = 1;
 		author = "197th Compagnie Chimaera";
-		model = "\MRC\JLTS\weapons\Shield\shield_501.p3d";
+		model = "\MRC\JLTS\weapons\Shield\shield_101.p3d";
 
 		picture = "\197th_Weapon\_ui\shield.paa";
 	};
