@@ -19,7 +19,7 @@ if (isNil "NreEarplugsActive") then {
 	breakto "firstInitFinished";
 };
 
-if ( NreEarplugsActive == 1 ) then {
+if ( NreEarplugsActive == 1 or (soundVolume < 1)) then {
 	NreEarplugsActive = 0;
 	1 fadeSound 1;
 	hint parseText format[ "<img size='1.5' image='\197th_Script\Data\waves.paa'/><br/><t color='#FF0000' size='1'>Les filtres audio ont été désactivés</t>" ];
