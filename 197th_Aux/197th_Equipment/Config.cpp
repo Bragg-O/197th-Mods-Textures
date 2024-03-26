@@ -33,6 +33,7 @@ class CfgPatches {
             CfgPatches_XX(Headgear,Regs,Trooper),
             CfgPatches_XX(Headgear,Customs,Bragg),
             CfgPatches_XX(Headgear,Customs,Apollyon),
+            CfgPatches_XX(Headgear,Customs,Volk),
             CfgPatches_XX(Headgear,Customs,Cahir),
             CfgPatches_XX(HeadgearPilot,Regs,Pilot),
             CfgPatches_XX(HeadgearARF,Regs,ARF),
@@ -61,6 +62,7 @@ class CfgWeapons {
         Helmet_197th_XX(Regs,Cadet);
         Helmet_197th_XX(Regs,Trooper);
         Helmet_197th_XX(Customs,Apollyon);
+        Helmet_197th_XX(Customs,Volk);
         Helmet_197th_XX(Customs,Cahir);
     //HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         HelmetVisorLight_197th_XX(Customs,Bragg);
@@ -152,6 +154,7 @@ class CfgVehicles {
         HeadgearItem_197th_XX(Regs,Trooper);
         HeadgearItem_197th_XX(Customs,Bragg);
         HeadgearItem_197th_XX(Customs,Apollyon);
+        HeadgearItem_197th_XX(Customs,Volk);
         HeadgearItem_197th_XX(Customs,Cahir);
     //HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
         HeadgearItemPilot_197th_XX(Regs,Pilot);
