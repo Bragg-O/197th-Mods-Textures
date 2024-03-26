@@ -133,7 +133,7 @@ class 197th_M914_RV: OPTRE_M914_RV
 		"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
 		"",
 		"197th_Vehicule\Warthog\Data\interior_co.paa",
-		""
+		"\optre_vehicles\warthog\data\net_ca.paa"
 	};
 	class textureSources
 	{
@@ -146,7 +146,7 @@ class 197th_M914_RV: OPTRE_M914_RV
 				"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
 				"",
 				"197th_Vehicule\Warthog\Data\interior_co.paa",
-				""
+				"\optre_vehicles\warthog\data\net_ca.paa"
 			};
 		};
 	};
