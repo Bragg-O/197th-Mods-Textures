@@ -37,7 +37,7 @@ class CfgPatches {
             CfgPatches_XX(Headgear,Customs,Cahir),
             CfgPatches_XX(HeadgearPilot,Regs,Pilot),
             CfgPatches_XX(HeadgearARF,Regs,ARF),
-            CfgPatches_XX(HeadgearBARC,Regs,BARC)
+            CfgPatches_XX(HeadgearBARC,Regs,BARC),
             CfgPatches_XX(HeadgearBARC,Customs,Hermes)
         };
     };
