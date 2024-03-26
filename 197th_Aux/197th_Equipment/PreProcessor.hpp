@@ -176,7 +176,25 @@
 			197th_Equipment\helmet\Data\##type##\##name##\camo_co.paa, \
 			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa \
 		}; \
-    }
+	}
+
+
+#define HelmetBARCVisorLight_197th_XX(type,name) \
+    class 197th_HelmetBarc_##type##_##name## : 197th_HelmetBarc { \
+		author = 197th Compagnie Chimaera; \
+        displayName = [197th] BARC Helmet (##name##); \
+		scope = 2; \
+		scopearsenal = 2; \
+		picture = \197th_Equipment\_ui\helmet_barc_##type##.paa; \
+        hiddenSelectionsTextures[] = { \
+			197th_Equipment\helmet\Data\##type##\##name##\camo_co.paa, \
+			197th_Equipment\helmet\Data\##type##\##name##\visor_co.paa \
+		}; \
+		hiddenSelectionsMaterials[] = { \
+			, \
+			\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat \
+		}; \
+	}
 
 
 #define HeadgearItemBARC_197th_XX(type,id) \
