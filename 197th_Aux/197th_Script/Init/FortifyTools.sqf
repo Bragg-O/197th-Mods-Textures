@@ -6,7 +6,7 @@
 	    Website: [www.197th.fr]
 */
 
-[west, 2500, [
+[west, 5000, [
 	// H-Barrier
 	["Land_lsb_fob_hBarrier_ramp", 5, "H-Barrier"],
 	["Land_lsb_fob_hBarrier_1", 5, "H-Barrier"],
