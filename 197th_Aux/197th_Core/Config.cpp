@@ -147,7 +147,7 @@ class RscDisplayMain : RscStandardDisplay {
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
-			onButtonClick = "connectToServer ['5.135.141.171', 2302, 'L3g10nT4rg0n528']";
+			onButtonClick = "connectToServer ['5.135.141.171', 2302, '197thCompChimaeraByBraggHermesApo']";
 		};
 
 		class ConnectServer1 : RscButton {
@@ -177,7 +177,7 @@ class RscDisplayMain : RscStandardDisplay {
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
-			onButtonClick = "connectToServer ['5.135.141.171', 2322, 'L3g10nT4rg0n528']";
+			onButtonClick = "connectToServer ['5.135.141.171', 2322, '197thCompChimaeraByBraggHermesApo']";
 		};
 	};
 };
