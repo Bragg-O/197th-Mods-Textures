@@ -66,6 +66,7 @@ class CfgWeapons {
         Helmet_197th_XX(Customs,Volk);
         Helmet_197th_XX(Customs,Cahir);
         Helmet_197th_XX(Customs,Tiger);
+        Helmet_197th_XX(Customs,Elektro);
     //HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         HelmetVisorLight_197th_XX(Customs,Bragg);
     //HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
@@ -159,6 +160,7 @@ class CfgVehicles {
         HeadgearItem_197th_XX(Customs,Volk);
         HeadgearItem_197th_XX(Customs,Cahir);
         HeadgearItem_197th_XX(Customs,Tiger);
+        HeadgearItem_197th_XX(Customs,Elektro);
     //HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
         HeadgearItemPilot_197th_XX(Regs,Pilot);
     //HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
