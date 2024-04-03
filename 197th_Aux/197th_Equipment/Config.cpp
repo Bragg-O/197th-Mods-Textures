@@ -69,6 +69,7 @@ class CfgWeapons {
         Helmet_197th_XX(Customs,Elektro);
         Helmet_197th_XX(Customs,Launcher);
         Helmet_197th_XX(Customs,Vanguard);
+        Helmet_197th_XX(Customs,Damos);
     //HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         HelmetVisorLight_197th_XX(Customs,Bragg);
     //HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
@@ -165,6 +166,7 @@ class CfgVehicles {
         HeadgearItem_197th_XX(Customs,Elektro);
         HeadgearItem_197th_XX(Customs,Launcher);
         HeadgearItem_197th_XX(Customs,Vanguard);
+        HeadgearItem_197th_XX(Customs,Damos);
     //HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
         HeadgearItemPilot_197th_XX(Regs,Pilot);
     //HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
