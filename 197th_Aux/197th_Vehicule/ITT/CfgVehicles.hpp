@@ -212,4 +212,7 @@ class 197th_ITT_Logistic: 3AS_ITT_Logistic
     class TransportWeapons {};
     class TransportMagazines {};   
     class TransportBackpacks {};
+    class EventHandlers {
+		init = "[_this select 0] setVariable ['ace_isRepairFacility', true, true]";
+	};
 };
