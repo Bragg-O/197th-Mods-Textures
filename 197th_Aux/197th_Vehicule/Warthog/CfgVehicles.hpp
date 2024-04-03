@@ -158,6 +158,9 @@ class 197th_M914_RV: OPTRE_M914_RV
     class TransportWeapons {};
     class TransportMagazines {};   
     class TransportBackpacks {};
+    class EventHandlers {
+		init = "[_this select 0] setVariable ['ace_isRepairFacility', true, true]";
+	};
 };
 
 class 197th_M12G1_LRV: OPTRE_M12G1_LRV
