@@ -76,7 +76,6 @@ force force ace_map_mapIllumination = true;
 force force ace_map_mapLimitZoom = false;
 force force ace_map_mapShake = true;
 force force ace_map_mapShowCursorCoordinates = true;
-force force ace_markers_moveRestriction = -1;
 force force ace_markers_moveRestriction = 0;
 force force ace_markers_timestampEnabled = true;
 force force ace_markers_timestampFormat = "HH:MM";
@@ -535,6 +534,9 @@ force force LEO_FFF_minHeight = 100;
 
 // GRAD slingHelmet
 force force GRAD_slingHelmet_allowAll = true;
+
+//OPTRE
+force force OPTRE_Hijack_Mode = 0;
 
 // GRAD TranchÃ©es
 force force grad_trenches_functions_allowBigEnvelope = true;
