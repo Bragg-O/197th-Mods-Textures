@@ -92,7 +92,7 @@ removeAllItems _object;
 removeAllAssignedItems _object;
 removeAllWeapons _object;
 
-_notification = "Certain items in the selected loadout<br />are not allowed and have been removed<br />";
+_notification = "Certains objets de l’équipement sélectionné<br />ne sont pas autorisés et ont été supprimés<br />";
 _notAllowed = false;
 
 //--- Add

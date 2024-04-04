@@ -32,7 +32,7 @@ if ( _show ) then {
 		];
 		
 		( _display displayCtrl IDC_RSCDISPLAYARSENAL_TEMPLATE_TITLE ) ctrlSetText "Restricted Items";
-		['showMessage',[_display,"Some restricted items have been removed"]] call bis_fnc_arsenal;
+		['showMessage',[_display,"Certains objets soumis à des restrictions ont été supprimés"]] call bis_fnc_arsenal;
 		
 		_ctrlGrp = _display ctrlCreate [ "RscControlsGroupNoHScrollbars", 1000, _ctrlTemplate  ];
 		_ctrlGrp ctrlSetPosition _ctrlPos;
@@ -77,7 +77,7 @@ if ( _show ) then {
 				_endTime = time + _delay;
 				_ctrlTemplate = _display displayCtrl IDC_RSCDISPLAYARSENAL_TEMPLATE_TEMPLATE;
 				while { time < _endTime } do {
-					( _display displayCtrl IDC_RSCDISPLAYARSENAL_TEMPLATE_TITLE ) ctrlSetText format[ "Restricted Items ...%1", floor ( _endTime - time ) ];
+					( _display displayCtrl IDC_RSCDISPLAYARSENAL_TEMPLATE_TITLE ) ctrlSetText format[ "Objet prohibé ...%1", floor ( _endTime - time ) ];
 					uiSleep 0.5;
 				};
 				with uiNamespace do {
