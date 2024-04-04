@@ -152,7 +152,6 @@ _MiscshitRegs = [
 	"ace_bodyBag",
 	"197th_Medical_elasticBandage",
 	"197th_Medical_epinephrine",
-	"197th_Medical_painkillers",
 	"197th_Medical_morphine",
 	"197th_Medical_packingBandage",
 	"197th_Medical_personalAidKit",
@@ -196,6 +195,7 @@ _MagazinesRegs = [
 	"ACE_HandFlare_White",
 	"ACE_HandFlare_Yellow",
 	"B_IR_Grenade",
+	"197th_Medical_painkillers",
 	"ls_mag_glowrod_hiBlue",
 	"ls_mag_glowrod_hiGreen",
 	"ls_mag_glowrod_hiOrange",
@@ -235,7 +235,8 @@ _MagazinesRegs = [
 ];
 
 _GunsRegs = [
-	"Police_Bat"
+	"Police_Bat",
+	"UNSC_Knife"
 ];
 
 // Populate with predefined items and whatever is already in the crate
