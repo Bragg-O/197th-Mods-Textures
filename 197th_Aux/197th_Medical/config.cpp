@@ -19,29 +19,10 @@ class CfgPatches {
     };
 };
 
-class CfgWeapons {
-	MedicalItem_197th_XX(Attelle,splint);
-	MedicalItem_197th_XX(Garrot,tourniquet);
-	MedicalItem_197th_XX(Bacto-spray,surgicalKit);
-	MedicalItem_197th_XX(Medikit,personalAidKit);
+#include "ACE_Medical_Treatment_Actions.hpp"
 
-	MedicalItem_197th_XX(Injecteur (Epinephrine),epinephrine);
-	MedicalItem_197th_XX(Injecteur (Adenosine),adenosine);
-	MedicalItem_197th_XX(Injecteur (Morphine),morphine);
+#include "ACE_Medical_Treatment.hpp"
 
-	MedicalItem_197th_XX(Bandage (Compressive),packingBandage);
-	MedicalItem_197th_XX(Bandage (Extensible),elasticBandage);
-	MedicalItem_197th_XX(Bandage (Hemostatique),quikclot);
+#include "CfgWeapons.hpp"
 
-	MedicalItem_197th_XX(IV (Sang 1000ml),bloodIV);
-	MedicalItem_197th_XX(IV (Sang 250ml),bloodIV_250);
-	MedicalItem_197th_XX(IV (Sang 500ml),bloodIV_500);
-
-	MedicalItem_197th_XX(IV (Saline 1000ml),salineIV);
-	MedicalItem_197th_XX(IV (Saline 250ml),salineIV_250);
-	MedicalItem_197th_XX(IV (Saline 500ml),salineIV_500);
-	
-	MedicalItem_197th_XX(IV (Plasma 1000ml),plasmaIV);
-	MedicalItem_197th_XX(IV (Plasma 250ml),plasmaIV_250);
-	MedicalItem_197th_XX(IV (Plasma 500ml),plasmaIV_500);
-};
+#include "CfgMagazines.hpp"
