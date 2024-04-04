@@ -67,16 +67,17 @@ class 197th_Supply_Medical : 197th_Supply_Empty {
     editorPreview = "197th_Object\_EditorPreviews\medical_ca.jpg";
 
     class TransportItems {
-        ITEM_XX(ace_epinephrine,15);
-        ITEM_XX(ace_morphine,30);
-        ITEM_XX(ace_packingBandage,200);
-        ITEM_XX(ace_elasticBandage,200);
-        ITEM_XX(ace_quikclot,200);
-        ITEM_XX(ace_splint,50);
+        ITEM_XX(197th_Medical_epinephrine,15);
+        ITEM_XX(197th_Medical_morphine,15);
+        ITEM_XX(197th_Medical_painkillers,10);
+        ITEM_XX(197th_Medical_packingBandage,200);
+        ITEM_XX(197th_Medical_elasticBandage,200);
+        ITEM_XX(197th_Medical_quikclot,200);
+        ITEM_XX(197th_Medical_splint,50);
         ITEM_XX(ace_tourniquet,50);
-        ITEM_XX(ace_salineIV,50);
-        ITEM_XX(ace_bloodIV,50);
-        ITEM_XX(ace_bloodIV_500,50);
+        ITEM_XX(197th_Medical_salineIV,50);
+        ITEM_XX(197th_Medical_bloodIV,50);
+        ITEM_XX(197th_Medical_bloodIV_500,50);
     };
 };
 
