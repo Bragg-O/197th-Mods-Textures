@@ -46,7 +46,7 @@ class ACE_Medical_Treatment {
             painReduce = 0.1;
             timeInSystem = 600;
             timeTillMaxEffect = 60;
-            maxDose = 10;
+            maxDose = 6;
             incompatibleMedication[] = {};
             viscosityChange = 5;
 		};
