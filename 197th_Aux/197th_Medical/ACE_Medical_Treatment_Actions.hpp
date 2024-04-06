@@ -9,7 +9,7 @@ class ACE_Medical_Treatment_Actions {
 	class 197th_Medical_surgicalKit : SurgicalKit {
 		items[] = {"197th_Medical_surgicalKit"};
 		displayName = "Utiliser le bacto-spray";
-		sounds[] = {{"197th_Medical/Data/sounds/Spray.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Spray.ogg",1,1,50}};
 		displayNameProgress = "Application du Bacto-Spray...";
 	};
 	class PersonalAidKit;
@@ -23,28 +23,28 @@ class ACE_Medical_Treatment_Actions {
 	class 197th_Medical_epinephrine : Epinephrine {
 		items[] = {"197th_Medical_epinephrine"};
 		displayName = "Utiliser l'injecteur d'epinephrine";
-		sounds[] = {{"197th_Medical/Data/sounds/Inject.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Inject.ogg",1,1,50}};
 		displayNameProgress = "Injection de l'epinephrine...";
 	};
 	class Adenosine;
 	class 197th_Medical_adenosine : Adenosine {
 		items[] = {"197th_Medical_adenosine"};
 		displayName = "Utiliser l'injecteur d'adenosine";
-		sounds[] = {{"197th_Medical/Data/sounds/Inject.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Inject.ogg",1,1,50}};
 		displayNameProgress = "Injection de l'adenosine...";
 	};
 	class Morphine;
 	class 197th_Medical_morphine : Morphine {
 		items[] = {"197th_Medical_morphine"};
 		displayName = "Utiliser l'injecteur de morphine";
-		sounds[] = {{"197th_Medical/Data/sounds/Inject.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Inject.ogg",1,1,50}};
 		displayNameProgress = "Injection de la morphine...";
 	};
 	class Painkillers;
 	class 197th_Medical_painkillers : Painkillers {
 		items[] = {"197th_Medical_painkillers"};
 		displayName = "Prendre 1 Nebulex";
-		sounds[] = {{"197th_Medical/Data/sounds/Pills.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Pills.ogg",1,1,50}};
 		displayNameProgress = "Prise de 1 Nebulex...";
 	};
 
@@ -52,19 +52,19 @@ class ACE_Medical_Treatment_Actions {
 	class 197th_Medical_packingBandage : BasicBandage {
 		items[] = {"197th_Medical_packingBandage"};
 		displayName = "Utiliser le bandage compressif";
-		sounds[] = {{"197th_Medical/Data/sounds/Bandage.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Bandage.ogg",1,1,50}};
 		displayNameProgress = "Application du bandage compressif...";
 	};
 	class 197th_Medical_elasticBandage : BasicBandage {
 		items[] = {"197th_Medical_elasticBandage"};
 		displayName = "Utiliser le bandage extensible";
-		sounds[] = {{"197th_Medical/Data/sounds/Bandage.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Bandage.ogg",1,1,50}};
 		displayNameProgress = "Application du bandage extensible...";
 	};
 	class 197th_Medical_quikclot : BasicBandage {
 		items[] = {"197th_Medical_quikclot"};
 		displayName = "Utiliser le bandage hemostatique";
-		sounds[] = {{"197th_Medical/Data/sounds/Bandage.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Bandage.ogg",1,1,50}};
 		displayNameProgress = "Application du bandage hemostatique...";
 	};
 
@@ -72,7 +72,7 @@ class ACE_Medical_Treatment_Actions {
 	class 197th_Medical_bloodIV : BloodIV {
 		items[] = {"197th_Medical_bloodIV"};
 		displayName = "Utiliser l'IV de sang 1000ml";
-		sounds[] = {{"197th_Medical/Data/sounds/Transfusion.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Transfusion.ogg",1,1,50}};
 		displayNameProgress = "Application de l'IV de sang...";
 	};
 	class 197th_Medical_bloodIV_250 : 197th_Medical_bloodIV {
@@ -88,7 +88,7 @@ class ACE_Medical_Treatment_Actions {
 	class 197th_Medical_salineIV : SalineIV {
 		items[] = {"197th_Medical_salineIV"};
 		displayName = "Utiliser l'IV de saline 1000ml";
-		sounds[] = {{"197th_Medical/Data/sounds/Transfusion.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Transfusion.ogg",1,1,50}};
 		displayNameProgress = "Application de l'IV de saline...";
 	};
 	class 197th_Medical_salineIV_250 : 197th_Medical_salineIV {
@@ -104,7 +104,7 @@ class ACE_Medical_Treatment_Actions {
 	class 197th_Medical_plasmaIV : PlasmaIV {
 		items[] = {"197th_Medical_plasmaIV"};
 		displayName = "Utiliser l'IV de plasma 1000ml";
-		sounds[] = {{"197th_Medical/Data/sounds/Transfusion.ogg",1,1,50}};
+		sounds[] = {{"197th_Medical\Data\sounds\Transfusion.ogg",1,1,50}};
 		displayNameProgress = "Application de l'IV de plasma...";
 	};
 	class 197th_Medical_plasmaIV_250 : 197th_Medical_plasmaIV {
