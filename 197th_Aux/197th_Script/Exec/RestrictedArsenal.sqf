@@ -154,6 +154,7 @@ _MiscshitRegs = [
 	"197th_Medical_epinephrine",
 	"197th_Medical_morphine",
 	"197th_Medical_packingBandage",
+	"197th_Medical_quikclot",
 	"197th_Medical_personalAidKit",
 	"197th_Medical_salineIV",
 	"197th_Medical_salineIV_250",
@@ -170,7 +171,6 @@ _MiscshitRegs = [
 	"ACE_IR_Strobe_Item",
 
 	// Basic
-	"JLTS_ids_gar_army",
 	"ace_Altimeter",
 	"ItemCompass",
 	"ItemGPS",
