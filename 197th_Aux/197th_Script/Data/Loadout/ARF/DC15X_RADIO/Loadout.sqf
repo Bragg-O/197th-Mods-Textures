@@ -31,7 +31,7 @@ _units addMagazine "Laserbatteries";
 _units addWeapon "JLTS_CloneBinocular";
 
 comment "Add items to containers";
-_units addItemToUniform "JLTS_ids_gar_army";
+
 for "_i" from 1 to 15 do {_units addItemToUniform "197th_Medical_elasticBandage";};
 for "_i" from 1 to 15 do {_units addItemToUniform "197th_Medical_packingBandage";};
 for "_i" from 1 to 5 do {_units addItemToUniform "ACE_CableTie";};

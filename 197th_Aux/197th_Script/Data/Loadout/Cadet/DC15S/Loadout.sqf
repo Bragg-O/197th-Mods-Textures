@@ -25,7 +25,7 @@ _units forceAddUniform "197th_Uniform_Regs_Cadet";
 _units addVest "197th_Vest_Regs_0";
 
 comment "Add items to containers";
-_units addItemToUniform "JLTS_ids_gar_army";
+
 for "_i" from 1 to 15 do {_units addItemToUniform "197th_Medical_elasticBandage";};
 for "_i" from 1 to 15 do {_units addItemToUniform "197th_Medical_packingBandage";};
 for "_i" from 1 to 5 do {_units addItemToUniform "ACE_CableTie";};

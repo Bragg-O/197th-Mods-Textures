@@ -36,7 +36,7 @@ _units addItemToUniform "197th_Medical_painkillers";
 _units addItemToUniform "197th_Medical_splint";
 for "_i" from 1 to 4 do {_units addItemToUniform "ACE_tourniquet";};
 for "_i" from 1 to 2 do {_units addItemToUniform "197th_Medical_plasmaIV_250";};
-_units addItemToUniform "JLTS_ids_gar_medical";
+
 _units addItemToVest "197th_NVG_Regs_Headlamp";
 for "_i" from 1 to 3 do {_units addItemToVest "197th_DC17SA_mag";};
 for "_i" from 1 to 5 do {_units addItemToVest "3AS_SmokeWhite";};
