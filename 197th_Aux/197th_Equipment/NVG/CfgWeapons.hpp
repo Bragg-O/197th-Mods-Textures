@@ -22,6 +22,25 @@ class 197th_NVG : SWLB_clone_nvg {
 		hiddenSelections[] = {"camo1", "camo2"};
 	};
 };
+class 197th_NVG_SPC : SWLB_clone_nvg {
+	author = "197th Compagnie Chimaera";
+	displayName = "[197th] NGV SPC Base";
+	scope = 0;
+	scopearsenal = 0;
+	modelOptics = "\lsd_equipment_bluefor\nvg\gar\visor\swlb_clone_nvg_optic_dummy.p3d";
+	ace_nightvision_border="";
+	model = "\SWLB_clones\SWLB_clone_nvg_on.p3d";
+	visionMode[] = {"Normal", NVG};
+	thermalMode[] = {};
+	hiddenSelections[] = {"camo1", "camo2"};
+	class ItemInfo {
+		type = 616;
+		uniformModel = "\SWLB_clones\SWLB_clone_nvg_on.p3d";
+		modelOff = "\SWLB_clones\SWLB_clone_nvg_on.p3d";
+		mass = 20;
+		hiddenSelections[] = {"camo1", "camo2"};
+	};
+};
 class 197th_NVG_Rangefinder : SWLB_clone_rangefinder {
 	author = "197th Compagnie Chimaera";
 	displayName = "[197th] Rangefinder Base";

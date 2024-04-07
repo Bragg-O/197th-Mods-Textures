@@ -129,6 +129,8 @@ class CfgWeapons {
         NVG_197th_XX(Regs,Trooper);
     //NVG_NCO_197th_XX(type,name) -> 197th_NVG_##type##_##name##
         NVG_NCO_197th_XX(Regs,Specialist);
+    //NVG_SPC_197th_XX(type,name) -> 197th_NVG_##type##_##name##
+        NVG_SPC_197th_XX(Regs,SPC);
     //NVG_Rangefinder_197th_XX(type,name) -> 197th_NVG_##type##_##name##
         NVG_Rangefinder_197th_XX(Regs,Rangefinder);
     //NVG_Visor_197th_XX(type,name) -> 197th_NVG_##type##_##name##

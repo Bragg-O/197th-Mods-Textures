@@ -619,6 +619,20 @@
 	}
 
 
+#define NVG_SPC_197th_XX(type,name) \
+    class 197th_NVG_##type##_##name## : 197th_NVG_SPC { \
+		author = 197th Compagnie Chimaera; \
+		displayName = [197th] NVG (##name##); \
+		scope = 2; \
+		scopearsenal = 2; \
+		picture = \197th_Equipment\_ui\nvg_##type##.paa; \
+		hiddenselectionstextures[] = { \
+			197th_Equipment\NVG\Data\##type##\##name##\nvg_co.paa, \
+			 \
+		}; \
+	}
+	
+
 #define NVG_Rangefinder_197th_XX(type,name) \
     class 197th_NVG_##type##_##name## : 197th_NVG_Rangefinder { \
 		author = 197th Compagnie Chimaera; \
