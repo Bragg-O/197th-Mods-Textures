@@ -81,7 +81,7 @@ _allitems = "'197th' in (getText (_x >>'displayName'))" configClasses (configFil
 
 // Lists of items to include
 
-for [{ _i = 0 }, { _i < 21 }, { _i = _i + 1 }] do {
+for [{ _i = 0 }, { _i < 999 }, { _i = _i + 1 }] do {
 	_ComLinkList pushBack (format ["JLTS_clone_comlink_%1", _i]);
 };
 
