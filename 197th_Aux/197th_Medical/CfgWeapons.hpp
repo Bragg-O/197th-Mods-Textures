@@ -40,4 +40,21 @@ class CfgWeapons {
 	MedicalItem_197th_XX(IV (Plasma 1000ml),plasmaIV,"Transfusion IV pouvant etre utilisee des qu'il y a un minimum de sang.<br/>Debit IV : + +");
 	MedicalItem_197th_XX(IV (Plasma 250ml),plasmaIV_250,"Transfusion IV pouvant etre utilisee des qu'il y a un minimum de sang.<br/>Debit IV : + +");
 	MedicalItem_197th_XX(IV (Plasma 500ml),plasmaIV_500,"Transfusion IV pouvant etre utilisee des qu'il y a un minimum de sang.<br/>Debit IV : + +");
+
+	class GrenadeLauncher;
+	class Throw: GrenadeLauncher
+	{
+		muzzles[]+=
+		{
+			"197th_BactaGrenade_muzzle"
+		};
+		class ThrowMuzzle;
+		class 197th_BactaGrenade_muzzle: ThrowMuzzle
+		{
+			magazines[]=
+			{
+				"197th_BactaGrenade_Mag"
+			};
+		};
+	};
 };

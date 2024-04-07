@@ -23,6 +23,24 @@ class CfgPatches {
 
 #include "ACE_Medical_Treatment.hpp"
 
+#include "CfgAmmo.hpp"
+
 #include "CfgWeapons.hpp"
 
 #include "CfgMagazines.hpp"
+
+class CfgFunctions
+{
+	class CIM
+	{
+		class BactaGrenade
+		{
+			file="197th_Medical\Data\Fonctions";
+			class setupEH {
+				postInit=1;
+			};
+			class onBactaGrenade {
+            };
+		};
+	};
+};
