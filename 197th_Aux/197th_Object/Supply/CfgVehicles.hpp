@@ -69,7 +69,7 @@ class 197th_Supply_Medical : 197th_Supply_Empty {
     class TransportItems {
         ITEM_XX(197th_Medical_epinephrine,15);
         ITEM_XX(197th_Medical_morphine,15);
-        ITEM_XX(197th_Medical_painkillers,10);
+        ITEM_XX(197th_Medical_painkillers,20);
         ITEM_XX(197th_Medical_packingBandage,200);
         ITEM_XX(197th_Medical_elasticBandage,200);
         ITEM_XX(197th_Medical_quikclot,200);
@@ -78,6 +78,7 @@ class 197th_Supply_Medical : 197th_Supply_Empty {
         ITEM_XX(197th_Medical_salineIV,50);
         ITEM_XX(197th_Medical_bloodIV,50);
         ITEM_XX(197th_Medical_bloodIV_500,50);
+        ITEM_XX(197th_BactaGrenade_Mag,10);
     };
 };
 
