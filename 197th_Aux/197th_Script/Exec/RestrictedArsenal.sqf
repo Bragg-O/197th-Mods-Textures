@@ -231,7 +231,8 @@ _MagazinesRegs = [
 	"JLTS_grenade_emp_mag",
 	"197th_Breach_Mag",
 	"197th_DemoPack_Mag",
-	"197th_DetPack_Mag"
+	"197th_DetPack_Mag",
+	"197th_BactaGrenade_Mag"
 ];
 
 _GunsRegs = [
