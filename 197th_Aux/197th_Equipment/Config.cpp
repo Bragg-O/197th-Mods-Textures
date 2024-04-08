@@ -40,6 +40,7 @@ class CfgPatches {
             CfgPatches_XX(Headgear,Customs,Launcher),
             CfgPatches_XX(Headgear,Customs,Vanguard),
             CfgPatches_XX(Headgear,Customs,Damos),
+            CfgPatches_XX(Headgear,Customs,Viper),
             CfgPatches_XX(HeadgearPilot,Regs,Pilot),
             CfgPatches_XX(HeadgearARF,Regs,ARF),
             CfgPatches_XX(HeadgearBARC,Regs,BARC),
@@ -74,6 +75,7 @@ class CfgWeapons {
         Helmet_197th_XX(Customs,Launcher);
         Helmet_197th_XX(Customs,Vanguard);
         Helmet_197th_XX(Customs,Damos);
+        Helmet_197th_XX(Customs,Viper);
     //HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         HelmetVisorLight_197th_XX(Customs,Bragg);
     //HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
@@ -155,7 +157,6 @@ class CfgVehicles {
         Unit_197th_XX(Regs,Capitain,,"197th_Helmet_Regs_Trooper","197th_Vest_Regs_Officier","","","");
         Unit_197th_XX(Customs,Apollyon,197th_Backpack_Customs_Apollyon,"197th_Helmet_Customs_Apollyon","197th_Vest_Customs_Apollyon","197th_NVG_Customs_Apollyon","","");
         Unit_197th_XX(Customs,Hermes,197th_Backpack_Customs_Hermes,"197th_HelmetBARC_Customs_Hermes","197th_Vest_Customs_Hermes","197th_NVG_Regs_Rangefinder","","");
-    
     //UnitCC_197th_XX(type,name,sac,"helmet","vest","accessories1","accessories2","accessories3") -> 197th_Unit_##type##_##name##
         UnitCC_197th_XX(Customs,Bragg,197th_Backpack_Customs_Bragg,"197th_Helmet_Customs_Bragg","197th_Vest_Customs_Bragg","197th_NVG_Customs_Bragg","","");
 
@@ -173,6 +174,7 @@ class CfgVehicles {
         HeadgearItem_197th_XX(Customs,Launcher);
         HeadgearItem_197th_XX(Customs,Vanguard);
         HeadgearItem_197th_XX(Customs,Damos);
+        HeadgearItem_197th_XX(Customs,Viper);
     //HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
         HeadgearItemPilot_197th_XX(Regs,Pilot);
     //HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
