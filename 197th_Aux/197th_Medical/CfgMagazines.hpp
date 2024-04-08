@@ -21,7 +21,8 @@ class CfgMagazines {
 			0.00031622799,
 			1
 		};
-		descriptionShort="Soigne a l'aide de la bacta dans un rayon de 5 m.";
+		model="kobra\442_misc\medical\Bacta.p3d";
+		descriptionShort="Soigne a l'aide de la bacta dans un rayon de 5 m du lanceur.";
 		picture="\197th_Medical\_ui\BactaGrenade_ca.paa";
 		displayNameShort="Bacta Grenade";
 	};
