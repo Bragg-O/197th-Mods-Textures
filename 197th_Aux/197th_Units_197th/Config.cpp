@@ -7,8 +7,8 @@
 */
 
 class CfgPatches {
-    class 197th_Groups {
-        name = "197th Groups";
+    class 197th_Units_197th {
+        name = "197th Units - 197th";
         author = "Bragg for 197th Compagnie Chimaera";
         url = "http://www.197th.fr";
         requiredAddons[] = {"197th_Equipment","197th_Vehicule"};
