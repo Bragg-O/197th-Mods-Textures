@@ -11,5 +11,10 @@ class CfgFunctions {
 			file="197th_Fonctions\LoadUnitsEquipment";
 			class LoadUnitsEquipment {};
 		};
+		class MedicalTerminal {
+			file="197th_Fonctions\MedicalTerminal";
+			class addMedicalTerminal {};
+			class useMedicalTerminal {};
+		};
 	};
 };
