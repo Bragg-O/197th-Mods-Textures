@@ -20,7 +20,10 @@ class CfgPatches {
 			//BlueFor
 
 			//Civilian
+			CfgPatches_XX(Civilian,HabitantUnarmed,civil1),
+			CfgPatches_XX(Civilian,HabitantUnarmed,civil2),
 			//Independent
+			CfgPatches_XX(Independent,Merc,merc1),
 			//OpFor
 
         };
@@ -48,7 +51,10 @@ class CfgVehicles {
 	//BlueFor_XX(Faction,EditorSubcategory,UniqueName,DisplayName);
 
 	//Civilian_XX(Faction,EditorSubcategory,UniqueName,DisplayName);
+	Civilian_XX(Civilian,HabitantUnarmed,civil1,Habitant 1);
+	Civilian_XX(Civilian,HabitantUnarmed,civil2,Habitant 2);
 	//Independent_XX(Faction,EditorSubcategory,UniqueName,DisplayName);
+	Independent_XX(Independent,Merc,merc1,Mercenaire 1);
 	//OpFor_XX(Faction,EditorSubcategory,UniqueName,DisplayName);
 
 };
