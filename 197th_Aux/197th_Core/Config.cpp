@@ -24,12 +24,6 @@ class CfgFactionClasses {
     Categories_197th_XX(Units);
     Categories_197th_XX(Vehicle);
 	Categories_197th_XX(WorldEdit);
-	AdvancedCategories_197th_XX(Civil,MissionUnits);
-	AdvancedCategories_197th_XX(Independant,MissionUnits);
-	AdvancedCategories_197th_XX(CSI,MissionUnits);
-	AdvancedCategories_197th_XX(Rebel,MissionUnits);
-	AdvancedCategories_197th_XX(Clone,MissionUnits);
-	AdvancedCategories_197th_XX(Securite,MissionUnits);
 };
 
 class CfgEditorCategories {
