@@ -22,6 +22,7 @@ class CfgPatches {
 			//Civilian
 			CfgPatches_XX(Civilian,HabitantUnarmed,civil1),
 			CfgPatches_XX(Civilian,HabitantUnarmed,civil2),
+			CfgPatches_XX(Civilian,HabitantUnarmed,civil3),
 			//Independent
 			CfgPatches_XX(Independent,Merc,merc1),
 			//OpFor
@@ -31,7 +32,7 @@ class CfgPatches {
 };
 
 class CfgFactionClasses {
-	//Faction_197th_XX(type,display name);
+	//Faction_197th_XX(type,DisplayName);
 	Faction_197th_XX(Civilian,Civil);
 	Faction_197th_XX(Clone,Clone);
 	Faction_197th_XX(CSI,Confederation des systemes independants);
@@ -40,7 +41,7 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
-	//Categories_197th_XX(type,display name);
+	//Categories_197th_XX(type,DisplayName);
 	Categories_197th_XX(Merc,Mercenaire);
 	Categories_197th_XX(HabitantUnarmed,Habitant (unarmed));
 	Categories_197th_XX(HabitantArmed,Habitant (armed));
@@ -53,8 +54,11 @@ class CfgVehicles {
 	//Civilian_XX(Faction,EditorSubcategory,UniqueName,DisplayName);
 	Civilian_XX(Civilian,HabitantUnarmed,civil1,Habitant 1);
 	Civilian_XX(Civilian,HabitantUnarmed,civil2,Habitant 2);
+	Civilian_XX(Civilian,HabitantUnarmed,civil3,Habitant 3);
+
 	//Independent_XX(Faction,EditorSubcategory,UniqueName,DisplayName);
 	Independent_XX(Independent,Merc,merc1,Mercenaire 1);
+
 	//OpFor_XX(Faction,EditorSubcategory,UniqueName,DisplayName);
 
 };
