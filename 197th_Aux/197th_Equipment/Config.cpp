@@ -23,9 +23,12 @@ class CfgPatches {
             CfgPatches_XX(Unit,Regs,Sergent),
             CfgPatches_XX(Unit,Regs,Lieutenant),
             CfgPatches_XX(Unit,Regs,Capitain),
-            CfgPatches_XX(Unit,Regs,Pilote),
-            CfgPatches_XX(Unit,Regs,ARF),
-            CfgPatches_XX(Unit,Regs,ARC),
+            "197th_Unit_Regs_Pilote",
+            "197th_Unit_Regs_ARF",
+            "197th_Unit_Regs_ARF_TP",
+            "197th_Unit_Regs_ARC",
+            "197th_Unit_Regs_AT",
+            "197th_Unit_Regs_AA"
             CfgPatches_XX(Unit,Customs,Bragg),
             CfgPatches_XX(Unit,Customs,Apollyon),
             CfgPatches_XX(Unit,Customs,Hermes),
@@ -206,4 +209,7 @@ class CfgVehicles {
     //BackpackSacocheCeinturRTO_197th_XX(type,name) -> 197th_Backpack_##type##_##name##
         BackpackSacocheCeinturRTO_197th_XX(Customs,Bragg);
         BackpackSacocheCeinturRTO_197th_XX(Customs,Apollyon);
+
+ //Basic units additions
+    #include "CfgVehicles.hpp"
 };
