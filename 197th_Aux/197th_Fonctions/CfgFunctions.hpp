@@ -1,3 +1,5 @@
+class CfgFunctions {
+	class CIM {
 		class BactaGrenade {
 			file="197th_Fonctions\BactaGrenade";
 			class setupEH {
@@ -9,3 +11,5 @@
 			file="197th_Fonctions\LoadUnitsEquipment";
 			class LoadUnitsEquipment {};
 		};
+	};
+};
