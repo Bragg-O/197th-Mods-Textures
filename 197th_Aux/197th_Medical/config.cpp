@@ -28,19 +28,3 @@ class CfgPatches {
 #include "CfgWeapons.hpp"
 
 #include "CfgMagazines.hpp"
-
-class CfgFunctions
-{
-	class CIM
-	{
-		class BactaGrenade
-		{
-			file="197th_Medical\Data\Fonctions";
-			class setupEH {
-				postInit=1;
-			};
-			class onBactaGrenade {
-            };
-		};
-	};
-};

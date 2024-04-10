@@ -12,12 +12,12 @@ _this spawn {
 			}, {
 				_i = _i + 1
 			}] do {
-			playSound3D ["197th_Medical\Data\sounds\Bacta.ogg", _vehbacta, false, getPosASL _vehbacta, 20, 0.6, 25];
+			playSound3D ["197th_Fonctions\BactaGrenade\Sounds\Bacta.ogg", _vehbacta, false, getPosASL _vehbacta, 20, 0.6, 25];
 
 			sleep 0.5;
 
 			if (_i == 6) then {
-				playSound3D ["197th_Medical\Data\sounds\BactaExplo.ogg", _vehbacta, false, getPosASL _vehbacta, 10, 1, 30];
+				playSound3D ["197th_Fonctions\BactaGrenade\Sounds\BactaExplo.ogg", _vehbacta, false, getPosASL _vehbacta, 10, 1, 30];
 			};
 		};
 		[getPosASL _vehbacta] call ace_grenades_fnc_flashbangExplosionEH;
