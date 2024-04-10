@@ -1,3 +1,11 @@
+/*
+	    Author: Bragg for 197th Compagnie Chimaera
+	
+	    Description: Please do not [Copy, Modify, Plagiarize] the following content without prior authorization from its creator.
+	    
+	    Website: [www.197th.fr]
+*/
+
 _this spawn {
 	params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile"];
 	switch (_ammo) do {
