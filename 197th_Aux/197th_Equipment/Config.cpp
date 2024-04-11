@@ -28,7 +28,7 @@ class CfgPatches {
             "197th_Unit_Regs_ARF_TP",
             "197th_Unit_Regs_ARC",
             "197th_Unit_Regs_AT",
-            "197th_Unit_Regs_AA"
+            "197th_Unit_Regs_AA",
             CfgPatches_XX(Unit,Customs,Bragg),
             CfgPatches_XX(Unit,Customs,Apollyon),
             CfgPatches_XX(Unit,Customs,Hermes),
