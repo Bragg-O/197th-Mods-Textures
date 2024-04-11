@@ -16,8 +16,8 @@ class CfgWorlds
 {
 	class Any // or specific world name
 	{
-		author = "197th Compagnie Chimaera";
-		description = "La Compagnie Chimaera vous accueille en son sein, préparez vous pour une expérience RolePlay unique et immersive.";
+		author = "197th Development Team";
+		description = "197th Compagnie Chimaera";
 		pictureMap = "\197th_Core\Data\LoadMap.paa";
 		pictureShot = "\197th_Core\Data\LoadScreen.paa";
 		loadingTexts[] = { "197th Compagnie Chimaera", "La Compagnie Chimaera vous accueille en son sein", "Préparez vous pour une expérience RolePlay unique et immersive" };
