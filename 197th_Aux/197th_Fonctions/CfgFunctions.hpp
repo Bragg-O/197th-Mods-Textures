@@ -1,5 +1,9 @@
 class CfgFunctions {
 	class CIM {
+		class AddonsVerification {
+			file="197th_Fonctions\AddonsVerification";
+			class checkAddonsLoaded {};
+		}
 		class BactaGrenade {
 			file="197th_Fonctions\BactaGrenade";
 			class setupEH {

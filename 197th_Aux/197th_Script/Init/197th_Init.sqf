@@ -6,9 +6,6 @@
 	    Website: [www.197th.fr]
 */
 
-//Script lié à la vérification des mods chargés dans un jeu. Il compare les mods chargés avec la liste blanche des mods autorisés et gère les erreurs si des mods non autorisés sont trouvés.
-[] execVM "197th_Script\Init\ModsVerification.sqf";
-
 //param FortifyTools
 [] execVM "197th_Script\Init\FortifyTools.sqf";
 
