@@ -19,5 +19,5 @@ private _loadoutfile = format ["%1\%2\%3\%4.sqf", _AddonsName, _Side, _Type, _Na
 if (fileExists _loadoutfile) then {
 	[_unit] execVM _loadoutfile;
 } else {
-	systemChat format["'%1' not found!", _loadoutfile];
+	systemChat format["'%1' not found! (fn_LoadUnitsEquipment)", _loadoutfile];
 };
