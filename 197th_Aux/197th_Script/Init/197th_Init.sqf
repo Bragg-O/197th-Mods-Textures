@@ -6,9 +6,6 @@
 	    Website: [www.197th.fr]
 */
 
-//Vérifie en permanence la présence d'objets "BulletBase" à proximité du joueur. Si des objets sont trouvés à moins de 50 mètres, la caméra du joueur est basculée en mode "INTERNAL".
-[] execVM "197th_Script\Init\UnderFire.sqf";
-
 //Script lié à la vérification des mods chargés dans un jeu. Il compare les mods chargés avec la liste blanche des mods autorisés et gère les erreurs si des mods non autorisés sont trouvés.
 [] execVM "197th_Script\Init\ModsVerification.sqf";
 

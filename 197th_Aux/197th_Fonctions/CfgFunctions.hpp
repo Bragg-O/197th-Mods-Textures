@@ -27,5 +27,12 @@ class CfgFunctions {
 			class addMedicalTerminal {};
 			class useMedicalTerminal {};
 		};
+		class UnderFire {
+			file="197th_Fonctions\UnderFire";
+			class checkUnderFire {
+				postInit=1;
+			};
+			class onUnderFire {};
+		};
 	};
 };
