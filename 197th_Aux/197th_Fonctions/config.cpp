@@ -18,3 +18,8 @@ class CfgPatches {
 };
 
 #include "CfgFunctions.hpp"
+
+class CfgVehicles {
+//Add Ace interactions Earplugs
+    #include "Earplugs\CfgVehicles.hpp"
+};

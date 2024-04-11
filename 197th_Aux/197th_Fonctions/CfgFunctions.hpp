@@ -7,6 +7,13 @@ class CfgFunctions {
 			};
 			class onBactaGrenade {};
 		};
+		class Earplugs {
+			file="197th_Fonctions\Earplugs";
+			class Earplugs {
+				postInit=1;
+			};
+			class EarplugsSwitch {};
+		}
 		class Loadouts {
 			file="197th_Fonctions\Loadouts";
 			class addLoadout197th {};
