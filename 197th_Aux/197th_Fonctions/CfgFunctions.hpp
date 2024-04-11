@@ -33,9 +33,7 @@ class CfgFunctions {
 		};
 		class UnderFire {
 			file="197th_Fonctions\UnderFire";
-			class checkUnderFire {
-				postInit=1;
-			};
+			class checkUnderFire {};
 			class onUnderFire {};
 		};
 	};

@@ -5,16 +5,17 @@
 	    
 	    Website: [www.197th.fr]
 */
-
 waitUntil {
 	!isNull player
 };
 
 while { true } do {
 	while { player distance (player findNearestEnemy player) < 5000 } do {
-		if ((count (nearestObjects [player, ["BulletBase"], 100]) > 0) or  && (vehicle player == player)) then {
+		if ((count (nearestObjects [player, ["BulletBase"], 100]) > 0) && (vehicle player == player)) then {
 			_handle = [player] spawn CIM_fnc_onUnderFire;
-			waitUntil { scriptDone _handle };
+			waitUntil {
+				scriptDone _handle
+			};
 		};
 		hintSilent "";
 		sleep 0.05;

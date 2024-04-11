@@ -6,6 +6,8 @@
 	    Website: [www.197th.fr]
 */
 
+[player] spawn CIM_fnc_checkUnderFire;
+
 //addonsVerification
 [] spawn CIM_fnc_checkAddonsLoaded;
 
