@@ -7,6 +7,10 @@ class CfgFunctions {
 			};
 			class onBactaGrenade {};
 		};
+		class Loadouts {
+			file="197th_Fonctions\Loadouts";
+			class addLoadout197th {};
+		}
 		class LoadUnitsEquipment {
 			file="197th_Fonctions\LoadUnitsEquipment";
 			class LoadUnitsEquipment {};
