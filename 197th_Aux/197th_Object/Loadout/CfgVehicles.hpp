@@ -13,7 +13,7 @@ class 197th_Loadout_AA : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -30,7 +30,7 @@ class 197th_Loadout_ARC : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -47,7 +47,7 @@ class 197th_Loadout_ARF : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -64,7 +64,7 @@ class 197th_Loadout_AT : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -81,7 +81,7 @@ class 197th_Loadout_Fantassin : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -98,7 +98,7 @@ class 197th_Loadout_Grenadier : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -115,7 +115,7 @@ class 197th_Loadout_Heavy : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -132,7 +132,7 @@ class 197th_Loadout_Medecin : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -149,7 +149,7 @@ class 197th_Loadout_Pilote : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -166,7 +166,7 @@ class 197th_Loadout_Radioman : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -183,7 +183,7 @@ class 197th_Loadout_Sapeur : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
 
@@ -200,6 +200,6 @@ class 197th_Loadout_Shield : 197th_Unit {
 	linkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
 	respawnlinkedItems[] += {"197th_Helmet_Regs_Trooper","197th_Vest_Regs_0"};
     class EventHandlers {
-        init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addLoadout197th;};";
+        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\Loadout.sqf';};";
     };
 };
