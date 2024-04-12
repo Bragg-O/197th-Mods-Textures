@@ -15,7 +15,9 @@ class 197th_TerminalMedical: 442_terminal4 {
 	hiddenSelectionsMaterials[] = {"","\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
 	editorPreview = "197th_Object\_EditorPreviews\TerminalMedical_ca.jpg";
     class EventHandlers {
-        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\exec\Medical.sqf';};";
+		class CIM_fnc_addMedicalTerminal {
+			init = "if (hasInterface) exitWith {[(_this select 0)] spawn CIM_fnc_addMedicalTerminal;};";
+		};
     };
 };
 
