@@ -5,15 +5,16 @@
 	    
 	    Website: [www.197th.fr]
 */
-publicVariable "CIM_WhiteListAddons";
-publicVariable "CIM_ActivatedAddons";
+
 
 if (isServer) then {
 	diag_log format["[197th/fn_checkAddonsLoaded] ----------- Init SERVER -----------"];
-	CIM_WhiteListAddons = [];
+	CIM_WhiteListAddons = ["aws"];
 	CIM_ActivatedAddons = [];
 	CIM_ActivatedAddons = activatedAddons call BIS_fnc_sortAlphabetically;
 	diag_log format ["[197th/fn_checkAddonsLoaded] Activated Addons Count: %1", count CIM_ActivatedAddons];
+	publicVariable "CIM_WhiteListAddons";
+	publicVariable "CIM_ActivatedAddons";
 	diag_log format ["[197th/fn_checkAddonsLoaded] ----------- End SERVER -----------"];
 };
 
@@ -61,7 +62,7 @@ if (hasInterface) exitWith {
 			_realerrorAddons pushBack _x;
 		};
 		hintSilent parseText format ["<img size='5' image='\197th_Fonctions\AddonsVerification\Logo197th_ca.paa'/><br/><t size='1.5' color='#F1C40F'>Chargement des addons</t><br/><t color='#8E44AD'>LOADING</t><br/><br/>Vérification des addons requis<br/><t color='#28B463'>OK</t><br/><br/>Vérification des addons WhiteList<br/><t color='#8E44AD'>%1</t>", _x];
-		sleep 0.05;
+		sleep 0.5;
 	} forEach _errorAddons;
 	hint parseText format ["<img size='5' image='\197th_Fonctions\AddonsVerification\Logo197th_ca.paa'/><br/><t size='1.5' color='#F1C40F'>Chargement des addons</t><br/><t color='#8E44AD'>LOADING</t><br/><br/>Vérification des addons requis<br/><t color='#28B463'>OK</t><br/><br/>Vérification des addons WhiteList<br/><t color='#8E44AD'>PENDING</t>"];
 	sleep 1;
