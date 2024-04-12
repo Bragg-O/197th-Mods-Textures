@@ -16,3 +16,8 @@ class CfgPatches {
         units[] = {};
     };
 };
+
+class CfgVehicles {
+//Add Ace interactions Earplugs
+    #include "\197th_Script\Init\CfgVehicles_Earplugs.hpp"
+};
