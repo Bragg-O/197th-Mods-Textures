@@ -53,14 +53,8 @@ wreckRemovalMaxTime = 500; // seconds. Default: 36000 (10 hours)
 minPlayerDistance = 0; // meters. Default: 0
 saving = 0; // 0: disabled - 1: enabled. Default: 1
 allowFunctionsLog = 1; // 0: disabled - 1: enabled. Default: ?
-allowFunctionsRecompile = 1; // 0: disabled - 1: enabled. Default: 0
+allowFunctionsRecompile = 0; // 0: disabled - 1: enabled. Default: 0
 zeusCompositionScriptLevel = 2;	// 0: all scripts are forbidden
 								// 1: only attributes are allowed (including custom attributes added by mods)
 								// 2: all scripts are allowed including init scripts
 								// Default: 1
-
-//Arsenal override
-#include "\197th_Fonctions\override_VA_templates\settings.hpp"
-class CfgFunctions {
-	#include "\197th_Fonctions\override_VA_templates\functions\functions.hpp"
-};
