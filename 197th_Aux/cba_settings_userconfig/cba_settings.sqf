@@ -1,22 +1,3 @@
-// 101st Aux Mod
-force force DBA_CapitalShips_Barrage_Velocity = 100;
-force force DBA_CapitalShips_MoveShip_ExternalCamera = true;
-force force DBA_Common_Debug = false;
-force force DBA_Hyperspace_Offset_Acclamator = 90;
-force force DBA_Hyperspace_Offset_Default = 0;
-force force DBA_Hyperspace_Offset_Munificent = 90;
-force force DBA_Hyperspace_Offset_Quasar = 270;
-force force DBA_LAAT_InteriorLight_PositionY = -5;
-force force DBA_LAAT_InteriorLight_PositionZ = 2;
-force force DBA_Stims_Adrenal_Duration = 30;
-force force DBA_Stims_Adrenal_Side_Effect_Duration = 60;
-force force DBA_Stims_Adrenal_Side_Effect_Speed = 0.75;
-force force DBA_Stims_Adrenal_Speed = 1.25;
-force force DBA_Stims_Battle_Stim_Duration = 120;
-force force DBA_Stims_Battle_Stim_Side_Effect_Duration = 60;
-force force DBA_Stims_Battle_Stim_Side_Effect_Pain_Multiplier = 2;
-force force DBA_Stims_Inject_Duration = 5;
-//
 // 3AS
 force force TAS_fullShieldTime = 30;
 force force TAS_jetcoolset = 1;
@@ -116,8 +97,8 @@ force force ace_switchunits_switchToWest = true;
 //
 // ACE Commun
 force force ace_common_allowFadeMusic = true;
-force force ace_common_checkPBOsAction = 1;
-force force ace_common_checkPBOsCheckAll = true;
+force force ace_common_checkPBOsAction = 0;
+force force ace_common_checkPBOsCheckAll = false;
 force force ace_common_checkPBOsWhitelist = "[]";
 force force ace_common_deployedSwayFactor = 0.5;
 force force ace_common_enableSway = true;
@@ -902,18 +883,6 @@ force force SFX_Suppressionsnd_tnk = false;
 // Sci-fi Support PLUS
 //
 // Scion Conflict
-//
-// TFAR - ACE Radio Setter - Extended
-force force tfar_ace_extended_main_askDeleteConfirmation = true;
-force force tfar_ace_extended_main_askLoadConfirmation = true;
-force force tfar_ace_extended_main_askOverwriteConfirmation = true;
-force force tfar_ace_extended_main_askSaveConfirmation = true;
-force force tfar_ace_extended_main_enableAllInteractions = false;
-force force tfar_ace_extended_main_enableCompatFK = false;
-force force tfar_ace_extended_main_enableLRInteractions = false;
-force force tfar_ace_extended_main_enableSRAndLRInteractions = false;
-force force tfar_ace_extended_main_enableSRInteractions = false;
-force force tfar_ace_extended_main_enableVLRInteractions = false;
 //
 // TFAR - Clientside settings
 //
