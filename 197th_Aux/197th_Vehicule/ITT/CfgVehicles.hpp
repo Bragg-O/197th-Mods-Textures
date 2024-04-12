@@ -159,9 +159,7 @@ class 197th_ITT_Medical: 3AS_ITT_Medical
     class TransportWeapons {};
     class TransportMagazines {};   
     class TransportBackpacks {};
-    class EventHandlers {
-		init = "[_this select 0] setVariable ['ace_medical_isMedicalVehicle', true, true]";
-	};
+	attendant = 1;
 };
 
 class 197th_ITT_Logistic: 3AS_ITT_Logistic
@@ -215,7 +213,5 @@ class 197th_ITT_Logistic: 3AS_ITT_Logistic
     class TransportWeapons {};
     class TransportMagazines {};   
     class TransportBackpacks {};
-    class EventHandlers {
-		init = "[_this select 0] setVariable ['ace_isRepairFacility', true, true]";
-	};
+	ace_repair_canRepair = 1;
 };
