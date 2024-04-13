@@ -19,5 +19,12 @@ class CfgPatches {
 class CfgFunctions {
     class CIM_197th_Functions {
         tag = "CIM";
+        class EarPlugs {
+            class checkEarPlugs {};
+            class initEarPlugs {
+                postInit = 1;
+            };
+            class switchEarPlugs {};
+        };
     };
 };
