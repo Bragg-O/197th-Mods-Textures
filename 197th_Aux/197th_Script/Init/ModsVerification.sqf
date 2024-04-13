@@ -37,7 +37,7 @@ if (hasInterface) exitWith {
 	_activatedAddons = activatedAddons call BIS_fnc_sortAlphabetically;
 	diag_log format ["[197th/fn_checkAddonsLoaded] Activated Addons Count: %1", count _activatedAddons];
 	{
-		if (!(_x in _activatedAddons)) then {
+		if (!(_x in CIM_ActivatedAddons)) then {
 			_errorAddons pushBack _x;
 		};
 		hintSilent parseText format ["<img size='5' image='\197th_Script\Data\Logo197th_ca.paa'/><br/><t size='1.5' color='#F1C40F'>Chargement des addons</t><br/><t color='#8E44AD'>LOADING</t><br/><br/>Vérification des addons requis<br/><t color='#8E44AD'>%1</t>", _x];
