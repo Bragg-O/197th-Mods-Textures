@@ -26,6 +26,10 @@ class CfgFunctions {
             };
             class switchEarPlugs {};
         };
+        class HealTerminal {
+            class initHealTerminal {};
+            class useHealTerminal {};
+        };
         class Loadout {
             class initLoadout {};
             class addLoadout {};

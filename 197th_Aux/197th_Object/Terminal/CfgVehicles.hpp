@@ -15,6 +15,9 @@ class 197th_TerminalMedical: 442_terminal4 {
 	hiddenSelectionsMaterials[] = {"","\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
 	editorPreview = "197th_Object\_EditorPreviews\TerminalMedical_ca.jpg";
     class EventHandlers {
+		class InitHealTerminal197th {
+			init = "[(_this select 0)] call CIM_fnc_initHealTerminal;";
+		};
     };
 };
 
