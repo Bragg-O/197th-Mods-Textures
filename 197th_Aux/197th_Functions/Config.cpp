@@ -26,5 +26,9 @@ class CfgFunctions {
             };
             class switchEarPlugs {};
         };
+        class Loadout {
+            class initLoadout {};
+            class addLoadout {};
+        };
     };
 };
