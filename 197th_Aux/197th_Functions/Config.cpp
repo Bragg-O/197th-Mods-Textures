@@ -34,6 +34,8 @@ class CfgFunctions {
             class addLoadout {};
             class initLoadout {};
         };
+        class RestrictedArsenal {
+            class initRestrictedArsenal {};
         };
     };
 };
