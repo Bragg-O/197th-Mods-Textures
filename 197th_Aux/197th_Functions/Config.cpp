@@ -31,8 +31,9 @@ class CfgFunctions {
             class useHealTerminal {};
         };
         class Loadout {
-            class initLoadout {};
             class addLoadout {};
+            class initLoadout {};
+        };
         };
     };
 };
