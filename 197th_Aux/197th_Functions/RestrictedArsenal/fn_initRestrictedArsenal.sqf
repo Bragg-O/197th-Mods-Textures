@@ -11,7 +11,7 @@
 	1: String - path to CfgRestrictedArsenal.sqf
 	
 	Example:
-	[(this select 0), "\197th_Core\init\Script\CfgRestrictedArsenal.sqf"] call fnc_initRestrictedArsenal;
+	[(this select 0), "\197th_Core\init\Script\CfgRestrictedArsenal.sqf"] call CIM_fnc_initRestrictedArsenal;
 */
 
 params ["_object", "_pathCfgRestrictedArsenal"];

@@ -9,7 +9,9 @@ class 197th_ArsenalRestricted: 442_box1 {
 	author = "197th Compagnie Chimaera";
 	editorPreview = "";
     class EventHandlers {
-        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\Exec\RestrictedArsenal.sqf';};";
+		class initRestrictedArsenal {
+			init = "[(this select 0), '\197th_Core\init\Script\CfgRestrictedArsenal.sqf'] call CIM_fnc_initRestrictedArsenal;"
+		};
     };
     class TransportItems {};
     class TransportWeapons {};
