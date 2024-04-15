@@ -19,6 +19,9 @@ class CfgPatches {
 class CfgFunctions {
     class CIM_197th_Functions {
         tag = "CIM";
+        class AddonsScanner {
+            class initAddonsScanner {};
+        };
         class EarPlugs {
             class checkEarPlugs {};
             class initEarPlugs {
