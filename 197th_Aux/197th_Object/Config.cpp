@@ -35,18 +35,6 @@ class CfgPatches {
             "197th_Terminal_Medical",
             "197th_Terminal_Repair",
             "197th_Terminal_Sapeur",
-            "197th_Loadout_AA",
-            "197th_Loadout_ARC",
-            "197th_Loadout_ARF",
-            "197th_Loadout_AT",
-            "197th_Loadout_Fantassin",
-            "197th_Loadout_Grenadier",
-            "197th_Loadout_Heavy",
-            "197th_Loadout_Medecin",
-            "197th_Loadout_Pilote",
-            "197th_Loadout_Radioman",
-            "197th_Loadout_Sapeur",
-            "197th_Loadout_Shield",
             "197th_ArsenalRestricted",
             "197th_Number_White_0",
             "197th_Number_White_1",
@@ -111,9 +99,6 @@ class CfgVehicles {
 
 //Terminal
     #include "Terminal\CfgVehicles.hpp"
-
-//Loadout
-    #include "Loadout\CfgVehicles.hpp"
 
 //Arsenal
     #include "Arsenal\CfgVehicles.hpp"
