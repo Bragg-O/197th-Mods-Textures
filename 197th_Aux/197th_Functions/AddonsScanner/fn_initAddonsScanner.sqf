@@ -17,13 +17,13 @@
 	It also displays a message to the user about missing addons and suggests reinstalling the preset.
 	
 	Parameter(s):
-	0: player
+	none
 	
 	Returns:
 	none
 	
 	Example:
-	[player] call CIM_fnc_initAddonsScanner;
+	call CIM_fnc_initAddonsScanner;
 */
 
 if (isServer) then {
