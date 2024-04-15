@@ -37,5 +37,11 @@ class CfgFunctions {
         class RestrictedArsenal {
             class initRestrictedArsenal {};
         };
+        class UnderFire {
+            class initUnderFire {
+                postInit = 1;
+            };
+            class onUnderFire {};
+        };
     };
 };
