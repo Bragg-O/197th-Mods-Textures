@@ -10,9 +10,6 @@
 	Parameter(s):
 	0: Object
 	
-	Returns:
-	none
-	
 	Example:
 	[player] call CIM_fnc_initEarPlugs;
 */

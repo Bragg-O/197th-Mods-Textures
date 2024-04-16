@@ -9,9 +9,6 @@
 	Parameter(s):
 	0: Object
 	
-	Returns:
-	none
-	
 	Example:
 	[player] spawn CIM_fnc_checkEarPlugs;
 */

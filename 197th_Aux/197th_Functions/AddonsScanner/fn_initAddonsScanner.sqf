@@ -19,9 +19,6 @@
 	Parameter(s):
 	none
 	
-	Returns:
-	none
-	
 	Example:
 	call CIM_fnc_initAddonsScanner;
 */

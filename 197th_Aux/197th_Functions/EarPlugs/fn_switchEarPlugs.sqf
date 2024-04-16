@@ -9,9 +9,6 @@
 	Parameter(s):
 	0: Object
 	
-	Returns:
-	none
-	
 	Example:
 	[_player] call CIM_fnc_switchEarPlugs;
 */
