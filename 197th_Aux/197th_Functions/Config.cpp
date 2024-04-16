@@ -46,5 +46,16 @@ class CfgFunctions {
             };
             class onUnderFire {};
         };
+        class VehicleService {
+            class initAllVehicleService {};
+            class initVehicleServiceReFuel {};
+            class initVehicleServiceRepair {};
+            class initVehicleServiceReArm {};
+            class initVehicleServiceChangePylon {};
+            class onVehicleServiceReFuel {};
+            class onVehicleServiceRepair {};
+            class onVehicleServiceReArm {};
+            class onVehicleServiceChangePylon {};
+        };
     };
 };
