@@ -22,6 +22,12 @@ class CfgFunctions {
         class AddonsScanner {
             class initAddonsScanner {};
         };
+		class BactaGrenade {
+			class setupEH {
+				postInit=1;
+			};
+			class onBactaGrenade {};
+		};
         class EarPlugs {
             class checkEarPlugs {};
             class initEarPlugs {
