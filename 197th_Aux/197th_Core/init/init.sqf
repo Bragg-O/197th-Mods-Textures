@@ -58,5 +58,5 @@ if (hasInterface) then {
 	};
 };
 
-// call the function CIM_fnc_initAddonsScanner to initialize the addons scanner.
-call CIM_fnc_initAddonsScanner;
+// spawn the function CIM_fnc_initAddonsScanner to initialize the addons scanner.
+[] spawn CIM_fnc_initAddonsScanner;
