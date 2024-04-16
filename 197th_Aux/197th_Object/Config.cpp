@@ -13,7 +13,7 @@ class CfgPatches {
         name = "197th Object";
         author = "Bragg for 197th Compagnie Chimaera";
         url = "http://www.197th.fr";
-        requiredAddons[] = {"197th_weapon","197th_Equipment","197th_Script"};
+        requiredAddons[] = {"197th_weapon","197th_Equipment"};
         weapons[] = {};
         units[] = { //All for curator
             "197th_Supply_Empty",
