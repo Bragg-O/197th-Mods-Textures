@@ -2,7 +2,8 @@
 	Author: Bragg
 	
 	Description:
-	
+	This code snippet defines a script that checks various conditions related to a unit and its surroundings and then executes a series of actions.
+	If certain conditions are met, it displays a hint message with specific formatting and switches the player's camera view.
 	
 	Parameter(s):
 	0: object
