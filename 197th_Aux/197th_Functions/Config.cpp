@@ -29,6 +29,9 @@ class CfgFunctions {
             };
             class switchEarPlugs {};
         };
+        class Garage {
+            class initGarage {};
+        };
         class HealTerminal {
             class initHealTerminal {};
             class useHealTerminal {};
