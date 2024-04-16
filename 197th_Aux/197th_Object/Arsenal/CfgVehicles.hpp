@@ -10,7 +10,7 @@ class 197th_ArsenalRestricted: 442_box1 {
 	editorPreview = "";
     class EventHandlers {
 		class initRestrictedArsenal {
-			init = "[(this select 0), '\197th_Core\init\Script\CfgRestrictedArsenal.sqf'] call CIM_fnc_initRestrictedArsenal;"
+			init = "[(_this select 0)] spawn CIM_fnc_initRestrictedArsenal;"
 		};
     };
     class TransportItems {};
