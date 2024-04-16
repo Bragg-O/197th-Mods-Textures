@@ -7,7 +7,7 @@
 */
 
 author = "197th Compagnie Chimaera"; //Mission Author 
-loadScreen = "\197th_Script\Data\loadscreen.paa"; //LoadScreen
+loadScreen = "\197th_Core\Init\Data\loadscreen.paa"; //LoadScreen
 respawn = 3; //Respawn type
 respawnTemplatesWest[] = { "MenuPosition" };
 respawnTemplatesEast[] = { "MenuPosition"};
@@ -66,8 +66,8 @@ class CfgWorlds {
 	class Any {
 		author = "197th Development Team";
 		description = "197th Compagnie Chimaera";
-		pictureMap = "197th_Core\Init\Data\loadmap.paa";
-		pictureShot = "197th_Core\Init\Data\loadscreen.paa";
+		pictureMap = "\197th_Core\Init\Data\loadmap.paa";
+		pictureShot = "\197th_Core\Init\Data\loadscreen.paa";
 		loadingTexts[] = { "197th Compagnie Chimaera", "La Compagnie Chimaera vous accueille en son sein", "Préparez vous pour une expérience RolePlay unique et immersive" };
 	};
 };
