@@ -46,6 +46,10 @@ class CfgFunctions {
             };
             class onUnderFire {};
         };
+        class UnitTrait {
+            class initUnitTraitEngineer {};
+            class initUnitTraitMedic {};
+        }
         class VehicleService {
             class initAllVehicleService {};
             class initVehicleServiceReFuel {};
