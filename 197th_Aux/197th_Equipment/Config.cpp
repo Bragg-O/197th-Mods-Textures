@@ -45,6 +45,7 @@ class CfgPatches {
             CfgPatches_XX(Headgear,Customs,Damos),
             CfgPatches_XX(Headgear,Customs,Viper),
             CfgPatches_XX(Headgear,Customs,Duty),
+            CfgPatches_XX(Headgear,Customs,Franck),
             CfgPatches_XX(HeadgearPilot,Regs,Pilot),
             CfgPatches_XX(HeadgearARF,Regs,ARF),
             CfgPatches_XX(HeadgearBARC,Regs,BARC),
@@ -81,6 +82,7 @@ class CfgWeapons {
         Helmet_197th_XX(Customs,Damos);
         Helmet_197th_XX(Customs,Viper);
         Helmet_197th_XX(Customs,Duty);
+        Helmet_197th_XX(Customs,Franck);
     //HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
         HelmetVisorLight_197th_XX(Customs,Bragg);
     //HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
@@ -181,6 +183,7 @@ class CfgVehicles {
         HeadgearItem_197th_XX(Customs,Damos);
         HeadgearItem_197th_XX(Customs,Viper);
         HeadgearItem_197th_XX(Customs,Duty);
+        HeadgearItem_197th_XX(Customs,Franck);
     //HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
         HeadgearItemPilot_197th_XX(Regs,Pilot);
     //HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
