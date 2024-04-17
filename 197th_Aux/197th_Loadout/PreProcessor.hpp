@@ -4,7 +4,7 @@
         scope = 2; \
         class EventHandlers { \
             class InitLoadout197th { \
-                init = [(_this select 0),'##type##_197th'] spawn CIM_fnc_initLoadouts; \
+                init = [(_this select 0),'##type##_197th'] call CIM_fnc_initLoadout; \
             }; \
         }; \
 	}
