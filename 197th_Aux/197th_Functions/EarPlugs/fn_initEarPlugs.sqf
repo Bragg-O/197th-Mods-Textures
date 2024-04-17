@@ -40,10 +40,10 @@ _condition1 = {
 	CIM_EarplugsActive == 1
 };
 
-_action0 = ["Enclencher les filtres audio", "Filtres audio", "\197th_Functions\EarPlugs\Data\waves_ca.paa", _statement, _condition0] call ace_interact_menu_fnc_createAction;
+_action0 = [" Enclencher les filtres audio", " Enclencher les filtres audio", "\197th_Functions\EarPlugs\Data\waves_ca.paa", _statement, _condition0] call ace_interact_menu_fnc_createAction;
 [(typeOf player), 1, ["ACE_SelfActions"], _action0] call ace_interact_menu_fnc_addActionToClass;
 
-_action1 = ["Enclencher les filtres audio", "Filtres audio", "\197th_Functions\EarPlugs\Data\unwaves_ca.paa", _statement, _condition1] call ace_interact_menu_fnc_createAction;
+_action1 = [" Désactiver les filtres audio", " Désactiver les filtres audio", "\197th_Functions\EarPlugs\Data\unwaves_ca.paa", _statement, _condition1] call ace_interact_menu_fnc_createAction;
 [(typeOf player), 1, ["ACE_SelfActions"], _action1] call ace_interact_menu_fnc_addActionToClass;
 
 [player] spawn CIM_fnc_checkEarPlugs;
