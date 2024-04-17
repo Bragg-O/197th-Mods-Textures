@@ -23,7 +23,7 @@ class CfgPatches {
             "197th_Loadout_Fantassin",
             "197th_Loadout_Grenadier",
             "197th_Loadout_Heavy",
-            "197th_Loadout_Medecin",
+            "197th_Loadout_Medic",
             "197th_Loadout_Pilote",
             "197th_Loadout_Radioman",
             "197th_Loadout_Sapeur",
@@ -50,7 +50,7 @@ class CfgVehicles {
     Loadout_197th_XX(Fantassin);
     Loadout_197th_XX(Grenadier);
     Loadout_197th_XX(Heavy);
-    Loadout_197th_XX(Medecin);
+    Loadout_197th_XX(Medic);
     Loadout_197th_XX(Pilote);
     Loadout_197th_XX(Radioman);
     Loadout_197th_XX(Sapeur);
