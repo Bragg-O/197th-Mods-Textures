@@ -11,7 +11,7 @@
 	0: Object
 	
 	Example:
-	[player] call CIM_fnc_initEarPlugs;
+	[player] spawn CIM_fnc_initEarPlugs;
 */
 
 waitUntil {
