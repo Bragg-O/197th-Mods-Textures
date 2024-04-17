@@ -72,7 +72,9 @@ class CfgWorlds {
 	};
 };
 
-CIM_RestrictedArsenal_AllClassWith = "197th"; // classe that are allowed to use this arsenal
+CIM_RestrictedArsenal_AllClassWith[] = { // classe that are allowed to use this arsenal
+	"197th"
+};
 
 CIM_RestrictedArsenal_Backpack[] = {}; // backpacks that are allowed to use this arsenal
 
@@ -125,7 +127,6 @@ CIM_RestrictedArsenal_MiscShit[] = { // misc items that are allowed to use this 
 	"ItemCompass",
 	"ItemGPS",
 	"ItemMap",
-	"JLTS_clone_comlink",
 	"JLTS_CloneBinocular_black",
 	"JLTS_CloneBinocular",
 	"JLTS_repairkit_weapon_mini",
@@ -134,6 +135,10 @@ CIM_RestrictedArsenal_MiscShit[] = { // misc items that are allowed to use this 
 	"ls_holoprojector_bountyPuck",
 	"MineDetector",
 	"ToolKit"
+};
+
+CIM_RestrictedArsenal_TFAR[] = {
+	"JLTS_clone_comlink"
 };
 
 CIM_RestrictedArsenal_Magazine[] = { // magazines that are allowed to use this arsenal
