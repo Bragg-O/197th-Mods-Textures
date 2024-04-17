@@ -33,7 +33,7 @@ _this spawn {
 	if (vehicle _unit != _unit) exitWith {};
 
 	if (player in cameraOn && cameraView == "External") then {
-		hint parseText format["<img size='2' image='\Data\waves_ca.paa'/><br/>Communication entrante<br/><t color='#FB0000' size='1.5'> Reste concentré soldat !</t>"];
+		hint parseText format["<img size='2' image='\197th_Functions\UnderFire\Data\waves_ca.paa'/><br/>Communication entrante<br/><t color='#FB0000' size='1.5'> Reste concentré soldat !</t>"];
 		player switchCamera "INTERNAL";
 	};
 

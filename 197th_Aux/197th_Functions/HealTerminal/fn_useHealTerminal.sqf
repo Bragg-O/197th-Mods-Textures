@@ -56,14 +56,14 @@ removeAllActions _object;
 		_i = _i + 1
 	}] do {
 	if (_x distance _object > 5) exitWith {
-		hint parseText format["<t color='#fb0000' size='1.5'>Traitement médical</t><br/>CANCEL<br/><br/><img size='5' image='\Data\MedicalLogo_ca.paa'/><br/><br/>Vous êtes sorti de la zone de traitement."];
+		hint parseText format["<t color='#fb0000' size='1.5'>Traitement médical</t><br/>CANCEL<br/><br/><img size='5' image='\197th_Functions\HealTerminal\Data\MedicalLogo_ca.paa'/><br/><br/>Vous êtes sorti de la zone de traitement."];
 	};
 	sleep .25;
 	_loadmedical = "|" + _loadmedical;
 	_loadbar = format["%1 %2%3 %1", _loadmedical, (_i*4), "%"];
-	hintSilent parseText format["<t color='#fb0000' size='1.5'>Traitement médical</t><br/><t color='%1'>%2</t><br/><br/><img size='5' image='\Data\MedicalLogo_ca.paa'/><br/><br/>Traitement en cours...", (_color select _i), _loadbar];
+	hintSilent parseText format["<t color='#fb0000' size='1.5'>Traitement médical</t><br/><t color='%1'>%2</t><br/><br/><img size='5' image='\197th_Functions\HealTerminal\Data\MedicalLogo_ca.paa'/><br/><br/>Traitement en cours...", (_color select _i), _loadbar];
 };
-hint parseText format["<t color='#fb0000' size='1.5'>Traitement médical</t><br/>END<br/><br/><img size='5' image='\Data\MedicalLogo_ca.paa'/><br/><br/>Vous avez été complètement soigné"];
+hint parseText format["<t color='#fb0000' size='1.5'>Traitement médical</t><br/>END<br/><br/><img size='5' image='\197th_Functions\HealTerminal\Data\MedicalLogo_ca.paa'/><br/><br/>Vous avez été complètement soigné"];
 [_x] call ace_medical_treatment_fnc_fullHealLocal;
 [_x, false, 5, true] call ace_medical_fnc_setUnconscious;
 } forEach allPlayers;
