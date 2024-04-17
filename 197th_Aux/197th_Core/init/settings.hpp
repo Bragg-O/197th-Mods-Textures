@@ -180,4 +180,55 @@ CIM_RestrictedArsenal_Weapon[] = { // weapons that are allowed to use this arsen
 	"Police_Bat",
 	"UNSC_Knife"
 };
+
+CIM_Garage_Boat[] = {}; // boats that are allowed to use in garage
+
+CIM_Garage_Box[] = { // boxes that are allowed to use in garage
+	"197th_Supply_Empty",
+	"197th_Supply_Ammo",
+	"197th_Supply_Medical",
+	"197th_Supply_Explosive",
+	"197th_Supply_Weapon",
+	"197th_Supply_NVG",
+	"197th_Supply_ATAA"
+};
+
+CIM_Garage_Car[] = { // cars that are allowed to use in garage
+	"197th_BARC",
+	"197th_BARCSideCar",
+	"197th_Bison_APC",
+	"197th_Bison_IFV",
+	"197th_Bison_MGS",
+	"197th_ITT",
+	"197th_ITT_Transport",
+	"197th_ITT_Medical",
+	"197th_ITT_Logistic",
+	"197th_RTT",
+	"197th_Saber",
+	"197th_Saber_Super",
+	"197th_Saber_GL",
+	"197th_Saber_Recon",
+	"197th_M12A1_LRV",
+	"197th_M12_APC",
+	"197th_M914_RV",
+	"197th_M12G1_LRV",
+	"197th_M12R_AA",
+	"197th_M813_TT",
+	"197th_M12_LRV",
+	"197th_M12_FAV"
+};
+
+CIM_Garage_Heli[] = { // helis that are allowed to use in garage
+	"197th_LAATC",
+	"197th_LAATI_Mk1",
+	"197th_LAATI_Mk2",
+	"197th_LAATI_Mk1Lights",
+	"197th_LAATI_Mk2Lights"
+};
+
+CIM_Garage_Plane[] = { // planes that are allowed to use in garage
+	"197th_ARC170",
+	"197th_VWing",
+	"197th_YWing",
+	"197th_Z95"
 };

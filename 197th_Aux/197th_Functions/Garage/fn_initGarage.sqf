@@ -7,13 +7,13 @@
 	Parameter(s):
 	0: Object - The garage object to initialize.
 	1: Object - The garage spawn object.
-	2: String - Path to the Cfg file to load. Can be a CfgGarageBoat.sqf / CfgGarageBox.sqf / CfgGarageCar.sqf / CfgGarageHeli.sqf / CfgGaragePlane.sqf
+	2: String - GarageType. Can be : "Boat" / "Box" / "Car" / "Heli" / "Plane"
 	
 	Examples:
-	[this, GarageSpawnName, "\197th_Core\init\Script\CfgGarageBoat.sqf"] call CIM_fnc_initGarage;
+	[this, GarageSpawnName, "GarageType"] call CIM_fnc_initGarage;
 */
 
-params ["_object", "_position", "_cfg"];
+params ["_object", "_position", "_garageType"];
 
 if (!hasInterface) exitWith {};
 
@@ -25,66 +25,32 @@ if (isNil "_position") exitWith {
 	diag_log format ["[197th/fnc_initGarage] Missing parameter: _position"];
 };
 
-if (isNil "_cfg") exitWith {
-	diag_log format ["[197th/fnc_initGarage] Missing parameter: _cfg"];
-};
-
-if (!fileExists _cfg) exitWith {
-	diag_log format ["[197th/fnc_initGarage] Cfg file not found: %1", _cfg];
-};
-
-_handle = execVM _cfg;
-waitUntil {
-	scriptDone _handle
+if (isNil "_garageType") exitWith {
+	diag_log format ["[197th/fnc_initGarage] Missing parameter: _garageType"];
 };
 
 private "_vehList";
 
-switch (true) do {
-	case {
-		"CfgGarageBoat.sqf" in _cfg
-	}: {
-		if (isNil "CIM_InitGarageBoat") exitWith {
-			diag_log format ["[197th/fnc_initGarage] Missing variable: CIM_InitGarageBoat in %1", _cfg];
-		};
-		_vehList = CIM_InitGarageBoat;
+switch (_garageType) do {
+	case "Boat" : {
+		_vehList = getMissionConfigValue ["CIM_Garage_Boat", []];
 	};
-	case {
-		"CfgGarageBox.sqf" in _cfg
-	}: {
-		if (isNil "CIM_InitGarageBox") exitWith {
-			diag_log format ["[197th/fnc_initGarage] Missing variable: CIM_InitGarageBox in %1", _cfg];
-		};
-		_vehList = CIM_InitGarageBox;
+	case "Box" : {
+		_vehList = getMissionConfigValue ["CIM_Garage_Box", []];
 	};
-	case {
-		"CfgGarageCar.sqf" in _cfg
-	}: {
-		if (isNil "CIM_InitGarageCar") exitWith {
-			diag_log format ["[197th/fnc_initGarage] Missing variable: CIM_InitGarageCar in %1", _cfg];
-		};
-		_vehList = CIM_InitGarageCar;
+	case "Car" : {
+		_vehList = getMissionConfigValue ["CIM_Garage_Car", []];
 	};
-	case {
-		"CfgGarageHeli.sqf" in _cfg
-	}: {
-		if (isNil "CIM_InitGarageHeli") exitWith {
-			diag_log format ["[197th/fnc_initGarage] Missing variable: CIM_InitGarageHeli in %1", _cfg];
-		};
-		_vehList = CIM_InitGarageHeli;
+	case "Heli" : {
+		_vehList = getMissionConfigValue ["CIM_Garage_Heli", []];
 	};
-	case {
-		"CfgGaragePlane.sqf" in _cfg
-	}: {
-		if (isNil "CIM_InitGaragePlane") exitWith {
-			diag_log format ["[197th/fnc_initGarage] Missing variable: CIM_InitGaragePlane in %1", _cfg];
-		};
-		_vehList = CIM_InitGaragePlane;
+	case "Plane" : {
+		_vehList = getMissionConfigValue ["CIM_Garage_Plane", []];
 	};
 };
 
 if (isNil "_vehList") exitWith {
-	diag_log format ["[197th/fnc_initGarage] Unsupported Cfg file name: %1", _cfg];
+	diag_log format ["[197th/fnc_initGarage] Unsupported Cfg file name: %1", _garageType];
 };
 
 _pos = getPosATL (_position);
