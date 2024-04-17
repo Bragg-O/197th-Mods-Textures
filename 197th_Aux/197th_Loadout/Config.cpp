@@ -137,7 +137,6 @@ class CIM_CfgLoadouts {
         displayName = "Radioman";
         LoadoutPath = "\197th_Loadout\Data\Radioman";
         class CIM_CfgVariants {
-            Variants_197th_XX(DC15S,DC-15S);
             Variants_197th_XX(DC15A,DC-15A);
         };
     };
