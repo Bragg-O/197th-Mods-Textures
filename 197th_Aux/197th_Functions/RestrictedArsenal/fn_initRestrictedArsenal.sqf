@@ -33,21 +33,7 @@ _magazine = getMissionConfigValue ["CIM_RestrictedArsenal_Magazine", []];
 _weapon = getMissionConfigValue ["CIM_RestrictedArsenal_Weapon", []];
 _radioList = [];
 
-{
-	for [{
-		_i = 0
-	}, {
-		_i < 999
-	}, {
-		_i = _i + 1
-	}] do {
-	_radioclass = "";
-	_radioclass = format ["%1_%2", _x, _i];
-	_radioList pushBack _radioclass;
-};
-} forEach _radio;
-
-_miscshit = _miscshit + _radioList + _radio;
+_miscshit = _miscshit + _radio;
 
 allconfigFile = {
 	params ["_object", "_allconfigFile", "_backpack", "_miscshit", "_magazine", "_weapon"];
