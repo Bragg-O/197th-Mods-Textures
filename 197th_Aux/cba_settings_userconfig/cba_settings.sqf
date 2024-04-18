@@ -51,13 +51,13 @@ force force ace_hearing_enabledForZeusUnits = false;
 force force ace_hearing_unconsciousnessVolume = 0.4;
 //
 // ACE Auto-inflammation
-force force ace_cookoff_ammoCookoffDuration = 0.2;
+force force ace_cookoff_ammoCookoffDuration = 0.1;
 force force ace_cookoff_destroyVehicleAfterCookoff = true;
 force force ace_cookoff_enable = 2;
 force force ace_cookoff_enableAmmobox = true;
 force force ace_cookoff_enableAmmoCookoff = true;
 force force ace_cookoff_enableFire = true;
-force force ace_cookoff_probabilityCoef = 0.2;
+force force ace_cookoff_probabilityCoef = 0.1;
 //
 // ACE Balistique avancÃ©e
 force force ace_advanced_ballistics_ammoTemperatureEnabled = false;
