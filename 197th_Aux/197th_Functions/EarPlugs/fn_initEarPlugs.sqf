@@ -14,6 +14,8 @@
 	[player] spawn CIM_fnc_initEarPlugs;
 */
 
+if (!hasInterface) exitWith {};
+
 waitUntil {
 	// to prevent MP / JIP issues
 	sleep 5;

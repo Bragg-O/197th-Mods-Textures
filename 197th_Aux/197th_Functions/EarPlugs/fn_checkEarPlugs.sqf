@@ -13,6 +13,8 @@
 	[player] spawn CIM_fnc_checkEarPlugs;
 */
 
+if (!hasInterface) exitWith {};
+
 waitUntil {
 	sleep 5;
 	(soundVolume < 1 && CIM_EarplugsActive == 0) || (soundVolume == 1 && CIM_EarplugsActive == 1)
