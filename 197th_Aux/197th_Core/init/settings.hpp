@@ -72,13 +72,11 @@ class CfgWorlds {
 	};
 };
 
-CIM_RestrictedArsenal_AllClassWith[] = { // classe that are allowed to use this arsenal
-	"197th"
-};
+CIM_RestrictedArsenal_AllClassWith = "197th"; // classes that are allowed to use this arsenal;
 
-CIM_RestrictedArsenal_Backpack[] = {}; // backpacks that are allowed to use this arsenal
+CIM_RestrictedArsenal_Backpack[] += {}; // backpacks that are allowed to use this arsenal
 
-CIM_RestrictedArsenal_MiscShit[] = { // misc items that are allowed to use this arsenal
+CIM_RestrictedArsenal_MiscShit[] += { // misc items that are allowed to use this arsenal
 	"ace_Altimeter",
 	"ace_Banana",
 	"ace_bodyBag",
@@ -134,14 +132,11 @@ CIM_RestrictedArsenal_MiscShit[] = { // misc items that are allowed to use this 
 	"Laserbatteries",
 	"ls_holoprojector_bountyPuck",
 	"MineDetector",
-	"ToolKit"
-};
-
-CIM_RestrictedArsenal_TFAR[] = {
+	"ToolKit",
 	"JLTS_clone_comlink"
 };
 
-CIM_RestrictedArsenal_Magazine[] = { // magazines that are allowed to use this arsenal
+CIM_RestrictedArsenal_Magazine[] += { // magazines that are allowed to use this arsenal
 	"1Rnd_HE_Grenade_shell",
 	"3AS_SmokeBlue",
 	"3AS_SmokeGreen",
@@ -181,14 +176,14 @@ CIM_RestrictedArsenal_Magazine[] = { // magazines that are allowed to use this a
 	"UGL_FlareWhite_F"
 };
 
-CIM_RestrictedArsenal_Weapon[] = { // weapons that are allowed to use this arsenal
+CIM_RestrictedArsenal_Weapon[] += { // weapons that are allowed to use this arsenal
 	"Police_Bat",
 	"UNSC_Knife"
 };
 
-CIM_Garage_Boat[] = {}; // boats that are allowed to use in garage
+CIM_Garage_Boat[] += {}; // boats that are allowed to use in garage
 
-CIM_Garage_Box[] = { // boxes that are allowed to use in garage
+CIM_Garage_Box[] += { // boxes that are allowed to use in garage
 	"197th_Supply_Empty",
 	"197th_Supply_Ammo",
 	"197th_Supply_Medical",
@@ -198,7 +193,7 @@ CIM_Garage_Box[] = { // boxes that are allowed to use in garage
 	"197th_Supply_ATAA"
 };
 
-CIM_Garage_Car[] = { // cars that are allowed to use in garage
+CIM_Garage_Car[] += { // cars that are allowed to use in garage
 	"197th_BARC",
 	"197th_BARCSideCar",
 	"197th_Bison_APC",
@@ -223,7 +218,7 @@ CIM_Garage_Car[] = { // cars that are allowed to use in garage
 	"197th_M12_FAV"
 };
 
-CIM_Garage_Heli[] = { // helis that are allowed to use in garage
+CIM_Garage_Heli[] += { // helis that are allowed to use in garage
 	"197th_LAATC",
 	"197th_LAATI_Mk1",
 	"197th_LAATI_Mk2",
@@ -231,7 +226,7 @@ CIM_Garage_Heli[] = { // helis that are allowed to use in garage
 	"197th_LAATI_Mk2Lights"
 };
 
-CIM_Garage_Plane[] = { // planes that are allowed to use in garage
+CIM_Garage_Plane[] += { // planes that are allowed to use in garage
 	"197th_ARC170",
 	"197th_VWing",
 	"197th_YWing",

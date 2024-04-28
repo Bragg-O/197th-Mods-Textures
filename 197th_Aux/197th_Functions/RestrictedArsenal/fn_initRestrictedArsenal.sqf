@@ -11,7 +11,7 @@
 	1: String - path to CfgRestrictedArsenal.sqf
 	
 	Example:
-	[(this select 0)] spawn CIM_fnc_initRestrictedArsenal;
+	[(_this select 0)] spawn CIM_fnc_initRestrictedArsenal;
 */
 params ["_object"];
 
@@ -25,53 +25,54 @@ if (isNil "_object") exitWith {
 	true
 }]] spawn BIS_fnc_arsenal;
 
-_allClassWith = getMissionConfigValue ["CIM_RestrictedArsenal_AllClassWith", ["_UwU_"]];
-_backpack = getMissionConfigValue ["CIM_RestrictedArsenal_Backpack", []];
-_miscshit = getMissionConfigValue ["CIM_RestrictedArsenal_MiscShit", []];
-_radio = getMissionConfigValue ["CIM_RestrictedArsenal_TFAR", []];
-_magazine = getMissionConfigValue ["CIM_RestrictedArsenal_Magazine", []];
-_weapon = getMissionConfigValue ["CIM_RestrictedArsenal_Weapon", []];
-_radioList = [];
+_allClassWithRA = getMissionConfigValue ["CIM_RestrictedArsenal_AllClassWith", "_UwU_"];
+_CIMbackpackRA = getMissionConfigValue ["CIM_RestrictedArsenal_Backpack", []];
+_CIMmiscshitRA = getMissionConfigValue ["CIM_RestrictedArsenal_MiscShit", []];
+_CIMmagazineRA = getMissionConfigValue ["CIM_RestrictedArsenal_Magazine", []];
+_CIMweaponRA = getMissionConfigValue ["CIM_RestrictedArsenal_Weapon", []];
 
-_miscshit = _miscshit + _radio;
+_allVehicles = [];
+_allWeapons = [];
+_allMagazines = [];
 
-allconfigFile = {
-	params ["_object", "_allconfigFile", "_backpack", "_miscshit", "_magazine", "_weapon"];
-	_allVehicles = [];
-	_allWeapons = [];
-	_allMagazines = [];
+_allVehicles = "_allClassWithRA in (getText (_x >>'displayName'))" configClasses (configFile >> "CfgVehicles");
+_allWeapons = "_allClassWithRA in (getText (_x >>'displayName'))" configClasses (configFile >> "CfgWeapons");
+_allMagazines = "_allClassWithRA in (getText (_x >>'displayName'))" configClasses (configFile >> "CfgMagazines");
 
-	_allVehicles = "_allconfigFile in (getText (_x >>'displayName'))" configClasses (configFile >> "CfgVehicles");
-	_allWeapons = "_allconfigFile in (getText (_x >>'displayName'))" configClasses (configFile >> "CfgWeapons");
-	_allMagazines = "_allconfigFile in (getText (_x >>'displayName'))" configClasses (configFile >> "CfgMagazines");
-
-	_allClassVehicles = [];
-	_allClassWeapons = [];
-	_allClassMagazines = [];
-
-	{
-		_allClassVehicles pushBack (configName _x);
-	} forEach _allVehicles;
-
-	{
-		_allClassWeapons pushBack (configName _x);
-	} forEach _allWeapons;
-
-	{
-		_allClassMagazines pushBack (configName _x);
-	} forEach _allMagazines;
-
-	_backpack = _backpack + _allClassVehicles;
-	_miscshit = _miscshit + _allClassWeapons;
-	_magazine = _magazine + _allClassMagazines;
-	_weapon = _weapon + _allClassWeapons;
-
-	[_object, ((backpackCargo _object) + _backpack)] call BIS_fnc_addVirtualBackpackCargo;
-	[_object, ((itemCargo _object) + _miscshit)] call BIS_fnc_addVirtualItemCargo;
-	[_object, ((magazineCargo _object) + _magazine)] call BIS_fnc_addVirtualMagazineCargo;
-	[_object, ((weaponCargo _object) + _weapon)] call BIS_fnc_addVirtualWeaponCargo;
-};
+_allClassVehicles = [];
+_allClassCfgWeapons = [];
+_allClassMagazines = [];
 
 {
-	[_object, _x, _backpack, _miscshit, _magazine, _weapon] call allconfigFile;
-} forEach _allClassWith;
+	_allClassVehicles pushBack (configName _x);
+} forEach _allVehicles;
+
+{
+	_allClassCfgWeapons pushBack (configName _x);
+} forEach _allWeapons;
+
+{
+	_allClassMagazines pushBack (configName _x);
+} forEach _allMagazines;
+
+_allClassWeapons = [];
+_allClassItems = [];
+
+{
+	_ItemType = _x call BIS_fnc_itemType;
+	if ("Weapon" in _ItemType) then {
+		_allClassWeapons pushBack (_x);
+	} else {
+		_allClassItems pushBack (_x);
+	};
+} forEach _allClassCfgWeapons;
+
+_CIMbackpackRA = _CIMbackpackRA + _allClassVehicles;
+_CIMmiscshitRA = _CIMmiscshitRA + _allClassItems;
+_CIMmagazineRA = _CIMmagazineRA + _allClassMagazines;
+_CIMweaponRA = _CIMweaponRA + _allClassWeapons;
+
+[_object, ((backpackCargo _object) + _CIMbackpackRA)] call BIS_fnc_addVirtualBackpackCargo;
+[_object, ((itemCargo _object) + _CIMmiscshitRA)] call BIS_fnc_addVirtualItemCargo;
+[_object, ((magazineCargo _object) + _CIMmagazineRA)] call BIS_fnc_addVirtualMagazineCargo;
+[_object, ((weaponCargo _object) + _CIMweaponRA)] call BIS_fnc_addVirtualWeaponCargo;
