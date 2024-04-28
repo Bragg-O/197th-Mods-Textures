@@ -887,8 +887,8 @@ force force SFX_Suppressionsnd_tnk = false;
 // TFAR - Clientside settings
 //
 // TFAR - Global settings
-force force TFAR_AICanHearPlayer = false;
-force force TFAR_AICanHearSpeaker = false;
+force force TFAR_AICanHearPlayer = true;
+force force TFAR_AICanHearSpeaker = true;
 force force TFAR_allowDebugging = true;
 force force TFAR_defaultIntercomSlot = 0;
 force force TFAR_disableAutoMute = false;
