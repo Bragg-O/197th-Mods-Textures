@@ -581,41 +581,6 @@ force force crowsza_zeus_text_CBA_Setting_zeusTextLine1 = true;
 force force crowsza_zeus_text_CBA_Setting_zeusTextLine2 = true;
 force force crowsza_zeus_text_CBA_Setting_zeusTextLine3 = true;
 //
-// DBA CIS
-force force DBA_B2Revive = true;
-force force DBA_B2ReviveChanceOverride = 0.2;
-force force DBA_B2ReviveOverride = false;
-force force DBA_BuffLevel = 1;
-force force DBA_CentralComputerBuff = true;
-force force DBA_CentralComputerBuffOther = 0;
-force force DBA_CentralComputerDisable = 0;
-force force DBA_CentralComputerEnable = 0;
-force force DBA_CentralComputerSwitch = true;
-force force DBA_DisabledSuperTacticalDroidSystem = 0.5;
-force force DBA_DisabledSystem = 0.5;
-force force DBA_DisabledTacticalDroidSystem = 0.5;
-force force DBA_OOMStatus = false;
-force force DBA_SuperTacticalBuffLevel = 0.95;
-force force DBA_SuperTacticalDroidBuff = true;
-force force DBA_SuperTacticalDroidBuffOther = 2;
-force force DBA_TacticalBuffLevel = 0.85;
-force force DBA_TacticalDroidBuff = true;
-force force DBA_TacticalDroidBuffOther = 2;
-//
-// DBA Core
-force force DBA_IgniteArmoured = true;
-force force DBA_IgniteDroids = true;
-force force DBA_IgniteEnable = true;
-force force DBA_IgniteThermallyInsulated = false;
-force force DBA_JammerBaseRange = 2000;
-force force DBA_OverLoadTimer = 2;
-force force DBA_PowerAmplification = 1;
-force force DBA_StunArmoured = false;
-force force DBA_StunDroids = false;
-force force DBA_StunDuration = 5;
-force force DBA_StunEnable = true;
-force force DBA_StunHeavyDroids = false;
-//
 // Death && Hit Reactions
 force force WBK_DeathAnimMod_Death_Chance = "100";
 force force WBK_DeathAnimMod_Deaths_AI = true;
@@ -625,7 +590,7 @@ force force WBK_DeathAnimMod_Deaths_PLR = true;
 force force WBK_DeathAnimMod_Flinch_AI = false;
 force force WBK_DeathAnimMod_Flinch_PLR = false;
 force force WBK_DeathAnimMod_Hit_AI = true;
-force force WBK_DeathAnimMod_Hit_Chance = "20";
+force force WBK_DeathAnimMod_Hit_Chance = "1";
 force force WBK_DeathAnimMod_Hit_Chance_PLR = "1";
 force force WBK_DeathAnimMod_Hit_PLR = true;
 //
@@ -887,8 +852,8 @@ force force SFX_Suppressionsnd_tnk = false;
 // TFAR - Clientside settings
 //
 // TFAR - Global settings
-force force TFAR_AICanHearPlayer = false;
-force force TFAR_AICanHearSpeaker = false;
+force force TFAR_AICanHearPlayer = true;
+force force TFAR_AICanHearSpeaker = true;
 force force TFAR_allowDebugging = true;
 force force TFAR_defaultIntercomSlot = 0;
 force force TFAR_disableAutoMute = false;
@@ -908,7 +873,7 @@ force force TFAR_objectInterceptionStrength = 400;
 force force tfar_radiocode_east = "_opfor";
 force force tfar_radiocode_independent = "_independent";
 force force tfar_radiocode_west = "_bluefor";
-force force tfar_radioCodesDisabled = false;
+force force tfar_radioCodesDisabled = true;
 force force TFAR_SameLRFrequenciesForSide = true;
 force force TFAR_SameSRFrequenciesForSide = true;
 force force TFAR_setting_defaultFrequencies_lr_east = "";

@@ -15,7 +15,9 @@ class 197th_TerminalMedical: 442_terminal4 {
 	hiddenSelectionsMaterials[] = {"","\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
 	editorPreview = "197th_Object\_EditorPreviews\TerminalMedical_ca.jpg";
     class EventHandlers {
-        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\exec\Medical.sqf';};";
+		class InitHealTerminal197th {
+			init = "[(_this select 0)] call CIM_fnc_initHealTerminal;";
+		};
     };
 };
 
@@ -73,7 +75,7 @@ class 197th_Terminal_Medical: 197th_Terminal {
 	};
 	editorPreview = "197th_Object\_EditorPreviews\Terminal_Medical_ca.jpg";
     class EventHandlers {
-        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\exec\UnitTrait.sqf';};";
+        init = "[(_this select 0)] call CIM_fnc_initUnitTraitMedic;";
     };
 };
 
@@ -96,6 +98,6 @@ class 197th_Terminal_Sapeur: 197th_Terminal {
 	};
 	editorPreview = "197th_Object\_EditorPreviews\Terminal_Sapeur_ca.jpg";
     class EventHandlers {
-        init = "if (hasInterface) exitWith {null = [(_this select 0)] execVM '197th_Script\exec\UnitTrait.sqf';};";
+        init = "[(_this select 0)] call CIM_fnc_initUnitTraitEngineer;";
     };
 };

@@ -13,7 +13,7 @@ class CfgPatches {
         name = "197th Object";
         author = "Bragg for 197th Compagnie Chimaera";
         url = "http://www.197th.fr";
-        requiredAddons[] = {"197th_weapon","197th_Equipment","197th_Script"};
+        requiredAddons[] = {"197th_weapon","197th_Equipment"};
         weapons[] = {};
         units[] = { //All for curator
             "197th_Supply_Empty",
@@ -35,18 +35,6 @@ class CfgPatches {
             "197th_Terminal_Medical",
             "197th_Terminal_Repair",
             "197th_Terminal_Sapeur",
-            "197th_Loadout_AA",
-            "197th_Loadout_ARC",
-            "197th_Loadout_ARF",
-            "197th_Loadout_AT",
-            "197th_Loadout_Fantassin",
-            "197th_Loadout_Grenadier",
-            "197th_Loadout_Heavy",
-            "197th_Loadout_Medecin",
-            "197th_Loadout_Pilote",
-            "197th_Loadout_Radioman",
-            "197th_Loadout_Sapeur",
-            "197th_Loadout_Shield",
             "197th_ArsenalRestricted",
             "197th_Number_White_0",
             "197th_Number_White_1",
@@ -111,9 +99,6 @@ class CfgVehicles {
 
 //Terminal
     #include "Terminal\CfgVehicles.hpp"
-
-//Loadout
-    #include "Loadout\CfgVehicles.hpp"
 
 //Arsenal
     #include "Arsenal\CfgVehicles.hpp"
