@@ -625,7 +625,7 @@ force force WBK_DeathAnimMod_Deaths_PLR = true;
 force force WBK_DeathAnimMod_Flinch_AI = false;
 force force WBK_DeathAnimMod_Flinch_PLR = false;
 force force WBK_DeathAnimMod_Hit_AI = true;
-force force WBK_DeathAnimMod_Hit_Chance = "20";
+force force WBK_DeathAnimMod_Hit_Chance = "1";
 force force WBK_DeathAnimMod_Hit_Chance_PLR = "1";
 force force WBK_DeathAnimMod_Hit_PLR = true;
 //
