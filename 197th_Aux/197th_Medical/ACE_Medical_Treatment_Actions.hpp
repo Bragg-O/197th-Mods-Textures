@@ -127,6 +127,6 @@ class ACE_Medical_Treatment_Actions {
         callbackSuccess = "CIM_fnc_onReorientation";
         animationMedic = "AinvPknlMstpSnonWnonDnon_medicUp4";
         animationMedicProne = "AinvPknlMstpSnonWnonDnon_medicUp4";
-        sounds[] = {{"197th_Medical\Data\sounds\Snap.ogg",1,1,50}};
+        sounds[] = {{"197th_Medical\Data\sounds\Slap.ogg",1,1,50}};
     };
 };
