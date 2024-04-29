@@ -115,4 +115,18 @@ class ACE_Medical_Treatment_Actions {
 		items[] = {"197th_Medical_plasmaIV_500"};
 		displayName = "Utiliser l'IV de plasma 500ml";
 	};
+
+    class 197th_Medical_Reorientation: 197th_Medical_morphine {
+        displayName = "Stimuler le patient";
+        displayNameProgress = "Stimulation...";
+        allowedSelections[] = {"Head"};
+        allowSelfTreatment = 0;
+        items[] = {};
+        condition = "!([_patient] call ace_common_fnc_isAwake)";
+        litter[] = {};
+        callbackSuccess = "CIM_fnc_onReorientation";
+        animationMedic = "AinvPknlMstpSnonWnonDnon_medicUp4";
+        animationMedicProne = "AinvPknlMstpSnonWnonDnon_medicUp4";
+        sounds[] = {{"197th_Medical\Data\sounds\snap.ogg",1,1,50}};
+    };
 };

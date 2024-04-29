@@ -57,6 +57,10 @@ class CfgFunctions {
             file = "197th_Functions\LoadUnitsEquipment";
             class loadUnitsEquipment {};
         };
+        class Reorientation {
+            file = "197th_Functions\Reorientation";
+            class onReorientation {};
+        };
         class RestrictedArsenal {
             file = "197th_Functions\RestrictedArsenal";
             class initRestrictedArsenal {};
@@ -72,7 +76,7 @@ class CfgFunctions {
             file = "197th_Functions\UnitTrait";
             class initUnitTraitEngineer {};
             class initUnitTraitMedic {};
-        }
+        };
         class VehicleService {
             file = "197th_Functions\VehicleService";
             class initAllVehicleService {};
