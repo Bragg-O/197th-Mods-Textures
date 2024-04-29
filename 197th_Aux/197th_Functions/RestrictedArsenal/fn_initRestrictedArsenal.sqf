@@ -18,7 +18,7 @@ params ["_object"];
 if (!hasInterface) exitWith {};
 
 if (isNil "_object") exitWith {
-	diag_log format ["[197th/fnc_initRestrictedArsenal] Missing parameter: _object"];
+	["[197th/fnc_initRestrictedArsenal] Missing parameter: _object"] call BIS_fnc_logFormatServer;
 };
 
 ["AmmoboxInit", [_object, false, {

@@ -18,15 +18,15 @@ params ["_object", "_position", "_garageType"];
 if (!hasInterface) exitWith {};
 
 if (isNil "_object") exitWith {
-	diag_log format ["[197th/fnc_initGarage] Missing parameter: _object"];
+	["[197th/fnc_initGarage] Missing parameter: _object"] call BIS_fnc_logFormatServer;
 };
 
 if (isNil "_position") exitWith {
-	diag_log format ["[197th/fnc_initGarage] Missing parameter: _position"];
+	["[197th/fnc_initGarage] Missing parameter: _position"] call BIS_fnc_logFormatServer;
 };
 
 if (isNil "_garageType") exitWith {
-	diag_log format ["[197th/fnc_initGarage] Missing parameter: _garageType"];
+	["[197th/fnc_initGarage] Missing parameter: _garageType"] call BIS_fnc_logFormatServer;
 };
 
 private "_vehList";
@@ -50,7 +50,7 @@ switch (_garageType) do {
 };
 
 if (isNil "_vehList") exitWith {
-	diag_log format ["[197th/fnc_initGarage] Unsupported Cfg file name: %1", _garageType];
+	["[197th/fnc_initGarage] Unsupported Cfg file name: %1", _garageType] call BIS_fnc_logFormatServer;
 };
 
 _pos = getPosATL (_position);

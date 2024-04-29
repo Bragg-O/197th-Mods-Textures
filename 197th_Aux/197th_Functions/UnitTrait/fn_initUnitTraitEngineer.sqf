@@ -16,7 +16,7 @@ params ["_object"];
 if (!hasInterface) exitWith {};
 
 if (isNil "_object") exitWith {
-	diag_log format ["[197th/fnc_initUnitTraitEngineer] Missing parameter: _object"];
+	["[197th/fnc_initUnitTraitEngineer] Missing parameter: _object"] call BIS_fnc_logFormatServer;
 };
 
 _object addAction ["<t color='#58D68D' size='1.5'>Attribuer des autorisations de sapeur</t>", {

@@ -19,14 +19,14 @@ params ["_object", "_type"];
 if (!hasInterface) exitWith {};
 
 if (isNil "_object") exitWith {
-	diag_log format ["[197th/CIM_fnc_initLoadout] Missing parameter: _object"];
+	["[197th/CIM_fnc_initLoadout] Missing parameter: _object"] call BIS_fnc_logFormatServer;
 };
 if (isNil "_type") exitWith {
-	diag_log format ["[197th/CIM_fnc_initLoadout] Missing parameter: _type"];
+	["[197th/CIM_fnc_initLoadout] Missing parameter: _type"] call BIS_fnc_logFormatServer;
 };
 
 if !(isClass (configFile >> "CIM_CfgLoadouts" >> _type)) exitWith {
-	diag_log format ["[197th/CIM_fnc_initLoadout] Invalid loadout type: %1", _type];
+	["[197th/CIM_fnc_initLoadout] Invalid loadout type: %1", _type] call BIS_fnc_logFormatServer;
 };
 
 private["_prefix", "_prefixColor", "_displayName", "_loadoutPath", "_variants"];

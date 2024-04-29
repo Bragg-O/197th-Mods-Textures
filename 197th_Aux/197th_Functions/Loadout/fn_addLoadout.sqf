@@ -20,19 +20,19 @@ params ["_object", "_dispalyNameOfVariant", "_pathToLoadout", "_pathToLogo"];
 if (!hasInterface) exitWith {};
 
 if (isNil "_object") exitWith {
-	diag_log format ["[197th/CIM_fnc_addLoadouts] Missing parameter: _object"];
+	["[197th/CIM_fnc_addLoadouts] Missing parameter: _object"] call BIS_fnc_logFormatServer;
 };
 if (isNil "_dispalyNameOfVariant") exitWith {
-	diag_log format ["[197th/CIM_fnc_addLoadouts] Missing parameter: _dispalyNameOfVariant"];
+	["[197th/CIM_fnc_addLoadouts] Missing parameter: _dispalyNameOfVariant"] call BIS_fnc_logFormatServer;
 };
 if (isNil "_pathToLoadout") exitWith {
-	diag_log format ["[197th/CIM_fnc_addLoadouts] Missing parameter: _pathToLoadout"];
+	["[197th/CIM_fnc_addLoadouts] Missing parameter: _pathToLoadout"] call BIS_fnc_logFormatServer;
 };
 if (isNil "_pathToLogo") then {
-	diag_log format ["[197th/CIM_fnc_addLoadouts] Missing parameter: _pathToLogo"];
+	["[197th/CIM_fnc_addLoadouts] Missing parameter: _pathToLogo"] call BIS_fnc_logFormatServer;
 };
 
-diag_log format ["[197th/CIM_fnc_addLoadouts] Loading %1", _pathToLoadout];
+["[197th/CIM_fnc_addLoadouts] Loading %1", _pathToLoadout] call BIS_fnc_logFormatServer;
 
 _actionId = _object addAction [ "CIM_fnc_Loadouts", {
 	params ["_target", "_caller", "_actionId", "_arguments"];
@@ -43,4 +43,4 @@ _object setUserActionText [_actionId, _dispalyNameOfVariant, _pathToLogo];
 
 [_object] execVM _pathToLoadout;
 
-diag_log format ["[197th/CIM_fnc_addLoadouts] Loaded %1", _pathToLoadout];
+["[197th/CIM_fnc_addLoadouts] Loaded %1", _pathToLoadout] call BIS_fnc_logFormatServer;

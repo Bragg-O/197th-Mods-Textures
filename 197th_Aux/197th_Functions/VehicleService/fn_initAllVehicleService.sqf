@@ -19,10 +19,10 @@ params ["_object", "_position"];
 if (!hasInterface) exitWith {};
 
 if (isNil "_object") exitWith {
-	diag_log format ["[197th/fnc_initAllVehicleService] Missing parameter: _object"];
+	["[197th/fnc_initAllVehicleService] Missing parameter: _object"] call BIS_fnc_logFormatServer;
 };
 if (isNil "_position") exitWith {
-	diag_log format ["[197th/fnc_initAllVehicleService] Missing parameter: _position"];
+	["[197th/fnc_initAllVehicleService] Missing parameter: _position"] call BIS_fnc_logFormatServer;
 };
 
 [_object, _position] call CIM_fnc_initVehicleServiceReFuel;

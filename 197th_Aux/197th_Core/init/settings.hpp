@@ -6,8 +6,6 @@
 	    Website: [www.197th.fr]
 */
 
-author = "197th Compagnie Chimaera"; //Mission Author 
-loadScreen = "\197th_Core\Init\Data\loadscreen.paa"; //LoadScreen
 respawn = 3; //Respawn type
 respawnTemplatesWest[] = { "MenuPosition" };
 respawnTemplatesEast[] = { "MenuPosition"};
@@ -47,7 +45,7 @@ zeusCompositionScriptLevel = 2;	// 0: all scripts are forbidden
 								// 1: only attributes are allowed (including custom attributes added by mods)
 								// 2: all scripts are allowed including init scripts
 								// Default: 1
-LARs_overrideVA_debug = 1; //Show RPT debug info
+LARs_overrideVA_debug = 0; //Show RPT debug info
 
 LARs_overrideVA_showMsg = -1; //Display client message if they load an inventory with items that are not allowed
 							 // -1 - wait for user to close
