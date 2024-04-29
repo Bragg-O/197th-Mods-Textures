@@ -18,6 +18,7 @@ enableDebugConsole[] = { // admins and players with their UID in this list have 
 	"76561198169985342", //Hermes
 	"76561198203156987"  //Apollyon
 };
+disableChannels[] = {{0, false, true},{1, false, true},{2, false, true},{3, false, true},{4, true, true},{5, false, true},{6, true, true}};
 enableItemsDropping = 1; // 0: disabled - 1: enabled. Default: ?
 enableTeamSwitch = 0; // 0: disabled - 1: enabled. Default: 1
 aiKills = 0; // 0: disabled - 1: enabled. Default: 0
