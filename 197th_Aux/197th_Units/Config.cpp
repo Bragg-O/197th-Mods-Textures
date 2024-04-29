@@ -13,12 +13,12 @@ class CfgPatches {
         name = "197th Units";
         author = "Bragg for 197th Compagnie Chimaera";
         url = "http://www.197th.fr";
-        requiredAddons[] = {"197th_Core","197th_Equipment","197th_Vehicule","197th_Fonctions"};
+        requiredAddons[] = {"197th_Core","197th_Equipment","197th_Vehicule","197th_Functions"};
         weapons[] = {};
         units[] = { //Register all units here to have access in curator mode
 		//CfgPatches_XX(Faction,EditorSubcategory,UniqueName),
 			//BlueFor
-
+			CfgPatches_XX(Clone,197th,jeff),
 			//Civilian
 			CfgPatches_XX(Civilian,HabitantUnarmed,civil1),
 			CfgPatches_XX(Civilian,HabitantUnarmed,civil2),
@@ -42,6 +42,7 @@ class CfgFactionClasses {
 
 class CfgEditorSubcategories {
 	//Categories_197th_XX(type,DisplayName);
+	Categories_197th_XX(197th,197th);
 	Categories_197th_XX(Merc,Mercenaire);
 	Categories_197th_XX(HabitantUnarmed,Habitant (unarmed));
 	Categories_197th_XX(HabitantArmed,Habitant (armed));
@@ -50,7 +51,7 @@ class CfgEditorSubcategories {
 class CfgVehicles {
 	#include "CfgVehicles.hpp" //Base classes
 	//BlueFor_XX(Faction,EditorSubcategory,UniqueName,DisplayName);
-
+	BlueFor_XX(Clone,197th,jeff,Jeff);
 	//Civilian_XX(Faction,EditorSubcategory,UniqueName,DisplayName);
 	Civilian_XX(Civilian,HabitantUnarmed,civil1,Habitant 1);
 	Civilian_XX(Civilian,HabitantUnarmed,civil2,Habitant 2);
