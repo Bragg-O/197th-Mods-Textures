@@ -36,6 +36,13 @@ if (isServer) then {
 
 if (hasInterface) then {
 	diag_log format ["[197th/fn_checkAddonsLoaded] ----------- Init %1 -----------", profileName];
+	["[197th/fn_checkAddonsLoaded] ----------- Init %1 -----------", profileName] call BIS_fnc_logFormatServer;
+	private _playerUID = getPlayerUID player;
+	private _debugUID = getMissionConfigValue ["enableDebugConsole", []];
+	if (_playerUID in _debugUID) then {
+		private _debugAddonsScanner = true;
+		["[197th/fn_checkAddonsLoaded] Debug mode enabled"] call BIS_fnc_logFormatServer;
+	};
 	hint parseText format ["<img size='5' image='\197th_Functions\AddonsScanner\Data\Logo197th_ca.paa'/><br/><t size='1.5' color='#F1C40F'>Chargement des addons</t><br/><t color='#8E44AD'>PENDING</t>"];
 	sleep 1;
 	if (isNil "CIM_ActivatedAddons") exitWith {
@@ -43,6 +50,7 @@ if (hasInterface) then {
 		diag_log format ["[197th/fn_checkAddonsLoaded] ERROR - CIM_ActivatedAddons not defined"];
 		diag_log format ["[197th/fn_checkAddonsLoaded] ----------- End %1 -----------", profileName];
 		if (isServer) exitWith {};
+		if (isServer || _debugAddonsScanner) exitWith {};
 		systemChat "CIM_ActivatedAddons not found! (fn_checkAddonsLoaded)";
 	};
 	hint parseText format ["<img size='5' image='\197th_Functions\AddonsScanner\Data\Logo197th_ca.paa'/><br/><t size='1.5' color='#F1C40F'>Chargement des addons</t><br/><t color='#8E44AD'>LOADING</t>"];
@@ -67,6 +75,7 @@ if (hasInterface) then {
 		diag_log format ["[197th/fn_checkAddonsLoaded] ----------- End %1 -----------", profileName];
 
 		if (isServer) exitWith {};
+		if (isServer || _debugAddonsScanner) exitWith {};
 		cutText [format["<img image='\197th_Functions\AddonsScanner\Data\Error_ca.paa' size='6'/><br/><br/><t size='1.5' color='#FF0000'>Vous avez %1 addons manquants.</t><br/>Télécharger le Preset depuis notre site et assurez-vous de les activer correctement.<br/><br/>Pour réinstaller le preset, veuillez visiter le lien suivant :<br/><a href='https// 197th.fr/installation'>www.197th.fr/installation</a>", ((count CIM_ActivatedAddons) - (count _activatedAddons))], "BLACK", -1, true, true];
 		while { true } do {
 			playSound "AlarmCar";
@@ -95,6 +104,7 @@ if (hasInterface) then {
 	} forEach _realerrorAddons;
 	diag_log format ["[197th/fn_checkAddonsLoaded] ----------- End %1 -----------", profileName];
 	if (isServer) exitWith {};
+	if (isServer || _debugAddonsScanner) exitWith {};
 	cutText [format["<img image='\197th_Functions\AddonsScanner\Data\Error_ca.paa' size='6'/><br/><br/><t size='1.5' color='#FF0000'>Vous avez %1 addons qui ne sont pas autorisés</t><br/>Télécharger le Preset depuis notre site et assurez-vous de les activer correctement.<br/><br/>Pour réinstaller le preset, veuillez visiter le lien suivant :<br/><a href='https// 197th.fr/installation'>www.197th.fr/installation</a>", (count _realerrorAddons)], "BLACK", -1, true, true];
 	while { true } do {
 		playSound "AlarmCar";
