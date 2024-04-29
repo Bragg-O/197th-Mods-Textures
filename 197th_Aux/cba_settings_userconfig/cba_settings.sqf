@@ -581,41 +581,6 @@ force force crowsza_zeus_text_CBA_Setting_zeusTextLine1 = true;
 force force crowsza_zeus_text_CBA_Setting_zeusTextLine2 = true;
 force force crowsza_zeus_text_CBA_Setting_zeusTextLine3 = true;
 //
-// DBA CIS
-force force DBA_B2Revive = true;
-force force DBA_B2ReviveChanceOverride = 0.2;
-force force DBA_B2ReviveOverride = false;
-force force DBA_BuffLevel = 1;
-force force DBA_CentralComputerBuff = true;
-force force DBA_CentralComputerBuffOther = 0;
-force force DBA_CentralComputerDisable = 0;
-force force DBA_CentralComputerEnable = 0;
-force force DBA_CentralComputerSwitch = true;
-force force DBA_DisabledSuperTacticalDroidSystem = 0.5;
-force force DBA_DisabledSystem = 0.5;
-force force DBA_DisabledTacticalDroidSystem = 0.5;
-force force DBA_OOMStatus = false;
-force force DBA_SuperTacticalBuffLevel = 0.95;
-force force DBA_SuperTacticalDroidBuff = true;
-force force DBA_SuperTacticalDroidBuffOther = 2;
-force force DBA_TacticalBuffLevel = 0.85;
-force force DBA_TacticalDroidBuff = true;
-force force DBA_TacticalDroidBuffOther = 2;
-//
-// DBA Core
-force force DBA_IgniteArmoured = true;
-force force DBA_IgniteDroids = true;
-force force DBA_IgniteEnable = true;
-force force DBA_IgniteThermallyInsulated = false;
-force force DBA_JammerBaseRange = 2000;
-force force DBA_OverLoadTimer = 2;
-force force DBA_PowerAmplification = 1;
-force force DBA_StunArmoured = false;
-force force DBA_StunDroids = false;
-force force DBA_StunDuration = 5;
-force force DBA_StunEnable = true;
-force force DBA_StunHeavyDroids = false;
-//
 // Death && Hit Reactions
 force force WBK_DeathAnimMod_Death_Chance = "100";
 force force WBK_DeathAnimMod_Deaths_AI = true;
