@@ -24,12 +24,12 @@ while { isPlayer (nearestObjects [_position, ["Helicopter", "Plane", "Car", "Tan
 		hint "il n'a pas de vehicule dans la zone";
 	};
 };
-veh = nearestObjects [_position, ["Helicopter", "Plane", "Car", "Tanks", "Truck"], 10] select _objectselect;
+_veh = nearestObjects [_position, ["Helicopter", "Plane", "Car", "Tanks", "Truck"], 10] select _objectselect;
 ["Réarmement", 5, {
-	!isEngineOn veh;
+	!isEngineOn _veh;
 }, {
 	hint "Réarmement terminé";
-	[objNull, veh] call ace_rearm_fnc_rearmEntireVehicleSuccess;
+	[objNull, _veh] call ace_rearm_fnc_rearmEntireVehicleSuccess;
 }, {
 	hint "Réarmement interrompu";
 }] call CBA_fnc_progressBar;

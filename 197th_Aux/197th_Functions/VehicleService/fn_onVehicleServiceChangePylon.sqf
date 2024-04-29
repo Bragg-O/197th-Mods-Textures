@@ -24,5 +24,5 @@ while { isPlayer (nearestObjects [_position, ["Helicopter", "Plane"], 10] select
 		hint "il n'a pas de vehicule dans la zone";
 	};
 };
-veh = nearestObjects [_position, ["Helicopter", "Plane"], 10] select _objectselect;
+_veh = nearestObjects [_position, ["Helicopter", "Plane"], 10] select _objectselect;
 [_veh] call ace_pylons_fnc_showDialog

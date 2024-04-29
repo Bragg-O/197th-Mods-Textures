@@ -24,12 +24,12 @@ while { isPlayer (nearestObjects [_position, ["Helicopter", "Plane", "Car", "Tan
 		hint "il n'a pas de vehicule dans la zone";
 	};
 };
-veh = nearestObjects [_position, ["Helicopter", "Plane", "Car", "Tanks", "Truck"], 10] select _objectselect;
+_veh = nearestObjects [_position, ["Helicopter", "Plane", "Car", "Tanks", "Truck"], 10] select _objectselect;
 ["Ravitaillement", 5, {
-	!isEngineOn veh;
+	!isEngineOn _veh;
 }, {
 	hint "Ravitaillement en carburant terminé";
-	veh setFuel 1;
+	_veh setFuel 1;
 }, {
 	hint "Ravitaillement en carburant interrompu";
 }] call CBA_fnc_progressBar;
