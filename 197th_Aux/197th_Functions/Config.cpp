@@ -25,6 +25,7 @@ class CfgFunctions {
         };
 		class BactaGrenade {
             file = "197th_Functions\BactaGrenade";
+            class checkBactaGrenade {};
 			class setupEH {
 				postInit=1;
 			};
