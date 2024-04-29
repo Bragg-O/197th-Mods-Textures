@@ -53,6 +53,10 @@ class CfgFunctions {
             class addLoadout {};
             class initLoadout {};
         };
+        class LoadUnitsEquipment {
+            file = "197th_Functions\LoadUnitsEquipment";
+            class loadUnitsEquipment {};
+        };
         class RestrictedArsenal {
             file = "197th_Functions\RestrictedArsenal";
             class initRestrictedArsenal {};

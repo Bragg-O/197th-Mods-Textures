@@ -6,6 +6,6 @@ class 197th_Units : B_Survivor_F {
 	scopecurator = 0;
 	editorPreview = "";
     class EventHandlers {
-        init = "[(_this select 0)] spawn CIM_fnc_LoadUnitsEquipment;";
+        init = "[(_this select 0),'197th_Units'] spawn CIM_fnc_loadUnitsEquipment;";
     };
 };
