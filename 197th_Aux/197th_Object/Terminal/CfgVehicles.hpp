@@ -36,6 +36,16 @@ class 197th_Terminal: 442_terminal3 {
 	editorPreview = "197th_Object\_EditorPreviews\Terminal_Empty_ca.jpg";
 };
 
+class 197th_Terminal_Boat: 197th_Terminal {
+	displayName = "[197th] Terminal (Bateau)";
+	author = "197th Compagnie Chimaera";
+	hiddenSelectionsTextures[] = {
+		"197th_Object\Terminal\Data\Terminal_co.paa",
+		"197th_Object\Terminal\Data\Screen_Boat_co.paa"
+	};
+	editorPreview = "197th_Object\_EditorPreviews\Terminal_Empty_ca.jpg";
+};
+
 class 197th_Terminal_Air: 197th_Terminal {
 	displayName = "[197th] Terminal (Aerien)";
 	author = "197th Compagnie Chimaera";
