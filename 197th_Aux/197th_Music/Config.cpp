@@ -83,6 +83,69 @@ class CfgMusicClasses
 class CfgMusic
 {
 	tracks[] = {Targon};
+	class Star_Wars_Anakin_and_Ahsoka_Theme_EPIC_CINEMATIC_MUSIC_MIX {
+		name	= "Anakin and Ahsoka Theme | EPIC CINEMATIC MUSIC MIX";
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Anakin_and_Ahsoka_Theme__EPIC_CINEMATIC_MUSIC_MIX.ogg", db + 0, 1.0 };
+		duration = "1859";
+		musicClass = "197th_SW_Epic";
+	};
+
+	class Star_Wars_Burying_The_Dead__It_s_Over_Now__EPIC_CINEMATIC_VERSION {
+		name	= "Burying The Dead (It's Over Now) | EPIC CINEMATIC VERSION";
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Burying_The_Dead_Its_Over_Now__EPIC_CINEMATIC_VERSION.ogg", db + 0, 1.0 };
+		duration = "174";
+		musicClass = "197th_SW_Sad";
+	};
+
+	class Star_Wars_Imperial_March__The_Spark__EPIC_HEROIC_VERSION {
+		name	= "Imperial March (The Spark) | EPIC HEROIC VERSION";
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Imperial_March_The_Spark__EPIC_HEROIC_VERSION.ogg", db + 0, 1.0 };
+		duration = "186";
+		musicClass = "197th_SW_Epic";
+	};
+
+	class Star_Wars_Republic_Clone_Army_x_Droid_Army_March_EPIC_VERSION___Jedi_Temple___Order_66_Theme_Mix {
+		name	= "Republic Clone Army x Droid Army March | EPIC VERSION | Jedi Temple | Order 66 Theme Mix";
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Republic_Clone_Army_x_Droid_Army_March_EPIC_VERSION___Jedi_Temple___Order_66_Theme.ogg", db + 0, 1.0 };
+		duration = "444";
+		musicClass = "197th_SW_Epic";
+	};
+
+	class Star_Wars_Republic_Commando_EPIC_GAMING_MUSIC_MIX__Vode_An__War_Chant__Halo_Theme____MORE {
+		name	= "Republic Commando | EPIC GAMING MUSIC MIX | Vode An | War Chant | Halo Theme | MORE";
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Republic_Commando_EPIC_GAMING_MUSIC_MIX__Vode_An__War_Chant__Halo_Theme____MORE.ogg", db + 0, 1.0 };
+		duration = "2400";
+		musicClass = "197th_SW_Epic";
+	};
+
+	class Star_Wars_The_Force_Theme__DJ_AG_Remix {
+		name	= "The Force Theme | DJ AG Remix";
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_The_Force_Theme__DJ_AG_Remix.ogg", db + 0, 1.0 };
+		duration = "162";
+		musicClass = "197th_SW_Epic";
+	};
+
+	class Star_Wars_The_Imperial_March__DJ_AG_Remix {
+		name	= "The Imperial March | DJ AG Remix";
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_The_Imperial_March__DJ_AG_Remix.ogg", db + 0, 1.0 };
+		duration = "178";
+		musicClass = "197th_SW_Epic";
+	};
+
+	class Star_Wars_Victory_Celebration___Main_Theme_EPIC_EMOTIONAL_VERSION {
+		name	= "Victory Celebration | Main Theme | EPIC EMOTIONAL VERSION";
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Victory_Celebration___Main_Theme_EPIC_EMOTIONAL_VERSION.ogg", db + 0, 1.0 };
+		duration = "202";
+		musicClass = "197th_SW_Epic";
+	};
+
+	class Sugaan_Essena__Original_Music_from_Star_Wars_Jedi_Fallen_Order {
+		name	= "Sugaan Essena | Original Music from Star Wars Jedi Fallen Order";
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Sugaan_Essena__Original_Music_from_Star_Wars_Jedi_Fallen_Order.ogg", db + 0, 1.0 };
+		duration = "396";
+		musicClass = "197th_SW_Epic";	
+	};
+
 	class burying
 	{
 		name	= "Burying The Dead (It's Over Now) | EPIC CINEMATIC VERSION";
