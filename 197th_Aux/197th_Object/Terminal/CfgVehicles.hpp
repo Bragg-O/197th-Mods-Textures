@@ -43,7 +43,7 @@ class 197th_Terminal_Air: 197th_Terminal {
 		"197th_Object\Terminal\Data\Terminal_co.paa",
 		"197th_Object\Terminal\Data\Screen_Air_co.paa"
 	};
-	editorPreview = "197th_Object\_EditorPreviews\Terminal_Air_ca.jpg";
+	editorPreview = "197th_Object\_EditorPreviews\Terminal_Empty_ca.jpg";
 };
 
 class 197th_Terminal_Supply: 197th_Terminal {
@@ -53,7 +53,7 @@ class 197th_Terminal_Supply: 197th_Terminal {
 		"197th_Object\Terminal\Data\Terminal_co.paa",
 		"197th_Object\Terminal\Data\Screen_Supply_co.paa"
 	};
-	editorPreview = "197th_Object\_EditorPreviews\Terminal_Supply_ca.jpg";
+	editorPreview = "197th_Object\_EditorPreviews\Terminal_Empty_ca.jpg";
 };
 
 class 197th_Terminal_Car: 197th_Terminal {
@@ -63,7 +63,7 @@ class 197th_Terminal_Car: 197th_Terminal {
 		"197th_Object\Terminal\Data\Terminal_co.paa",
 		"197th_Object\Terminal\Data\Screen_Car_co.paa"
 	};
-	editorPreview = "197th_Object\_EditorPreviews\Terminal_Car_ca.jpg";
+	editorPreview = "197th_Object\_EditorPreviews\Terminal_Empty_ca.jpg";
 };
 
 class 197th_Terminal_Medical: 197th_Terminal {
