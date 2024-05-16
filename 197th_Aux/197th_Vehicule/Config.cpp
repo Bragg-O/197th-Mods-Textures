@@ -14,6 +14,7 @@ class CfgPatches {
         requiredAddons[] = {};
         units[] = { //All for curator
             "197th_ARC170",
+            "197th_ATTE",
             "197th_BARC",
             "197th_BARCSideCar",
             "197th_Bison_APC",
@@ -54,6 +55,9 @@ class CfgPatches {
 class CfgVehicles {
 //ARC_170
     #include "ARC_170\CfgVehicles.hpp"
+
+//ATTE
+    #include "ATTE\CfgVehicles.hpp"
 
 //BARC
     #include "BARC\CfgVehicles.hpp"
