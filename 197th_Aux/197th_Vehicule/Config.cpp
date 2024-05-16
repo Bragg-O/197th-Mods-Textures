@@ -28,6 +28,9 @@ class CfgPatches {
             "197th_LAATI_Mk2",
             "197th_LAATI_Mk1Lights",
             "197th_LAATI_Mk2Lights",
+            "197th_PX10",
+            "197th_PX10_Repair",
+            "197th_PX10_Armored",
             "197th_RTT",
             "197th_Saber",
             "197th_Saber_Super",
@@ -66,6 +69,9 @@ class CfgVehicles {
 
 //LAAT_I
     #include "LAAT_I\CfgVehicles.hpp"
+
+//PX_10
+    #include "PX_10\CfgVehicles.hpp"
 
 //RTT
     #include "RTT\CfgVehicles.hpp"
