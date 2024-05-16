@@ -85,21 +85,21 @@ class CfgMusic
 	tracks[] = {Targon};
 	class Star_Wars_Anakin_and_Ahsoka_Theme_EPIC_CINEMATIC_MUSIC_MIX {
 		name	= "Anakin and Ahsoka Theme | EPIC CINEMATIC MUSIC MIX";
-		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Anakin_and_Ahsoka_Theme__EPIC_CINEMATIC_MUSIC_MIX.ogg", db + 0, 1.0 };
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Anakin_and_Ahsoka_Theme_EPIC_CINEMATIC_MUSIC_MIX.ogg", db + 0, 1.0 };
 		duration = "1859";
 		musicClass = "197th_SW_Epic";
 	};
 
 	class Star_Wars_Burying_The_Dead__It_s_Over_Now__EPIC_CINEMATIC_VERSION {
 		name	= "Burying The Dead (It's Over Now) | EPIC CINEMATIC VERSION";
-		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Burying_The_Dead_Its_Over_Now__EPIC_CINEMATIC_VERSION.ogg", db + 0, 1.0 };
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Burying_The_Dead__It_s_Over_Now__EPIC_CINEMATIC_VERSION.ogg", db + 0, 1.0 };
 		duration = "174";
 		musicClass = "197th_SW_Sad";
 	};
 
 	class Star_Wars_Imperial_March__The_Spark__EPIC_HEROIC_VERSION {
 		name	= "Imperial March (The Spark) | EPIC HEROIC VERSION";
-		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Imperial_March_The_Spark__EPIC_HEROIC_VERSION.ogg", db + 0, 1.0 };
+		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Imperial_March__The_Spark__EPIC_HEROIC_VERSION.ogg", db + 0, 1.0 };
 		duration = "186";
 		musicClass = "197th_SW_Epic";
 	};
@@ -141,7 +141,7 @@ class CfgMusic
 
 	class Sugaan_Essena__Original_Music_from_Star_Wars_Jedi_Fallen_Order {
 		name	= "Sugaan Essena | Original Music from Star Wars Jedi Fallen Order";
-		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Sugaan_Essena__Original_Music_from_Star_Wars_Jedi_Fallen_Order.ogg", db + 0, 1.0 };
+		sound[]	= { "197th_Music\Data\music_sw\Sugaan_Essena__Original_Music_from_Star_Wars_Jedi_Fallen_Order.ogg", db + 0, 1.0 };
 		duration = "396";
 		musicClass = "197th_SW_Epic";	
 	};
