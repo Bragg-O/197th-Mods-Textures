@@ -1,0 +1,59 @@
+/*
+	Author: Kingsley modified by Bragg for 197th Compagnie Chimaera
+	Checks whether the given player can fortify.
+	
+	Arguments:
+	0: player <OBJECT>
+	1: Cost <NUMBER> (default: 0)
+	
+	Return Value:
+	Can Fortify <BOOL>
+	
+	Example:
+	[player] call CIM_fnc_canFortify
+	
+	Public: Yes
+*/
+
+params ["_player", ["_cost", 0]];
+
+(missionNamespace getVariable ["ace_fortify_fortifyAllowed", true]) &&
+{
+	[_player, "ACE_Fortify"] call BIS_fnc_hasItem
+} && {
+	private _budget = [side group _player] call ace_fortify_fnc_getBudget;
+	((_budget == -1) || {
+		_budget >= _cost
+	})
+} && {
+	private _inArea = ace_fortify_locations isEqualTo [];
+	{
+		if (_player inArea _x) exitWith {
+			_inArea = true
+		};
+	} forEach ace_fortify_locations;
+	_inArea
+} && {
+	private _vehInArea = false;
+	private _vehallowfortify = [
+		"197th_ITT_Logistic",
+		"197th_PX10_Repair",
+		"197th_M914_RV",
+		"197th_RTT",
+		"197th_Bison_APC",
+		"3AS_Rho_Crate_REP_Transport",
+		"3AS_Rho_REP_F",
+		"3AS_Nu_REP_F",
+		"197th_LAATI_Mk2",
+		"197th_LAATI_Mk2Lights",
+		"197th_LAATI_Mk1",
+		"197th_LAATI_Mk1Lights",
+		"197th_SupplySlingload_Cargo"
+	];
+	{
+		if ((typeOf _x) in _vehallowfortify) exitWith {
+			_vehInArea = true;
+		};
+	} forEach nearestObjects [_player, [], 100];
+	_vehInArea
+}

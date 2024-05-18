@@ -39,6 +39,10 @@ class CfgFunctions {
             };
             class switchEarPlugs {};
         };
+        class Fortify {
+            file = "197th_Functions\Fortify";
+            class canFortify {};
+        };
         class Garage {
             file = "197th_Functions\Garage";
             class initGarage {};
