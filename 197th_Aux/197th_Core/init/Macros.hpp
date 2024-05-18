@@ -39,6 +39,10 @@
 
 
 #define CIM_Garage_Box_197th \
+    "197th_SupplySlingload_Ammo", \
+    "197th_SupplySlingload_Cargo", \
+    "197th_SupplySlingload_Fuel", \
+    "197th_SupplySlingload_Repair", \
 	"197th_Supply_ATAA", \
 	"197th_Supply_Ammo", \
 	"197th_Supply_Empty", \
