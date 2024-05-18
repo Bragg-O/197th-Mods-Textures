@@ -17,6 +17,7 @@ class CfgPatches {
         weapons[] = {};
         units[] = { //All for curator
             "197th_SupplySlingload_Ammo",
+            "197th_SupplySlingload_Cargo",
             "197th_SupplySlingload_Fuel",
             "197th_SupplySlingload_Repair",
             "197th_Supply_Empty",

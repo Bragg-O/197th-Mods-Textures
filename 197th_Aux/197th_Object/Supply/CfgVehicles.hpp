@@ -56,6 +56,45 @@ class 197th_SupplySlingload_Ammo: B_Slingload_01_Ammo_F {
 	ace_refuel_fuelCargo=0;
 };
 
+class B_Slingload_01_Cargo_F;
+class 197th_SupplySlingload_Cargo: B_Slingload_01_Cargo_F {
+    displayName="[197th] Slingload (Cargo)";
+    editorCategory = "197th_Object";
+    editorSubcategory = "197th_Supply";
+    scope = 2;
+    scopecurator = 2;
+    author = "197th Compagnie Chimaera";
+    maximumLoad = 7000;
+    editorPreview = "";
+    // Dragging
+    ace_dragging_canDrag = 0;  // Can be dragged (0-no, 1-yes)
+    // Carrying
+    ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+    // Cargo
+    ace_cargo_size = 2;  // Cargo space the object takes
+    ace_cargo_canLoad = 0;  // Enables the object to be loaded (1-yes, 0-no)
+    ace_cargo_noRename = 0;  // Blocks renaming object (1-blocked, 0-allowed)
+    ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
+    //LaatC can cargo it
+    tas_canBlift=true;
+    tas_liftVars="[[[[0,-4.5,-12.5]]], [0], [0]]";
+
+    hiddenSelections[] = {
+        "damt_1"
+    };
+    hiddenSelectionsTextures[] = {
+        "197th_Object\Supply\Data\slingload_cargo_co.paa"
+    };
+
+    class TransportItems {};
+        
+    class TransportWeapons {};
+        
+    class TransportMagazines {};
+        
+    class TransportBackpacks {};
+};
+
 class B_Slingload_01_Fuel_F;
 class 197th_SupplySlingload_Fuel: B_Slingload_01_Fuel_F {
     displayName="[197th] Slingload (Fuel)";
