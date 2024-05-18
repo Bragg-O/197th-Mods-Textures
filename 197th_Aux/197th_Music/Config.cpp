@@ -78,11 +78,92 @@ class CfgMusicClasses
 	{
 		displayName = "[197th] 40K (Calm)";
 	};
+
+	class 197th_2077_Epic
+	{
+		displayName = "[197th] Cyberpunk 2077 (Epic/Combat)";
+	};
+	
+	class 197th_2077_Calm
+	{
+		displayName = "[197th] Cyberpunk 2077 (Calm)";
+	};
 };
 
 class CfgMusic
 {
 	tracks[] = {Targon};
+
+	class Cyberpunk_2077_OST_New_Dawn_Fades_Temperance_Ending_Theme {
+		name	= "New Dawn Fades | Temperance Ending Theme";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\Cyberpunk_2077_OST_New_Dawn_Fades_Temperance_Ending_Theme.ogg", db + 0, 1.0 };
+		duration = "315";
+		musicClass = "197th_2077_Calm";
+	};
+
+	class Cyberpunk_2077_Phantom_Liberty_OST_Gate_K9_Ingame_Version {
+		name	= "Phantom Liberty | Gate K9 Ingame Version";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\Cyberpunk_2077_Phantom_Liberty_OST_Gate_K9_Ingame_Version.ogg", db + 0, 1.0 };
+		duration = "760";
+		musicClass = "197th_2077_Epic";
+	};
+
+	class Cyberpunk_2077_Phantom_Liberty_OST_Never_Looking_Back_Cynosure_Core_Variation {
+		name	= "Never Looking Back | Cynosure Core Variation";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\Cyberpunk_2077_Phantom_Liberty_OST_Never_Looking_Back_Cynosure_Core_Variation.ogg", db + 0, 1.0 };
+		duration = "412";
+		musicClass = "197th_2077_Calm";
+	};
+
+	class Never_Looking_Back_Cyberpunk_2077_Slowed {
+		name	= "Never Looking Back | Slowed";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\Never_Looking_Back_Cyberpunk_2077_Slowed.ogg", db + 0, 1.0 };
+		duration = "260";
+		musicClass = "197th_2077_Epic";
+	};
+
+	class Never_Looking_Back_Its_Been_Good_to_Know_Ya_Cyberpunk_2077_Songsync {
+		name	= "Never Looking Back | Its Been Good to Know Ya | Songsync";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\Never_Looking_Back_Its_Been_Good_to_Know_Ya_Cyberpunk_2077_Songsync.ogg", db + 0, 1.0 };
+		duration = "261";
+		musicClass = "197th_2077_Calm";
+	};
+
+	class PT_Adamczyk_Im_a_Netrunner__Cyberpunk_2077_Phantom_Liberty_Original_Score {
+		name	= "Phantom Liberty | Original Score";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\PT_Adamczyk_Im_a_Netrunner__Cyberpunk_2077_Phantom_Liberty_Original_Score.ogg", db + 0, 1.0 };
+		duration = "191";
+		musicClass = "197th_2077_Calm";
+	};
+
+	class PT_Adamczyk_Never_Looking_Back__Cyberpunk_2077_Phantom_Liberty_Original_Score {
+		name	= "Phantom Liberty | Never Looking Back";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\PT_Adamczyk_Never_Looking_Back__Cyberpunk_2077_Phantom_Liberty_Original_Score.ogg", db + 0, 1.0 };
+		duration = "234";
+		musicClass = "197th_2077_Epic";
+	};
+
+	class PT_Adamczyk_Not_a_Plan_a_Man__Cyberpunk_2077_Phantom_Liberty_Original_Score {
+		name	= "Phantom Liberty | Not a Plan a Man";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\PT_Adamczyk_Not_a_Plan_a_Man__Cyberpunk_2077_Phantom_Liberty_Original_Score.ogg", db + 0, 1.0 };
+		duration = "195";
+		musicClass = "197th_2077_Calm";
+	};
+
+	class Code_Red_Initiated {
+		name	= "Code Red | Initiated";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\Code_Red_Initiated.ogg", db + 0, 1.0 };
+		duration = "189";
+		musicClass = "197th_2077_Epic";
+	};
+
+	class Cyberpunk_2077_OST_Johnnys_Grave_Silverhand_Construct_Theme {
+		name	= "Johnny's Grave | Silverhand Construct Theme";
+		sound[]	= { "197th_Music\Data\music_cyberpunk\Cyberpunk_2077_OST_Johnnys_Grave_Silverhand_Construct_Theme.ogg", db + 0, 1.0 };
+		duration = "355";
+		musicClass = "197th_2077_Calm";
+	};
+
 	class Star_Wars_Anakin_and_Ahsoka_Theme_EPIC_CINEMATIC_MUSIC_MIX {
 		name	= "Anakin and Ahsoka Theme | EPIC CINEMATIC MUSIC MIX";
 		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Anakin_and_Ahsoka_Theme_EPIC_CINEMATIC_MUSIC_MIX.ogg", db + 0, 1.0 };
@@ -149,7 +230,6 @@ class CfgMusic
 	class burying
 	{
 		name	= "Burying The Dead (It's Over Now) | EPIC CINEMATIC VERSION";
-		// filename, volume, pitch
 		sound[]	= { "197th_Music\Data\music_sw\Star_Wars_Burying_The_Dead_Its_Over_Now__EPIC_CINEMATIC_VERSION.ogg", db + 0, 1.0 };
 		duration = "174";
 		musicClass = "197th_SW_Sad";
