@@ -16,6 +16,7 @@ class CfgPatches {
         requiredAddons[] = {"197th_weapon","197th_Equipment"};
         weapons[] = {};
         units[] = { //All for curator
+            "197th_SupplySlingload_Repair",
             "197th_Supply_Empty",
             "197th_Supply_Ammo",
             "197th_Supply_Medical",

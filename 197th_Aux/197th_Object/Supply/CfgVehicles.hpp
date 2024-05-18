@@ -2,6 +2,48 @@
 #define WEAP_XX(a,b) class _xx_##a { weapon = a; count = b; }
 #define ITEM_XX(a,b) class _xx_##a { name = a; count = b; }
 
+class B_Slingload_01_Repair_F;
+class 197th_SupplySlingload_Repair: B_Slingload_01_Repair_F {
+    displayName="[197th] Slingload (Reparation)";
+    editorCategory = "197th_Object";
+    editorSubcategory = "197th_Supply";
+    scope = 2;
+    scopecurator = 2;
+    author = "197th Compagnie Chimaera";
+    maximumLoad = 7000;
+    editorPreview = "";
+    // Dragging
+    ace_dragging_canDrag = 0;  // Can be dragged (0-no, 1-yes)
+    // Carrying
+    ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+    // Cargo
+    ace_cargo_size = 2;  // Cargo space the object takes
+    ace_cargo_canLoad = 0;  // Enables the object to be loaded (1-yes, 0-no)
+    ace_cargo_noRename = 0;  // Blocks renaming object (1-blocked, 0-allowed)
+    ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
+    //LaatC can cargo it
+    tas_canBlift=true;
+    tas_liftVars="[[[[0,-4.5,-12.5]]], [0], [0]]";
+
+    hiddenSelections[] = {
+        "DamT_1"
+    };
+    hiddenSelectionsTextures[] = {
+        "197th_Object\Supply\Data\slingload_repair_co.paa"
+    };
+
+    class TransportItems {};
+        
+    class TransportWeapons {};
+        
+    class TransportMagazines {};
+        
+    class TransportBackpacks {};
+
+	ace_repair_canRepair=1;
+	ace_rearm_defaultSupply=0;
+	ace_refuel_fuelCargo=500;
+};
 
 class 442_box4;
 class 197th_Supply_Empty: 442_box4 {
