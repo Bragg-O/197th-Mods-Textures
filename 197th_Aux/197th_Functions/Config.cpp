@@ -61,6 +61,11 @@ class CfgFunctions {
             file = "197th_Functions\LoadUnitsEquipment";
             class loadUnitsEquipment {};
         };
+        class LoadVeh {
+            file = "197th_Functions\LoadVeh";
+            class onLoadLAATC {};
+            class onUnloadLAATC {};
+        };
         class Reorientation {
             file = "197th_Functions\Reorientation";
             class onReorientation {};
