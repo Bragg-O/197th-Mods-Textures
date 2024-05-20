@@ -36,18 +36,13 @@ params ["_player", ["_cost", 0]];
 } && {
 	private _vehInArea = false;
 	private _vehallowfortify = [
+		"3as_Jug",
 		"197th_ITT_Logistic",
 		"197th_PX10_Repair",
-		"197th_M914_RV",
 		"197th_RTT",
-		"197th_Bison_APC",
 		"3AS_Rho_Crate_REP_Transport",
 		"3AS_Rho_REP_F",
 		"3AS_Nu_REP_F",
-		"197th_LAATI_Mk2",
-		"197th_LAATI_Mk2Lights",
-		"197th_LAATI_Mk1",
-		"197th_LAATI_Mk1Lights",
 		"197th_SupplySlingload_Cargo"
 	];
 	{
