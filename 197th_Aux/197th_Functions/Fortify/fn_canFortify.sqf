@@ -54,6 +54,6 @@ params ["_player", ["_cost", 0]];
 		if ((typeOf _x) in _vehallowfortify) exitWith {
 			_vehInArea = true;
 		};
-	} forEach nearestObjects [_player, [], 100];
+	} forEach (position _player nearObjects 100);
 	_vehInArea
 }
