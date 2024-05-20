@@ -22,8 +22,8 @@ class 197th_SupplySlingload_Ammo: B_Slingload_01_Ammo_F {
     ace_cargo_noRename = 0;  // Blocks renaming object (1-blocked, 0-allowed)
     ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
     //LaatC can cargo it
-    tas_canBlift=true;
-    tas_liftVars="[[[[0,-4.5,-12.5]]], [0], [0]]";
+    tas_canBlift = 1;
+    TAS_liftVars = "[[[[0,-4.5,-4.5]]], [0], [0]]";
 
     hiddenSelections[] = {
         "damt_1"
@@ -76,8 +76,8 @@ class 197th_SupplySlingload_Cargo: B_Slingload_01_Cargo_F {
     ace_cargo_noRename = 0;  // Blocks renaming object (1-blocked, 0-allowed)
     ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
     //LaatC can cargo it
-    tas_canBlift=true;
-    tas_liftVars="[[[[0,-4.5,-12.5]]], [0], [0]]";
+    tas_canBlift = 1;
+    TAS_liftVars = "[[[[0,-4.5,-4.5]]], [0], [0]]";
 
     hiddenSelections[] = {
         "damt_1"
@@ -115,8 +115,8 @@ class 197th_SupplySlingload_Fuel: B_Slingload_01_Fuel_F {
     ace_cargo_noRename = 0;  // Blocks renaming object (1-blocked, 0-allowed)
     ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
     //LaatC can cargo it
-    tas_canBlift=true;
-    tas_liftVars="[[[[0,-4.5,-12.5]]], [0], [0]]";
+    tas_canBlift = 1;
+    TAS_liftVars = "[[[[0,-4.5,-4.5]]], [0], [0]]";
 
     hiddenSelections[] = {
         "DamT_1"
@@ -158,8 +158,8 @@ class 197th_SupplySlingload_Repair: B_Slingload_01_Repair_F {
     ace_cargo_noRename = 0;  // Blocks renaming object (1-blocked, 0-allowed)
     ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
     //LaatC can cargo it
-    tas_canBlift=true;
-    tas_liftVars="[[[[0,-4.5,-12.5]]], [0], [0]]";
+    tas_canBlift = 1;
+    TAS_liftVars = "[[[[0,-4.5,-4.5]]], [0], [0]]";
 
     hiddenSelections[] = {
         "DamT_1"
