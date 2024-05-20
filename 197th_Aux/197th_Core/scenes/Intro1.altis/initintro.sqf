@@ -24,5 +24,5 @@ setAperture -1;
 
 // Play music
 0 fadeMusic 1;
-playMusic "theclonewars"; // Play main menu theme
-addMusicEventHandler ["MusicStop", {0 fadeMusic 1; playMusic "theclonewars"}]; // Repeat the music
+playMusic "clonestheme"; // Play main menu theme
+addMusicEventHandler ["MusicStop", {0 fadeMusic 1; playMusic "clonestheme"}]; // Repeat the music
