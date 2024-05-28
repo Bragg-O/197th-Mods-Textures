@@ -103,6 +103,7 @@
 
 #define CIM_RestrictedArsenal_MiscShit_197th \
 	"Attachable_Helistretcher", \
+	"ACE_artilleryTablet", \
 	"CWHUD_ARF_base", \
 	"CWHUD_ARF_blue", \
 	"CWHUD_ARF_green", \
