@@ -55,6 +55,7 @@ _units addItemToBackpack "ACE_wirecutter";
 _units addItemToBackpack "ToolKit";
 _units addItemToBackpack "JLTS_repairkit_weapon";
 _units addItemToBackpack "197th_DemoPack_Mag";
+_units addItemToBackpack "ACE_artilleryTablet";
 for "_i" from 1 to 3 do {_units addItemToBackpack "197th_DetPack_Mag";};
 _units addItemToBackpack "197th_Breach_Mag";
 _units addHeadgear "197th_Helmet_Regs_Trooper";
