@@ -1,7 +1,7 @@
 class SWLB_clone_nvg;
 class SWLB_clone_rangefinder;
 class lsd_gar_p2Commander_nvg;
-class lsd_gar_medicalScanner_nvg;
+class lsd_gar_medicalScannerSPC_nvg;
 class lsd_gar_p2SingleHeadlamp_nvg;
 class 197th_NVG : SWLB_clone_nvg {
 	author = "197th Compagnie Chimaera";
@@ -81,24 +81,24 @@ class 197th_NVG_Visor : lsd_gar_p2Commander_nvg {
 		hiddenSelections[] = {"camo1", "camo2", "camo3"};
 	};
 };
-class 197th_NVG_Scanner: lsd_gar_medicalScanner_nvg {
+class 197th_NVG_Scanner: lsd_gar_medicalScannerSPC_nvg {
 	author = "197th Compagnie Chimaera";
 	displayName = "[197th] Scanner Base";
 	scope = 0;
 	scopearsenal = 0;
 	modelOptics = "\lsd_equipment_bluefor\nvg\gar\visor\swlb_clone_nvg_optic_dummy.p3d";
 	ace_nightvision_border="";
-	model="\lsd_equipment_bluefor\accessories\gar\medicScanner\lsd_gar_medicalScanner_nvg_off";
+	model="\lsd_equipment_bluefor\accessories\gar\medicScanner\lsd_gar_medicalScanner_nvg_on";
 	visionMode[] = {"Normal", NVG};
 	hiddenSelections[] = {"camo1", "glow"};
-	hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat",""};
+	hiddenSelectionsMaterials[] = {"","\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
 	class ItemInfo {
 		type = 616;
 		uniformModel="\lsd_equipment_bluefor\accessories\gar\medicScanner\lsd_gar_medicalScanner_nvg_on";
-		modelOff="\lsd_equipment_bluefor\accessories\gar\medicScanner\lsd_gar_medicalScanner_nvg_off";
+		modelOff="\lsd_equipment_bluefor\accessories\gar\medicScanner\lsd_gar_medicalScanner_nvg_on";
 		mass = 20;
 		hiddenSelections[] = {"camo1", "glow"};
-		hiddenSelectionsMaterials[] = {"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat",""};
+		hiddenSelectionsMaterials[] = {"","\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
 	};
 };
 class 197th_NVG_Headlamp: lsd_gar_p2SingleHeadlamp_nvg {

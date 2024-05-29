@@ -684,8 +684,8 @@
 		scopearsenal = 2; \
 		picture = \197th_Equipment\_ui\nvg_medicscanner_##type##.paa; \
 		hiddenselectionstextures[] = { \
-			197th_Equipment\NVG\Data\##type##\##name##\glow_co.paa, \
-			197th_Equipment\NVG\Data\##type##\##name##\nvg_co.paa \
+			197th_Equipment\NVG\Data\##type##\##name##\nvg_co.paa, \
+			197th_Equipment\NVG\Data\##type##\##name##\glow_co.paa \
 		}; \
 	}
 
