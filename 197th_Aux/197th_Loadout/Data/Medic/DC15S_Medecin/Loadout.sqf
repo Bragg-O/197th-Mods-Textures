@@ -23,7 +23,7 @@ _units addHandgunItem "197th_DC17SA_mag";
 
 comment "Add containers";
 _units forceAddUniform "197th_Uniform_Regs_Medecin";
-_units addVest "197th_Vest_Regs_Holster";
+_units addVest "197th_Vest_Regs_Medical";
 _units addBackpack "197th_Backpack_Regs_Medecin";
 
 comment "Add items to containers";
