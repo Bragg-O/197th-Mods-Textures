@@ -144,7 +144,7 @@ _object addAction [
 	{
 		_deleteveh = [];
 		_deletevehText = format["<t size='1.2'>Empty</t><br/>"];
-		if (_this select 3 select 5) then {
+		if (_this select 3 select 4) then {
 			{
 				_deletevehclass = typeOf _x;
 				_deletevehname = getText(configfile >> "CfgVehicles" >> _deletevehclass >> "displayName");
@@ -160,8 +160,8 @@ _object addAction [
 				_deletevehText = "";
 				_deletevehText = _deletevehText + format["<t size='1.2'>%1</t><br/>", _x];
 			} forEach _deleteveh;
-			[] call CIM_fnc_deleteVehHangarAnimation;
 			hint parseText format ["<t size='1.5' color='#F1C40F'>Delete Vehicle</t><br/>%1", _deletevehText];
+			[] call CIM_fnc_deleteVehHangarAnimation;
 		} else {
 			{
 				_deletevehclass = typeOf _x;
