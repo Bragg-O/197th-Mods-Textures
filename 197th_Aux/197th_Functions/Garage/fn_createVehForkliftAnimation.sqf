@@ -49,6 +49,8 @@ if ("SupplySlingload" in _ClassNameVeh) then {
 };
 
 HangarDoor_1 animateSource ["door_open", 1, 2];
+[HangarDoor_1, "LS_door1_open"] remoteExec ["say3d", 0, false];
+
 0 spawn {
 	for [{
 		_i = 0
@@ -132,7 +134,7 @@ for [{
 }, {
 	_i = _i + 0.5
 }] do {
-sleep 0.0008;
+sleep 0.0006;
 Forklift setDir ((getDir Forklift) + 0.5);
 };
 
@@ -146,6 +148,7 @@ while { _AnimHeight <= 0 } do {
 };
 
 HangarDoor_1 animateSource ["door_open", 0, 2];
+[HangarDoor_1, "LS_door1_close"] remoteExec ["say3d", 0, false];
 
 _veh allowDamage true;
 

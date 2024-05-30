@@ -48,6 +48,9 @@ _veh setPosASL _PosHangarAttach;
 _veh setDir (getDir HangarAttach);
 
 HangarDoor animateSource ["door_open", 1];
+[HangarDoor, "BIG_door1_open"] remoteExec ["say3d", 0, false];
+
+_alarm = createSoundSource ["Sound_Alarm2", _PosHangarAttach, [], 0]; // starts alarm 
 
 sleep 5;
 
@@ -103,6 +106,9 @@ while { _AnimHeight <= 0 } do {
 };
 
 HangarDoor animateSource ["door_open", 0];
+[HangarDoor, "BIG_door1_close"] remoteExec ["say3d", 0, false];
+
+deleteVehicle _alarm; // stops alarm 
 
 _veh allowDamage true;
 

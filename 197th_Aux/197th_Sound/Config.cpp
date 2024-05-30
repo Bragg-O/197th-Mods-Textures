@@ -50,4 +50,14 @@ class CfgSounds
         name = "[197th] forklift 3";
         sound[] = { "197th_Sound\Data\forklift_3.ogg", 10, 0.8, 100 };
     };
+    class BIG_door1_open
+	{
+		sound[] = { "\SWLB_core\sounds\door_open.wss", 15, 1, 150 };
+		name = "BIG_door1_open";
+	};
+	class BIG_door1_close
+	{
+		sound[] = { "\SWLB_core\sounds\door_close.wss", 15, 1, 150 };
+		name = "BIG_door1_close";
+	};
 };
