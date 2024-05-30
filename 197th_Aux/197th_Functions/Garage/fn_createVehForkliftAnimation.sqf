@@ -94,6 +94,10 @@ sleep 0.5;
 
 _veh enableSimulation true;
 
+{
+	_x addCuratorEditableObjects [[_veh], true];
+} forEach allCurators;
+
 sleep 0.5;
 
 while { _AnimHeight <= _AnimHeightLimit + 2 } do {

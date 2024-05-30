@@ -82,6 +82,10 @@ sleep 0.5;
 
 _veh enableSimulation true;
 
+{
+	_x addCuratorEditableObjects [[_veh], true];
+} forEach allCurators;
+
 [HangarAnim_2, true] remoteExec ["hideObject"];
 [HangarAnim_3, true] remoteExec ["hideObject"];
 [HangarAnim_4, true] remoteExec ["hideObject"];
