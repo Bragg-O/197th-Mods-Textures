@@ -16,6 +16,7 @@ class CfgPatches {
         units[] = {};
     };
 };
+
 class CfgFunctions {
     class CIM_197th_Functions {
         tag = "CIM";
@@ -31,6 +32,16 @@ class CfgFunctions {
 			};
 			class onBactaGrenade {};
 		};
+        class Communication {
+            file = "197th_Functions\Communication";
+            class initCommunication {};
+            class onCommunication {};
+        };
+        class DialogBox {
+            file = "197th_Functions\DialogBox";
+            class initDialog1 {};
+            class loadDialog1 {};
+        };
         class EarPlugs {
             file = "197th_Functions\EarPlugs";
             class checkEarPlugs {};
@@ -45,6 +56,9 @@ class CfgFunctions {
         };
         class Garage {
             file = "197th_Functions\Garage";
+            class createVehForkliftAnimation {};
+            class createVehHangarAnimation {};
+            class deleteVehHangarAnimation {};
             class initGarage {};
         };
         class HealTerminal {
@@ -115,3 +129,5 @@ class CfgFunctions {
         };
     };
 };
+
+#include "DialogBox\Dialog.hpp"
