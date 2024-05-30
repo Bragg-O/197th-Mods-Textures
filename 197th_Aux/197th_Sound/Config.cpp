@@ -33,4 +33,21 @@ class CfgSounds
 		sound[] = { "197th_Sound\Data\BactaExplo.ogg", 3, 1, 30 };
 	};
 
+    class forklift_1
+    {
+        name = "[197th] forklift 1";
+        sound[] = { "197th_Sound\Data\forklift_1.ogg", 10, 0.8, 100 };
+    };
+
+    class forklift_2
+    {
+        name = "[197th] forklift 2";
+        sound[] = { "197th_Sound\Data\forklift_2.ogg", 10, 0.8, 100 };
+    };
+
+    class forklift_3
+    {
+        name = "[197th] forklift 3";
+        sound[] = { "197th_Sound\Data\forklift_3.ogg", 10, 0.8, 100 };
+    };
 };

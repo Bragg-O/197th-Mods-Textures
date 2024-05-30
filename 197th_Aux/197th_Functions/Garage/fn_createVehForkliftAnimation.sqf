@@ -49,6 +49,29 @@ if ("SupplySlingload" in _ClassNameVeh) then {
 };
 
 HangarDoor_1 animateSource ["door_open", 1, 2];
+0 spawn {
+	for [{
+		_i = 0
+	}, {
+		_i < 5
+	}, {
+		_i = _i + 1
+	}] do {
+		_random = selectRandom [1, 2, 3];
+		switch (_random) do {
+			case 1: {
+				[Forklift, "forklift_1"] remoteExec ["say3d", 0, false];
+			};
+			case 2: {
+				[Forklift, "forklift_2"] remoteExec ["say3d", 0, false];
+			};
+			case 3: {
+				[Forklift, "forklift_3"] remoteExec ["say3d", 0, false];
+			};
+		};
+		sleep 3;
+	};
+};
 
 sleep 2;
 
