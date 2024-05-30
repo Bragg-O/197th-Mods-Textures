@@ -19,4 +19,18 @@ class CfgPatches {
 
 class CfgSounds
 {
+	sounds[] = {};
+
+	class BactaTimer
+	{
+		name = "[197th] Bacta Timer";						    // display name
+		sound[] = { "197th_Sound\Data\Bacta.ogg", 3, 1, 30 };	// file, volume, pitch, maxDistance
+	};
+
+	class BactaExplo
+	{
+		name = "[197th] Bacta Explo";
+		sound[] = { "197th_Sound\Data\BactaExplo.ogg", 3, 1, 30 };
+	};
+
 };
