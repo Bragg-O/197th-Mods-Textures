@@ -35,7 +35,8 @@
 	"197th_Saber", \
 	"197th_Saber_GL", \
 	"197th_Saber_Recon", \
-	"197th_Saber_Super"
+	"197th_Saber_Super", \
+	"197th_ATTE"
 
 
 #define CIM_Garage_Box_197th \
