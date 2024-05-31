@@ -230,6 +230,7 @@ class CfgVehicles {
     //BackpackSacocheCeinturRTO_197th_XX(type,name) -> 197th_Backpack_##type##_##name##
         BackpackSacocheCeinturRTO_197th_XX(Customs,Bragg);
         BackpackSacocheCeinturRTO_197th_XX(Customs,Apollyon);
+        BackpackSacocheCeinturRTO_197th_XX(Customs,TIger);
 
  //Basic units additions
     #include "CfgVehicles.hpp"
