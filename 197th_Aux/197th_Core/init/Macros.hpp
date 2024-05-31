@@ -10,7 +10,13 @@
 	"197th_LAATI_Mk1", \
 	"197th_LAATI_Mk1Lights", \
 	"197th_LAATI_Mk2", \
-	"197th_LAATI_Mk2Lights"
+	"197th_LAATI_Mk2Lights", \
+	"3AS_Nu_REP_F", \
+	"3AS_Rho_REP_Medical", \
+	"3AS_Rho_REP_F", \
+	"3AS_Rho_Crate_REP_Barracks", \
+	"3AS_Rho_Crate_REP_Medical", \
+	"3AS_Rho_Crate_REP_Transport" \
 
 
 #define CIM_Garage_Car_197th \
