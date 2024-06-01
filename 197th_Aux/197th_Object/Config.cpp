@@ -16,6 +16,7 @@ class CfgPatches {
         requiredAddons[] = {"197th_weapon","197th_Equipment"};
         weapons[] = {};
         units[] = { //All for curator
+            "197th_R14",
             "197th_SupplySlingload_Ammo",
             "197th_SupplySlingload_Cargo",
             "197th_SupplySlingload_Fuel",
@@ -95,6 +96,9 @@ class CfgPatches {
 };
 
 class CfgVehicles {
+//R14
+    #include "R14\CfgVehicles.hpp"
+
 //Flag
     #include "Flag\CfgVehicles.hpp"
 
