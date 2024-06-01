@@ -12,8 +12,11 @@ Welcome to the GitHub repository for the Star Wars: The Clone Wars mod created b
 ## About the 197th Compagnie Chimaera
 The 197th Compagnie Chimaera is a community dedicated to creating immersive experiences within the Star Wars universe in Arma 3. Join our Discord community to stay updated on the latest developments, participate in events, and connect with fellow players.
 
-[Discord](https://discord.gg/qQs5GnV3Mt)
-
+<div align="center">
+    <a href="https://discord.gg/v4uKHjqxp4">
+        <img src="https://img.shields.io/badge/-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&logoWidth=20" alt="Discord">
+    </a>
+</div>
 > [!IMPORTANT]
 > This mod is an unofficial resource and is not affiliated with Lucasfilm Ltd, the Walt Disney Company, Electronic Arts Inc., or Twentieth Century Fox. The "Star Wars" brand and all intellectual content in this mod are based on the property of The Walt Disney Company. <br/> <br/> Star Wars © 1977 Twentieth Century Fox Film Corporation. All rights reserved. ™ & Copyright 1977 Lucasfilm Ltd. Star Wars logo and all related characters, names, and indicia are trademarks & copyright 2012 Lucasfilm Ltd. All rights reserved, or their respective trademark and copyright holders.
 
