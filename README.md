@@ -2,6 +2,13 @@
 ## 197th Compagnie Chimaera - Mod Arma 3
 Welcome to the GitHub repository for the Star Wars: The Clone Wars mod created by the 197th Compagnie Chimaera community. This mod aims to bring the iconic universe of Star Wars to Arma 3, specifically focusing on the Clone Wars era.
 
+## Contributors
+<div align="center">
+  <a href="https://github.com/Bragg-O/197th-Mods-Textures/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=admors/197th-Mods-Textures"/>
+  </a>
+</div>
+
 ## About the 197th Compagnie Chimaera
 The 197th Compagnie Chimaera is a community dedicated to creating immersive experiences within the Star Wars universe in Arma 3. Join our Discord community to stay updated on the latest developments, participate in events, and connect with fellow players.
 
