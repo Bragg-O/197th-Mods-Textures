@@ -20,18 +20,18 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=648;
+		nextID=649;
 	};
 	class LayerIndexProvider
 	{
-		nextID=22;
+		nextID=24;
 	};
 	class Camera
 	{
-		pos[]={-49.385048,119.61861,13.711856};
-		dir[]={0.85868239,-0.39634538,0.32498202};
-		up[]={0.37069121,0.91810071,0.14029451};
-		aside[]={0.35397044,9.8749297e-008,-0.93527991};
+		pos[]={48.127773,89.554367,48.211815};
+		dir[]={0.9193694,-0.31820044,-0.23131876};
+		up[]={0.30858281,0.9480235,-0.077641256};
+		aside[]={-0.24400111,0,-0.96977502};
 	};
 };
 binarizationWanted=0;
@@ -44,7 +44,6 @@ addons[]=
 	"A3_Weapons_F",
 	"JLTS_weapons_Core",
 	"A3_Characters_F",
-	"ls_mse_6",
 	"A3_Structures_F_Civ_InfoBoards",
 	"plp_materials",
 	"A3_Props_F_Orange_Humanitarian_Garbage",
@@ -58,6 +57,7 @@ addons[]=
 	"ace_medical_treatment",
 	"SWLW_clones_grenades_beltGrenade",
 	"ls_weapons_deprecated",
+	"197th_Object",
 	"meh_modules",
 	"JMSLLTE_vehgr_Static",
 	"A3_Structures_F_Mil_Helipads"
@@ -108,87 +108,88 @@ class AddonsMetaData
 		};
 		class Item6
 		{
-			className="ls_mse_6";
-			name="ls_mse_6";
-			author="kripto202";
-		};
-		class Item7
-		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item7
 		{
 			className="plp_materials";
 			name="plp_materials";
 		};
-		class Item9
+		class Item8
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item9
 		{
 			className="A3_Drones_F";
 			name="Arma 3 Beta - Drones";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item10
 		{
 			className="ls_armor_redfor";
 			name="Legion: Dissension - Redfor";
 			author="Legion Studios";
 		};
-		class Item12
+		class Item11
 		{
 			className="A3_Structures_F_Oldman";
 			name="Arma 3 Old Man - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item12
 		{
 			className="197th_Weapon";
 			name="197th Weapon";
 			author="Bragg for 197th Compagnie Chimaera";
 			url="http://www.197th.fr";
 		};
-		class Item14
+		class Item13
 		{
 			className="JLTS_radios";
 			name="JLTS The Great War - Radios";
 			author="MrClock";
 		};
-		class Item15
+		class Item14
 		{
 			className="ace_medical_engine";
 			name="ACE3 - Medical Engine";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item16
+		class Item15
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item17
+		class Item16
 		{
 			className="SWLW_clones_grenades_beltGrenade";
 			name="SWLW_clones_grenades_beltGrenade";
 			author="SW Legion Studios";
 		};
-		class Item18
+		class Item17
 		{
 			className="ls_weapons_deprecated";
 			name="Legion Studios - Core: Deprecated Weapons";
 			author="Legion Studios";
+		};
+		class Item18
+		{
+			className="197th_Object";
+			name="197th Object";
+			author="Bragg for 197th Compagnie Chimaera";
+			url="http://www.197th.fr";
 		};
 		class Item19
 		{
@@ -225,7 +226,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -459,7 +460,7 @@ class Intro
 							};
 							id=53;
 							type="C_man_polo_1_F";
-							atlOffset=0.12865448;
+							atlOffset=0.12864685;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -548,26 +549,9 @@ class Intro
 					{
 					};
 					id=52;
-					atlOffset=0.12865448;
+					atlOffset=0.12864685;
 				};
 				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={51.251614,87.837418,47.27721};
-						angles[]={0,3.4519691,0};
-					};
-					side="Empty";
-					class Attributes
-					{
-						name="m1";
-					};
-					id=111;
-					type="ls_mse_6";
-					atlOffset=50.888126;
-				};
-				class Item5
 				{
 					dataType="Trigger";
 					position[]={48.899029,86.188004,43.098141};
@@ -583,7 +567,7 @@ class Intro
 					type="EmptyDetectorArea10x10";
 					atlOffset=49.323879;
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Trigger";
 					position[]={51.600334,86.188004,43.098141};
@@ -599,7 +583,7 @@ class Intro
 					type="EmptyDetectorArea10x10";
 					atlOffset=49.328381;
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Trigger";
 					position[]={55.337021,86.188004,43.098141};
@@ -615,7 +599,7 @@ class Intro
 					type="EmptyDetectorArea10x10";
 					atlOffset=49.342728;
 				};
-				class Item8
+				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
@@ -663,7 +647,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item9
+				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
@@ -711,7 +695,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item10
+				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
@@ -759,7 +743,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item11
+				class Item10
 				{
 					dataType="Object";
 					class PositionInfo
@@ -807,7 +791,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item12
+				class Item11
 				{
 					dataType="Object";
 					class PositionInfo
@@ -855,7 +839,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item13
+				class Item12
 				{
 					dataType="Object";
 					class PositionInfo
@@ -903,7 +887,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item14
+				class Item13
 				{
 					dataType="Object";
 					class PositionInfo
@@ -951,7 +935,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item15
+				class Item14
 				{
 					dataType="Object";
 					class PositionInfo
@@ -999,7 +983,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item16
+				class Item15
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1047,7 +1031,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item17
+				class Item16
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1095,7 +1079,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item18
+				class Item17
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1143,7 +1127,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item19
+				class Item18
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1191,7 +1175,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item20
+				class Item19
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1239,7 +1223,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item21
+				class Item20
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1287,7 +1271,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item22
+				class Item21
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1335,7 +1319,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item23
+				class Item22
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1383,7 +1367,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item24
+				class Item23
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1416,7 +1400,7 @@ class Intro
 						nAttributes=1;
 					};
 				};
-				class Item25
+				class Item24
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1431,7 +1415,7 @@ class Intro
 					type="BloodSplatter_01_Medium_New_F";
 					atlOffset=50.850315;
 				};
-				class Item26
+				class Item25
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1466,7 +1450,7 @@ class Intro
 						nAttributes=1;
 					};
 				};
-				class Item27
+				class Item26
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1502,7 +1486,7 @@ class Intro
 						nAttributes=1;
 					};
 				};
-				class Item28
+				class Item27
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1537,7 +1521,7 @@ class Intro
 						nAttributes=1;
 					};
 				};
-				class Item29
+				class Item28
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1554,7 +1538,7 @@ class Intro
 					type="Land_Decal_BulletHoles_Small_03_F";
 					atlOffset=1.7521286;
 				};
-				class Item30
+				class Item29
 				{
 					dataType="Layer";
 					name="Calque 14";
@@ -1598,7 +1582,7 @@ class Intro
 					id=524;
 					atlOffset=50.718872;
 				};
-				class Item31
+				class Item30
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1646,7 +1630,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item32
+				class Item31
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1680,7 +1664,7 @@ class Intro
 						nAttributes=1;
 					};
 				};
-				class Item33
+				class Item32
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1728,7 +1712,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item34
+				class Item33
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1744,7 +1728,7 @@ class Intro
 					type="442_corner_rep_r";
 					atlOffset=50.875984;
 				};
-				class Item35
+				class Item34
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1779,7 +1763,7 @@ class Intro
 						nAttributes=1;
 					};
 				};
-				class Item36
+				class Item35
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1814,7 +1798,7 @@ class Intro
 						nAttributes=1;
 					};
 				};
-				class Item37
+				class Item36
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1849,7 +1833,7 @@ class Intro
 						nAttributes=1;
 					};
 				};
-				class Item38
+				class Item37
 				{
 					dataType="Group";
 					side="West";
@@ -1871,7 +1855,7 @@ class Intro
 							};
 							id=573;
 							type="197th_Unit_Regs_Sergent";
-							atlOffset=0.00012969971;
+							atlOffset=0.00012207031;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -1991,9 +1975,9 @@ class Intro
 					{
 					};
 					id=535;
-					atlOffset=0.00012969971;
+					atlOffset=0.00012207031;
 				};
-				class Item39
+				class Item38
 				{
 					dataType="Group";
 					side="West";
@@ -2094,7 +2078,7 @@ class Intro
 							};
 							id=574;
 							type="197th_Unit_Regs_Trooper";
-							atlOffset=0.00012969971;
+							atlOffset=0.00012207031;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -2246,9 +2230,9 @@ class Intro
 					{
 					};
 					id=536;
-					atlOffset=0.00012969971;
+					atlOffset=0.00012207031;
 				};
-				class Item40
+				class Item39
 				{
 					dataType="Group";
 					side="West";
@@ -2333,7 +2317,7 @@ class Intro
 							};
 							id=554;
 							type="197th_Unit_Regs_Trooper";
-							atlOffset=0.00012969971;
+							atlOffset=0.00012207031;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -2384,9 +2368,9 @@ class Intro
 						behaviour="COMBAT";
 					};
 					id=555;
-					atlOffset=0.00012969971;
+					atlOffset=0.00012207031;
 				};
-				class Item41
+				class Item40
 				{
 					dataType="Group";
 					side="West";
@@ -2407,7 +2391,7 @@ class Intro
 							};
 							id=625;
 							type="197th_Unit_Regs_Medecin";
-							atlOffset=0.00012969971;
+							atlOffset=0.00012207031;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -2551,9 +2535,9 @@ class Intro
 					{
 					};
 					id=626;
-					atlOffset=0.00012969971;
+					atlOffset=0.00012207031;
 				};
-				class Item42
+				class Item41
 				{
 					dataType="Group";
 					side="West";
@@ -2628,7 +2612,7 @@ class Intro
 							};
 							id=556;
 							type="197th_Unit_Regs_Lieutenant";
-							atlOffset=0.00012969971;
+							atlOffset=0.00012207031;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -2780,9 +2764,9 @@ class Intro
 					{
 					};
 					id=635;
-					atlOffset=0.00012969971;
+					atlOffset=0.00012207031;
 				};
-				class Item43
+				class Item42
 				{
 					dataType="Object";
 					class PositionInfo
@@ -2830,7 +2814,7 @@ class Intro
 						nAttributes=2;
 					};
 				};
-				class Item44
+				class Item43
 				{
 					dataType="Object";
 					class PositionInfo
@@ -2878,9 +2862,44 @@ class Intro
 						nAttributes=2;
 					};
 				};
+				class Item44
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={51.250999,88.491875,47.277};
+						angles[]={0,1.6040978,-0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="m1";
+						disableSimulation=1;
+					};
+					id=648;
+					type="197th_R14";
+					atlOffset=50.87859;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
 			};
 			id=38;
-			atlOffset=50.855732;
+			atlOffset=50.860531;
 		};
 		class Item1
 		{
