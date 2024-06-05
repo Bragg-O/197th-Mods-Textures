@@ -46,6 +46,8 @@ class CfgPatches {
             "197th_M813_TT",
             "197th_M12_LRV",
             "197th_M12_FAV",
+            "197th_M12_LRV_Omega",
+            "197th_M12_FAV_Omega",
             "197th_YWing",
             "197th_Z95"
         };
@@ -88,6 +90,9 @@ class CfgVehicles {
 
 //Warthog
     #include "Warthog\CfgVehicles.hpp"
+
+//Warthog_Omega
+    #include "Warthog_Omega\CfgVehicles.hpp"
 
 //Y_Wing
     #include "Y_Wing\CfgVehicles.hpp"
