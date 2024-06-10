@@ -37,6 +37,12 @@ class CfgMusicClasses
 	Categories_XX(40K_Calme,40K (Calme));
 	Categories_XX(2077_Epic,Cyberpunk 2077 (Epic));
 	Categories_XX(2077_Calme,Cyberpunk 2077 (Calme));
+	Categories_XX(R6_Calme,Rainbow Six (Calme));
+	Categories_XX(R6_Epic,Rainbow Six (Epic));
+	Categories_XX(Interstellar_Calm,Interstellar (Calm));
+	Categories_XX(Interstellar_Epic,Interstellar (Epic));
+	Categories_XX(Transformers_Calm,Transformers (Calm));
+	Categories_XX(Transformers_Epic,Transformers (Epic));
 };
 
 class CfgMusic

@@ -201,6 +201,349 @@ class Halo_Epic_U_N_S_C_Forward_Unto_Dawn
   duration = 106;
   musicClass = "Halo_Epic";
 };
+class Interstellar_Calm_A_Place_Among_the_Stars
+{
+  name = "A Place Among the Stars";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\A Place Among the Stars.ogg", db + 0, 1.0};
+  duration = 208;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Afraid_of_Time
+{
+  name = "Afraid of Time";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Afraid of Time.ogg", db + 0, 1.0};
+  duration = 153;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Atmospheric_Entry
+{
+  name = "Atmospheric Entry";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Atmospheric Entry.ogg", db + 0, 1.0};
+  duration = 101;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Dreaming_of_the_Crash
+{
+  name = "Dreaming of the Crash";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Dreaming of the Crash.ogg", db + 0, 1.0};
+  duration = 236;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Dust
+{
+  name = "Dust";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Dust.ogg", db + 0, 1.0};
+  duration = 342;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_First_Step
+{
+  name = "First Step";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\First Step.ogg", db + 0, 1.0};
+  duration = 108;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Flying_Drone
+{
+  name = "Flying Drone";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Flying Drone.ogg", db + 0, 1.0};
+  duration = 114;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Im_Going_Home
+{
+  name = "Im Going Home";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Im Going Home.ogg", db + 0, 1.0};
+  duration = 349;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Imperfect_Lock
+{
+  name = "Imperfect Lock";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Imperfect Lock.ogg", db + 0, 1.0};
+  duration = 415;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Message_from_Home
+{
+  name = "Message from Home";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Message from Home.ogg", db + 0, 1.0};
+  duration = 101;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_No_Need_to_Come_Back
+{
+  name = "No Need to Come Back";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\No Need to Come Back.ogg", db + 0, 1.0};
+  duration = 273;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Organ_Variation
+{
+  name = "Organ Variation";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Organ Variation.ogg", db + 0, 1.0};
+  duration = 292;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Running_Out
+{
+  name = "Running Out";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Running Out.ogg", db + 0, 1.0};
+  duration = 118;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_S_T_A_Y
+{
+  name = "S.T.A.Y.";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\S.T.A.Y..ogg", db + 0, 1.0};
+  duration = 384;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_The_Wormhole
+{
+  name = "The Wormhole";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\The Wormhole.ogg", db + 0, 1.0};
+  duration = 91;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_What_Happens_Now
+{
+  name = "What Happens Now";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\What Happens Now.ogg", db + 0, 1.0};
+  duration = 147;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Calm_Whos_They
+{
+  name = "Whos They";
+  sound[] = {"197th_Music\Data\Interstellar_Calm\Whos They.ogg", db + 0, 1.0};
+  duration = 438;
+  musicClass = "Interstellar_Calm";
+};
+class Interstellar_Epic_Cornfield_Chase
+{
+  name = "Cornfield Chase";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Cornfield Chase.ogg", db + 0, 1.0};
+  duration = 127;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_Coward
+{
+  name = "Coward";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Coward.ogg", db + 0, 1.0};
+  duration = 507;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_Day_One_Interstellar_Theme
+{
+  name = "Day One (Interstellar Theme)";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Day One (Interstellar Theme).ogg", db + 0, 1.0};
+  duration = 200;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_Day_One_Dark
+{
+  name = "Day One Dark";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Day One Dark.ogg", db + 0, 1.0};
+  duration = 418;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_Detach
+{
+  name = "Detach";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Detach.ogg", db + 0, 1.0};
+  duration = 403;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_Mountains
+{
+  name = "Mountains";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Mountains.ogg", db + 0, 1.0};
+  duration = 220;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_Murph
+{
+  name = "Murph";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Murph.ogg", db + 0, 1.0};
+  duration = 681;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_No_Time_for_Caution
+{
+  name = "No Time for Caution";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\No Time for Caution.ogg", db + 0, 1.0};
+  duration = 247;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_Stay
+{
+  name = "Stay";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Stay.ogg", db + 0, 1.0};
+  duration = 413;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_Tick_Tock
+{
+  name = "Tick-Tock";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Tick-Tock.ogg", db + 0, 1.0};
+  duration = 499;
+  musicClass = "Interstellar_Epic";
+};
+class Interstellar_Epic_Where_Were_Going
+{
+  name = "Where Were Going";
+  sound[] = {"197th_Music\Data\Interstellar_Epic\Where Were Going.ogg", db + 0, 1.0};
+  duration = 462;
+  musicClass = "Interstellar_Epic";
+};
+class R6_Calme_Air_Cute_One
+{
+  name = "Air Cute One";
+  sound[] = {"197th_Music\Data\R6_Calme\Air Cute One.ogg", db + 0, 1.0};
+  duration = 170;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Barlett_University
+{
+  name = "Barlett University";
+  sound[] = {"197th_Music\Data\R6_Calme\Barlett University.ogg", db + 0, 1.0};
+  duration = 277;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Border
+{
+  name = "Border";
+  sound[] = {"197th_Music\Data\R6_Calme\Border.ogg", db + 0, 1.0};
+  duration = 281;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Favelas
+{
+  name = "Favelas";
+  sound[] = {"197th_Music\Data\R6_Calme\Favelas.ogg", db + 0, 1.0};
+  duration = 305;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Fort_Truth
+{
+  name = "Fort Truth";
+  sound[] = {"197th_Music\Data\R6_Calme\Fort Truth.ogg", db + 0, 1.0};
+  duration = 177;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Outback
+{
+  name = "Outback";
+  sound[] = {"197th_Music\Data\R6_Calme\Outback.ogg", db + 0, 1.0};
+  duration = 323;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Skyscraper
+{
+  name = "Skyscraper";
+  sound[] = {"197th_Music\Data\R6_Calme\Skyscraper.ogg", db + 0, 1.0};
+  duration = 288;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Stadium
+{
+  name = "Stadium";
+  sound[] = {"197th_Music\Data\R6_Calme\Stadium.ogg", db + 0, 1.0};
+  duration = 320;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Theme_Park_rework
+{
+  name = "Theme Park (rework)";
+  sound[] = {"197th_Music\Data\R6_Calme\Theme Park (rework).ogg", db + 0, 1.0};
+  duration = 308;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Tower
+{
+  name = "Tower";
+  sound[] = {"197th_Music\Data\R6_Calme\Tower.ogg", db + 0, 1.0};
+  duration = 293;
+  musicClass = "R6_Calme";
+};
+class R6_Calme_Yacht
+{
+  name = "Yacht";
+  sound[] = {"197th_Music\Data\R6_Calme\Yacht.ogg", db + 0, 1.0};
+  duration = 304;
+  musicClass = "R6_Calme";
+};
+class R6_Epic_Bank
+{
+  name = "Bank";
+  sound[] = {"197th_Music\Data\R6_Epic\Bank.ogg", db + 0, 1.0};
+  duration = 286;
+  musicClass = "R6_Epic";
+};
+class R6_Epic_Coastline
+{
+  name = "Coastline";
+  sound[] = {"197th_Music\Data\R6_Epic\Coastline.ogg", db + 0, 1.0};
+  duration = 289;
+  musicClass = "R6_Epic";
+};
+class R6_Epic_Doktors_Castle
+{
+  name = "Doktors Castle";
+  sound[] = {"197th_Music\Data\R6_Epic\Doktors Castle.ogg", db + 0, 1.0};
+  duration = 237;
+  musicClass = "R6_Epic";
+};
+class R6_Epic_Fortress
+{
+  name = "Fortress";
+  sound[] = {"197th_Music\Data\R6_Epic\Fortress.ogg", db + 0, 1.0};
+  duration = 352;
+  musicClass = "R6_Epic";
+};
+class R6_Epic_Hereford_Base_rework
+{
+  name = "Hereford Base (rework)";
+  sound[] = {"197th_Music\Data\R6_Epic\Hereford Base (rework).ogg", db + 0, 1.0};
+  duration = 325;
+  musicClass = "R6_Epic";
+};
+class R6_Epic_Kafe_Dostoyevsky_rework
+{
+  name = "Kafe Dostoyevsky (rework)";
+  sound[] = {"197th_Music\Data\R6_Epic\Kafe Dostoyevsky (rework).ogg", db + 0, 1.0};
+  duration = 313;
+  musicClass = "R6_Epic";
+};
+class R6_Epic_Kafe_Dostoyevsky
+{
+  name = "Kafe Dostoyevsky";
+  sound[] = {"197th_Music\Data\R6_Epic\Kafe Dostoyevsky.ogg", db + 0, 1.0};
+  duration = 297;
+  musicClass = "R6_Epic";
+};
+class R6_Epic_Kanal_rework
+{
+  name = "Kanal (rework)";
+  sound[] = {"197th_Music\Data\R6_Epic\Kanal (rework).ogg", db + 0, 1.0};
+  duration = 298;
+  musicClass = "R6_Epic";
+};
+class R6_Epic_Kanal
+{
+  name = "Kanal";
+  sound[] = {"197th_Music\Data\R6_Epic\Kanal.ogg", db + 0, 1.0};
+  duration = 275;
+  musicClass = "R6_Epic";
+};
+class R6_Epic_Villa
+{
+  name = "Villa";
+  sound[] = {"197th_Music\Data\R6_Epic\Villa.ogg", db + 0, 1.0};
+  duration = 331;
+  musicClass = "R6_Epic";
+};
 class SW_Calme_Bastila_Shan_and_Revan_Love_Theme
 {
   name = "Bastila Shan and Revan Love Theme";
@@ -984,4 +1327,165 @@ class SW_Wait_Lofi_The_Mandalorian_Theme
   sound[] = {"197th_Music\Data\SW_Wait\[Lofi] The Mandalorian Theme.ogg", db + 0, 1.0};
   duration = 1801;
   musicClass = "SW_Wait";
+};
+class Transformers_Calm_Best_Thing_That_Ever_Happened
+{
+  name = "Best Thing That Ever Happened";
+  sound[] = {"197th_Music\Data\Transformers_Calm\Best Thing That Ever Happened.ogg", db + 0, 1.0};
+  duration = 128;
+  musicClass = "Transformers_Calm";
+};
+class Transformers_Calm_Galvatron_Is_Active
+{
+  name = "Galvatron Is Active";
+  sound[] = {"197th_Music\Data\Transformers_Calm\Galvatron Is Active.ogg", db + 0, 1.0};
+  duration = 256;
+  musicClass = "Transformers_Calm";
+};
+class Transformers_Calm_Hacking_the_Drone
+{
+  name = "Hacking the Drone";
+  sound[] = {"197th_Music\Data\Transformers_Calm\Hacking the Drone.ogg", db + 0, 1.0};
+  duration = 127;
+  musicClass = "Transformers_Calm";
+};
+class Transformers_Calm_Have_Faith_Prime
+{
+  name = "Have Faith Prime";
+  sound[] = {"197th_Music\Data\Transformers_Calm\Have Faith Prime.ogg", db + 0, 1.0};
+  duration = 91;
+  musicClass = "Transformers_Calm";
+};
+class Transformers_Calm_The_Legend_Exists
+{
+  name = "The Legend Exists";
+  sound[] = {"197th_Music\Data\Transformers_Calm\The Legend Exists.ogg", db + 0, 1.0};
+  duration = 78;
+  musicClass = "Transformers_Calm";
+};
+class Transformers_Calm_The_Presence_of_Megatron
+{
+  name = "The Presence of Megatron";
+  sound[] = {"197th_Music\Data\Transformers_Calm\The Presence of Megatron.ogg", db + 0, 1.0};
+  duration = 173;
+  musicClass = "Transformers_Calm";
+};
+class Transformers_Calm_Transformium
+{
+  name = "Transformium";
+  sound[] = {"197th_Music\Data\Transformers_Calm\Transformium.ogg", db + 0, 1.0};
+  duration = 206;
+  musicClass = "Transformers_Calm";
+};
+class Transformers_Epic_Cemetery_Wind
+{
+  name = "Cemetery Wind";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Cemetery Wind.ogg", db + 0, 1.0};
+  duration = 355;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Decision
+{
+  name = "Decision";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Decision.ogg", db + 0, 1.0};
+  duration = 262;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Dinobot_Charge
+{
+  name = "Dinobot Charge";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Dinobot Charge.ogg", db + 0, 1.0};
+  duration = 399;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Drive_Backwards
+{
+  name = "Drive Backwards";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Drive Backwards.ogg", db + 0, 1.0};
+  duration = 127;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Galvatron_Is_Online
+{
+  name = "Galvatron Is Online";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Galvatron Is Online.ogg", db + 0, 1.0};
+  duration = 118;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_His_Name_Is_Shane_and_He_Drives
+{
+  name = "His Name Is Shane and He Drives";
+  sound[] = {"197th_Music\Data\Transformers_Epic\His Name Is Shane and He Drives.ogg", db + 0, 1.0};
+  duration = 319;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Hong_Kong_Chase
+{
+  name = "Hong Kong Chase";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Hong Kong Chase.ogg", db + 0, 1.0};
+  duration = 105;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Honor_to_the_End
+{
+  name = "Honor to the End";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Honor to the End.ogg", db + 0, 1.0};
+  duration = 320;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Im_an_Autobot
+{
+  name = "Im an Autobot";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Im an Autobot.ogg", db + 0, 1.0};
+  duration = 308;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Leave_Planet_Earth_Alone
+{
+  name = "Leave Planet Earth Alone";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Leave Planet Earth Alone.ogg", db + 0, 1.0};
+  duration = 229;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Optimus_Is_Alive
+{
+  name = "Optimus Is Alive";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Optimus Is Alive.ogg", db + 0, 1.0};
+  duration = 139;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Punch_Hold_Slide_Repeat
+{
+  name = "Punch Hold Slide Repeat";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Punch Hold Slide Repeat.ogg", db + 0, 1.0};
+  duration = 134;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Thats_a_Big_Magnet
+{
+  name = "Thats a Big Magnet";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Thats a Big Magnet.ogg", db + 0, 1.0};
+  duration = 172;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_The_Final_Knight
+{
+  name = "The Final Knight";
+  sound[] = {"197th_Music\Data\Transformers_Epic\The Final Knight.ogg", db + 0, 1.0};
+  duration = 249;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_The_Knight_Ship
+{
+  name = "The Knight Ship";
+  sound[] = {"197th_Music\Data\Transformers_Epic\The Knight Ship.ogg", db + 0, 1.0};
+  duration = 203;
+  musicClass = "Transformers_Epic";
+};
+class Transformers_Epic_Your_Creators_Want_You_Back
+{
+  name = "Your Creators Want You Back";
+  sound[] = {"197th_Music\Data\Transformers_Epic\Your Creators Want You Back.ogg", db + 0, 1.0};
+  duration = 188;
+  musicClass = "Transformers_Epic";
 };
