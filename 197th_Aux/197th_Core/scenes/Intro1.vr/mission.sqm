@@ -24,14 +24,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=22;
+		nextID=30;
 	};
 	class Camera
 	{
-		pos[]={44.666943,49.105846,49.396587};
-		dir[]={0.91079623,-0.4063558,-0.072996497};
-		up[]={0.40505752,0.91371506,-0.032463644};
-		aside[]={-0.079889879,-2.3894245e-008,-0.99680549};
+		pos[]={1106.0133,8.1749525,1041.2753};
+		dir[]={0.84600282,-0.23242925,0.47985297};
+		up[]={0.20217231,0.97261226,0.11467234};
+		aside[]={0.49336416,1.5937985e-008,-0.86982375};
 	};
 };
 binarizationWanted=0;
@@ -58,9 +58,9 @@ addons[]=
 	"SWLW_clones_grenades_beltGrenade",
 	"ls_weapons_deprecated",
 	"197th_Object",
-	"meh_modules",
+	"A3_Structures_F_Mil_Helipads",
 	"JMSLLTE_vehgr_Static",
-	"A3_Structures_F_Mil_Helipads"
+	"meh_modules"
 };
 class AddonsMetaData
 {
@@ -193,10 +193,10 @@ class AddonsMetaData
 		};
 		class Item19
 		{
-			className="meh_modules";
-			name="Modules Enhanced - Modules";
-			author="Hypoxic";
-			url="https://github.com/hypoxia125/Modules-Enhanced";
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item20
 		{
@@ -206,10 +206,10 @@ class AddonsMetaData
 		};
 		class Item21
 		{
-			className="A3_Structures_F_Mil";
-			name="Arma 3 - Military Buildings and Structures";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			className="meh_modules";
+			name="Modules Enhanced - Modules";
+			author="Hypoxic";
+			url="https://github.com/hypoxia125/Modules-Enhanced";
 		};
 	};
 };
@@ -226,7 +226,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -284,20 +284,21 @@ class Intro
 	};
 	class Entities
 	{
-		items=9;
+		items=1;
 		class Item0
 		{
 			dataType="Layer";
 			name="Layer 1";
+			state=1;
 			class Entities
 			{
-				items=45;
+				items=53;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={50.5,45.954857,46.5};
+						position[]={1119.5503,9.7769299,1049.2256};
 						angles[]={0,4.7123895,0};
 					};
 					side="Empty";
@@ -306,14 +307,14 @@ class Intro
 					};
 					id=333;
 					type="442_segment";
-					atlOffset=39.459763;
+					atlOffset=3.2818375;
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={50.5,50.36235,48.75};
+						position[]={1119.5503,14.184425,1051.4756};
 					};
 					side="Empty";
 					class Attributes
@@ -321,7 +322,7 @@ class Intro
 					};
 					id=420;
 					type="442_50x50";
-					atlOffset=3.7254791;
+					atlOffset=3.7255001;
 				};
 				class Item2
 				{
@@ -335,7 +336,7 @@ class Intro
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={47.864162,45.560383,47.389565};
+								position[]={1116.9146,9.3824587,1050.1143};
 								angles[]={5.677393,3.0013063,6.1175079};
 							};
 							side="West";
@@ -359,7 +360,7 @@ class Intro
 							};
 							id=422;
 							type="197th_Unit_Regs_Trooper";
-							atlOffset=40.558945;
+							atlOffset=4.3810196;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -435,7 +436,7 @@ class Intro
 					{
 					};
 					id=423;
-					atlOffset=40.558945;
+					atlOffset=-5;
 				};
 				class Item3
 				{
@@ -449,7 +450,7 @@ class Intro
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={42.375,51.519341,33.799999};
+								position[]={1111.4253,15.341408,1036.5264};
 							};
 							side="Civilian";
 							flags=7;
@@ -460,7 +461,7 @@ class Intro
 							};
 							id=53;
 							type="C_man_polo_1_F";
-							atlOffset=0.12865448;
+							atlOffset=0.12864685;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -549,12 +550,12 @@ class Intro
 					{
 					};
 					id=52;
-					atlOffset=0.12865448;
+					atlOffset=-5;
 				};
 				class Item4
 				{
 					dataType="Trigger";
-					position[]={48.899029,44.98735,43.098141};
+					position[]={1117.9497,8.8094254,1045.8232};
 					class Attributes
 					{
 						name="gonk_0";
@@ -565,12 +566,12 @@ class Intro
 					};
 					id=443;
 					type="EmptyDetectorArea10x10";
-					atlOffset=39.98735;
+					atlOffset=3.8094254;
 				};
 				class Item5
 				{
 					dataType="Trigger";
-					position[]={51.600334,44.98735,43.098141};
+					position[]={1120.6509,8.8094254,1045.8232};
 					class Attributes
 					{
 						name="gonk_1";
@@ -581,12 +582,12 @@ class Intro
 					};
 					id=444;
 					type="EmptyDetectorArea10x10";
-					atlOffset=39.98735;
+					atlOffset=3.8094254;
 				};
 				class Item6
 				{
 					dataType="Trigger";
-					position[]={55.337021,44.98735,43.098141};
+					position[]={1124.3892,8.8094254,1045.8232};
 					class Attributes
 					{
 						name="gonk_2";
@@ -597,41 +598,27 @@ class Intro
 					};
 					id=445;
 					type="EmptyDetectorArea10x10";
-					atlOffset=39.98735;
+					atlOffset=3.8094254;
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={51,45.743187,46};
+						position[]={1120.0503,9.5652466,1048.7256};
 						angles[]={4.6976824,3.2426803,0.0014912627};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=432;
 					type="Land_Billboard_F";
-					atlOffset=39;
+					atlOffset=2.8220596;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -644,7 +631,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item8
@@ -652,34 +678,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={58.652874,46.290108,46.384613};
+						position[]={1127.7036,10.112183,1049.1084};
 						angles[]={4.7161617,2.9478085,6.032989};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=434;
 					type="Land_Billboard_F";
-					atlOffset=39.546921;
+					atlOffset=3.3689957;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -692,7 +704,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item9
@@ -700,34 +751,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={54.366081,45.743187,46};
+						position[]={1123.4165,9.5652466,1048.7256};
 						angles[]={4.6976418,3.0800292,6.28228};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=480;
 					type="Land_Billboard_F";
-					atlOffset=39;
+					atlOffset=2.8220596;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -740,7 +777,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item10
@@ -748,34 +824,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={58.315884,45.649174,45.568954};
+						position[]={1127.3667,9.4712524,1048.292};
 						angles[]={5.1491499,2.9339507,6.0733304};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=481;
 					type="Land_Billboard_F";
-					atlOffset=38.905987;
+					atlOffset=2.7280655;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -788,7 +850,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item11
@@ -796,34 +897,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={54.363983,45.743187,43.87159};
+						position[]={1123.4146,9.5652466,1046.5967};
 						angles[]={5.1262045,3.0658789,6.2500544};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=482;
 					type="Land_Billboard_F";
-					atlOffset=39;
+					atlOffset=2.8220596;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -836,7 +923,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item12
@@ -844,34 +970,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={51,45.743187,43.75312};
+						position[]={1120.0503,9.5652466,1046.4775};
 						angles[]={5.1262116,3.2286022,6.2524519};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=483;
 					type="Land_Billboard_F";
-					atlOffset=39;
+					atlOffset=2.8220596;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -884,7 +996,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item13
@@ -892,34 +1043,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={51,44.646713,42.323757};
+						position[]={1120.0503,8.4687805,1045.0479};
 						angles[]={5.9349141,3.242703,0.0014912627};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=484;
 					type="Land_Billboard_F";
-					atlOffset=37.903526;
+					atlOffset=1.7255936;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -932,7 +1069,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item14
@@ -940,34 +1116,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={58.652874,44.462387,42.966469};
+						position[]={1127.7036,8.2844543,1045.6904};
 						angles[]={5.9533963,2.9478085,6.032989};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=485;
 					type="Land_Billboard_F";
-					atlOffset=37.7192;
+					atlOffset=1.5412674;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -980,7 +1142,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item15
@@ -988,34 +1189,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={54.366081,44.646713,42.323757};
+						position[]={1123.4165,8.4687805,1045.0479};
 						angles[]={5.9348788,3.0800292,6.28228};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=486;
 					type="Land_Billboard_F";
-					atlOffset=37.903526;
+					atlOffset=1.7255936;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -1028,7 +1215,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item16
@@ -1036,34 +1262,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={58.627823,46.770493,42.184246};
+						position[]={1127.6782,10.59256,1044.9092};
 						angles[]={0.047339953,2.9721334,0.11107855};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=487;
 					type="Land_Billboard_F";
-					atlOffset=40.027306;
+					atlOffset=3.8493729;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -1076,7 +1288,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item17
@@ -1084,34 +1335,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={54.363983,46.65781,41.626881};
+						position[]={1123.4146,10.479889,1044.3506};
 						angles[]={0.080252185,3.0658789,6.2500544};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=488;
 					type="Land_Billboard_F";
-					atlOffset=39.914623;
+					atlOffset=3.736702;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -1124,7 +1361,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item18
@@ -1132,34 +1408,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={51,46.769749,41.588104};
+						position[]={1120.0503,10.591827,1044.3115};
 						angles[]={0.080259852,3.2286248,6.2524519};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=489;
 					type="Land_Billboard_F";
-					atlOffset=40.026562;
+					atlOffset=3.8486404;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -1172,7 +1434,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item19
@@ -1180,34 +1481,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={51,49.523613,41.752316};
+						position[]={1120.0503,13.345703,1044.4756};
 						angles[]={0.84198594,3.2286878,6.2524519};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=490;
 					type="Land_Billboard_F";
-					atlOffset=42.780426;
+					atlOffset=6.6025162;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -1220,7 +1507,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item20
@@ -1228,34 +1554,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={54.363983,49.41584,41.70314};
+						position[]={1123.4146,13.237915,1044.4287};
 						angles[]={0.84197849,3.0658789,6.2500544};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=491;
 					type="Land_Billboard_F";
-					atlOffset=42.672653;
+					atlOffset=6.4947281;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -1268,7 +1580,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item21
@@ -1276,34 +1627,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={58.627823,49.112709,42.184246};
+						position[]={1127.6782,12.934784,1044.9092};
 						angles[]={0.80906636,2.9721334,0.11107855};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=492;
 					type="Land_Billboard_F";
-					atlOffset=42.369522;
+					atlOffset=6.191597;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -1316,7 +1653,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item22
@@ -1324,34 +1700,20 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={58.563843,46.251312,44.067307};
+						position[]={1127.6147,10.073395,1046.792};
 						angles[]={5.270411,2.9029067,6.0144596};
 					};
 					side="Empty";
 					class Attributes
 					{
-						init="this setObjectTextureGlobal [0,""Space.paa""];";
 						disableSimulation=1;
 					};
 					id=496;
 					type="Land_Billboard_F";
-					atlOffset=39.508125;
+					atlOffset=3.3302078;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ENH_objectScaling";
-							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -1364,7 +1726,46 @@ class Intro
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="ENH_objectScaling";
+							expression="  if (is3DEN) then  {    _this addEventHandler ['AttributesChanged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];    _this addEventHandler ['Dragged3DEN',    {      params ['_object'];      _object setObjectScale ((_object get3DENAttribute 'ENH_objectScaling') # 0);    }];  };  if (!isMultiplayer) then {[_this, _value] spawn {sleep 0.5; (_this select 0) setObjectScale (_this select 1)}};";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="\197th_Core\data\Space.paa";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item23
@@ -1372,7 +1773,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={50.5,47.112,46.407001};
+						position[]={1119.5503,10.934059,1049.1318};
 					};
 					side="Empty";
 					class Attributes
@@ -1381,7 +1782,7 @@ class Intro
 					};
 					id=501;
 					type="plp_PaneClear_5x5_90";
-					atlOffset=0.47512817;
+					atlOffset=0.4751339;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1405,7 +1806,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={50.942192,46.624004,50.431042};
+						position[]={1119.9927,10.446078,1053.1553};
 					};
 					side="Empty";
 					class Attributes
@@ -1413,14 +1814,14 @@ class Intro
 					};
 					id=512;
 					type="BloodSplatter_01_Medium_New_F";
-					atlOffset=41.619003;
+					atlOffset=5.4410782;
 				};
 				class Item25
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={45.408878,47.791695,44.277519};
+						position[]={1114.4595,11.613784,1047.0029};
 						angles[]={0.56794143,1.2594121,0.37358773};
 					};
 					side="Empty";
@@ -1431,7 +1832,7 @@ class Intro
 					};
 					id=457;
 					type="197th_Headgear_Regs_Cadet";
-					atlOffset=42.845428;
+					atlOffset=6.6675186;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1455,7 +1856,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={45.808434,48.293205,44.221523};
+						position[]={1114.8589,12.115264,1046.9443};
 						angles[]={6.1714668,1.2594121,0.37358773};
 					};
 					side="Empty";
@@ -1467,7 +1868,7 @@ class Intro
 					};
 					id=153;
 					type="3as_GNK";
-					atlOffset=42.533081;
+					atlOffset=6.3551407;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1491,7 +1892,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={44.24234,47.8825,44.460613};
+						position[]={1113.2925,11.704574,1047.1846};
 						angles[]={0.640019,2.049015,6.0756011};
 					};
 					side="Empty";
@@ -1502,7 +1903,7 @@ class Intro
 					};
 					id=494;
 					type="Headgear_cis_b1_helmet";
-					atlOffset=42.936234;
+					atlOffset=6.7583084;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1526,7 +1927,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={55.556,48.391491,46.376842};
+						position[]={1124.6069,12.213567,1049.1006};
 						angles[]={1.5707964,3.1415927,0};
 					};
 					side="Empty";
@@ -1536,7 +1937,7 @@ class Intro
 					};
 					id=502;
 					type="Land_Decal_BulletHoles_Small_03_F";
-					atlOffset=1.752121;
+					atlOffset=1.752142;
 				};
 				class Item29
 				{
@@ -1550,7 +1951,7 @@ class Intro
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={58.25,46.487,48.875};
+								position[]={1127.3003,10.309059,1051.6006};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -1560,14 +1961,14 @@ class Intro
 							};
 							id=327;
 							type="442_door_lock";
-							atlOffset=41.487;
+							atlOffset=5.3090591;
 						};
 						class Item1
 						{
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={42.75,46.48735,48.875};
+								position[]={1111.8003,10.309425,1051.6006};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -1576,18 +1977,18 @@ class Intro
 							};
 							id=326;
 							type="442_door_lock";
-							atlOffset=41.48735;
+							atlOffset=5.3094254;
 						};
 					};
 					id=524;
-					atlOffset=41.487175;
+					atlOffset=5.3092422;
 				};
 				class Item30
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={44.652157,47.207962,44.627655};
+						position[]={1114.6606,11.526758,1047.3975};
 						angles[]={6.2739496,4.9040499,6.2355695};
 					};
 					side="Empty";
@@ -1598,7 +1999,7 @@ class Intro
 					};
 					id=572;
 					type="197th_DemoPack_Explosive";
-					atlOffset=42.206638;
+					atlOffset=6.5254326;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1635,7 +2036,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={60.740002,46.606995,53.875};
+						position[]={1129.7905,10.429054,1056.6006};
 						angles[]={0,3.141593,0};
 					};
 					side="Empty";
@@ -1645,7 +2046,7 @@ class Intro
 					};
 					id=582;
 					type="442_2way_rep_r";
-					atlOffset=41.606995;
+					atlOffset=5.4290543;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1669,7 +2070,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={50.5,46.606998,48.875};
+						position[]={1119.5503,10.429054,1051.6006};
 						angles[]={0,3.1415927,0};
 					};
 					side="Empty";
@@ -1680,7 +2081,7 @@ class Intro
 					};
 					id=584;
 					type="442_3way_rep_r";
-					atlOffset=41.606998;
+					atlOffset=5.4290543;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1717,7 +2118,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={60.740002,46.606998,48.875};
+						position[]={1129.7905,10.429054,1051.6006};
 						angles[]={0,4.712389,0};
 					};
 					side="Empty";
@@ -1726,14 +2127,14 @@ class Intro
 					};
 					id=585;
 					type="442_corner_rep_r";
-					atlOffset=41.606998;
+					atlOffset=5.4290543;
 				};
 				class Item34
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={50.5,46.606998,48.875};
+						position[]={1119.5503,10.429054,1051.6006};
 						angles[]={0,3.1415927,0};
 					};
 					side="Empty";
@@ -1744,7 +2145,7 @@ class Intro
 					};
 					id=590;
 					type="442_3way_rep";
-					atlOffset=41.606998;
+					atlOffset=5.4290543;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1768,7 +2169,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={45.5,46.606998,48.875};
+						position[]={1114.5503,10.429054,1051.6006};
 						angles[]={0,1.5707965,0};
 					};
 					side="Empty";
@@ -1779,7 +2180,7 @@ class Intro
 					};
 					id=631;
 					type="442_2way_rep";
-					atlOffset=41.606998;
+					atlOffset=5.4290543;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1803,7 +2204,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={55.5,46.606998,48.875};
+						position[]={1124.5503,10.429054,1051.6006};
 						angles[]={0,1.5707965,0};
 					};
 					side="Empty";
@@ -1814,7 +2215,7 @@ class Intro
 					};
 					id=633;
 					type="442_2way_rep";
-					atlOffset=41.606998;
+					atlOffset=5.4290543;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1845,7 +2246,7 @@ class Intro
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={54.817001,46.638432,48.973};
+								position[]={1123.8677,10.460518,1051.6982};
 								angles[]={0,2.3629839,0};
 							};
 							side="West";
@@ -1855,7 +2256,7 @@ class Intro
 							};
 							id=573;
 							type="197th_Unit_Regs_Sergent";
-							atlOffset=0.00012207031;
+							atlOffset=0.00015354156;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -1975,7 +2376,7 @@ class Intro
 					{
 					};
 					id=535;
-					atlOffset=0.00012207031;
+					atlOffset=-5;
 				};
 				class Item38
 				{
@@ -1989,7 +2390,7 @@ class Intro
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={50.931679,46.638432,50.309219};
+								position[]={1119.9819,10.460518,1053.0342};
 								angles[]={0,4.5437412,0};
 							};
 							side="West";
@@ -2078,7 +2479,7 @@ class Intro
 							};
 							id=574;
 							type="197th_Unit_Regs_Trooper";
-							atlOffset=0.00012207031;
+							atlOffset=0.00015354156;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -2230,7 +2631,7 @@ class Intro
 					{
 					};
 					id=536;
-					atlOffset=0.00012207031;
+					atlOffset=-5;
 				};
 				class Item39
 				{
@@ -2244,7 +2645,7 @@ class Intro
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={48.509281,46.638432,47.202763};
+								position[]={1117.5601,10.460518,1049.9287};
 								angles[]={0,4.8591537,0};
 							};
 							side="West";
@@ -2317,7 +2718,7 @@ class Intro
 							};
 							id=554;
 							type="197th_Unit_Regs_Trooper";
-							atlOffset=0.00012207031;
+							atlOffset=0.00015354156;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -2368,7 +2769,7 @@ class Intro
 						behaviour="COMBAT";
 					};
 					id=555;
-					atlOffset=0.00012207031;
+					atlOffset=-5;
 				};
 				class Item40
 				{
@@ -2382,7 +2783,7 @@ class Intro
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={50.945999,46.638432,49.542999};
+								position[]={1119.9966,10.460518,1052.2686};
 							};
 							side="West";
 							flags=7;
@@ -2391,7 +2792,7 @@ class Intro
 							};
 							id=625;
 							type="197th_Unit_Regs_Medecin";
-							atlOffset=0.00012207031;
+							atlOffset=0.00015354156;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -2535,7 +2936,7 @@ class Intro
 					{
 					};
 					id=626;
-					atlOffset=0.00012207031;
+					atlOffset=-5;
 				};
 				class Item41
 				{
@@ -2549,7 +2950,7 @@ class Intro
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={55.571999,46.638432,48.030998};
+								position[]={1124.6226,10.460518,1050.7568};
 								angles[]={0,5.5676003,0};
 							};
 							side="West";
@@ -2612,7 +3013,7 @@ class Intro
 							};
 							id=556;
 							type="197th_Unit_Regs_Lieutenant";
-							atlOffset=0.00012207031;
+							atlOffset=0.00015354156;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -2764,14 +3165,14 @@ class Intro
 					{
 					};
 					id=635;
-					atlOffset=0.00012207031;
+					atlOffset=-5;
 				};
 				class Item42
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={45.5,46.606998,48.875};
+						position[]={1114.5503,10.429054,1051.6006};
 						angles[]={0,1.5707964,0};
 					};
 					side="Empty";
@@ -2782,7 +3183,7 @@ class Intro
 					};
 					id=636;
 					type="442_2way_rep_r";
-					atlOffset=41.606998;
+					atlOffset=5.4290543;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2819,7 +3220,7 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={55.5,46.606998,48.875};
+						position[]={1124.5503,10.429054,1051.6006};
 						angles[]={0,1.5707964,0};
 					};
 					side="Empty";
@@ -2830,7 +3231,7 @@ class Intro
 					};
 					id=637;
 					type="442_2way_rep_r";
-					atlOffset=41.606998;
+					atlOffset=5.4290543;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2867,11 +3268,10 @@ class Intro
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={51.250999,47.301003,47.277};
-						angles[]={0,1.5474266,-0};
+						position[]={1120.3022,11.108713,1050.0029};
+						angles[]={0,1.5707964,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						name="m1";
@@ -2879,7 +3279,7 @@ class Intro
 					};
 					id=648;
 					type="197th_R14";
-					atlOffset=0.00012969971;
+					atlOffset=5.4447098;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2898,526 +3298,526 @@ class Intro
 						nAttributes=1;
 					};
 				};
+				class Item45
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1119.6108,13.353065,1051.6006};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="l_1";
+					};
+					id=640;
+					type="Land_HelipadEmpty_F";
+					atlOffset=2.8941402;
+				};
+				class Item46
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1114.4868,13.353065,1051.6006};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="l_2";
+					};
+					id=641;
+					type="Land_HelipadEmpty_F";
+					atlOffset=2.8941402;
+				};
+				class Item47
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1124.5835,13.353065,1051.6006};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="l_3";
+					};
+					id=642;
+					type="Land_HelipadEmpty_F";
+					atlOffset=2.8941402;
+				};
+				class Item48
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1130.9058,10.602211,1050.7158};
+						angles[]={0.60805964,0.64126563,0.85178548};
+					};
+					side="Empty";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=523;
+					type="JMSLLTE_XX9_wreck";
+					atlOffset=0.14328575;
+				};
+				class Item49
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={1128.6733,10.459084,1052.7861};
+					};
+					id=525;
+					type="MEH_ModuleEffectFire";
+					atlOffset=0.00015830994;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="meh_modules_ModuleEffectFire_FireDamage";
+							expression="_this setVariable ['FireDamage',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="meh_modules_ModuleEffectFire_ParticleTime";
+							expression="_this setVariable ['ParticleTime',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=3;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="meh_modules_ModuleEffectFire_EffectSize";
+							expression="_this setVariable ['EffectSize',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=3;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="meh_modules_ModuleEffectFire_ColorGreen";
+							expression="_this setVariable ['ColorGreen',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.5;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="meh_modules_ModuleEffectFire_ParticleDensity";
+							expression="_this setVariable ['ParticleDensity',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=25;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="meh_modules_ModuleEffectFire_ParticleSize";
+							expression="_this setVariable ['ParticleSize',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="meh_modules_ModuleEffectFire_ParticleSpeed";
+							expression="_this setVariable ['ParticleSpeed',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="meh_modules_ModuleEffectFire_ParticleOrientation";
+							expression="_this setVariable ['ParticleOrientation',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="meh_modules_ModuleEffectFire_ColorBlue";
+							expression="_this setVariable ['ColorBlue',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.5;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="meh_modules_ModuleEffectFire_ColorRed";
+							expression="_this setVariable ['ColorRed',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.5;
+								};
+							};
+						};
+						nAttributes=10;
+					};
+				};
+				class Item50
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={1128.6733,10.459084,1049.0068};
+					};
+					id=587;
+					type="MEH_ModuleEffectFire";
+					atlOffset=5.4590836;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="meh_modules_ModuleEffectFire_FireDamage";
+							expression="_this setVariable ['FireDamage',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="meh_modules_ModuleEffectFire_ParticleTime";
+							expression="_this setVariable ['ParticleTime',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=3;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="meh_modules_ModuleEffectFire_EffectSize";
+							expression="_this setVariable ['EffectSize',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=3;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="meh_modules_ModuleEffectFire_ColorGreen";
+							expression="_this setVariable ['ColorGreen',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.5;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="meh_modules_ModuleEffectFire_ParticleDensity";
+							expression="_this setVariable ['ParticleDensity',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=25;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="meh_modules_ModuleEffectFire_ParticleSize";
+							expression="_this setVariable ['ParticleSize',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="meh_modules_ModuleEffectFire_ParticleSpeed";
+							expression="_this setVariable ['ParticleSpeed',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="meh_modules_ModuleEffectFire_ParticleOrientation";
+							expression="_this setVariable ['ParticleOrientation',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="meh_modules_ModuleEffectFire_ColorBlue";
+							expression="_this setVariable ['ColorBlue',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.5;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="meh_modules_ModuleEffectFire_ColorRed";
+							expression="_this setVariable ['ColorRed',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.5;
+								};
+							};
+						};
+						nAttributes=10;
+					};
+				};
+				class Item51
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={1128.6733,10.459084,1050.7842};
+					};
+					id=588;
+					type="MEH_ModuleEffectFire";
+					atlOffset=0.00015830994;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="meh_modules_ModuleEffectFire_FireDamage";
+							expression="_this setVariable ['FireDamage',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="meh_modules_ModuleEffectFire_ParticleTime";
+							expression="_this setVariable ['ParticleTime',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=3;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="meh_modules_ModuleEffectFire_EffectSize";
+							expression="_this setVariable ['EffectSize',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=3;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="meh_modules_ModuleEffectFire_ColorGreen";
+							expression="_this setVariable ['ColorGreen',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.5;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="meh_modules_ModuleEffectFire_ParticleDensity";
+							expression="_this setVariable ['ParticleDensity',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=25;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="meh_modules_ModuleEffectFire_ParticleSize";
+							expression="_this setVariable ['ParticleSize',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="meh_modules_ModuleEffectFire_ParticleSpeed";
+							expression="_this setVariable ['ParticleSpeed',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="meh_modules_ModuleEffectFire_ParticleOrientation";
+							expression="_this setVariable ['ParticleOrientation',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="meh_modules_ModuleEffectFire_ColorBlue";
+							expression="_this setVariable ['ColorBlue',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.5;
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="meh_modules_ModuleEffectFire_ColorRed";
+							expression="_this setVariable ['ColorRed',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.5;
+								};
+							};
+						};
+						nAttributes=10;
+					};
+				};
+				class Item52
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1112.9819,12.898079,1053.4443};
+						angles[]={0,1.83436,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						name="cam_pos";
+					};
+					id=576;
+					type="Land_HelipadEmpty_F";
+					atlOffset=2.4391537;
+				};
 			};
 			id=38;
-			atlOffset=41.625671;
-		};
-		class Item1
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={59.622002,46.636993,50.062};
-			};
-			id=525;
-			type="MEH_ModuleEffectFire";
-			atlOffset=0.00012207031;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="meh_modules_ModuleEffectFire_FireDamage";
-					expression="_this setVariable ['FireDamage',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="meh_modules_ModuleEffectFire_ParticleTime";
-					expression="_this setVariable ['ParticleTime',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="meh_modules_ModuleEffectFire_EffectSize";
-					expression="_this setVariable ['EffectSize',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="meh_modules_ModuleEffectFire_ColorGreen";
-					expression="_this setVariable ['ColorGreen',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="meh_modules_ModuleEffectFire_ParticleDensity";
-					expression="_this setVariable ['ParticleDensity',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=25;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="meh_modules_ModuleEffectFire_ParticleSize";
-					expression="_this setVariable ['ParticleSize',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="meh_modules_ModuleEffectFire_ParticleSpeed";
-					expression="_this setVariable ['ParticleSpeed',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="meh_modules_ModuleEffectFire_ParticleOrientation";
-					expression="_this setVariable ['ParticleOrientation',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="meh_modules_ModuleEffectFire_ColorBlue";
-					expression="_this setVariable ['ColorBlue',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="meh_modules_ModuleEffectFire_ColorRed";
-					expression="_this setVariable ['ColorRed',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				nAttributes=10;
-			};
-		};
-		class Item2
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={61.85508,46.780136,47.991844};
-				angles[]={0.60805964,0.64126563,0.85178548};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=523;
-			type="JMSLLTE_XX9_wreck";
-			atlOffset=0.14326477;
-		};
-		class Item3
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={43.931999,49.076,50.720001};
-				angles[]={0,1.83436,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="cam_pos";
-			};
-			id=576;
-			type="Land_HelipadEmpty_F";
-			atlOffset=2.4391289;
-		};
-		class Item4
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={59.622002,46.636993,46.283588};
-			};
-			id=587;
-			type="MEH_ModuleEffectFire";
-			atlOffset=41.636993;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="meh_modules_ModuleEffectFire_FireDamage";
-					expression="_this setVariable ['FireDamage',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="meh_modules_ModuleEffectFire_ParticleTime";
-					expression="_this setVariable ['ParticleTime',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="meh_modules_ModuleEffectFire_EffectSize";
-					expression="_this setVariable ['EffectSize',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="meh_modules_ModuleEffectFire_ColorGreen";
-					expression="_this setVariable ['ColorGreen',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="meh_modules_ModuleEffectFire_ParticleDensity";
-					expression="_this setVariable ['ParticleDensity',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=25;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="meh_modules_ModuleEffectFire_ParticleSize";
-					expression="_this setVariable ['ParticleSize',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="meh_modules_ModuleEffectFire_ParticleSpeed";
-					expression="_this setVariable ['ParticleSpeed',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="meh_modules_ModuleEffectFire_ParticleOrientation";
-					expression="_this setVariable ['ParticleOrientation',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="meh_modules_ModuleEffectFire_ColorBlue";
-					expression="_this setVariable ['ColorBlue',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="meh_modules_ModuleEffectFire_ColorRed";
-					expression="_this setVariable ['ColorRed',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				nAttributes=10;
-			};
-		};
-		class Item5
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={59.622002,46.636993,48.059765};
-			};
-			id=588;
-			type="MEH_ModuleEffectFire";
-			atlOffset=0.00012207031;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="meh_modules_ModuleEffectFire_FireDamage";
-					expression="_this setVariable ['FireDamage',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="meh_modules_ModuleEffectFire_ParticleTime";
-					expression="_this setVariable ['ParticleTime',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="meh_modules_ModuleEffectFire_EffectSize";
-					expression="_this setVariable ['EffectSize',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=3;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="meh_modules_ModuleEffectFire_ColorGreen";
-					expression="_this setVariable ['ColorGreen',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="meh_modules_ModuleEffectFire_ParticleDensity";
-					expression="_this setVariable ['ParticleDensity',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=25;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="meh_modules_ModuleEffectFire_ParticleSize";
-					expression="_this setVariable ['ParticleSize',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="meh_modules_ModuleEffectFire_ParticleSpeed";
-					expression="_this setVariable ['ParticleSpeed',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="meh_modules_ModuleEffectFire_ParticleOrientation";
-					expression="_this setVariable ['ParticleOrientation',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="meh_modules_ModuleEffectFire_ColorBlue";
-					expression="_this setVariable ['ColorBlue',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="meh_modules_ModuleEffectFire_ColorRed";
-					expression="_this setVariable ['ColorRed',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.5;
-						};
-					};
-				};
-				nAttributes=10;
-			};
-		};
-		class Item6
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={50.560001,49.531006,48.876999};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="l_1";
-			};
-			id=640;
-			type="Land_HelipadEmpty_F";
-			atlOffset=2.8941345;
-		};
-		class Item7
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={45.436005,49.531006,48.876999};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="l_2";
-			};
-			id=641;
-			type="Land_HelipadEmpty_F";
-			atlOffset=2.8941345;
-		};
-		class Item8
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={55.53344,49.531006,48.876999};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="l_3";
-			};
-			id=642;
-			type="Land_HelipadEmpty_F";
-			atlOffset=2.8941345;
+			atlOffset=1.2982416;
 		};
 	};
 };
