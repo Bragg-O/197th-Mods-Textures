@@ -32,6 +32,10 @@ class CfgFunctions {
 			};
 			class onBactaGrenade {};
 		};
+        class Bobcat {
+            file = "197th_Functions\Bobcat";
+            class initBobcat {};
+        };
         class Communication {
             file = "197th_Functions\Communication";
             class initCommunication {};
