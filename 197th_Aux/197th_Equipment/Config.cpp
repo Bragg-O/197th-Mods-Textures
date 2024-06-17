@@ -47,7 +47,6 @@ class CfgPatches {
             CfgPatches_XX(Headgear,Customs,Launcher),
             CfgPatches_XX(Headgear,Customs,Vanguard),
             CfgPatches_XX(Headgear,Customs,Damos),
-            CfgPatches_XX(Headgear,Customs,Viper),
             CfgPatches_XX(Headgear,Customs,Duty),
             CfgPatches_XX(Headgear,Customs,Franck),
             CfgPatches_XX(Headgear,Customs,Doc),
@@ -95,7 +94,6 @@ class CfgWeapons {
         Helmet_197th_XX(Customs,Launcher);
         Helmet_197th_XX(Customs,Vanguard);
         Helmet_197th_XX(Customs,Damos);
-        Helmet_197th_XX(Customs,Viper);
         Helmet_197th_XX(Customs,Duty);
         Helmet_197th_XX(Customs,Franck);
         Helmet_197th_XX(Customs,Doc);
@@ -207,7 +205,6 @@ class CfgVehicles {
         HeadgearItem_197th_XX(Customs,Launcher);
         HeadgearItem_197th_XX(Customs,Vanguard);
         HeadgearItem_197th_XX(Customs,Damos);
-        HeadgearItem_197th_XX(Customs,Viper);
         HeadgearItem_197th_XX(Customs,Duty);
         HeadgearItem_197th_XX(Customs,Franck);
         HeadgearItem_197th_XX(Customs,Doc);
