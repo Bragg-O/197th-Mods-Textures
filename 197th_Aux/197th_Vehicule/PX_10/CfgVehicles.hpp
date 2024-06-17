@@ -16,6 +16,12 @@ class 197th_PX10: 3AS_PX10_REP_F
 	editorCategory = "197th_Vehicle";
 	editorSubcategory = "197th_Terrestre";
 	editorPreview="";
+	armor = 600;
+	armorHull = 1;
+	armorTurret = 0.8;
+	armorGun = 0.8;
+	armorEngine = 0.8;
+	armorTracks = 1;
 	hiddenselectionstextures[]=
 	{
 		"197th_Vehicule\PX_10\Data\Hull_co.paa",
