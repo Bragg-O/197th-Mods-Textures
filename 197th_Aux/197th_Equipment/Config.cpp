@@ -108,7 +108,7 @@ class CfgWeapons {
         HelmetVisorLight_197th_XX(Customs,Bragg);
     //HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
         HelmetPilot_197th_XX(Regs,Pilot);
-        HelmetPilot_197th_XX(Custom,5kibur);
+        HelmetPilot_197th_XX(Customs,5kibur);
     //HelmetARF_197th_XX(type,name) -> 197th_HelmetARF_##type##_##name##
         HelmetARF_197th_XX(Regs,ARF);
     //HelmetBARC_197th_XX(type,name) -> 197th_HelmetBARC_##type##_##name##
