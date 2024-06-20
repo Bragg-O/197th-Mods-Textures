@@ -22,16 +22,4 @@ class CIM_SkyLocker
 			"kobra\442_misc\personal_locker\data\screen_co.paa",
 			"kobra\442_misc\personal_locker\data\picture1_co.paa"};
 	};
-
-	class SkyLocker_144 : SkyLocker_Base
-	{
-		owner = "Bragg";
-		playerUID = "76561198113173701";
-	};
-
-	class SkyLocker_128 : SkyLocker_Base
-	{
-		owner = "Apollyon";
-		playerUID = "76561198203156987";
-	};
 };

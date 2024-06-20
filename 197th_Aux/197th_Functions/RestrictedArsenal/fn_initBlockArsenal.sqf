@@ -19,7 +19,7 @@ while { true } do {
 			_ctrl ctrlEnable true;
 		} forEach [44146, 44147, 44150, 44148, 44149, 44346];
 	} else {
-		if ((side player == civilian) /*or ((getPlayerUID player) in (getMissionConfigValue ["enableDebugConsole", []]))*/) then {
+		if ((side player == civilian) or ((getPlayerUID player) in (getMissionConfigValue ["enableDebugConsole", []]))) then {
 			{
 				_ctrl = (( uinamespace getvariable "RSCDisplayArsenal" ) displayCtrl _x);
 				_ctrl ctrlEnable true;
