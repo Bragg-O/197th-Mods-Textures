@@ -46,15 +46,7 @@ zeusCompositionScriptLevel = 2;	// 0: all scripts are forbidden
 								// 1: only attributes are allowed (including custom attributes added by mods)
 								// 2: all scripts are allowed including init scripts
 								// Default: 1
-LARs_overrideVA_debug = 0; //Show RPT debug info
-
-LARs_overrideVA_showMsg = -1; //Display client message if they load an inventory with items that are not allowed
-							 // -1 - wait for user to close
-							 // 0 - disabled
-							 // > 0 - time to show message
-
-LARs_overrideVA_random = 1; //Disable random - will disable random button and shortcut keys
-
+								
 class Header {
 	gameType = Zeus; // Game type
 	minPlayers = 1;	// minimum number of players the mission supports
