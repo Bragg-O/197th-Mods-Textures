@@ -482,6 +482,7 @@
 		scopearsenal = 2;                                                            \
 		picture = \197th_##type##\Equipments\_ui\vest.paa;                           \
 		hiddenselectionstextures[] = {                                               \
+			,                                                                        \
 			197th_##type##\Equipments\Vest\Data\##name##\Light_Accessories_co.paa,   \
 			197th_##type##\Equipments\Vest\Data\##name##\Heavy_Accessories_co.paa,   \
 			197th_##type##\Equipments\Vest\Data\##name##\Officer_Accessories_co.paa, \

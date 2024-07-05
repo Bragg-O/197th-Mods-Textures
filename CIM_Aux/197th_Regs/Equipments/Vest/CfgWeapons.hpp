@@ -216,7 +216,7 @@ class 197th_Vest_Clone2 : SWLB_CEE_Engineer_Vest_NCO
 	{
 		uniformModel = "\SWLB_CEE\data\SWLB_CEE_Engineer_Vest_NCO.p3d";
 		containerClass = "Supply210";
-		hiddenSelections[] = {"camo1", "camo2", "camo3", "camo4", "camo5", "camo6"};
+		hiddenSelections[] = {"ammo", "camo1", "camo2", "camo3", "camo4", "camo5", "camo6"};
 		mass = 80;
 		HITPOINTS_PROTECTION_INFO;
 	};
