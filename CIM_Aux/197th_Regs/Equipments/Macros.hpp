@@ -78,7 +78,7 @@
 			197th_##type##\Equipments\helmet\Data\helmetP2\##name##\visor_co.paa}; \
 		hiddenSelectionsMaterials[] = {                                            \
 			, 															  \
-			\a3\characters_f_bootcamp\common\vrarmoremmisive.rvmat};                       \
+			\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat};                  \
 	}
 
 #define HeadgearItem_197th_XX(type, id)                 \
@@ -188,7 +188,7 @@
 			197th_##type##\Equipments\helmet\Data\helmetBarc\##name##\visor_co.paa}; \
 		hiddenSelectionsMaterials[] = {                                              \
 			, \
-			\a3\characters_f_bootcamp\common\vrarmoremmisive.rvmat};                         \
+			\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat};                    \
 	}
 
 #define HeadgearItemBARC_197th_XX(type, id)                 \
