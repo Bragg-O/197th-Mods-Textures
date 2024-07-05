@@ -1,6 +1,5 @@
-params ["_target"];
+params ["_target", "_object"];
 
-if (_target distance _object > 5) exitWith {};
 _loadmedical = "";
 _loadbar = "";
 _color = [
@@ -49,4 +48,9 @@ hintSilent parseText format["<t color='#fb0000' size='1.5'>Traitement médical</
 };
 hint parseText format["<t color='#fb0000' size='1.5'>Traitement médical</t><br/>END<br/><br/><img size='5' image='\CIM_Core\Functions\HealTerminal\Data\MedicalLogo_ca.paa'/><br/><br/>Vous avez été complètement soigné"];
 [_target] call ace_medical_treatment_fnc_fullHealLocal;
-[_target, false, 5, true] call ace_medical_fnc_setUnconscious;
+
+{
+	if (_x distance _object < 5) then {
+		[_x, false, 5, true] call ace_medical_fnc_setUnconscious;
+	};
+} forEach allPlayers;
