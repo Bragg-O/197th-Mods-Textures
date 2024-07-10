@@ -33,9 +33,6 @@ class CfgRemoteExec
 
         /* Functions for everyone */
         F(DB_fnc_initMySQL, ANYONE)
-        JIP(CIM_fnc_createVehForkliftAnimation, ANYONE)
-        JIP(CIM_fnc_createVehHangarAnimation, ANYONE)
-        JIP(CIM_fnc_deleteVehHangarAnimation, ANYONE)
-        JIP(CIM_fnc_onCommunication, ANYONE)
+        F(CIM_fnc_onCommunication, ANYONE)
     };
 };
