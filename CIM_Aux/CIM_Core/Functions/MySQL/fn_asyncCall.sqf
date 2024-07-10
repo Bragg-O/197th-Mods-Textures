@@ -46,7 +46,7 @@ if (_queryResult isEqualTo "[5]") then {
 };
 
 _queryResult = call compile _queryResult;
-if ((_queryResult select 0) isEqualTo 0) exitWith {diag_log format ["extDB2: Protocol Error: %1", _queryResult]; []};
+if ((_queryResult select 0) isEqualTo 0) exitWith {diag_log format ["extDB3: Protocol Error: %1", _queryResult]; []};
 _return = (_queryResult select 1);
 if (!_multiarr && count _return > 0) then {
     _return = (_return select 0);
