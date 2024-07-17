@@ -2,6 +2,8 @@
 
 #include "\CIM_Core\Macros.hpp"
 
+#include "SkyLocker\Macros.hpp"
+
 class CfgPatches
 {
 	class 197th_Customs
@@ -212,13 +214,5 @@ class CfgWeapons
 
 class CIM_SkyLocker
 {
-	class SkyLocker_Base
-	{
-		owner = "";
-		playerUID = "";
-		textures[] = {
-			"kobra\442_misc\personal_locker\data\body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_co.paa",
-			"kobra\442_misc\personal_locker\data\picture1_co.paa"};
-	};
+	// Skylocker_197th(id,name,"steamid") -> Skylocker_##id##
 };
