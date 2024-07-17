@@ -215,4 +215,5 @@ class CfgWeapons
 class CIM_SkyLocker
 {
 	// Skylocker_197th(id,name,"steamid") -> Skylocker_##id##
+	Skylocker_197th(128,Agira,"76561198929572498");
 };
