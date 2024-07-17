@@ -30,20 +30,3 @@ class CfgEditorSubcategories
 	Categories_XX(CIM_Aerien,Aerien);
 	Categories_XX(CIM_Terrestre,Terrestre);
 };
-
-class Cfg3DEN
-{
-	class Compositions
-	{
-		class AcclamatorOrion
-		{
-			path = "\CIM_Core\Config\compositions\AcclamatorOrion";	// pbo path to a folder containing header.sqe/composition.sqe files
-			side = 8;											 	// 0 opfor,1 blufor,2 indfor,3 civ,8 Empty/Props
-			editorCategory = "CIM_Script";						  	// link to CfgEditorCategories
-			editorSubcategory = "CIM_Aerien";					   	// link to CfgEditorSubcategories
-			displayName = "Acclamator (Orion) - v1.0";				// Display composition name
-			icon = "\CIM_Core\Missions\Data\logo.paa";				// left side icon in groups list
-			useSideColorOnIcon = 1;					   				// 1 == icon is always colored in faction color
-		};
-	};
-};
