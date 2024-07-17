@@ -52,4 +52,4 @@ if (!_multiarr && count _return > 0) then {
     _return = (_return select 0);
 };
 
-_return;
+_return
