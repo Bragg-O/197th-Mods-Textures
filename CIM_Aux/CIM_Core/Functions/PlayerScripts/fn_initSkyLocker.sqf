@@ -10,6 +10,6 @@ if (isClass (configFile >> "CIM_SkyLocker" >> str _locker)) then {
 		_locker setObjectTextureGlobal [_textureselect, _x];
 		_textureselect = _textureselect + 1;
 	} forEach _lockerTextures;
-	
-	[_locker] call CIM_fnc_initRestrictedArsenalSkyLocker;
+
+	[_locker, true] call CIM_fnc_initRestrictedArsenal;
 };

@@ -1,4 +1,4 @@
-params ["_object"];
+params ["_object", ["_skylocker", false]];
 
 if (!hasInterface) exitWith {};
 
@@ -6,9 +6,15 @@ if (isNil "_object") exitWith {
 	["[197th/fnc_initRestrictedArsenal] Missing parameter: _object"] call BIS_fnc_logFormatServer;
 };
 
-["AmmoboxInit", [_object, false, {
-	true
-}]] spawn BIS_fnc_arsenal;
+if (_skylocker) then {
+	["AmmoboxInit", [_object, false, {
+		((getPlayerUID _this) == (getText (configFile >> "CIM_SkyLocker" >> str _target >> "playerUID")))
+	}]] spawn BIS_fnc_arsenal;
+} else {
+	["AmmoboxInit", [_object, false, {
+		true
+	}]] spawn BIS_fnc_arsenal;
+};
 
 _allClassWithRA = getMissionConfigValue ["CIM_RestrictedArsenal_AllClassWith", "_UwU_"];
 _CIMbackpackRA = getMissionConfigValue ["CIM_RestrictedArsenal_Backpack", []];

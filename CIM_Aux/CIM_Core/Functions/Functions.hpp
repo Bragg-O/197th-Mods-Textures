@@ -62,7 +62,6 @@ class CfgFunctions
             F(initCommunication)
             F(initLoadout)
             F(initRestrictedArsenal)
-            F(initRestrictedArsenalSkyLocker)
             F(initSkyLocker)
             F(initUnitTraitEngineer)
             F(initUnitTraitMedic)
