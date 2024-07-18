@@ -84,6 +84,10 @@ class CfgFunctions
             F(newPlayer)
             F(server_initialization)
             F(updatePlayer)
+            F(initPlayer)
+            F(checkPlayerExists)
+            F(syncPlayer)
+            F_PostInit(initSyncPlayer)
         };
     };
 };

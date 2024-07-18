@@ -30,6 +30,9 @@ class CfgRemoteExec
         F(DB_fnc_extractPlayer, SERVER)
         F(DB_fnc_newPlayer, SERVER)
         F(DB_fnc_updatePlayer, SERVER)
+        F(DB_fnc_initPlayer, SERVER)
+        F(DB_fnc_checkPlayerExists, SERVER)
+        F(DB_fnc_syncPlayer, SERVER)
 
         /* Functions for everyone */
         F(DB_fnc_initMySQL, ANYONE)
