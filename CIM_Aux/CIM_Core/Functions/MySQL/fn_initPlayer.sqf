@@ -1,6 +1,6 @@
 params ["_player", "_uid"];
 
-_playerExists = [_uid] call DB_fnc_checkPlayerExists;
+private _playerExists = [_uid] call DB_fnc_checkPlayerExists;
 
 if (((_playerExists select 0) select 0) == 0) then {
 	[_uid] call DB_fnc_newPlayer;
