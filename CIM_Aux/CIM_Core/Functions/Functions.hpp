@@ -50,7 +50,6 @@ class CfgFunctions
             F(onBactaGrenade)
             F(onReorientation)
             F(onUseHealTerminal)
-            F(useHealTerminal)
         };
 
         class PlayerScripts
