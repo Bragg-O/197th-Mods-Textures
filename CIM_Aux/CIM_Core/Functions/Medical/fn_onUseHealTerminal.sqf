@@ -48,5 +48,5 @@ if (_target distance _object > 5) exitWith {
 
 hint parseText format["<t color='#fb0000' size='1.5'>Traitement médical</t><br/>END<br/><br/><img size='5' image='\CIM_Core\Functions\Medical\Data\medicallogo_ca.paa'/><br/><br/>Vous avez été complètement soigné"];
 
-[_x, false, 5, true] call ace_medical_fnc_setUnconscious;
-[_x] call ace_medical_treatment_fnc_fullHealLocal;
+[_target, false, 5, true] call ace_medical_fnc_setUnconscious;
+[_target] call ace_medical_treatment_fnc_fullHealLocal;
