@@ -3,7 +3,7 @@ class 197th_M12_FAV;
 
 class 197th_M12_LRV_Omega: 197th_M12_LRV
 {
-	displayName="[197th] Warthog (M12-LRV / Omega)";
+	displayName="[197th] Warthog (MG / Omega)";
 	author = "[CIM] Bragg";
 	crew="197th_Unit_Regs_ARC";
 	hiddenselectionstextures[]=
@@ -41,7 +41,7 @@ class 197th_M12_LRV_Omega: 197th_M12_LRV
 
 class 197th_M12_FAV_Omega: 197th_M12_FAV
 {
-	displayName="[197th] Warthog (M12-FAV / Omega)";
+	displayName="[197th] Warthog (Omega)";
 	author = "[CIM] Bragg";
 	crew="197th_Unit_Regs_ARC";
 	hiddenselectionstextures[]=
