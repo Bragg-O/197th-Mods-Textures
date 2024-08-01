@@ -15,7 +15,7 @@ class 197th_ITT: 3AS_ITT
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -68,7 +68,7 @@ class 197th_ITT_Transport: 3AS_ITT_Medical
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -121,7 +121,7 @@ class 197th_ITT_Medical: 3AS_ITT_Medical
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -175,7 +175,7 @@ class 197th_ITT_Logistic: 3AS_ITT_Logistic
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=

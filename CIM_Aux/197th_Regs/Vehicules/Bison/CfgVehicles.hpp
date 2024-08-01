@@ -15,7 +15,7 @@ class 197th_Bison_MGS: OPTRE_M413_MGS_UNSC
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -68,7 +68,7 @@ class 197th_Bison_IFV: OPTRE_M412_IFV_UNSC
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -122,7 +122,7 @@ class 197th_Bison_APC: OPTRE_M411_APC_UNSC
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=

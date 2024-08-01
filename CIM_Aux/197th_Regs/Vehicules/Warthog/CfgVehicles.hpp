@@ -20,7 +20,7 @@ class 197th_M12A1_LRV: OPTRE_M12A1_LRV
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -73,7 +73,7 @@ class 197th_M12_APC: OPTRE_M12_FAV_APC
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -128,7 +128,7 @@ class 197th_M914_RV: OPTRE_M914_RV
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -178,7 +178,7 @@ class 197th_M12G1_LRV: OPTRE_M12G1_LRV
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -229,7 +229,7 @@ class 197th_M12R_AA: OPTRE_M12R_AA
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -278,7 +278,7 @@ class 197th_M813_TT: OPTRE_M813_TT
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -331,7 +331,7 @@ class 197th_M12_LRV: OPTRE_M12_LRV
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
@@ -384,7 +384,7 @@ class 197th_M12_FAV: OPTRE_M12_FAV
 	ace_cargo_space = 20;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
-	
+	tas_canBlift = 1;
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=
