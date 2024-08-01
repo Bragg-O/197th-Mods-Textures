@@ -104,6 +104,7 @@ class CfgWeapons
 	class 197th_HelmetBarc;
 	class 197th_Vest_Officer;
 	class 197th_Vest_kama;
+	class 197th_Vest_Hazard;
 	class 197th_Vest_Lieutenant;
 	class 197th_Vest_Sergent;
 	class 197th_Vest_ARC;
@@ -165,6 +166,9 @@ class CfgWeapons
 
 	// Vest
 	// VestOfficer_197th_XX(type,name) -> 197th_Vest_##type##_##name##
+
+	//VestHazard_197th_XX(type,name) -> 197th_Vest_##type##_##name##
+	VestHazard_197th_XX(Customs,Tiger);
 
 	// VestKama_197th_XX(type,name) -> 197th_Vest_##type##_##name##
 

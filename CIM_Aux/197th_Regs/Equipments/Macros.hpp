@@ -367,6 +367,19 @@
 			197th_##type##\Equipments\Vest\Data\##name##\Officer_Accessories_co.paa}; \
 	}
 
+#define VestHazard_197th_XX(type, name)                                               \
+	class 197th_Vest_##type##_##name : 197th_Vest_Hazard                              \
+	{                                                                                 \
+		author = [CIM] Bragg;                                                         \
+		displayName = [197th] Vest(##name##);                                         \
+		scope = 2;                                                                    \
+		scopearsenal = 2;                                                             \
+		picture = \197th_##type##\Equipments\_ui\vest_pauldron.paa;                   \
+		hiddenselectionstextures[] = {                                                \
+			197th_##type##\Equipments\Vest\Data\##name##\Light_Accessories_co.paa,    \
+			197th_##type##\Equipments\Vest\Data\##name##\Officer_Accessories_co.paa}; \
+	}
+
 #define VestKama_197th_XX(type, name)                                                \
 	class 197th_Vest_##type##_##name : 197th_Vest_kama                               \
 	{                                                                                \

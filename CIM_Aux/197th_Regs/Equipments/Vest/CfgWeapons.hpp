@@ -61,6 +61,7 @@ class SWLB_clone_grenadier_armor;
 class SWLB_clone_medic_armor;
 class SWLB_clone_recon_armor;
 class SWLB_clone_specialist_armor;
+class SWLB_CEE_Hazard_Vest;
 
 class 197th_Vest_Officer : SWLB_clone_officer_armor
 {
@@ -75,6 +76,24 @@ class 197th_Vest_Officer : SWLB_clone_officer_armor
 		uniformModel = "\SWLB_clones\SWLB_clone_officer_armor.p3d";
 		containerClass = "Supply210";
 		hiddenSelections[] = {"camo1"};
+		mass = 80;
+		HITPOINTS_PROTECTION_INFO;
+	};
+};
+
+class 197th_Vest_Hazard : SWLB_CEE_Hazard_Vest
+{
+	author = "[CIM] Bragg";
+	displayName = "[197th] Veste Hazard Base";
+	scope = 0;
+	scopearsenal = 0;
+	model = "\SWLB_CEE\data\SWLB_CEE_Hazard_Vest.p3d";
+	hiddenSelections[] = {"camo1", "camo2"};
+	class ItemInfo : VestItem
+	{
+		uniformModel = "\SWLB_CEE\data\SWLB_CEE_Hazard_Vest.p3d";
+		containerClass = "Supply210";
+		hiddenSelections[] = {"camo1", "camo2"};
 		mass = 80;
 		HITPOINTS_PROTECTION_INFO;
 	};
