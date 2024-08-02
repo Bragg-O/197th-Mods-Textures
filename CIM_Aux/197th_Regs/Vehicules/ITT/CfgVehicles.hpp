@@ -176,6 +176,7 @@ class 197th_ITT_Logistic: 3AS_ITT_Logistic
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
+	TAS_liftVars = "[[[[0,-4.5,-4.5]]], [0], [0]]";
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	hiddenselectionstextures[]=

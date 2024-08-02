@@ -14,6 +14,7 @@ class 197th_PX10: 3AS_PX10_REP_F
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
+	TAS_liftVars = "[[[[0,-4.5,-4.5]]], [0], [0]]";
 	editorSubcategory = "CIM_Terrestre";
 	editorPreview="";
 	armor = 600;
