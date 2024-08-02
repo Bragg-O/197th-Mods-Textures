@@ -32,4 +32,4 @@ if (isNil { uiNamespace getVariable "JL_persistence_protocolID" }) then {
 } else {
     // La base de données est déjà connectée et le protocole est en place
     diag_log "extDB3 - Database already connected";
-}
+};
