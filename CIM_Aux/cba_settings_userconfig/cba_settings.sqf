@@ -68,7 +68,7 @@ force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = false;
 force force ace_advanced_ballistics_simulationInterval = 0.05;
 //
 // ACE Carte
-force force ace_map_BFT_Enabled = true;
+force force ace_map_BFT_Enabled = false;
 force force ace_map_BFT_HideAiGroups = true;
 force force ace_map_BFT_Interval = 20;
 force force ace_map_BFT_ShowPlayerNames = false;
