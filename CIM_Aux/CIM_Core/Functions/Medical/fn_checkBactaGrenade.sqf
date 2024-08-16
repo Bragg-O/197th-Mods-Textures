@@ -15,7 +15,7 @@ _this spawn {
 		player setVariable ["CIM_BactaFilter", true];
 
 		hint parseText format [
-			"<img size='1.5' image='\CIM_Core\Functions\Medical\Data\MedicalLogo_ca.paa'/><br/><t color='#FF0000' size='1.5'>Tu as trop de grenades à bacta sur toi<br/>%1/%2</t>"
+			"<img size='1.5' image='\CIM_Core\Functions\Medical\Data\MedicalLogo_ca.paa'/><br/><t color='#FF0000' size='1.5'>Tu as trop de grenades à bacta sur toi<br/>%1/%2</t>",
 			({
 				_x == "197th_BactaGrenade_Mag"
 			} count (magazines player)),
