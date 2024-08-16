@@ -1,5 +1,5 @@
 if (!hasInterface) exitWith {};
-
+if (!isMultiplayer) exitWith {};
 waitUntil {
 	// to prevent MP / JIP issues
 	sleep 5;
