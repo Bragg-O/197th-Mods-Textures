@@ -1,7 +1,7 @@
 ["ace_firedPlayer", CIM_fnc_onBactaGrenade] call CBA_fnc_addEventHandler;
 
-["InventoryOpened", CIM_fnc_checkBactaGrenade] call CBA_fnc_addEventHandler;
+Player addEventHandler ["InventoryOpened", {call CIM_fnc_checkBactaGrenade}];
 
-["FiredNear", CIM_fnc_onUnderFire] call CBA_fnc_addEventHandler;
+Player addEventHandler ["FiredNear", {call CIM_fnc_onUnderFire}];
 
-["FiredMan", CIM_fnc_onUnderFire] call CBA_fnc_addEventHandler;
+Player addEventHandler ["FiredMan", {call CIM_fnc_onUnderFire}];
