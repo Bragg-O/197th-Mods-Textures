@@ -849,60 +849,6 @@ force force SFX_Suppressionsnd_tnk = false;
 //
 // Scion Conflict
 //
-// TFAR - Clientside settings
-//
-// TFAR - Global settings
-force force TFAR_AICanHearPlayer = true;
-force force TFAR_AICanHearSpeaker = true;
-force force TFAR_allowDebugging = true;
-force force TFAR_defaultIntercomSlot = 0;
-force force TFAR_disableAutoMute = false;
-force force TFAR_enableIntercom = true;
-force force TFAR_experimentalVehicleIsolation = true;
-force force TFAR_externalIntercomEnable = 0;
-force force TFAR_externalIntercomMaxRange_Phone = 5;
-force force TFAR_externalIntercomMaxRange_Wireless = 15;
-force force TFAR_fullDuplex = true;
-force force TFAR_giveLongRangeRadioToGroupLeaders = false;
-force force TFAR_giveMicroDagrToSoldier = true;
-force force TFAR_givePersonalRadioToRegularSoldier = false;
-force force TFAR_globalRadioRangeCoef = 1;
-force force TFAR_instantiate_instantiateAtBriefing = false;
-force force TFAR_objectInterceptionEnabled = true;
-force force TFAR_objectInterceptionStrength = 400;
-force force tfar_radiocode_east = "_opfor";
-force force tfar_radiocode_independent = "_independent";
-force force tfar_radiocode_west = "_bluefor";
-force force tfar_radioCodesDisabled = true;
-force force TFAR_SameLRFrequenciesForSide = true;
-force force TFAR_SameSRFrequenciesForSide = true;
-force force TFAR_setting_defaultFrequencies_lr_east = "";
-force force TFAR_setting_defaultFrequencies_lr_independent = "";
-force force TFAR_setting_defaultFrequencies_lr_west = "30,31,32,33,34,35,36,37,38";
-force force TFAR_setting_defaultFrequencies_sr_east = "";
-force force TFAR_setting_defaultFrequencies_sr_independent = "";
-force force TFAR_setting_defaultFrequencies_sr_west = "100,100,100,100,100,100,100,100,100";
-force force TFAR_setting_DefaultRadio_Airborne_east = "TFAR_mr6000l";
-force force TFAR_setting_DefaultRadio_Airborne_Independent = "TFAR_anarc164";
-force force TFAR_setting_DefaultRadio_Airborne_West = "TFAR_anarc210";
-force force TFAR_setting_DefaultRadio_Backpack_east = "TFAR_mr3000";
-force force TFAR_setting_DefaultRadio_Backpack_Independent = "TFAR_anprc155";
-force force TFAR_setting_DefaultRadio_Backpack_west = "TFAR_rt1523g";
-force force TFAR_setting_DefaultRadio_Personal_east = "TFAR_fadak";
-force force TFAR_setting_DefaultRadio_Personal_Independent = "TFAR_anprc148jem";
-force force TFAR_setting_DefaultRadio_Personal_West = "TFAR_anprc152";
-force force TFAR_setting_DefaultRadio_Rifleman_East = "TFAR_pnr1000a";
-force force TFAR_setting_DefaultRadio_Rifleman_Independent = "TFAR_anprc154";
-force force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_rf7800str";
-force force TFAR_setting_externalIntercomWirelessHeadgear = "";
-force force TFAR_spectatorCanHearEnemyUnits = true;
-force force TFAR_spectatorCanHearFriendlies = true;
-force force TFAR_takingRadio = 2;
-force force TFAR_Teamspeak_Channel_Name = "[cspacer1] TaskForceRadio";
-force force TFAR_Teamspeak_Channel_Password = "HelloThere";
-force force tfar_terrain_interception_coefficient = 7;
-force force TFAR_voiceCone = true;
-//
 // TSP Animate
 force force tsp_cba_animate_door = true;
 force force tsp_cba_animate_dynamicReadyBush = true;
