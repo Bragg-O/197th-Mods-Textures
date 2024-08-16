@@ -1,5 +1,9 @@
 params ["_player", "_uid"];
 
+if (!isMultiplayer) exitWith {
+	   diag_log "extDB3 - need to be in Multiplayer!";
+};
+
 private _playerExists = [_uid] call DB_fnc_checkPlayerExists;
 
 if (((_playerExists select 0) select 0) == 0) then {
