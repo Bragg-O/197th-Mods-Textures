@@ -1,46 +1,24 @@
 _this spawn {
-	if (!hasInterface) exitWith {}; // if this is a headless client, exit the function
+	private _maxBactaGrenades = 0;
 
-	if ({
-		_x == "197th_BactaGrenade_Ammo"
-	} count ((backpackItems player) + (uniformItems player) + (vestItems player)) > 0) then {
-		// if the unit has the "197th_BactaGrenade_Ammo" item
-		for [{
-			_i = 0 // set a counter to 0
-		}, {
-			_i < 120 // loop as long as the counter is less than 120
-		}, {
-			_i = _i + 1 // increment the counter by 1
-		}]
-		do {
-			// start a loop
-			sleep 1; // wait 1 second
-			if ({
-				_x == "197th_BactaGrenade_Ammo"
-			} count ((backpackItems Player) + (uniformItems Player) + (vestItems Player)) == 0) exitWith {}; // if the unit doesn't have the item anymore, exit the loop
-		}; // end of the loop that checks every second if the unit still has the item
-		if ({
-			_x == "197th_BactaGrenade_Ammo"
-		} count ((backpackItems player) + (uniformItems player) + (vestItems player)) >= 1) then {
-			while ({
-				_x == "197th_BactaGrenade_Ammo"
-			} count ((backpackItems player) + (uniformItems player) + (vestItems player)) >= 1) do {
-				// if the unit still has the item
-				sleep 5; // wait 5 seconds
+	if (player getUnitTrait "Medic") then {
+		_maxBactaGrenades = 1;
+	};
 
-				if ((Player getUnitTrait "medic" == true) && ({
-					_x == "197th_BactaGrenade_Ammo"
-				} count ((backpackItems player) + (uniformItems player) + (vestItems player)) <= 1)) exitWith {}; // if the unit is a medic and still has only 1 item, exit the loop
+	while {
+		(({
+			_x == "197th_BactaGrenade_Mag"
+		} count (magazines player)) > _maxBactaGrenades)
+	} do {
+		hint parseText format [
+			"<t size='1.5' color='#FF0000'>Tu à trop de grenade bacta dans ton inventaire ! </br> %1 grenade bacta </t>",
+			({
+				_x == "197th_BactaGrenade_Mag"
+			} count (magazines player))
+		];
 
-				hint parseText format [ // display an error message to the unit
-					"<t size='1.5' color='#FF0000'>Tu à %1 grenade bacta dans ton inventaire ! </t>",
-					({
-						_x == "197th_BactaGrenade_Ammo"
-					} count ((backpackItems player) + (uniformItems player) + (vestItems player)))
-				];
+		playSound "AlarmCar";
 
-				playSound "AlarmCar"; // play an alarm sound
-			}; // end of the loop that checks every 5 seconds if the unit still has the item
-		};
-	}; // end of the if statement that checks if the unit has the item
-}; // end of the anonymous function
+		sleep 5;
+	};
+};
