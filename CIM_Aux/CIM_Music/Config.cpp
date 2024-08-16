@@ -29,6 +29,7 @@ class CfgMusicClasses
 	Categories_XX(R6,Rainbow Six);
 	Categories_XX(Interstellar,Interstellar);
 	Categories_XX(Transformers,Transformers);
+	Categories_XX(TSFH_Battlecry, TSFH - Battlecry)
 };
 
 class CfgMusic

@@ -1475,3 +1475,171 @@ class Transformers_Tessa
   duration = 346;
   musicClass = "Transformers";
 };
+class TSFH_Battlecry_Across_the_Blood_Water
+{
+  name = "Across the Blood Water";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Across the Blood Water.ogg", db + 0, 1.0};
+  duration = 222;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Amaria
+{
+  name = "Amaria";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Amaria.ogg", db + 0, 1.0};
+  duration = 204;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Battleborne
+{
+  name = "Battleborne";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Battleborne.ogg", db + 0, 1.0};
+  duration = 309;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Blackout
+{
+  name = "Blackout";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Blackout.ogg", db + 0, 1.0};
+  duration = 233;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Cannon_in_D_Minor
+{
+  name = "Cannon in D Minor";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Cannon in D Minor.ogg", db + 0, 1.0};
+  duration = 191;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Flight_of_the_Silverbird
+{
+  name = "Flight of the Silverbird";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Flight of the Silverbird.ogg", db + 0, 1.0};
+  duration = 212;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Freedom_Ship
+{
+  name = "Freedom Ship";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Freedom Ship.ogg", db + 0, 1.0};
+  duration = 212;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Last_Of_The_Light
+{
+  name = "Last Of The Light";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Last Of The Light.ogg", db + 0, 1.0};
+  duration = 178;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Never_Back_Down
+{
+  name = "Never Back Down";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Never Back Down.ogg", db + 0, 1.0};
+  duration = 180;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_No_Honor_in_Blood
+{
+  name = "No Honor in Blood";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\No Honor in Blood.ogg", db + 0, 1.0};
+  duration = 199;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Outpost
+{
+  name = "Outpost";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Outpost.ogg", db + 0, 1.0};
+  duration = 187;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Red_Tower
+{
+  name = "Red Tower";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Red Tower.ogg", db + 0, 1.0};
+  duration = 196;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Release_Me
+{
+  name = "Release Me";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Release Me.ogg", db + 0, 1.0};
+  duration = 252;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Rise_Above
+{
+  name = "Rise Above";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Rise Above.ogg", db + 0, 1.0};
+  duration = 231;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Sariel
+{
+  name = "Sariel";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Sariel.ogg", db + 0, 1.0};
+  duration = 177;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Spellcaster
+{
+  name = "Spellcaster";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Spellcaster.ogg", db + 0, 1.0};
+  duration = 191;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Star_Sky_Instrumental
+{
+  name = "Star Sky (Instrumental)";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Star Sky (Instrumental).ogg", db + 0, 1.0};
+  duration = 343;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Star_Sky
+{
+  name = "Star Sky";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Star Sky.ogg", db + 0, 1.0};
+  duration = 335;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Stormkeeper
+{
+  name = "Stormkeeper";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Stormkeeper.ogg", db + 0, 1.0};
+  duration = 178;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Stronger_Faster_Braver
+{
+  name = "Stronger Faster Braver";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Stronger Faster Braver.ogg", db + 0, 1.0};
+  duration = 286;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Ultraground
+{
+  name = "Ultraground";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Ultraground.ogg", db + 0, 1.0};
+  duration = 200;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Unforgiven
+{
+  name = "Unforgiven";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Unforgiven.ogg", db + 0, 1.0};
+  duration = 261;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Victory
+{
+  name = "Victory";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Victory.ogg", db + 0, 1.0};
+  duration = 329;
+  musicClass = "TSFH_Battlecry";
+};
+class TSFH_Battlecry_Wolf_King
+{
+  name = "Wolf King";
+  sound[] = {"CIM_Music\Data\TSFH_Battlecry\Wolf King.ogg", db + 0, 1.0};
+  duration = 263;
+  musicClass = "TSFH_Battlecry";
+};
