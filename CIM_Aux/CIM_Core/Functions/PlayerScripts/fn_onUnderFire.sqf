@@ -14,6 +14,9 @@ _this spawn {
 			if ((cameraView == "External") && ((vehicle player) == player)) then {
 				player switchCamera "Internal";
 			};
+			if ((vehicle player) != player) exitwith {
+				CIM_combatTime = 0;
+			};
 			sleep 0.2;
 			CIM_combatTime = CIM_combatTime - 0.2;
 		};
