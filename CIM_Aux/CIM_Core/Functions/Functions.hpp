@@ -37,6 +37,7 @@ class CfgFunctions
             F(initPlow)
             F(onLoadLAATC)
             F(onUnLoadLAATC)
+            F(initAllVehicleService)
         };
 
         class Medical
