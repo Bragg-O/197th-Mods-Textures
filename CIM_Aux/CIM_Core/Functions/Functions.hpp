@@ -33,9 +33,6 @@ class CfgFunctions
         {
             file = "CIM_Core\Functions\Logistics";
             F(canFortify)
-            F(createVehForkliftAnimation)
-            F(createVehHangarAnimation)
-            F(deleteVehHangarAnimation)
             F(initGarage)
             F(initPlow)
             F(onLoadLAATC)
