@@ -1,6 +1,10 @@
 _this spawn {
 	CIM_combatTime = 60;
 
+	if ((vehicle player) != player) exitWith {
+		CIM_combatTime = 0;
+	};
+
 	_eh = (findDisplay 46) displayAddEventHandler ["KeyDown", {
 		_key = _this select 1;
 		_keys = actionKeys "PersonView";
@@ -14,7 +18,7 @@ _this spawn {
 			if ((cameraView == "External") && ((vehicle player) == player)) then {
 				player switchCamera "Internal";
 			};
-			if ((vehicle player) != player) exitwith {
+			if ((vehicle player) != player) exitWith {
 				CIM_combatTime = 0;
 			};
 			sleep 0.2;
