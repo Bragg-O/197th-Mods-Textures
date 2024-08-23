@@ -53,3 +53,5 @@ if (hasInterface) then {
 };
 
 [] spawn CIM_fnc_initScanner;
+
+[] call TFAR_fnc_clientInit;
