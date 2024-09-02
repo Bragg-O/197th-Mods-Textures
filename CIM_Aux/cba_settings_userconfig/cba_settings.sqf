@@ -376,7 +376,6 @@ force force ace_finger_enabled = true;
 force force ace_finger_indicatorForSelf = true;
 force force ace_finger_maxRange = 20;
 force force ace_finger_proximityScaling = true;
-force force ace_finger_sizeCoef = 1;
 
 // ACE Pylons
 force force ace_pylons_enabledForZeus = true;
@@ -536,6 +535,9 @@ force force AVS_Sliding = true;
 force force UPSL_aime_change_ammo_setting_ammo_class = true;
 force force UPSL_aime_change_ammo_setting_vehicle_ammo_class = true;
 
+// AIME General
+force force UPSL_aime_setting_hide = true;
+
 // AIME GPS and UAV Terminal
 force force UPSL_aime_uav_terminal_setting_gps_action = true;
 force force UPSL_aime_uav_terminal_setting_term_action = true;
@@ -637,8 +639,6 @@ force force diwako_dui_nametags_useSideIsFriendly = true;
 // DUI - Squad Radar - Radar
 force force diwako_dui_enable_compass = true;
 force force diwako_dui_enable_compass_dir = 4;
-diwako_dui_hudScaling = 1.33333;
-diwako_dui_namelist_size = 1.5396;
 force force diwako_dui_radar_ace_medic = true;
 force force diwako_dui_radar_icon_priority_setting = 1;
 force force diwako_dui_radar_show_cardinal_points = true;
@@ -648,44 +648,6 @@ force force diwako_dui_radar_showSpeaking_replaceIcon = true;
 force force diwako_dui_radar_sortType = "fireteam";
 force force diwako_dui_radar_sqlFirst = false;
 force force diwako_dui_radar_syncGroup = true;
-
-// Fire support PLUS
-force force FSPLUS_105mmTrainingShell = true;
-force force FSPLUS_122Rocket = true;
-force force FSPLUS_122RocketBarrage = true;
-force force FSPLUS_155Barrage = true;
-force force FSPLUS_230HE = true;
-force force FSPLUS_230HEBarrage = true;
-force force FSPLUS_230mmAP = true;
-force force FSPLUS_230mmFletchette = true;
-force force FSPLUS_230mmHeatSeeking = true;
-force force FSPLUS_230mmMine = true;
-force force FSPLUS_230mmTrainingRocket = true;
-force force FSPLUS_82mmTrainingShell = true;
-force force FSPLUS_82MortarBarrage = true;
-force force FSPLUS_Big_Nuke = true;
-force force FSPLUS_CruiseMissile = true;
-force force FSPLUS_Fireworks = true;
-force force FSPLUS_Napalm = true;
-force force FSPLUS_Not230mmBarrage = true;
-force force FSPLUS_RodsfromGod = true;
-force force FSPLUS_Smoke_white = true;
-
-// Fire support PLUS (Freestyle's Nuclear Blast)
-force force FSNB_AllowWeapons = false;
-force force FSNB_BlastWave = true;
-force force FSNB_CondensationRing = true;
-force force FSNB_Crater = true;
-force force FSNB_Debug = false;
-force force FSNB_DirectRad = true;
-force force FSNB_DustWave = true;
-force force FSNB_Fireball = true;
-force force FSNB_Fires = 0.1;
-force force FSNB_LingerSmoke = true;
-force force FSNB_MushroomCloud = true;
-force force FSNB_SmokeSpike = true;
-force force FSNB_Sound = true;
-force force FSNB_StaticRad = -1;
 
 // GRAD Trenches
 force force grad_trenches_functions_allowBigEnvelope = true;
@@ -770,16 +732,13 @@ force force JLTS_settings_EMP_repairTimeSecondary = 40;
 force force JLTS_settings_Stun_mainSwitch = 1;
 force force JLTS_settings_Stun_worksInVehicles = true;
 
-// Lala's Mortar Calculator
-force force LALA_MORTAR_ALLOW_MAP_TOOLS = true;
-
 // LAMBS Danger
 force force lambs_danger_cqbRange = 60;
 force force lambs_danger_disableAIAutonomousManoeuvres = false;
 force force lambs_danger_disableAIDeployStaticWeapons = false;
 force force lambs_danger_disableAIFindStaticWeapons = false;
 force force lambs_danger_disableAIHideFromTanksAndAircraft = false;
-force force lambs_danger_disableAIPlayerGroup = false;
+force force lambs_danger_disableAIPlayerGroup = true;
 force force lambs_danger_disableAIPlayerGroupReaction = false;
 force force lambs_danger_disableAutonomousFlares = false;
 force force lambs_danger_disableAutonomousSmokeGrenades = false;
@@ -923,36 +882,86 @@ force force SFX_Suppressionsnd_tnk = false;
 force force rps_setting_dice_maxNumber = "20";
 
 // RP System (Character Sheet)
-force force rps_setting_sheet_admech_armor = "No armor.";
-force force rps_setting_sheet_admech_background = "A standard servant.";
-force force rps_setting_sheet_admech_charisma = 0;
-force force rps_setting_sheet_admech_class = "Servant";
-force force rps_setting_sheet_admech_intelligence = 0;
-force force rps_setting_sheet_admech_relic = "No relic.";
-force force rps_setting_sheet_admech_seals = 0;
-force force rps_setting_sheet_admech_stamina = 0;
-force force rps_setting_sheet_admech_strength = 0;
-force force rps_setting_sheet_admech_weapon = "No weapon.";
-force force rps_setting_sheet_background = "REDACTED";
 force force rps_setting_sheet_canShare = false;
-force force rps_setting_sheet_class = "Operator";
 force force rps_setting_sheet_enable = false;
-force force rps_setting_sheet_faction = "Lone Operators";
-force force rps_setting_sheet_name = "REDACTED";
 
 // RP System (WH40k)
 force force rps_setting_incense_enable = false;
 force force rps_setting_incense_healGroup = false;
 
-// TFAR - Clientside settings
-TFAR_PosUpdateMode = 0.2;
+// Sci-fi Support PLUS
+force force ScifiSupportPlus_AmbientShipSound_Radius = "7000";
+force force ScifiSupportPlus_Archer = true;
+force force ScifiSupportPlus_ArcherBarrage = true;
+force force ScifiSupportPlus_COV_ArmedCruiser = true;
+force force ScifiSupportPlus_Cov_ConstructionPod = true;
+force force ScifiSupportPlus_COV_GlassingStrike = true;
+force force ScifiSupportPlus_COV_QRF_Deployment = true;
+force force ScifiSupportPlus_COV_SDV_Bombardment = true;
+force force ScifiSupportPlus_cov_sup_pod = true;
+force force ScifiSupportPlus_COV_TroopDeployment = true;
+force force ScifiSupportPlus_CrashShip = true;
+force force ScifiSupportPlus_DroidDispenser = true;
+force force ScifiSupportPlus_EXTERMINATUSHot = true;
+force force ScifiSupportPlus_EXTERMINATUSVirus = true;
+force force ScifiSupportPlus_HeavyInsertionPod = true;
+force force ScifiSupportPlus_HMP_VicDrop = true;
+force force ScifiSupportPlus_HunterInsertionPod = true;
+force force ScifiSupportPlus_InsertionPod = true;
+force force ScifiSupportPlus_IonCannon = true;
+force force ScifiSupportPlus_IonCannonVolley = true;
+force force ScifiSupportPlus_JumpShipIn = true;
+force force ScifiSupportPlus_JumpShipOut = true;
+force force ScifiSupportPlus_LAATc = true;
+force force ScifiSupportPlus_MACStrike = true;
+force force ScifiSupportPlus_MoveShip_Speed = "0.001";
+force force ScifiSupportPlus_NeedleStorm = true;
+force force ScifiSupportPlus_OrbitalAutocannon = true;
+force force ScifiSupportPlus_OrbitalBlasterCannonBlue = true;
+force force ScifiSupportPlus_OrbitalBlasterCannonBlueHE = true;
+force force ScifiSupportPlus_OrbitalBlasterCannonRed = true;
+force force ScifiSupportPlus_OrbitalBlasterCannonRedHE = true;
+force force ScifiSupportPlus_Pelicanvehicledrop = true;
+force force ScifiSupportPlus_PlasmaBomb = true;
+force force ScifiSupportPlus_PlasmaLanceStrike = true;
+force force ScifiSupportPlus_PlasmaMortar = true;
+force force ScifiSupportPlus_PlasmaStorm = true;
+force force ScifiSupportPlus_PlasmaTorpedo = true;
+force force ScifiSupportPlus_PlasmaTorpedoStrike = true;
+force force ScifiSupportPlus_ShredderCannon = true;
+force force ScifiSupportPlus_Spiritvehicledrop = true;
+force force ScifiSupportPlus_TurboLaser = true;
+force force ScifiSupportPlus_TurboLaserVolley = true;
+force force ScifiSupportPlus_UNSC_ArmedFrigate = true;
+force force ScifiSupportPlus_UNSC_ConstructionPod = true;
+force force ScifiSupportPlus_UNSC_OrbitalVehicleDeployment = true;
+force force ScifiSupportPlus_UNSC_sup_pod = true;
+force force ScifiSupportPlus_UNSCHeavyInsertionPod = true;
+force force ScifiSupportPlusMissilebarrageAT = true;
+force force ScifiSupportPlusMissilebarrageHE = true;
+
+// Scion Conflict
+force force sc_scripts_grapplinghook_coolDown = 0.1;
+force force sc_scripts_grapplinghook_everyoneHasGrapplingHook = false;
+force force sc_scripts_grapplinghook_grapplingSpeedCoef = 20;
+force force sc_scripts_grapplinghook_maxGrapplingTime = 5;
+force force sc_scripts_grapplinghook_maxRange = 100;
+force force sc_scripts_grapplinghook_safetyCheck = true;
+force force sc_scripts_jumppack_dodgeCooldown = 1;
+force force sc_scripts_jumppack_dodgeMultiplier = 7.5;
+force force sc_scripts_jumppack_everyoneHasJumpPack = false;
+force force sc_scripts_jumppack_jumpCooldown = 30;
+force force sc_scripts_jumppack_maxJumpHeightHigh = 15;
+force force sc_scripts_jumppack_maxJumpHeightLow = 10;
+force force sc_scripts_jumppack_maxJumpVelocityMultiplier = 3;
+force force sc_scripts_jumppack_useACEOverpressure = true;
 
 // TFAR - Global settings
-force force TFAR_AICanHearPlayer = false;
-force force TFAR_AICanHearSpeaker = false;
+force force TFAR_AICanHearPlayer = true;
+force force TFAR_AICanHearSpeaker = true;
 force force TFAR_allowDebugging = true;
 force force TFAR_defaultIntercomSlot = 0;
-force force TFAR_disableAutoMute = true;
+force force TFAR_disableAutoMute = false;
 force force TFAR_enableIntercom = true;
 force force TFAR_experimentalVehicleIsolation = true;
 force force TFAR_externalIntercomEnable = 0;
@@ -963,13 +972,13 @@ force force TFAR_giveLongRangeRadioToGroupLeaders = false;
 force force TFAR_giveMicroDagrToSoldier = true;
 force force TFAR_givePersonalRadioToRegularSoldier = false;
 force force TFAR_globalRadioRangeCoef = 1;
-force force TFAR_instantiate_instantiateAtBriefing = true;
+force force TFAR_instantiate_instantiateAtBriefing = false;
 force force TFAR_objectInterceptionEnabled = true;
 force force TFAR_objectInterceptionStrength = 400;
 force force tfar_radiocode_east = "_opfor";
 force force tfar_radiocode_independent = "_independent";
 force force tfar_radiocode_west = "_bluefor";
-force force tfar_radioCodesDisabled = false;
+force force tfar_radioCodesDisabled = true;
 force force TFAR_SameLRFrequenciesForSide = true;
 force force TFAR_SameSRFrequenciesForSide = true;
 force force TFAR_setting_defaultFrequencies_lr_east = "";
@@ -998,136 +1007,6 @@ force force TFAR_Teamspeak_Channel_Name = "[cspacer1] TaskForceRadio";
 force force TFAR_Teamspeak_Channel_Password = "HelloThere";
 force force tfar_terrain_interception_coefficient = 7;
 force force TFAR_voiceCone = true;
-
-// TSP Animate
-force force tsp_cba_animate_attachment = true;
-force force tsp_cba_animate_Bang = true;
-force force tsp_cba_animate_Bird = true;
-force force tsp_cba_animate_black = "[""optic_tws_mg""]";
-force force tsp_cba_animate_Breach = true;
-force force tsp_cba_animate_Cancel = true;
-force force tsp_cba_animate_cant = true;
-force force tsp_cba_animate_captive = true;
-force force tsp_cba_animate_clacker = true;
-force force tsp_cba_animate_compass = true;
-force force tsp_cba_animate_Contact = true;
-force force tsp_cba_animate_Dab = true;
-force force tsp_cba_animate_door = true;
-force force tsp_cba_animate_Duo = true;
-force force tsp_cba_animate_friend = 2;
-force force tsp_cba_animate_grenade = true;
-force force tsp_cba_animate_Horns = true;
-force force tsp_cba_animate_Inspect = true;
-force force tsp_cba_animate_Ivan = true;
-force force tsp_cba_animate_Jackoff = true;
-force force tsp_cba_animate_Kata = true;
-force force tsp_cba_animate_ladder = true;
-force force tsp_cba_animate_Loser = true;
-force force tsp_cba_animate_Mahalo = true;
-force force tsp_cba_animate_map = true;
-force force tsp_cba_animate_Metal = true;
-force force tsp_cba_animate_nvg = true;
-force force tsp_cba_animate_object = 1.5;
-force force tsp_cba_animate_Ok = true;
-force force tsp_cba_animate_Paper = true;
-force force tsp_cba_animate_Peace = true;
-force force tsp_cba_animate_poll = 0.25;
-force force tsp_cba_animate_port = true;
-force force tsp_cba_animate_Pushups = true;
-force force tsp_cba_animate_Rock = true;
-force force tsp_cba_animate_Scissors = true;
-force force tsp_cba_animate_shake = 1;
-force force tsp_cba_animate_sling = true;
-force force tsp_cba_animate_sling_add = false;
-force force tsp_cba_animate_sling_pos = "[[0.1, 0.8, 0.15], [-90, 40, 70]]";
-force force tsp_cba_animate_sling_scroll = true;
-force force tsp_cba_animate_sling_sprint = false;
-force force tsp_cba_animate_sound = 1;
-force force tsp_cba_animate_sprint = true;
-force force tsp_cba_animate_Squats = true;
-force force tsp_cba_animate_Stefan = true;
-force force tsp_cba_animate_Suicide = true;
-force force tsp_cba_animate_tactical = true;
-force force tsp_cba_animate_tap = true;
-force force tsp_cba_animate_throw = true;
-force force tsp_cba_animate_walk = false;
-force force tsp_cba_animate_walk_default = 1;
-force force tsp_cba_animate_walk_lower = 1;
-force force tsp_cba_animate_walk_max = 1.6;
-force force tsp_cba_animate_watch = true;
-force force tsp_cba_animate_Zozo = true;
-
-// TSP Breach
-force force tsp_cba_breach = true;
-force force tsp_cba_breach_ace = false;
-force force tsp_cba_breach_ammo = "[""B_12Gauge_Slug_NoCartridge"",""rhs_ammo_12g_slug"",""rhs_ammo_12g_00buckshot""]";
-force force tsp_cba_breach_ammo_multiplier = 1;
-force force tsp_cba_breach_auto = 5;
-force force tsp_cba_breach_break = true;
-force force tsp_cba_breach_lock_blacklist = "[]";
-force force tsp_cba_breach_lock_door = 0.29808;
-force force tsp_cba_breach_lock_house = 0.0505766;
-force force tsp_cba_breach_lockpick = "[0,0.75,0.5,0.05]";
-force force tsp_cba_breach_military = "[""Land_Budova4_in"",""Land_Budova4"",""Barrack2"",""Land_Barrack2"",""Land_MilOffices_V1_F"",""Land_Mil_Barracks_L_EP1"",""Land_Barrack2_EP1"",""Land_Mil_Barracks_EP1"",""Land_Mil_Barracks_no_interior_EP1_CUP"",""Land_Mil_Barracks_i_EP1"",""Land_Mil_Barracks_L"",""Land_Mil_Barracks_no_interior_CUP"",""Land_Mil_Barracks_i"",""Land_Mil_Barracks"",""Land_GuardHouse_02_F"",""Land_Mil_Guardhouse_EP1"",""Land_Mil_Guardhouse"",""Land_Mil_Guardhouse_no_interior_CUP"",""Land_GuardHouse_02_grey_F"",""Land_Barracks_03_F"",""Land_Barracks_05_F"",""Land_Barracks_02_F"",""Land_Barracks_04_F"",""Land_ControlTower_02_F"",""Land_Mil_Guardhouse_no_interior_EP1_CUP"",""Land_Radar_01_HQ_F"",""Land_i_Barracks_V2_F"",""Land_i_Barracks_V1_F"",""Land_u_Barracks_V2_F"",""Land_Barracks_06_F"",""Land_Mil_House_dam_EP1"",""Land_Barracks_01_grey_F"",""Land_Barracks_01_dilapidated_F"",""Land_Mil_House_EP1"",""Land_Army_hut2_int"",""Land_Barracks_01_camo_F"",""Land_Army_hut_int"",""Land_Army_hut3_long"",""Land_Army_hut2"",""Land_Army_hut3_long_int""]";
-force force tsp_cba_breach_paperclip = "[0,0.5,0.25,0.15]";
-force force tsp_cba_breach_picking_time = 20;
-force force tsp_cba_breach_reinforced = "[""Land_Ammostore2"",""Land_Garaz_s_tankem"",""Land_Garaz_bez_tanku"",""Land_Cargo_House_V4_F"",""Land_Cargo_Tower_V1_F"",""Land_Cargo_HQ_V4_F"",""Land_Cargo_Tower_V1_No4_F"",""Land_Cargo_Tower_V1_No5_F"",""Land_Cargo_Tower_V1_No7_F"",""Land_Cargo_Tower_V4_F"",""Land_Cargo_Tower_V1_No2_F"",""Land_Cargo_Tower_V2_F"",""Land_Cargo_Tower_V3_F"",""Land_Cargo_Tower_V1_No1_F"",""Land_Cargo_Tower_V1_No3_F"",""Land_Cargo_HQ_V2_F"",""Land_Medevac_HQ_V1_F"",""Land_Cargo_HQ_V1_F"",""Land_Cargo_House_V2_F"",""Land_Medevac_house_V1_F"",""Land_Cargo_Tower_V1_No6_F"",""Land_Cargo_House_V1_F"",""Land_Cargo_HQ_V3_F"",""Land_Cargo_House_V3_F""]";
-force force tsp_cba_breach_shock = 240;
-force force tsp_cba_breach_vanilla = false;
-force force tsp_cba_breach_walls = "[
-[""AHHH"", ""Land_BrickWall_04_l_5m_F"",""Land_BrickWall_04_l_5m_d_F""],
-[""AHHH"", ""Land_BrickWall_03_l_5m_v2_F"",""Land_BrickWall_03_l_5m_v2_d_F""],
-[""AHHH"", ""Land_BrickWall_03_l_5m_v1_F"",""Land_BrickWall_03_l_5m_v2_d_F""],
-[""AHHH"", ""Land_BrickWall_02_l_5m_F"",""Land_BrickWall_02_l_5m_d_F""],
-[""AHHH"", ""Land_BrickWall_01_l_5m_F"",""Land_BrickWall_01_l_5m_d_F""],
-[""AHHH"", ""Land_Stone_8m_F"",""Land_Stone_8mD_F""],
-[""AHHH"", ""Land_WallCity_01_8m_yellow_F"",""Land_WallCity_01_8m_dmg_yellow_F""],
-[""AHHH"", ""Land_City_8m_F"",""Land_City_8mD_F""],
-[""AHHH"", ""Land_WallCity_01_8m_whiteblue_F"",""Land_WallCity_01_8m_dmg_whiteblue_F""],
-[""AHHH"", ""Land_WallCity_01_8m_blue_F"",""Land_WallCity_01_8m_dmg_blue_F""],
-[""AHHH"", ""Land_WallCity_01_8m_grey_F"",""Land_WallCity_01_8m_dmg_grey_F""],
-[""AHHH"", ""Land_WallCity_01_8m_pink_F"",""Land_WallCity_01_8m_dmg_pink_F""],
-[""AHHH"", ""Land_SilageWall_01_l_5m_F"",""Land_SilageWall_01_l_d_F""],
-[""AHHH"", ""Land_ConcreteWall_02_m_8m_F"",""Land_ConcreteWall_02_m_d_F""],
-[""AHHH"", ""Land_ConcreteWall_01_m_4m_F"",""Land_ConcreteWall_01_m_d_F""],
-[""AHHH"", ""Land_ConcreteWall_01_m_8m_F"",""Land_ConcreteWall_01_m_d_F""],
-[""AHHH"", ""Land_PipeFence_01_m_8m_F"",""Land_PipeFence_01_m_d_F""],
-[""AHHH"", ""Land_City2_8m_F"",""Land_City2_8mD_F""],
-[""AHHH"", ""Land_Wall_IndCnc_4_F"",""Land_Wall_IndCnc_End_2_F""],
-[""AHHH"", ""Land_CamoConcreteWall_01_l_4m_v1_F"",""Land_CamoConcreteWall_01_l_end_v1_F""],
-[""AHHH"", ""Land_Mil_WallBig_4m_F"",""Land_Mil_WallBig_4m_damaged_center_F""],
-[""mil_wallbig_4m_battered_f"", ""Land_Mil_WallBig_4m_battered_F"",""Land_Mil_WallBig_4m_damaged_right_F""],
-[""AHHH"", ""Land_Mil_WallBig_Corner_F"",""Land_Mil_WallBig_debris_F""],
-[""AHHH"", ""Land_Mil_WallBig_corner_battered_F"",""Land_Mil_WallBig_debris_F""]
-]";
-force force tsp_cba_flashbang_brightness = 1;
-force force tsp_cba_flashbang_distance = 10;
-force force tsp_cba_flashbang_fire = true;
-force force tsp_cba_flashbang_friends = 0.1;
-force force tsp_cba_flashbang_intensity = 1;
-force force tsp_cba_flashbang_smoke = true;
-force force tsp_cba_flashbang_sparks = true;
-force force tsp_cba_flashbang_spray = 0.4;
-force force tsp_cba_flashbang_surrender = 0.1;
-
-// TSP Core
-force force tsp_cba_angle = -0.1;
-force force tsp_cba_core_chvd = false;
-force force tsp_cba_core_pause = false;
-force force tsp_cba_hint = "Subtitle";
-force force tsp_cba_hint_distance = 20;
-force force tsp_param_faction = false;
-
-// TTS Beam Laser
-force force tts_beam_cleanupSkeletons = false;
-force force tts_beam_cleanupSkeletonsDelay = 300;
-force force tts_beam_createCraters = true;
-force force tts_beam_disableImpactFlash = false;
-force force tts_beam_structureFireChance = 0.03;
-force force tts_beam_structureFireMaxDuration = 120;
-force force tts_beam_structureFireMinDuration = 60;
-force force tts_beam_structureFiresEnabled = true;
-force force tts_beam_vaporiseBodies = true;
 
 // WebKnight Droids
 force force WBK_Droid_b1_damage = "3";
