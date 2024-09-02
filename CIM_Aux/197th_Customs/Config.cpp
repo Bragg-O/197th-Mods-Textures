@@ -68,7 +68,7 @@ class CfgVehicles
 	// HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
 	HeadgearItemPilot_197th_XX(Customs,Skibur);
 	// HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
-
+	HeadgearItemARF_197th_XX(Customs,Exo);
 	// HeadgearItemBARC_197th_XX(type,name) -> 197th_HeadgearBARC_##type##_##name##
 	HeadgearItemBARC_197th_XX(Customs,Hermes);
 
@@ -160,7 +160,7 @@ class CfgWeapons
 	// HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
 	HelmetPilot_197th_XX(Customs,Skibur);
 	// HelmetARF_197th_XX(type,name) -> 197th_HelmetARF_##type##_##name##
-
+	HelmetARF_197th_XX(Customs,Exo);
 	// HelmetBARC_197th_XX(type,name) -> 197th_HelmetBARC_##type##_##name##
 
 	// HelmetBARCVisorLight_197th_XX(type,name) -> 197th_HelmetBARC_##type##_##name##
