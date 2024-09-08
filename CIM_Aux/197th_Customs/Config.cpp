@@ -228,6 +228,7 @@ class CIM_SkyLocker
 	// Skylocker_197th(id,name,"steamid") -> Skylocker_##id##
 	Skylocker_197th(1,Bragg,"76561198113173701");
 	Skylocker_197th(3,Apollyon,"76561198203156987");
+	Skylocker_197th(4,Elektro,"76561198058787077");
 	Skylocker_197th(90,Skibur,"76561198086870573");
 	Skylocker_197th(128,Agira,"76561198929572498");
 };
