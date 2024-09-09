@@ -7,7 +7,8 @@ waitUntil {
 };
 
 _statement = {
-	[player, getPlayerUID player] remoteExecCall ["DB_fnc_syncPlayer", 2]
+	[player, getPlayerUID player] remoteExecCall ["DB_fnc_syncPlayer", 2];
+	hintSilent parseText "<img size='1.5' image='\CIM_Core\Functions\MySQL\Data\synchroniser_ca.paa'/><br/><t color='#ffffff' size='1'>Synchronisation terminée</t>";
 };
 
 _condition = {
