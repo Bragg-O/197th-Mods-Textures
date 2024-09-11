@@ -27,6 +27,8 @@ class CfgFunctions
             F(initScanner)
             F(onScannerClient)
             F(onScannerServer)
+            F(onVersionCheckClient)
+            F(onVersionCheckServer)
         };
 
         class Logistics

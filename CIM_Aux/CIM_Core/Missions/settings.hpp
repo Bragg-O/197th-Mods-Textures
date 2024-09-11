@@ -83,4 +83,13 @@ class CfgDebriefing
 		pictureBackground = "";
 		picture = "\CIM_Core\Missions\Data\logo.paa";
 	};
+
+	class AddonVersionMismatchDetected
+	{
+		title = "[CIM] Addons Version Mismatch";
+		subTitle = "La version de votre mod ne correspond pas à celle du serveur";
+		description = "La version de votre mod ne correspond pas à celle du serveur, essayer de réparé vos mods";
+		pictureBackground = "";
+		picture = "\CIM_Core\Missions\Data\logo.paa";
+	};
 };
