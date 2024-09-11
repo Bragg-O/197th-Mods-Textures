@@ -33,7 +33,10 @@ class CfgPatches
             "197th_Supply_Weapon",
             "197th_TerminalMedical",
             "197th_R14",
-            "197th_Terminal"};
+            "197th_Terminal",
+            "CIM_Orion",
+            "CIM_Orion_landed",
+            "CIM_Pegasus"};
         weapons[] = {};
     };
 };
@@ -54,6 +57,9 @@ class CfgVehicles
 
     // Arsenal
 #include "Arsenal\CfgVehicles.hpp"
+
+    // ship
+#include "Ship\CfgVehicles.hpp"
 
     // Number
 #include "Number\CfgVehicles.hpp"
