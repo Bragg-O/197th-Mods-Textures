@@ -77,8 +77,8 @@ class 197th_PX10_Repair: 197th_PX10
 	ace_rearm_defaultSupply=1200;
 	ace_refuel_fuelCargo=3000;
     class EventHandlers {
-		class init_BobCat {
-			init = "[(_this select 0)] spawn CIM_fnc_initBobcat;"
+		class CIM_initPlow {
+			init = "[(_this select 0)] spawn CIM_fnc_initPlow;"
 		};
     };
 };

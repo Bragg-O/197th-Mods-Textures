@@ -29,4 +29,5 @@ class CfgEditorSubcategories
 	Categories_XX(CIM_Supply,Supply);
 	Categories_XX(CIM_Aerien,Aerien);
 	Categories_XX(CIM_Terrestre,Terrestre);
+	Categories_XX(CIM_Ship,Ship);
 };
