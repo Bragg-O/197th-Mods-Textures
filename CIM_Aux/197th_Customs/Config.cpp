@@ -232,6 +232,7 @@ class CIM_SkyLocker
 	Skylocker_197th(2,Hermes,"76561198169985342");
 	Skylocker_197th(3,Apollyon,"76561198203156987");
 	Skylocker_197th(4,Elektro,"76561198058787077");
+	Skylocker_197th(22,Tiger,"76561198210171331");
 	Skylocker_197th(90,Skibur,"76561198086870573");
 	Skylocker_197th(128,Agira,"76561198929572498");
 };
