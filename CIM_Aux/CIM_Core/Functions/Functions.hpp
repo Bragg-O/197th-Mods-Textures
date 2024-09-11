@@ -27,6 +27,8 @@ class CfgFunctions
             F(initScanner)
             F(onScannerClient)
             F(onScannerServer)
+            F(onVersionCheckClient)
+            F(onVersionCheckServer)
         };
 
         class Logistics
@@ -66,6 +68,13 @@ class CfgFunctions
             F(onUnderFire)
             F(switchEarPlugs)
             F_PostInit(initEarPlugs)
+        };
+
+        class Dialog_Communication
+        {
+            file = "CIM_Core\Dialog\Communication";
+            F(initDialog1)
+            F(loadDialog1)
         };
     };
 

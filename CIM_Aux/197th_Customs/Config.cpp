@@ -41,6 +41,7 @@ class CfgVehicles
 	Unit_197th_XX(Customs,Vanguard,,"197th_Helmet_Customs_Vanguard","197th_Vest_Regs_Sergent","","","");
 	Unit_197th_XX(Customs,Volk,,"197th_Helmet_Customs_Volk","197th_Vest_Regs_0","","","");
 	Unit_197th_XX(Customs,Pink,,"197th_Helmet_Customs_Pink","197th_Vest_Regs_0","","","");
+	Unit_197th_XX(Customs,Agira,,"197th_Helmet_Customs_Agira","197th_Vest_Regs_0","","","");
 	// UnitCC_197th_XX(type,name,sac,"helmet","vest","accessories1","accessories2","accessories3") -> 197th_Unit_##type##_##name##
 	UnitCC_197th_XX(Customs,Apollyon,197th_Backpack_Customs_Apollyon,"197th_Helmet_Customs_Apollyon","197th_Vest_Customs_Apollyon","197th_NVG_Customs_Apollyon","","");
 	UnitCC_197th_XX(Customs,Bragg,197th_Backpack_Customs_Bragg,"197th_Helmet_Customs_Bragg","197th_Vest_Customs_Bragg","197th_NVG_Customs_Bragg","","");
@@ -139,6 +140,7 @@ class CfgWeapons
 	Uniform_197th_XX(Customs,Vanguard);
 	Uniform_197th_XX(Customs,Volk);
 	Uniform_197th_XX(Customs,Pink);
+	Uniform_197th_XX(Customs,Agira);
 	// Helmets
 	// Helmet_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
 	Helmet_197th_XX(Customs,Agira);
@@ -230,6 +232,7 @@ class CIM_SkyLocker
 	Skylocker_197th(2,Hermes,"76561198169985342");
 	Skylocker_197th(3,Apollyon,"76561198203156987");
 	Skylocker_197th(4,Elektro,"76561198058787077");
+	Skylocker_197th(22,Tiger,"76561198210171331");
 	Skylocker_197th(90,Skibur,"76561198086870573");
 	Skylocker_197th(128,Agira,"76561198929572498");
 };
