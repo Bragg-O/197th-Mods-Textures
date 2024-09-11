@@ -83,15 +83,51 @@ class CfgFunctions
         {
             file = "CIM_Core\Functions\MySQL";
             F(asyncCall)
-            F(extractPlayer)
             F(initMySQL)
-            F(newPlayer)
             F(server_initialization)
-            F(updatePlayer)
             F(initPlayer)
-            F(checkPlayerExists)
             F(syncPlayer)
             F_PostInit(initSyncPlayer)
+        };
+        class MySQL_Extract
+        {
+            file = "CIM_Core\Functions\MySQL\fn_Extract";
+            F(ExtractActualIng)
+            F(ExtractActualMedic)
+            F(ExtractIngLevel)
+            F(ExtractLastView)
+            F(ExtractLoadout)
+            F(ExtractMedicLevel)
+            F(ExtractMoney)
+            F(ExtractName)
+            F(ExtractPilotLevel)
+            F(ExtractDonatorLevel)
+            F(ExtractAdminLevel)
+            F(ExtractCrewmanLevel)
+            F(ExtractFormateur)
+        };
+        class MySQL_Update
+        {
+            file = "CIM_Core\Functions\MySQL\fn_Update";
+            F(UpdateActualIng)
+            F(UpdateActualMedic)
+            F(UpdateIngLevel)
+            F(UpdateLastView)
+            F(UpdateLoadout)
+            F(UpdateMedicLevel)
+            F(UpdateMoney)
+            F(UpdateName)
+            F(UpdatePilotLevel)
+            F(UpdateDonatorLevel)
+            F(UpdateAdminLevel)
+            F(UpdateCrewmanLevel)
+            F(UpdateFormateur)
+        };
+        class MySQL_Other
+        {
+            file = "CIM_Core\Functions\MySQL\fn_Other";
+            F(CreateNewPlayer)
+            F(PlayerCountForUid)
         };
     };
 };
