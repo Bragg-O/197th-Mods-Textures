@@ -69,8 +69,8 @@ class CfgDebriefing
 	class AddonScannerMissing
 	{
 		title = "[CIM] Addons Scanner";
-		subTitle = "Il vous manque des addons";
-		description = "Il vous manque des addons, essayer de réparé vos mods";
+		subTitle = "Addons Scanner - ERROR";
+		description = "Il vous manque des addons, essayer de réparé vos mods.";
 		pictureBackground = "";
 		picture = "\CIM_Core\Missions\Data\logo.paa";
 	};
@@ -78,8 +78,8 @@ class CfgDebriefing
 	class AddonScannerDetected
 	{
 		title = "[CIM] Addons Scanner";
-		subTitle = "Vous avez des addons en trop";
-		description = "Vous avez des addons en trop, essayer de réparé vos mods";
+		subTitle = "Addons Scanner - ERROR";
+		description = "Vous avez des addons en trop, essayer de réparé vos mods.";
 		pictureBackground = "";
 		picture = "\CIM_Core\Missions\Data\logo.paa";
 	};
@@ -87,8 +87,8 @@ class CfgDebriefing
 	class AddonVersionMismatchDetected
 	{
 		title = "[CIM] Addons Version Mismatch";
-		subTitle = "La version de votre mod ne correspond pas à celle du serveur";
-		description = "La version de votre mod ne correspond pas à celle du serveur, essayer de réparé vos mods";
+		subTitle = "Addons Version Mismatch - ERROR";
+		description = "La version de votre mod ne correspond pas à celle du serveur, essayer de réparé vos mods.";
 		pictureBackground = "";
 		picture = "\CIM_Core\Missions\Data\logo.paa";
 	};
