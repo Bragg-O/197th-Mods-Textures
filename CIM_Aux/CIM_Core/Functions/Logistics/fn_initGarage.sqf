@@ -19,8 +19,17 @@ switch (_garageType) do {
 	case "Boat" : {
 		_vehList = getMissionConfigValue ["CIM_Garage_Boat", []];
 	};
-	case "Box" : {
-		_vehList = getMissionConfigValue ["CIM_Garage_Box", []];
+	case "Box_explosive" : {
+		_vehList = getMissionConfigValue ["CIM_Garage_Box_Explosive", []];
+	};
+	case "Box_misc" : {
+		_vehList = getMissionConfigValue ["CIM_Garage_Box_Misc", []];
+	};
+	case "Box_medical" : {
+		_vehList = getMissionConfigValue ["CIM_Garage_Box_Medical", []];
+	};
+	case "Box_container" : {
+		_vehList = getMissionConfigValue ["CIM_Garage_Box_Container", []];
 	};
 	case "Car" : {
 		_vehList = getMissionConfigValue ["CIM_Garage_Car", []];

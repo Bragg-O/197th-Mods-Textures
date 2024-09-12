@@ -13,10 +13,7 @@
 	"197th_LAATI_Mk2Lights", \
 	"3AS_Nu_REP_F", \
 	"3AS_Rho_REP_Medical", \
-	"3AS_Rho_REP_F", \
-	"3AS_Rho_Crate_REP_Barracks", \
-	"3AS_Rho_Crate_REP_Medical", \
-	"3AS_Rho_Crate_REP_Transport" \
+	"3AS_Rho_REP_F"
 
 
 #define CIM_Garage_Car_197th \
@@ -29,15 +26,9 @@
 	"197th_ITT_Logistic", \
 	"197th_ITT_Medical", \
 	"197th_ITT_Transport", \
-	"197th_M12A1_LRV", \
-	"197th_M12G1_LRV", \
-	"197th_M12R_AA", \
-	"197th_M12_APC", \
-	"197th_M12_FAV", \
-	"197th_M12_LRV", \
-	"197th_M813_TT", \
-	"197th_M914_RV", \
-	"197th_RTT", \
+	"197th_PX10", \
+	"197th_PX10_Repair", \
+	"197th_PX10_Armored", \
 	"197th_Saber", \
 	"197th_Saber_GL", \
 	"197th_Saber_Recon", \
@@ -45,18 +36,33 @@
 	"197th_ATTE"
 
 
-#define CIM_Garage_Box_197th \
+#define CIM_Garage_Box_Explosive_197th \
+	"197th_Supply_ATAA", \
+	"197th_Supply_Explosive", \
+	"197th_Supply_Empty"
+
+
+#define CIM_Garage_Box_Misc_197th \
+	"197th_Supply_Ammo", \
+	"197th_Supply_NVG", \
+	"197th_Supply_Weapon", \
+	"197th_Supply_Empty"
+
+
+#define CIM_Garage_Box_Medical_197th \
+	"197th_Supply_Medical", \
+	"197th_Supply_Empty"
+
+
+#define CIM_Garage_Box_Container_197th \
     "197th_SupplySlingload_Ammo", \
     "197th_SupplySlingload_Cargo", \
     "197th_SupplySlingload_Fuel", \
     "197th_SupplySlingload_Repair", \
-	"197th_Supply_ATAA", \
-	"197th_Supply_Ammo", \
-	"197th_Supply_Empty", \
-	"197th_Supply_Explosive", \
-	"197th_Supply_Medical", \
-	"197th_Supply_NVG", \
-	"197th_Supply_Weapon"
+	"3AS_Rho_Crate_REP_Barracks", \
+	"3AS_Rho_Crate_REP_Medical", \
+	"3AS_Rho_Crate_REP_Transport", \
+	"197th_Supply_Empty"
 
 
 #define CIM_Garage_Boat_197th \
