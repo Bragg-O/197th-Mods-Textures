@@ -31,14 +31,6 @@ class CfgPatches
 			"197th_LAATI_Mk1Lights",
 			"197th_LAATI_Mk2",
 			"197th_LAATI_Mk2Lights",
-			"197th_M12A1_LRV",
-			"197th_M12G1_LRV",
-			"197th_M12R_AA",
-			"197th_M12_APC",
-			"197th_M12_FAV",
-			"197th_M12_LRV",
-			"197th_M813_TT",
-			"197th_M914_RV",
 			"197th_PX10",
 			"197th_PX10_Armored",
 			"197th_PX10_Repair",
@@ -125,9 +117,6 @@ class CfgVehicles
 
 	// V_Wing
 #include "Vehicules\V_Wing\CfgVehicles.hpp"
-
-	// Warthog
-#include "Vehicules\Warthog\CfgVehicles.hpp"
 
 	// Y_Wing
 #include "Vehicules\Y_Wing\CfgVehicles.hpp"
