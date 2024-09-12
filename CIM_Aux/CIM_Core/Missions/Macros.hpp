@@ -19,13 +19,12 @@
 #define CIM_Garage_Car_197th \
 	"197th_BARC", \
 	"197th_BARCSideCar", \
-	"197th_Bison_APC", \
-	"197th_Bison_IFV", \
-	"197th_Bison_MGS", \
 	"197th_ITT", \
 	"197th_ITT_Logistic", \
 	"197th_ITT_Medical", \
 	"197th_ITT_Transport", \
+	"197th_ISP", \
+	"197th_ISP_Transport", \
 	"197th_PX10", \
 	"197th_PX10_Repair", \
 	"197th_PX10_Armored", \
@@ -33,7 +32,10 @@
 	"197th_Saber_GL", \
 	"197th_Saber_Recon", \
 	"197th_Saber_Super", \
-	"197th_ATTE"
+	"197th_ATTE", \
+	"197th_Bison_APC", \
+	"197th_Bison_IFV", \
+	"197th_Bison_MGS"
 
 
 #define CIM_Garage_Box_Explosive_197th \
