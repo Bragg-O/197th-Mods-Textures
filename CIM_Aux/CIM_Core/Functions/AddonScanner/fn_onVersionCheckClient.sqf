@@ -1,6 +1,6 @@
 diag_log format ["[CIM | Addon Version] ----------- Init %1 -----------", profileName];
 
-CIM_modVersionClient = getText (configFile >> "CfgPatches" >> "CIM_Version" >> "Version");
+CIM_modVersionClient = getText (configFile >> "CfgPatches" >> "CIM_Core" >> "Version");
 
 diag_log format ["[CIM | Addon Version] - Addon Version: %1", CIM_modVersionClient];
 
