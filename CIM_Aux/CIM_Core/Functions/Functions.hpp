@@ -94,6 +94,11 @@ class CfgFunctions
             file = "CIM_Core\Functions\MySQL\fn_Extract";
             F(ExtractActualIng)
             F(ExtractActualMedic)
+            F(ExtractAdminLevel)
+            F(ExtractArtiste)
+            F(ExtractCrewmanLevel)
+            F(ExtractDonatorLevel)
+            F(ExtractFormateur)
             F(ExtractIngLevel)
             F(ExtractLastView)
             F(ExtractLoadout)
@@ -101,16 +106,19 @@ class CfgFunctions
             F(ExtractMoney)
             F(ExtractName)
             F(ExtractPilotLevel)
-            F(ExtractDonatorLevel)
-            F(ExtractAdminLevel)
-            F(ExtractCrewmanLevel)
-            F(ExtractFormateur)
+            F(ExtractZeus)
+            F(ExtractRankLevel)
         };
         class MySQL_Update
         {
             file = "CIM_Core\Functions\MySQL\fn_Update";
             F(UpdateActualIng)
             F(UpdateActualMedic)
+            F(UpdateAdminLevel)
+            F(UpdateArtiste)
+            F(UpdateCrewmanLevel)
+            F(UpdateDonatorLevel)
+            F(UpdateFormateur)
             F(UpdateIngLevel)
             F(UpdateLastView)
             F(UpdateLoadout)
@@ -118,10 +126,8 @@ class CfgFunctions
             F(UpdateMoney)
             F(UpdateName)
             F(UpdatePilotLevel)
-            F(UpdateDonatorLevel)
-            F(UpdateAdminLevel)
-            F(UpdateCrewmanLevel)
-            F(UpdateFormateur)
+            F(UpdateZeus)
+            F(UpdateRankLevel)
         };
         class MySQL_Other
         {

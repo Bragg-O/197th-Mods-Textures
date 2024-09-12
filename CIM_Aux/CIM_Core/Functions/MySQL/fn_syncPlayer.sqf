@@ -37,4 +37,7 @@ _player setVariable ["CIM_Formateur", _formateur, true];
 _zeus = [_uid] call DB_fnc_ExtractZeus;
 _player setVariable ["CIM_Zeus", _zeus, true];
 
+_artiste = [_uid] call DB_fnc_ExtractArtiste;
+_player setVariable ["CIM_Artiste", _artiste, true];
+
 diag_log format ["extDB3 %1 - %2 synced.", _uid, (name _player)];
