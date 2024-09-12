@@ -47,7 +47,7 @@ class 197th_Terminal_Boat: 197th_Terminal {
 };
 
 class 197th_Terminal_Air: 197th_Terminal {
-	displayName = "[CIM] Terminal (Aerien)";
+	displayName = "[CIM] Terminal (Aerien - Transport)";
 	author = "[CIM] Bragg";
 	hiddenSelectionsTextures[] = {
 		"CIM_Objects\Terminal\Data\Terminal_co.paa",
