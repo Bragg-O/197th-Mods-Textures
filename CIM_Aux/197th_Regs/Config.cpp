@@ -42,7 +42,6 @@ class CfgPatches
 			"197th_PX10",
 			"197th_PX10_Armored",
 			"197th_PX10_Repair",
-			"197th_RTT",
 			"197th_ISP",
 			"197th_ISP_Transport",
 			"197th_Saber",
@@ -118,8 +117,6 @@ class CfgVehicles
 	// PX_10
 #include "Vehicules\PX_10\CfgVehicles.hpp"
 
-	// RTT
-#include "Vehicules\RTT\CfgVehicles.hpp"
 	// ISP
 #include "Vehicules\ISP\CfgVehicles.hpp"
 
