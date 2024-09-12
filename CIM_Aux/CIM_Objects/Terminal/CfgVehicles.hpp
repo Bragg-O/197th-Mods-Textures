@@ -56,6 +56,16 @@ class 197th_Terminal_Air: 197th_Terminal {
 	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
 };
 
+class 197th_Terminal_AirCombat: 197th_Terminal {
+	displayName = "[CIM] Terminal (Aerien - Combat)";
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Terminal\Data\Terminal_co.paa",
+		"CIM_Objects\Terminal\Data\Screen_AirCombat_co.paa"
+	};
+	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
+};
+
 class 197th_Terminal_Supply: 197th_Terminal {
 	displayName = "[CIM] Terminal (Fourniture)";
 	author = "[CIM] Bragg";
