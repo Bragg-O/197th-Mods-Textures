@@ -4,6 +4,12 @@ if !(isDedicated) exitWith {
 	diag_log "extDB3 - need to be on Serveur!";
 };
 
+waitUntil {
+	// to prevent MP / JIP issues
+	sleep 5;
+	!isNull _player
+};
+
 private _playerExists = [_uid] call DB_fnc_PlayerCountForUid;
 
 if (_playerExists == 0) then {
