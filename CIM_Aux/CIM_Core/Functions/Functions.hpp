@@ -55,6 +55,7 @@ class CfgFunctions
             file = "CIM_Core\Functions\PlayerScripts";
             F(addLoadout)
             F(checkEarPlugs)
+            F(initATM)
             F(initBlockArsenal)
             F(initCommunication)
             F(initLoadout)
@@ -68,12 +69,7 @@ class CfgFunctions
             F_PostInit(initEarPlugs)
         };
 
-        class Dialog_Communication
-        {
-            file = "CIM_Core\Dialog\Communication";
-            F(initDialog1)
-            F(loadDialog1)
-        };
+        #include "..\Dialog\Functions.hpp"
     };
 
     class MySQL_Database
