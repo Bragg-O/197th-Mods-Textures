@@ -69,6 +69,7 @@ class CfgVehicles
 	HeadgearItem_197th_XX(Customs,Ironteck);
 	HeadgearItem_197th_XX(Customs,Chanceux);
 	HeadgearItem_197th_XX(Customs,Pink);
+	HeadgearItem_197th_XX(Customs,SixDeux);
 	// HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
 	HeadgearItemPilot_197th_XX(Customs,Skibur);
 	// HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
@@ -162,6 +163,7 @@ class CfgWeapons
 	Helmet_197th_XX(Customs,Ironteck);
 	Helmet_197th_XX(Customs,Chanceux);
 	Helmet_197th_XX(Customs,Pink);
+	Helmet_197th_XX(Customs,SixDeux);
 	// HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
 	HelmetVisorLight_197th_XX(Customs,Bragg);
 	// HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
