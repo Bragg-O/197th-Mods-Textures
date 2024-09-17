@@ -134,6 +134,7 @@ class CfgFunctions
             file = "CIM_Core\Functions\MySQL\fn_Other";
             F(CreateNewPlayer)
             F(PlayerCountForUid)
+            F(GetAllPlayersInfo)
         };
     };
 };

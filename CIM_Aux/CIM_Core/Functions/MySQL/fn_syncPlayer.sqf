@@ -40,4 +40,8 @@ _player setVariable ["CIM_Zeus", _zeus, true];
 _artiste = [_uid] call DB_fnc_ExtractArtiste;
 _player setVariable ["CIM_Artiste", _artiste, true];
 
+uiSleep 5;
+
+remoteExec ["DB_fnc_GetAllPlayersInfo", 2];
+
 diag_log format ["extDB3 %1 - %2 synced.", _uid, (name _player)];
