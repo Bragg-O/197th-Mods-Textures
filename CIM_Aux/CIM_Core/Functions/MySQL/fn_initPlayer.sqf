@@ -1,7 +1,7 @@
 params ["_player", "_uid"];
 
-if (!isMultiplayer) exitWith {
-	diag_log "extDB3 - need to be in Multiplayer!";
+if !(isDedicated) exitWith {
+	diag_log "extDB3 - need to be on Serveur!";
 };
 
 private _playerExists = [_uid] call DB_fnc_PlayerCountForUid;
