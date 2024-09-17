@@ -12,9 +12,7 @@ class CfgPatches
 		author = "[CIM] Bragg";
 		url = "http://www.197th.fr";
 		requiredAddons[] = {"CIM_Core", "197th_Regs"};
-		units[] = {
-			"197th_M12_FAV_Omega",
-			"197th_M12_LRV_Omega"};
+		units[] = {};
 		weapons[] = {};
 	};
 };
