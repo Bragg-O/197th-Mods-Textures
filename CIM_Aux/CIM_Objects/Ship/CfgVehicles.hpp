@@ -2,7 +2,7 @@ class 442_acclamator_4;
 class 442_acclamator_5;
 class 442_quasar;
 class UserTexture_1x2_F;
-class UserTexture_1x1_F;
+class UserTexture1m_F;
 
 class CIM_Orion : 442_acclamator_4
 {
@@ -173,7 +173,7 @@ class CIM_Pegasus_3 : CIM_Pegasus_0
 };
 
 
-class CIM_Board_Turbolift : UserTexture_1x1_F
+class CIM_Board_Turbolift : UserTexture1m_F
 {
 	displayName = "[CIM] Board (Turboolift)";
 	editorCategory = "CIM_Objects";
