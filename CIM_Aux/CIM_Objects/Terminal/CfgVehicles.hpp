@@ -46,6 +46,16 @@ class 197th_Terminal_Boat: 197th_Terminal {
 	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
 };
 
+class 197th_Terminal_Republic: 197th_Terminal {
+	displayName = "[CIM] Terminal (Republique)";
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Terminal\Data\Terminal_co.paa",
+		"CIM_Objects\Terminal\Data\Screen_Rep_co.paa"
+	};
+	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
+};
+
 class 197th_Terminal_Air: 197th_Terminal {
 	displayName = "[CIM] Terminal (Aerien - Transport)";
 	author = "[CIM] Bragg";
@@ -119,5 +129,18 @@ class 197th_Terminal_Sapeur: 197th_Terminal {
 	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Sapeur_ca.jpg";
     class EventHandlers {
         init = "[(_this select 0)] call CIM_fnc_initUnitTraitEngineer;";
+    };
+};
+
+class 197th_Terminal_Pilote: 197th_Terminal {
+	displayName = "[CIM] Terminal (Pilote)";
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Terminal\Data\Terminal_co.paa",
+		"CIM_Objects\Terminal\Data\Screen_Rep_co.paa"
+	};
+	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
+    class EventHandlers {
+        init = "[(_this select 0)] call CIM_fnc_initUnitTraitPilot;";
     };
 };
