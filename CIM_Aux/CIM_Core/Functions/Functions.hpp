@@ -63,6 +63,7 @@ class CfgFunctions
             F(initSkyLocker)
             F(initUnitTraitEngineer)
             F(initUnitTraitMedic)
+            F(initUnitTraitPilot)
             F(onCommunication)
             F(onUnderFire)
             F(switchEarPlugs)
