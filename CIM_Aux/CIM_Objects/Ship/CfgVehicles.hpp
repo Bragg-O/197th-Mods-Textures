@@ -2,6 +2,7 @@ class 442_acclamator_4;
 class 442_acclamator_5;
 class 442_quasar;
 class UserTexture_1x2_F;
+class UserTexture_1x1_F;
 
 class CIM_Orion : 442_acclamator_4
 {
@@ -169,4 +170,257 @@ class CIM_Pegasus_3 : CIM_Pegasus_0
 	author = "[CIM] Bragg";
 	hiddenSelectionsTextures[] = {
 		"CIM_Objects\Ship\Data\Pegasus_3.paa"};
+};
+
+
+class CIM_Board_Turbolift : UserTexture_1x1_F
+{
+	displayName = "[CIM] Board (Turboolift)";
+	editorCategory = "CIM_Objects";
+	editorSubcategory = "CIM_Ship_Signs";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Turbolift.paa"};
+	hiddenSelectionsMaterials[] = {
+		"\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
+	editorPreview = "";
+	class SimpleObject
+	{
+		eden = 1;
+	};
+};
+
+class CIM_Board_Armurerie : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Armurerie)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Armurerie.paa"};
+};
+
+class CIM_Board_Briefing_officier : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Briefing officier)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Briefing_officier.paa"};
+};
+
+class CIM_Board_Briefing_Peloton_Alpha : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Briefing Peloton Alpha)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Briefing_Peloton_Alpha.paa"};
+};
+
+class CIM_Board_Briefing_Peloton_DELTA : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Briefing Peloton DELTA)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Briefing_Peloton_DELTA.paa"};
+};
+
+class CIM_Board_Bureau_1er_lieutenant : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Bureau 1er lieutenant)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Bureau_1er_lieutenant.paa"};
+};
+
+class CIM_Board_Bureau_2nd_Lieutenant : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Bureau 2nd lieutenant)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Bureau_2nd_Lieutenant.paa"};
+};
+
+class CIM_Board_Bureau_capitaine : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Bureau capitaine)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Bureau_capitaine.paa"};
+};
+
+class CIM_Board_Bureau_Formateur : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Bureau Formateur)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Bureau_Formateur.paa"};
+};
+
+class CIM_Board_Bureau_Gerant_Formation : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Bureau Gerant Formation)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Bureau_Gerant_Formation.paa"};
+};
+
+class CIM_Board_Bureau_medecin : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Bureau medecin)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Bureau_medecin.paa"};
+};
+
+class CIM_Board_Bureau_Sapeur : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Bureau Sapeur)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Bureau_Sapeur.paa"};
+};
+
+class CIM_Board_Cantina : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Cantina)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Cantina.paa"};
+};
+
+class CIM_Board_Ceremonie : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Ceremonie)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Ceremonie.paa"};
+};
+
+class CIM_Board_Dortoir_officier : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Dortoir officier)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Dortoir_officier.paa"};
+};
+
+class CIM_Board_Dortoir : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Dortoir)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Dortoir.paa"};
+};
+
+class CIM_Board_Groupe_COMFOR : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Groupe COMFOR)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Groupe_COMFOR.paa"};
+};
+
+class CIM_Board_Handar_Secondaire : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Handar secondaire)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Handar_Secondaire.paa"};
+};
+
+class CIM_Board_Hangar_Principal : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Hangar principal)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Hangar_Principal.paa"};
+};
+
+class CIM_Board_medbay : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Medbay)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_medbay.paa"};
+};
+
+class CIM_Board_Prison : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Prison)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Prison.paa"};
+};
+
+class CIM_Board_Reunion : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Reunion)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Reunion.paa"};
+};
+
+class CIM_Board_Salle_unite_Epsilon : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Salle unite Epsilon)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Salle_unite_Epsilon.paa"};
+};
+
+class CIM_Board_Salle_unite_omega : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Salle unite omega)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Salle_unite_omega.paa"};
+};
+
+class CIM_Board_Stockage_explosif : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Stockage explosif)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Stockage_explosif.paa"};
+};
+
+class CIM_Board_Stockage_medicale : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Stockage medicale)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Stockage_medicale.paa"};
+};
+
+class CIM_Board_Stockage_Munition : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Stockage Munition)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Stockage_Munition.paa"};
 };
