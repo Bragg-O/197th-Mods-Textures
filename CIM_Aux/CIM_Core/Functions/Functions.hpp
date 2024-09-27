@@ -67,6 +67,7 @@ class CfgFunctions
             F(onCommunication)
             F(onUnderFire)
             F(switchEarPlugs)
+            F(DoNotDisplayForCurators)
             F_PostInit(initEarPlugs)
         };
 
