@@ -36,13 +36,24 @@ class CfgPatches
             "197th_Terminal",
             "CIM_Orion",
             "CIM_Orion_landed",
-            "CIM_Pegasus"};
+            "CIM_Pegasus",
+            "CIM_Target_Empty",
+            "CIM_Target_B1",
+            "CIM_Target_Civ",
+            "CIM_Target_Droideka",
+            "CIM_Target_Ewok",
+            "CIM_Target_Jawa",
+            "CIM_Target_Trooper",
+            "CIM_Target_Tusken"};
         weapons[] = {};
     };
 };
 
 class CfgVehicles
 {
+    class UserTexture_1x2_F;
+    class UserTexture1m_F;
+
     // R14
 #include "R14\CfgVehicles.hpp"
 
@@ -60,6 +71,9 @@ class CfgVehicles
 
     // ship
 #include "Ship\CfgVehicles.hpp"
+
+    // Target
+#include "Target\CfgVehicles.hpp"
 
     // Number
 #include "Number\CfgVehicles.hpp"

@@ -1,5 +1,3 @@
-class UserTexture_1x2_F;
-
 class CIM_NumberBase: UserTexture_1x2_F {
 	displayName = "[CIM] Number Base";
 	editorCategory = "CIM_Objects";

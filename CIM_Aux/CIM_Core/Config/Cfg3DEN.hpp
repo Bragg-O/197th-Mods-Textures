@@ -30,5 +30,6 @@ class CfgEditorSubcategories
 	Categories_XX(CIM_Aerien,Aerien);
 	Categories_XX(CIM_Terrestre,Terrestre);
 	Categories_XX(CIM_Ship,Ship);
+	Categories_XX(CIM_Target,Target);
 	CategoriesDouble_XX(CIM_Ship_Signs,Ship,Signs);
 };

@@ -1,8 +1,6 @@
 class 442_acclamator_4;
 class 442_acclamator_5;
 class 442_quasar;
-class UserTexture_1x2_F;
-class UserTexture1m_F;
 
 class CIM_Orion : 442_acclamator_4
 {
