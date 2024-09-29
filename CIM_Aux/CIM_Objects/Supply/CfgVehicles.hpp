@@ -190,7 +190,7 @@ class 197th_Supply_Empty: 442_box4 {
     scopecurator = 2;
     author = "[CIM] Bragg";
     maximumLoad = 7000;
-    editorPreview = "\CIM_Objects\_EditorPreviews\empty_ca.jpg";
+    editorPreview = "";
     // Dragging
     ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
     ace_dragging_dragPosition[] = {0, 1.2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
@@ -222,7 +222,7 @@ class 197th_Supply_Ammo : 197th_Supply_Empty {
     displayName= "[197th] Supply (Ammo)";
     author = "[CIM] Bragg";
     hiddenSelectionsTextures[] = {"CIM_Objects\Supply\Data\ammo_co.paa"};
-    editorPreview = "\CIM_Objects\_EditorPreviews\ammo_ca.jpg";
+    editorPreview = "";
 
     class TransportMagazines {
 		MAG_XX(197th_Z6_mag,20);
@@ -242,7 +242,7 @@ class 197th_Supply_Medical : 197th_Supply_Empty {
     displayName= "[197th] Supply (Medical)";
     author = "[CIM] Bragg";
     hiddenSelectionsTextures[] = {"CIM_Objects\Supply\Data\medical_co.paa"};
-    editorPreview = "\CIM_Objects\_EditorPreviews\medical_ca.jpg";
+    editorPreview = "";
 
     class TransportItems {
         ITEM_XX(197th_Medical_epinephrine,15);
@@ -264,7 +264,7 @@ class 197th_Supply_Explosive : 197th_Supply_Empty {
     displayName= "[197th] Supply (Explosive)";
     author = "[CIM] Bragg";
     hiddenSelectionsTextures[] = {"CIM_Objects\Supply\Data\explosive_co.paa"};
-    editorPreview = "\CIM_Objects\_EditorPreviews\explosive_ca.jpg";
+    editorPreview = "";
 
     class TransportItems {
         ITEM_XX(197th_Breach_Mag,10);
@@ -278,7 +278,7 @@ class 197th_Supply_Weapon : 197th_Supply_Empty {
     displayName= "[197th] Supply (Weapon)";
     author = "[CIM] Bragg";
     hiddenSelectionsTextures[] = {"CIM_Objects\Supply\Data\weapon_co.paa"};
-    editorPreview = "\CIM_Objects\_EditorPreviews\weapon_ca.jpg";
+    editorPreview = "";
 
     class TransportWeapons {
         WEAP_XX(197th_DC15X_Regs,2);
@@ -293,7 +293,7 @@ class 197th_Supply_NVG : 197th_Supply_Empty {
     displayName= "[197th] Supply (NVG)";
     author = "[CIM] Bragg";
     hiddenSelectionsTextures[] = {"CIM_Objects\Supply\Data\nvg_co.paa"};
-    editorPreview = "\CIM_Objects\_EditorPreviews\nvg_ca.jpg";
+    editorPreview = "";
 
     class TransportItems {
         ITEM_XX(197th_NVG,20);
@@ -304,7 +304,7 @@ class 197th_Supply_ATAA : 197th_Supply_Empty {
     displayName= "[197th] Supply (AT/AA)";
     author = "[CIM] Bragg";
     hiddenSelectionsTextures[] = {"CIM_Objects\Supply\Data\ataa_co.paa"};
-    editorPreview = "\CIM_Objects\_EditorPreviews\ataa_ca.jpg";
+    editorPreview = "";
 
     class TransportWeapons {
         WEAP_XX(197th_PLX1_Regs,3);
