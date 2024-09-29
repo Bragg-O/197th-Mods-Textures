@@ -19,9 +19,6 @@ class CfgPatches
 			"197th_ATTE",
 			"197th_BARC",
 			"197th_BARCSideCar",
-			"197th_Bison_APC",
-			"197th_Bison_IFV",
-			"197th_Bison_MGS",
 			"197th_ITT",
 			"197th_ITT_Logistic",
 			"197th_ITT_Medical",
@@ -94,9 +91,6 @@ class CfgVehicles
 
 	// BARC
 #include "Vehicules\BARC\CfgVehicles.hpp"
-
-	// Bison
-#include "Vehicules\Bison\CfgVehicles.hpp"
 
 	// ITT
 #include "Vehicules\ITT\CfgVehicles.hpp"

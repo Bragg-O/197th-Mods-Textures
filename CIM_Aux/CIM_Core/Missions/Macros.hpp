@@ -32,10 +32,7 @@
 	"197th_Saber_GL", \
 	"197th_Saber_Recon", \
 	"197th_Saber_Super", \
-	"197th_ATTE", \
-	"197th_Bison_APC", \
-	"197th_Bison_IFV", \
-	"197th_Bison_MGS"
+	"197th_ATTE"
 
 
 #define CIM_Garage_Box_Explosive_197th \
