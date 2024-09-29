@@ -35,7 +35,6 @@ class 197th_Mortar : 3AS_Republic_Mortar
 	scopeCurator = 2;
 	side=1;
 	forceInGarage = 2;
-	editorCategory = "CIM_Weapon";
 	editorSubcategory = "CIM_Turret";
 	displayName = "[197th] Mortar";
 	crew = "197th_Unit_Regs_Trooper";
