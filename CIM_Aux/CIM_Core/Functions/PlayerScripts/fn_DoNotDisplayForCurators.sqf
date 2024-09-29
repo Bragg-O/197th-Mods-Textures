@@ -1,5 +1,5 @@
 params [
-	["_DoNotDisplayForCurators", [], ["ARRAY"]]
+	["_DoNotDisplayForCurators", []]
 ];
 
 while { true } do {
