@@ -43,6 +43,7 @@ class CfgPatches
 			"197th_VWing",
 			"197th_YWing",
 			"197th_Z95",
+			"197th_Mortar",
 
 			// Unit
 			"197th_Unit_Regs_AA",
@@ -147,6 +148,9 @@ class CfgVehicles
 
 	// Explosives
 #include "Weapons\Explosives\CfgVehicles.hpp"
+
+	// Mortar
+#include "Weapons\Mortar\CfgVehicles.hpp"
 
 	// FortifyTools
 #include "FortifyTools\CfgVehicles.hpp"
