@@ -37,9 +37,6 @@ _player setVariable ["CIM_Formateur", _formateur, true];
 _zeus = [_uid] call DB_fnc_ExtractZeus;
 _player setVariable ["CIM_Zeus", _zeus, true];
 
-_artiste = [_uid] call DB_fnc_ExtractArtiste;
-_player setVariable ["CIM_Artiste", _artiste, true];
-
 uiSleep 5;
 
 remoteExec ["DB_fnc_GetAllPlayersInfo", 2];

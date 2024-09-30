@@ -13,4 +13,4 @@ _object addAction ["Ajouter des crédit", {
 _object addAction ["Soustraire des crédit", {
 	params ["_target", "_caller", "_actionId", "_arguments"];
 	["Soustraire des crédit"] call CIM_fnc_loadDialog3;
-}, nil, 1.5, false, false, "", 'player getVariable "CIM_Artiste" || player getVariable "CIM_AdminLevel" > 0'];
+}, nil, 1.5, false, false, "", 'player getVariable "CIM_AdminLevel" > 0'];
