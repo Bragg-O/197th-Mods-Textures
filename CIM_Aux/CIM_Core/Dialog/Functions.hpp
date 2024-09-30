@@ -22,7 +22,7 @@ class Dialog_ATM_Sou
 class Dialog_Perm
 {
     file = "CIM_Core\Dialog\Perm";
-	F_PostInit(fn_initPermModifier)
+	F(initPermModifier)
 	F(permUpdate)
 	F(loadAdmin)
 	F(loadCrewman)
