@@ -5,7 +5,7 @@ _this spawn {
 		CIM_combatTime = 0;
 	};
 
-	if (side player =! west) exitWith {
+	if (side player != west) exitWith {
 		CIM_combatTime = 0;
 	};
 
