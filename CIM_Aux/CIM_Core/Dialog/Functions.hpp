@@ -18,3 +18,17 @@ class Dialog_ATM_Sou
     F(initDialog3)
     F(loadDialog3)
 };
+
+class Dialog_Perm
+{
+    file = "CIM_Core\Dialog\Perm";
+	F_PostInit(fn_initPermModifier)
+	F(permUpdate)
+	F(loadAdmin)
+	F(loadCrewman)
+	F(loadDonator)
+	F(loadMedecin)
+	F(loadPilote)
+	F(loadSapeur)
+	F(loadZeus)
+};
