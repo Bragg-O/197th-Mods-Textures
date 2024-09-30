@@ -5,6 +5,10 @@ _this spawn {
 		CIM_combatTime = 0;
 	};
 
+	if (side player =! west) exitWith {
+		CIM_combatTime = 0;
+	};
+
 	_eh = (findDisplay 46) displayAddEventHandler ["KeyDown", {
 		_key = _this select 1;
 		_keys = actionKeys "PersonView";
