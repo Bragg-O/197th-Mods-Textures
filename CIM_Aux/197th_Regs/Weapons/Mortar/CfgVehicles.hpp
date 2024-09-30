@@ -38,6 +38,8 @@ class 197th_Mortar : 3AS_Republic_Mortar
 	editorSubcategory = "CIM_Turret";
 	displayName = "[197th] Mortar";
 	crew = "197th_Unit_Regs_Trooper";
+	picture = "\197th_Regs\Weapons\_ui\Mortar.paa";
+	editorPreview="";
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
