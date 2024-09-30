@@ -31,8 +31,6 @@ _player setVariable ["CIM_AdminLevel", _adminlevel, true];
 _money = [_uid] call DB_fnc_ExtractMoney;
 _player setVariable ["CIM_Money", _money, true];
 
-_formateur = [_uid] call DB_fnc_ExtractFormateur;
-_player setVariable ["CIM_Formateur", _formateur, true];
 
 _zeus = [_uid] call DB_fnc_ExtractZeus;
 _player setVariable ["CIM_Zeus", _zeus, true];
