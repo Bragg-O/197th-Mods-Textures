@@ -70,8 +70,12 @@ class CfgFunctions
             F(DoNotDisplayForCurators)
             F_PostInit(initEarPlugs)
         };
+    };
 
-        #include "..\Dialog\Functions.hpp"
+    class CIM_197th_Dialog
+    {
+        tag = "DIALOG";
+#include "..\Dialog\Functions.hpp"
     };
 
     class MySQL_Database
