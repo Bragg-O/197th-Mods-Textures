@@ -97,9 +97,9 @@ class CIM_Dialog_Perm
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
-			action = "";
+			action = "closeDialog 0; [] call CIM_fnc_loadMedecin;";
 			shadow = 0;
-			onLoad = "if ((player getVariable ['CIM_MedicLevel', 0] < 2) or (player getVariable ['CIM_AdminLevel', 0] < 2)) then {(_this # 0) ctrlEnable false;};";
+			onLoad = "if ((player getVariable ['CIM_MedicLevel', 0] <= 2) || (player getVariable ['CIM_AdminLevel', 0] <= 2)) then {(_this # 0) ctrlEnable false;};";
 		};
 		class Sapeur
 		{
@@ -130,9 +130,9 @@ class CIM_Dialog_Perm
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
-			action = "";
+			action = "closeDialog 0; [] call CIM_fnc_loadSapeur;";
 			shadow = 0;
-			onLoad = "if ((player getVariable ['CIM_IngLevel', 0] < 2) or (player getVariable ['CIM_AdminLevel', 0] < 2)) then {(_this # 0) ctrlEnable false;};";
+			onLoad = "if ((player getVariable ['CIM_IngLevel', 0] <= 2) || (player getVariable ['CIM_AdminLevel', 0] <= 2)) then {(_this # 0) ctrlEnable false;};";
 		};
 		class Pilote
 		{
@@ -163,9 +163,9 @@ class CIM_Dialog_Perm
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
-			action = "";
+			action = "closeDialog 0; [] call CIM_fnc_loadPilote;";
 			shadow = 0;
-			onLoad = "if ((player getVariable ['CIM_PilotLevel', 0] < 3) or (player getVariable ['CIM_AdminLevel', 0] < 2)) then {(_this # 0) ctrlEnable false;};";
+			onLoad = "if ((player getVariable ['CIM_PilotLevel', 0] <= 3) || (player getVariable ['CIM_AdminLevel', 0] <= 2)) then {(_this # 0) ctrlEnable false;};";
 		};
 		class Crewman
 		{
@@ -196,9 +196,9 @@ class CIM_Dialog_Perm
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
-			action = "";
+			action = "closeDialog 0; [] call CIM_fnc_loadCrewman;";
 			shadow = 0;
-			onLoad = "if ((player getVariable ['CIM_CrewLevel', 0] < 2) or (player getVariable ['CIM_AdminLevel', 0] < 2)) then {(_this # 0) ctrlEnable false;};";
+			onLoad = "if ((player getVariable ['CIM_CrewLevel', 0] <= 2) || (player getVariable ['CIM_AdminLevel', 0] <= 2)) then {(_this # 0) ctrlEnable false;};";
 		};
 		class Donateur
 		{
@@ -229,9 +229,9 @@ class CIM_Dialog_Perm
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
-			action = "";
+			action = "closeDialog 0; [] call CIM_fnc_loadDonator;";
 			shadow = 0;
-			onLoad = "if (player getVariable ['CIM_AdminLevel', 0] < 2) then {(_this # 0) ctrlEnable false;};";
+			onLoad = "if (player getVariable ['CIM_AdminLevel', 0] <= 2) then {(_this # 0) ctrlEnable false;};";
 		};
 		class Zeus
 		{
@@ -262,9 +262,9 @@ class CIM_Dialog_Perm
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
-			action = "";
+			action = "closeDialog 0; [] call CIM_fnc_loadZeus;";
 			shadow = 0;
-			onLoad = "if ((player getVariable ['CIM_ZeusLevel', 0] < 3) or (player getVariable ['CIM_AdminLevel', 0] < 2)) then {(_this # 0) ctrlEnable false;};";
+			onLoad = "if ((player getVariable ['CIM_ZeusLevel', 0] <= 3) || (player getVariable ['CIM_AdminLevel', 0] <= 2)) then {(_this # 0) ctrlEnable false;};";
 		};
 		class Admin
 		{
@@ -295,9 +295,9 @@ class CIM_Dialog_Perm
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
-			action = "";
+			action = "closeDialog 0; [] call CIM_fnc_loadAdmin;";
 			shadow = 0;
-			onLoad = "if (player getVariable ['CIM_AdminLevel', 0] < 3) then {(_this # 0) ctrlEnable false;};";
+			onLoad = "if (player getVariable ['CIM_AdminLevel', 0] <= 3) then {(_this # 0) ctrlEnable false;};";
 		};
 		class PlayerList
 		{
