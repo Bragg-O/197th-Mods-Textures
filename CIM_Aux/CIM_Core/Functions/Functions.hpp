@@ -102,7 +102,7 @@ class CfgFunctions
             F(ExtractMoney)
             F(ExtractName)
             F(ExtractPilotLevel)
-            F(ExtractZeus)
+            F(ExtractZeusLevel)
             F(ExtractRankLevel)
         };
         class MySQL_Update
@@ -120,7 +120,7 @@ class CfgFunctions
             F(UpdateMoney)
             F(UpdateName)
             F(UpdatePilotLevel)
-            F(UpdateZeus)
+            F(UpdateZeusLevel)
             F(UpdateRankLevel)
         };
         class MySQL_Other

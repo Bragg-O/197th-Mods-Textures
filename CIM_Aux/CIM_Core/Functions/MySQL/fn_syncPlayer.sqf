@@ -31,9 +31,9 @@ _player setVariable ["CIM_AdminLevel", _adminlevel, true];
 _money = [_uid] call DB_fnc_ExtractMoney;
 _player setVariable ["CIM_Money", _money, true];
 
+_zeus = [_uid] call DB_fnc_ExtractZeusLevel;
+_player setVariable ["CIM_ZeusLevel", _zeus, true];
 
-_zeus = [_uid] call DB_fnc_ExtractZeus;
-_player setVariable ["CIM_Zeus", _zeus, true];
 
 uiSleep 5;
 
