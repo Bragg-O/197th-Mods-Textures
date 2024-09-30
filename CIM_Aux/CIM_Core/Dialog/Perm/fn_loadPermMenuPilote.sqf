@@ -1,8 +1,12 @@
+closeDialog 0;
+
+uisleep 0.1;
+
 createDialog "CIM_Dialog_Perm";
 
-((findDisplay -1) displayCtrl 5200) ctrlSetText "Atribution de permission (Médecin)";
+((findDisplay -1) displayCtrl 5200) ctrlSetText "Atribution de permission (Pilote)";
 
-// _return = [[uid, name, money, rank_level, medic_level, ing_level, pilot_level, crewman_level, donator_level, zeus_level, admin_level], ...]
+remoteExec ["DB_fnc_GetAllPlayersInfo", 2];
 
 private _AllPlayersInfo = CIM_GetAllPlayersInfo;
 
@@ -10,15 +14,18 @@ _players = [];
 
 {
 	_name = _x select 1;
-	_level = _x select 4;
+	_level = _x select 7;
 	switch (_level) do {
 		case 0: {
 			_level = "";
 		};
 		case 1: {
-			_level = " (Médecin)";
+			_level = " (Artilleur)";
 		};
 		case 2: {
+			_level = " (Pilote)";
+		};
+		case 3: {
 			_level = " (Formateur)";
 		};
 	};
@@ -29,12 +36,12 @@ _players = [];
 	((findDisplay -1) displayCtrl 5000) lbAdd _x;
 } forEach _players;
 
-_levels = ["Vide", "Médecin", "Formateur"];
+_levels = ["Vide", "Artilleur", "Pilote", "Formateur"];
 
 {
 	((findDisplay -1) displayCtrl 5100) lbAdd _x;
 } forEach _levels;
 
 ((findDisplay -1) displayCtrl 5101) ctrlAddEventHandler ["ButtonDown", {
-	["MedicLevel"] spawn CIM_fnc_permUpdate;
+	["PilotLevel"] spawn DIALOG_fnc_permUpdate;
 }];

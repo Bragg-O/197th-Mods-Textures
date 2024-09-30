@@ -1,8 +1,12 @@
+closeDialog 0;
+
+uisleep 0.1;
+
 createDialog "CIM_Dialog_Perm";
 
-((findDisplay -1) displayCtrl 5200) ctrlSetText "Atribution de permission (Donateur)";
+((findDisplay -1) displayCtrl 5200) ctrlSetText "Atribution de permission (Zeus)";
 
-// _return = [[uid, name, money, rank_level, medic_level, ing_level, pilot_level, crewman_level, donator_level, zeus_level, admin_level], ...]
+remoteExec ["DB_fnc_GetAllPlayersInfo", 2];
 
 private _AllPlayersInfo = CIM_GetAllPlayersInfo;
 
@@ -10,19 +14,19 @@ _players = [];
 
 {
 	_name = _x select 1;
-	_level = _x select 6;
+	_level = _x select 9;
 	switch (_level) do {
 		case 0: {
 			_level = "";
 		};
 		case 1: {
-			_level = " (x1.34)";
+			_level = " (Zeus en formation)";
 		};
 		case 2: {
-			_level = " (x1.67)";
+			_level = " (Zeus assistant)";
 		};
 		case 3: {
-			_level = " (x2)";
+			_level = " (Zeus)";
 		};
 	};
 	_players pushBack format ["%1%2", _name, _level];
@@ -32,12 +36,12 @@ _players = [];
 	((findDisplay -1) displayCtrl 5000) lbAdd _x;
 } forEach _players;
 
-_levels = ["0 (x0)", "1 / 2 / 3 (x1.34)", "4 / 5 / 6 (x1.67)", "7 / 8 / 9 (x2)"];
+_levels = ["", "Zeus en formation", "Zeus assistant", "Zeus"];
 
 {
 	((findDisplay -1) displayCtrl 5100) lbAdd _x;
 } forEach _levels;
 
 ((findDisplay -1) displayCtrl 5101) ctrlAddEventHandler ["ButtonDown", {
-	["DonatorLevel"] spawn CIM_fnc_permUpdate;
+	["ZeusLevel"] spawn DIALOG_fnc_permUpdate;
 }];

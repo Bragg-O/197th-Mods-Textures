@@ -15,17 +15,16 @@ class ATM
     F(updateATM)
 };
 
-
-class Dialog_Perm
+class Perm
 {
     file = "CIM_Core\Dialog\Perm";
 	F(initPermModifier)
+	F(loadPermMenuAdmin)
+	F(loadPermMenuCrewman)
+	F(loadPermMenuDonator)
+	F(loadPermMenuMedecin)
+	F(loadPermMenuPilote)
+	F(loadPermMenuSapeur)
+	F(loadPermMenuZeus)
 	F(permUpdate)
-	F(loadAdmin)
-	F(loadCrewman)
-	F(loadDonator)
-	F(loadMedecin)
-	F(loadPilote)
-	F(loadSapeur)
-	F(loadZeus)
 };

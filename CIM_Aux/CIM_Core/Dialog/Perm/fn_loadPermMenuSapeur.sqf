@@ -1,8 +1,12 @@
+closeDialog 0;
+
+uisleep 0.1;
+
 createDialog "CIM_Dialog_Perm";
 
 ((findDisplay -1) displayCtrl 5200) ctrlSetText "Atribution de permission (Sapeur)";
 
-// _return = [[uid, name, money, rank_level, medic_level, ing_level, pilot_level, crewman_level, donator_level, zeus_level, admin_level], ...]
+remoteExec ["DB_fnc_GetAllPlayersInfo", 2];
 
 private _AllPlayersInfo = CIM_GetAllPlayersInfo;
 
@@ -36,5 +40,5 @@ _levels = ["Vide", "Sapeur", "Formateur"];
 } forEach _levels;
 
 ((findDisplay -1) displayCtrl 5101) ctrlAddEventHandler ["ButtonDown", {
-	["IngLevel"] spawn CIM_fnc_permUpdate;
+	["IngLevel"] spawn DIALOG_fnc_permUpdate;
 }];

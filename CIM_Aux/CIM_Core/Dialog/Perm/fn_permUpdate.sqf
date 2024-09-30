@@ -10,8 +10,6 @@ if (_level == -1) exitWith {
 	hint "Vous devez sélectionner une permission !";
 };
 
-closeDialog 0;
-
 private _AllPlayersInfo = CIM_GetAllPlayersInfo;
 
 _players = [];
@@ -29,34 +27,36 @@ _playerSelect params ["_name", "_uid"];
 switch (_type) do {
 	case "MedicLevel": {
 		[_uid, _level] remoteExec ["DB_fnc_UpdateMedicLevel", 2];
+		[] spawn DIALOG_fnc_loadPermMenuMedecin;
 	};
 	case "IngLevel": {
 		[_uid, _level] remoteExec ["DB_fnc_UpdateIngLevel", 2];
+		[] spawn DIALOG_fnc_loadPermMenuSapeur;
 	};
 	case "PilotLevel": {
 		[_uid, _level] remoteExec ["DB_fnc_UpdatePilotLevel", 2];
+		[] spawn DIALOG_fnc_loadPermMenuPilote;
 	};
 	case "CrewLevel": {
 		[_uid, _level] remoteExec ["DB_fnc_UpdateCrewmanLevel", 2];
+		[] spawn DIALOG_fnc_loadPermMenuCrewman;
 	};
 	case "DonatorLevel": {
 		[_uid, _level] remoteExec ["DB_fnc_UpdateDonatorLevel", 2];
+		[] spawn DIALOG_fnc_loadPermMenuDonator;
 	};
 	case "ZeusLevel": {
 		[_uid, _level] remoteExec ["DB_fnc_UpdateZeusLevel", 2];
+		[] spawn DIALOG_fnc_loadPermMenuZeus;
 	};
 	case "AdminLevel": {
 		[_uid, _level] remoteExec ["DB_fnc_UpdateAdminLevel", 2];
+		[] spawn DIALOG_fnc_loadPermMenuAdmin;
 	};
 };
 
-uiSleep 1;
-
-hint format ["%1 a été modifier", _name];
+hint format ["le %1 de %2 a été modifié", _type, _name];
 
 {
 	[_x, getPlayerUID _x] remoteExec ["DB_fnc_syncPlayer", 2];
 } forEach allPlayers;
-
-uiSleep 1;
-createDialog "CIM_Dialog_Perm";
