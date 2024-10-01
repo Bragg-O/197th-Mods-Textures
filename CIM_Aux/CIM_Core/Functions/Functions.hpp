@@ -66,6 +66,7 @@ class CfgFunctions
             F(initUnitTraitPilot)
             F(onUnderFire)
             F(switchEarPlugs)
+            F_PostInit(checkVehiclePermission)
             F_PostInit(initEarPlugs)
         };
     };
