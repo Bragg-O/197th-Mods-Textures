@@ -33,11 +33,11 @@ class CfgFunctions
         {
             file = "CIM_Core\Functions\Logistics";
             F(canFortify)
+            F(initAllVehicleService)
             F(initGarage)
             F(initPlow)
             F(onLoadLAATC)
             F(onUnLoadLAATC)
-            F(initAllVehicleService)
         };
 
         class Medical
@@ -53,6 +53,7 @@ class CfgFunctions
         class PlayerScripts
         {
             file = "CIM_Core\Functions\PlayerScripts";
+            F(DoNotDisplayForCurators)
             F(addLoadout)
             F(checkEarPlugs)
             F(initATM)
@@ -65,7 +66,6 @@ class CfgFunctions
             F(initUnitTraitPilot)
             F(onUnderFire)
             F(switchEarPlugs)
-            F(DoNotDisplayForCurators)
             F_PostInit(initEarPlugs)
         };
     };
@@ -84,8 +84,8 @@ class CfgFunctions
             file = "CIM_Core\Functions\MySQL";
             F(asyncCall)
             F(initMySQL)
-            F(server_initialization)
             F(initPlayer)
+            F(server_initialization)
             F(syncPlayer)
             F_PostInit(initSyncPlayer)
         };
@@ -104,8 +104,8 @@ class CfgFunctions
             F(ExtractMoney)
             F(ExtractName)
             F(ExtractPilotLevel)
-            F(ExtractZeusLevel)
             F(ExtractRankLevel)
+            F(ExtractZeusLevel)
         };
         class MySQL_Update
         {
@@ -122,15 +122,15 @@ class CfgFunctions
             F(UpdateMoney)
             F(UpdateName)
             F(UpdatePilotLevel)
-            F(UpdateZeusLevel)
             F(UpdateRankLevel)
+            F(UpdateZeusLevel)
         };
         class MySQL_Other
         {
             file = "CIM_Core\Functions\MySQL\fn_Other";
             F(CreateNewPlayer)
-            F(PlayerCountForUid)
             F(GetAllPlayersInfo)
+            F(PlayerCountForUid)
         };
     };
 };
