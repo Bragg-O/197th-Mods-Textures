@@ -1,8 +1,10 @@
-class Dialog_Communication
+class Communication
 {
     file = "CIM_Core\Dialog\Communication";
-    F(initDialog1)
-    F(loadDialog1)
+    F(initCommunication)
+    F(loadCommunication)
+    F(sendCommunication)
+    F(updateCommunication)
 };
 
 class ATM
@@ -18,13 +20,13 @@ class ATM
 class Perm
 {
     file = "CIM_Core\Dialog\Perm";
-	F(initPermModifier)
-	F(loadPermMenuAdmin)
-	F(loadPermMenuCrewman)
-	F(loadPermMenuDonator)
-	F(loadPermMenuMedecin)
-	F(loadPermMenuPilote)
-	F(loadPermMenuSapeur)
-	F(loadPermMenuZeus)
-	F(permUpdate)
+    F(initPermModifier)
+    F(loadPermMenuAdmin)
+    F(loadPermMenuCrewman)
+    F(loadPermMenuDonator)
+    F(loadPermMenuMedecin)
+    F(loadPermMenuPilote)
+    F(loadPermMenuSapeur)
+    F(loadPermMenuZeus)
+    F(permUpdate)
 };

@@ -1,6 +1,10 @@
-params ["_object"];
+closeDialog 0;
 
-private _listmsg = [
+uiSleep 0.1;
+
+createDialog "CIM_Dialog_Communication";
+
+CIM_listmsg_Communication = [
 	// ["Nom de l'interactions", "text du message"]
 	["Briefing Commandement", "SIGMA est convié sur le pont !"],
 
@@ -31,14 +35,11 @@ private _listmsg = [
 	["Déploiement de drones", "Déploiement de drones autorisé! Toutes les équipes accrédités doivent lancer leurs drones et fournir une surveillance aérienne, maintenant!"]
 ];
 
-_object addAction [ "<t color='#ffffff' size='1'> Envoyer un message : Personnaliser</t>", {
-	["HoloCom. - Envoyer un message"] call CIM_fnc_LoadDialog1;
-}, nil, 1.5, true, true, "", "true", 5, false, "", ""];
+publicVariable "CIM_listmsg_Communication";
+
+private _listmsg = CIM_listmsg_Communication;
 
 {
-	[_x select 0, _x select 1] params ["_namelist", "_textlist"];
-	_object addAction [ format["<t color='#ffffff' size='1'> Envoyer le message : %1</t", _namelist], {
-		params ["_target", "_caller", "_actionId", "_arguments"];
-		[_arguments] call CIM_fnc_onCommunication;
-	}, _textlist, 1.5, true, true, "", "true", 5, false, "", ""];
+	_namelist = _x select 0;
+	((findDisplay -1) displayCtrl 4000) lbAdd format ["%1", _namelist];
 } forEach _listmsg;

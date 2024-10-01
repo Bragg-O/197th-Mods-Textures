@@ -39,6 +39,7 @@ class CfgWorlds
 
 class RscStandardDisplay;
 class RscShortcutButton;
+class RSCButton;
 class RscDisplayMain : RscStandardDisplay
 {
 	idd = 0;
