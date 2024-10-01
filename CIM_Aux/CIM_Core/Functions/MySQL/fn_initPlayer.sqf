@@ -12,6 +12,8 @@ waitUntil {
 
 private _playerExists = [_uid] call DB_fnc_PlayerCountForUid;
 
+sleep 1;
+
 if (_playerExists == 0) then {
 	[_uid, (name _player)] call DB_fnc_CreateNewPlayer;
 } else {
