@@ -11,9 +11,13 @@ class CfgMissions
 		{
 			directory = "CIM_Core\MainMenu\scenes\Intro1.Altis";
 		};
-		class spaceMenuSceneArcadia
+		class walkMenuSceneAltis
 		{
-			directory = "CIM_Core\MainMenu\scenes\Intro1.OPTRE_Arcadia";
+			directory = "CIM_Core\MainMenu\scenes\Intro2.Altis";
+		};
+		class runMenuSceneAltis
+		{
+			directory = "CIM_Core\MainMenu\scenes\Intro3.Altis";
 		};
 	};
 };
@@ -23,18 +27,14 @@ class CfgWorlds
 	class CAWorld;
 	class Altis : CAWorld
 	{
-		cutscenes[] = {"spaceMenuSceneAltis"};
+		cutscenes[] = {"spaceMenuSceneAltis", "walkMenuSceneAltis", "runMenuSceneAltis"};
 	};
 	class VR : CAWorld
 	{
 		cutscenes[] = {"spaceMenuSceneVR"};
 	};
-	class OPTRE_Arcadia : CAWorld
-	{
-		cutscenes[] = {"spaceMenuSceneArcadia"};
-	};
-	initWorld = "VR";
-	demoWorld = "VR";
+	initWorld = "Altis";
+	demoWorld = "Altis";
 };
 
 class RscStandardDisplay;
@@ -105,7 +105,7 @@ class RscDisplayMain : RscStandardDisplay
 			w = "safeZoneW * 0.2";
 			h = "safeZoneH * 0.04";
 			style = "0+2";
-			text = "Serveur Principal";
+			text = "Se connecter au serveur";
 			borderSize = 0;
 			colorBackground[] = {0.066699997, 0.1804, 0.14120001, 1};
 			colorBackgroundActive[] = {0.066699997, 0.1804, 0.14120001, 1};
@@ -141,12 +141,6 @@ class RscDisplayMain : RscStandardDisplay
 					0.090000004,
 					1};
 			onButtonClick = "connectToServer ['5.135.141.171',2302,'197thCompChimaeraByBraggHermesApo']";
-		};
-		class ConnectServer1 : ConnectServer
-		{
-			y = "safeZoneY + safeZoneH * 0.32";
-			text = "Serveur de Formation";
-			onButtonClick = "connectToServer ['5.135.141.171',2322,'197thCompChimaeraByBraggHermesApo']";
 		};
 	};
 };
