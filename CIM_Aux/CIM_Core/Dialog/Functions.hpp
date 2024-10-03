@@ -30,3 +30,11 @@ class Perm
     F(loadPermMenuZeus)
     F(permUpdate)
 };
+
+class Rank
+{
+    file = "CIM_Core\Dialog\Rank";
+    F(initRankModifier)
+    F(loadRankMenu)
+    F(rankUpdate)
+};
