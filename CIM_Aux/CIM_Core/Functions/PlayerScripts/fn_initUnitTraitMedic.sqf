@@ -9,9 +9,9 @@ if (isNil "_object") exitWith {
 _object addAction ["<t color='#58D68D' size='1.5'>Attribuer des autorisations médicales</t>", {
 	player setVariable ["ace_medical_medicclass", 2, true];
 	player setUnitTrait ["medic", true];
-}, nil, 1.5, false, false, "", 'Player getUnitTrait "Medic" == false'];
+}, nil, 1.5, false, false, "", 'Player getUnitTrait "Medic" == false && (player getVariable "CIM_MedicLevel" > 0)'];
 
 _object addAction ["<t color='#E74C3C' size='1.5'>Supprimer les autorisations médicales</t>", {
 	player setVariable ["ace_medical_medicclass", 0, true];
 	player setUnitTrait ["medic", false];
-}, nil, 1.5, false, false, "", 'Player getUnitTrait "medic" == true'];
+}, nil, 1.5, false, false, "", 'Player getUnitTrait "medic" == true && (player getVariable "CIM_MedicLevel" > 0)'];
