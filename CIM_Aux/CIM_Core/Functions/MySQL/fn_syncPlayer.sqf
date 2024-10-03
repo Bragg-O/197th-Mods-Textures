@@ -10,6 +10,9 @@ params ["_player", "_uid"];
 
 [_uid, (name _player)] call DB_fnc_UpdateName;
 
+_ranklevel = [_uid] call DB_fnc_ExtractRankLevel;
+_player setVariable ["CIM_RankLevel", _ranklevel, true];
+
 _mediclevel = [_uid] call DB_fnc_ExtractMedicLevel;
 _player setVariable ["CIM_MedicLevel", _mediclevel, true];
 
@@ -33,7 +36,6 @@ _player setVariable ["CIM_Money", _money, true];
 
 _zeus = [_uid] call DB_fnc_ExtractZeusLevel;
 _player setVariable ["CIM_ZeusLevel", _zeus, true];
-
 
 uiSleep 5;
 
