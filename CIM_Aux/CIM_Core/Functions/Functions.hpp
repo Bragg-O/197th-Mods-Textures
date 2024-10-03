@@ -58,6 +58,7 @@ class CfgFunctions
             F(checkEarPlugs)
             F(initATM)
             F(initBlockArsenal)
+            F(initDeployer)
             F(initLoadout)
             F(initRestrictedArsenal)
             F(initSkyLocker)
