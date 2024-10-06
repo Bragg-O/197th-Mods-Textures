@@ -115,7 +115,6 @@
 
 #define CIM_RestrictedArsenal_MiscShit_197th \
 	"Attachable_Helistretcher", \
-	"Lala_Mortar_Calc", \
 	"CWHUD_ARF_base", \
 	"CWHUD_ARF_blue", \
 	"CWHUD_ARF_green", \
