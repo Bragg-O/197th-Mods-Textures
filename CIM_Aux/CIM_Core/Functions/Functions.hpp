@@ -76,7 +76,7 @@ class CfgFunctions
     class CIM_197th_Dialog
     {
         tag = "DIALOG";
-#include "..\Dialog\Functions.hpp"
+        #include "..\Dialog\Functions.hpp"
     };
 
     class MySQL_Database
