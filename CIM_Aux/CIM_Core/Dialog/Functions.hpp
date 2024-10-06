@@ -38,3 +38,10 @@ class Rank
     F(loadRankMenu)
     F(rankUpdate)
 };
+
+class Profil
+{
+    file = "CIM_Core\Dialog\Profil";
+    F(loadProfil)
+    F_PostInit(initProfil)
+};
