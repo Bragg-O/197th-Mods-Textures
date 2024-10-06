@@ -12,7 +12,7 @@ class 197th_ITT: 3AS_ITT
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 60;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
@@ -65,7 +65,7 @@ class 197th_ITT_Transport: 3AS_ITT_Medical
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 80;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
@@ -118,7 +118,7 @@ class 197th_ITT_Medical: 3AS_ITT_Medical
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 60;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
@@ -172,7 +172,7 @@ class 197th_ITT_Logistic: 3AS_ITT_Logistic
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 100;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
