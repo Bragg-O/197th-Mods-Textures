@@ -10,7 +10,7 @@ class 197th_PX10: 3AS_PX10_REP_F
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 60;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
@@ -58,6 +58,8 @@ class 197th_PX10: 3AS_PX10_REP_F
 
 class 197th_PX10_Repair: 197th_PX10
 {
+	ace_cargo_space = 40;
+	ace_cargo_hasCargo = 1;
 	animationList[]=
 	{
 		"HideAttachmentDozer",
