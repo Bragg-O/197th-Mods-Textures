@@ -68,6 +68,7 @@ class CfgFunctions
             F(onUnderFire)
             F(switchEarPlugs)
             F_PostInit(checkVehiclePermission)
+            F_PostInit(initAutoPayment)
             F_PostInit(initEarPlugs)
         };
     };

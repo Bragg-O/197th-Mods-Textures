@@ -29,6 +29,7 @@ class CfgRemoteExec
         F(DB_fnc_asyncCall, SERVER)
         F(DB_fnc_initPlayer, SERVER)
         F(DB_fnc_syncPlayer, SERVER)
+        F(CIM_fnc_initAutoPayment, SERVER)
         F(DB_fnc_ExtractActualIng, SERVER)
         F(DB_fnc_ExtractActualMedic, SERVER)
         F(DB_fnc_ExtractAdminLevel, SERVER)
