@@ -45,6 +45,7 @@
 	"197th_Supply_Ammo", \
 	"197th_Supply_NVG", \
 	"197th_Supply_Weapon", \
+	"197th_Supply_Fortify", \
 	"197th_Supply_Empty"
 
 

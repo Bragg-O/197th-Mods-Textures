@@ -300,6 +300,16 @@ class 197th_Supply_NVG : 197th_Supply_Empty {
     };
 };
 
+class 197th_Supply_Fortify : 197th_Supply_Empty {
+    displayName= "[197th] Supply (Fortify)";
+    author = "[CIM] Bragg";
+    editorPreview = "";
+
+    class TransportItems {
+        ITEM_XX(ACE_Fortify,50);
+    };
+};
+
 class 197th_Supply_ATAA : 197th_Supply_Empty {
     displayName= "[197th] Supply (AT/AA)";
     author = "[CIM] Bragg";

@@ -30,6 +30,7 @@ class CfgPatches
             "197th_Supply_Explosive",
             "197th_Supply_Medical",
             "197th_Supply_NVG",
+            "197th_Supply_Fortify",
             "197th_Supply_Weapon",
             "197th_TerminalMedical",
             "197th_R14",
