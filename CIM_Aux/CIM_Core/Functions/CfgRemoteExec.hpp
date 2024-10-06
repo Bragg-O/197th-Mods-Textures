@@ -25,11 +25,8 @@ class CfgRemoteExec
         /* Client only functions */
 
         /* Server only functions */
-        F(DB_fnc_server_initialization, SERVER)
-        F(DB_fnc_asyncCall, SERVER)
-        F(DB_fnc_initPlayer, SERVER)
-        F(DB_fnc_syncPlayer, SERVER)
         F(CIM_fnc_initAutoPayment, SERVER)
+        F(DB_fnc_CreateNewPlayer, SERVER)
         F(DB_fnc_ExtractActualIng, SERVER)
         F(DB_fnc_ExtractActualMedic, SERVER)
         F(DB_fnc_ExtractAdminLevel, SERVER)
@@ -44,6 +41,7 @@ class CfgRemoteExec
         F(DB_fnc_ExtractPilotLevel, SERVER)
         F(DB_fnc_ExtractRankLevel, SERVER)
         F(DB_fnc_ExtractZeusLevel, SERVER)
+        F(DB_fnc_PlayerCountForUid, SERVER)
         F(DB_fnc_UpdateActualIng, SERVER)
         F(DB_fnc_UpdateActualMedic, SERVER)
         F(DB_fnc_UpdateAdminLevel, SERVER)
@@ -58,8 +56,10 @@ class CfgRemoteExec
         F(DB_fnc_UpdatePilotLevel, SERVER)
         F(DB_fnc_UpdateRankLevel, SERVER)
         F(DB_fnc_UpdateZeusLevel, SERVER)
-        F(DB_fnc_CreateNewPlayer, SERVER)
-        F(DB_fnc_PlayerCountForUid, SERVER)
+        F(DB_fnc_asyncCall, SERVER)
+        F(DB_fnc_initPlayer, SERVER)
+        F(DB_fnc_server_initialization, SERVER)
+        F(DB_fnc_syncPlayer, SERVER)
 
         /* Functions for everyone */
         F(DB_fnc_initMySQL, ANYONE)
