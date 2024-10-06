@@ -170,7 +170,6 @@ class CIM_Pegasus_3 : CIM_Pegasus_0
 		"CIM_Objects\Ship\Data\Pegasus_3.paa"};
 };
 
-
 class CIM_Board_Turbolift : UserTexture1m_F
 {
 	displayName = "[CIM] Board (Turboolift)";
@@ -187,6 +186,33 @@ class CIM_Board_Turbolift : UserTexture1m_F
 	{
 		eden = 1;
 	};
+};
+
+class CIM_Board_Turbolift_Comfom : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Turboolift -> Comfom)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Turbolift_Comfom.paa"};
+};
+
+class CIM_Board_Turbolift_Formation : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Turboolift -> Formation)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Turbolift_Formation.paa"};
+};
+
+class CIM_Board_Turbolift_Pont : CIM_Board_Turbolift
+{
+	displayName = "[CIM] Board (Turboolift -> Pont)";
+	scope = 2;
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Ship\Data\Board_Turbolift_Pont.paa"};
 };
 
 class CIM_Board_Armurerie : CIM_Board_Turbolift
