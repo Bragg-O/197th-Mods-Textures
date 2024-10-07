@@ -49,7 +49,7 @@ _dayOfWeek = call getDayOfWeek;
 
 				_money = ceil (_money + _payment);
 
-				[getPlayerUID player, _money] remoteExec ["DB_fnc_UpdateMoney", 2];
+				[getPlayerUID _x, _money] remoteExec ["DB_fnc_UpdateMoney", 2];
 			} forEach allPlayers;
 
 			diag_log "CIM - AutoPayment - Payment done";
