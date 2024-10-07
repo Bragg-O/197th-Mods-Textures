@@ -4,3 +4,4 @@
 #include "Perm\CIM_Dialog_Perm.hpp"
 #include "Profil\CIM_Dialog_Profil.hpp"
 #include "Rank\CIM_Dialog_Rank.hpp"
+#include "Shield\CIM_Dialog_Shield.hpp"

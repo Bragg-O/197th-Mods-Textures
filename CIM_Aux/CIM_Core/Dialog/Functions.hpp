@@ -55,3 +55,10 @@ class Locker
     F(loadGestPreset)
     F(updateGestPreset)
 };
+
+class Shield
+{
+    file = "CIM_Core\Dialog\Shield";
+    F(openShield)
+    F_PostInit(initShield)
+};
