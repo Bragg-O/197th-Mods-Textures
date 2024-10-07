@@ -134,7 +134,7 @@ class CIM_Dialog_Shield
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
 			onbuttonclick = "['ZoneDeFormation'] spawn DIALOG_fnc_openShield;";
 			shadow = 0;
-			onload = "if (isNull FormationEnable) then {(_this # 0) ctrlEnable false;}; if (isObjectHidden ShieldZoneDeFormation_0) then {(_this # 0) ctrlSetActiveColor [0.6, 0, 0, 1]; (_this # 0) ctrlSetBackgroundColor [0.6, 0, 0, 1];} else {(_this # 0) ctrlSetActiveColor [0.302, 0.502, 0.302, 1]; (_this # 0) ctrlSetBackgroundColor [0.302, 0.502, 0.302, 1];};";
+			onload = "if (isObjectHidden ShieldZoneDeFormation_0) then {(_this # 0) ctrlSetActiveColor [0.302, 0.502, 0.302, 1]; (_this # 0) ctrlSetBackgroundColor [0.302, 0.502, 0.302, 1];} else {(_this # 0) ctrlSetActiveColor [0.6, 0, 0, 1]; (_this # 0) ctrlSetBackgroundColor [0.6, 0, 0, 1];};if !(missionNamespace getVariable ['CIM_FormationAreaLoaded', false]) then {(_this # 0) ctrlEnable false;}; ";
 		};
 		class Arsenal // bouton 3
 		{
