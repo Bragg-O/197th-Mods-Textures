@@ -169,7 +169,7 @@ class CIM_Dialog_Shield
 			shadow = 0;
 			onload = "if (isObjectHidden ShieldArsenal_0) then {(_this # 0) ctrlSetActiveColor [0.302, 0.502, 0.302, 1]; (_this # 0) ctrlSetBackgroundColor [0.302, 0.502, 0.302, 1];} else {(_this # 0) ctrlSetActiveColor [0.6, 0, 0, 1]; (_this # 0) ctrlSetBackgroundColor [0.6, 0, 0, 1];};";
 		};
-		class Medbay // bouton 4
+		class MedBay // bouton 4
 		{
 			type = 1;
 			idc = -1;
@@ -178,7 +178,7 @@ class CIM_Dialog_Shield
 			w = 0.28030304;
 			h = 0.14141415;
 			style = 0 + 2;
-			text = "Medbay";
+			text = "MedBay";
 			borderSize = 0;
 			colorBackground[] = {0.302, 0.502, 0.302, 1};
 			colorBackgroundActive[] = {0.2, 0.4, 0.2, 1};
@@ -198,9 +198,9 @@ class CIM_Dialog_Shield
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
-			onbuttonclick = "['Medbay'] spawn DIALOG_fnc_openShield;";
+			onbuttonclick = "['MedBay'] spawn DIALOG_fnc_openShield;";
 			shadow = 0;
-			onload = "if (isObjectHidden ShieldMedbay_0) then {(_this # 0) ctrlSetActiveColor [0.302, 0.502, 0.302, 1]; (_this # 0) ctrlSetBackgroundColor [0.302, 0.502, 0.302, 1];} else {(_this # 0) ctrlSetActiveColor [0.6, 0, 0, 1]; (_this # 0) ctrlSetBackgroundColor [0.6, 0, 0, 1];};";
+			onload = "if (isObjectHidden ShieldMedBay_0) then {(_this # 0) ctrlSetActiveColor [0.302, 0.502, 0.302, 1]; (_this # 0) ctrlSetBackgroundColor [0.302, 0.502, 0.302, 1];} else {(_this # 0) ctrlSetActiveColor [0.6, 0, 0, 1]; (_this # 0) ctrlSetBackgroundColor [0.6, 0, 0, 1];};";
 		};
 		class Pont // bouton 5
 		{
@@ -310,7 +310,7 @@ class CIM_Dialog_Shield
 			w = 0.28030304;
 			h = 0.14141415;
 			style = 0 + 2;
-			text = "Stockage Médicale";
+			text = "Stockage Medicale";
 			borderSize = 0;
 			colorBackground[] = {0.302, 0.502, 0.302, 1};
 			colorBackgroundActive[] = {0.2, 0.4, 0.2, 1};
