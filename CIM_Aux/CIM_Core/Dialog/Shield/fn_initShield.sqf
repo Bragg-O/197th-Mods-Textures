@@ -1,5 +1,5 @@
 if (!hasInterface) exitWith {};
-if (isNull CheckFile) exitWith {};
+if !(missionNamespace getVariable ["CIM_CheckFileLoaded", false]) exitWith {};
 waitUntil {
 	// to prevent MP / JIP issues
 	sleep 5;
