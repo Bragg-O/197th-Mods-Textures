@@ -1,17 +1,14 @@
 params ["_unitLoadout"];
 
-_primaryWeapon = _unitLoadout select 0 select 0;
-_handgunWeapon = _unitLoadout select 1 select 0;
-_secondaryWeapon = _unitLoadout select 2 select 0;
+_primaryWeapon = [_unitLoadout select 0, 0] call BIS_fnc_param;
+_handgunWeapon = [_unitLoadout select 1, 0] call BIS_fnc_param;
+_secondaryWeapon = [_unitLoadout select 2, 0] call BIS_fnc_param;
 
-_uniform = _unitLoadout select 3 select 0;
-_uniformItems = _unitLoadout select 3 select 1;
+_uniform = [_unitLoadout select 3, 0] call BIS_fnc_param;
 
-_vest = _unitLoadout select 4 select 0;
-_vestItems = _unitLoadout select 4 select 1;
+_vest = [_unitLoadout select 4, 0] call BIS_fnc_param;
 
-_backpack = _unitLoadout select 5 select 0;
-_backpackItems = _unitLoadout select 5 select 1;
+_backpack = [_unitLoadout select 5, 0] call BIS_fnc_param;
 
 _headgear = _unitLoadout select 6;
 
