@@ -10,6 +10,28 @@ params ["_player", "_uid"];
 
 [_uid, (name _player)] call DB_fnc_UpdateName;
 
+private _haveLocker = false;
+{
+	_lockerID = configName _x;
+	private _lockerPlayerUID = getText (configFile >> "CIM_SkyLocker" >> _lockerID >> "playerUID");
+	if (_lockerPlayerUID == _uid) then {
+		_haveLocker = true;
+		[_uid, _lockerID] call DB_fnc_UpdateLockerId;
+	};
+} forEach ("true" configClasses (configFile >> "CIM_SkyLocker"));
+
+if (!_haveLocker) then {
+	[_uid, 0] call DB_fnc_UpdateLockerId;
+};
+
+uiSleep 0.1;
+
+_lockerid = [_uid] call DB_fnc_ExtractLockerId;
+_player setVariable ["CIM_LockerID", _lockerid, true];
+
+_PresetLocker = [_uid] call DB_fnc_ExtractPresetLocker;
+_player setVariable ["CIM_PresetLocker", _PresetLocker, true];
+
 _ranklevel = [_uid] call DB_fnc_ExtractRankLevel;
 _player setVariable ["CIM_RankLevel", _ranklevel, true];
 

@@ -45,3 +45,13 @@ class Profil
     F(loadProfil)
     F_PostInit(initProfil)
 };
+
+class Locker
+{
+    file = "CIM_Core\Dialog\Locker";
+    F(equipmentDetail)
+    F(GestPreset)
+    F(initGestPreset)
+    F(loadGestPreset)
+    F(updateGestPreset)
+};

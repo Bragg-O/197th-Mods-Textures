@@ -1,5 +1,6 @@
 #include "ATM\CIM_Dialog_ATM.hpp"
 #include "Communication\CIM_Dialog_Communication.hpp"
+#include "Locker\CIM_Dialog_GestPreset.hpp"
 #include "Perm\CIM_Dialog_Perm.hpp"
 #include "Profil\CIM_Dialog_Profil.hpp"
 #include "Rank\CIM_Dialog_Rank.hpp"
