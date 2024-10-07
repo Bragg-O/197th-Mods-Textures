@@ -19,7 +19,7 @@ _levels = [
 
 // player load
 _name = name _player;
-_rank = _player getVariable ["rank", 0];
+_rank = _player getVariable ["CIM_rankLevel", 0];
 _rankicon = (_levels select _rank) select 1;
 
 ((findDisplay -1) displayCtrl 2000) ctrlSetText _name;

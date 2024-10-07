@@ -13,7 +13,7 @@ if !(isServer) exitWith {};
 		];
 
 		{
-			_profil = _x getVariable ["profil", 0];
+			_profil = _x getVariable ["CIM_rankLevel", 0];
 			_profilicon = (_levels select _profil) select 1;
 			_action = _x addAction [format ["<img image='%1'/> %2", _profilicon, name _x], {
 				params ["_target", "_caller", "_actionId", "_arguments"];
