@@ -61,7 +61,7 @@ class CfgWorlds
 
 CIM_RestrictedArsenal_AllClassWith = "197th"; // classes that are allowed to use this arsenal;
 
-CIM_WhiteListAddons[] = {"AWS", "WarFXPE"};
+CIM_WhiteListAddons[] = {"AWS", "WarFXPE", "ANZ_MissileEfxMod", "kka3_tfar_animations"};
 CIM_numberOfAddonsServer = 1;
 
 class CfgDebriefing
