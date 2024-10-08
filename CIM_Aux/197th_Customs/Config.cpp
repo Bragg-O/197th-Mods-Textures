@@ -55,6 +55,7 @@ class CfgVehicles
 	HeadgearItem_197th_XX(Customs,Damos);
 	HeadgearItem_197th_XX(Customs,Doc);
 	HeadgearItem_197th_XX(Customs,Elektro);
+	HeadgearItem_197th_XX(Customs,Grim);
 	HeadgearItem_197th_XX(Customs,Launcher);
 	HeadgearItem_197th_XX(Customs,Resko);
 	HeadgearItem_197th_XX(Customs,Skibur);
@@ -149,6 +150,7 @@ class CfgWeapons
 	Helmet_197th_XX(Customs,Damos);
 	Helmet_197th_XX(Customs,Doc);
 	Helmet_197th_XX(Customs,Elektro);
+	Helmet_197th_XX(Customs,Grim);
 	Helmet_197th_XX(Customs,Launcher);
 	Helmet_197th_XX(Customs,Resko);
 	Helmet_197th_XX(Customs,Skibur);
