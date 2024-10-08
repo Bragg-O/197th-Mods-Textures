@@ -71,6 +71,7 @@ class CfgFunctions
             F_PostInit(checkVehiclePermission)
             F_PostInit(initAutoPayment)
             F_PostInit(initEarPlugs)
+            F_PostInit(sitDown)
         };
     };
 
