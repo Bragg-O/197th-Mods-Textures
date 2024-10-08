@@ -151,7 +151,7 @@ class CIM_Dialog_Shield
 			colorBackgroundActive[] = {0.2, 0.4, 0.2, 1};
 			colorBackgroundDisabled[] = {0.2, 0.2, 0.2, 1};
 			colorBorder[] = {0, 0, 0, 0};
-			colorDisabled[] = {0.2, 0.2, 0.2, 1};
+			colorDisabled[] = {0.3, 0.3, 0.3, 1};
 			colorFocused[] = {0.2, 0.2, 0.2, 1};
 			colorShadow[] = {0, 0, 0, 1};
 			colorText[] = {1, 1, 1, 1};
@@ -235,7 +235,7 @@ class CIM_Dialog_Shield
 			shadow = 0;
 			onload = "if (isObjectHidden ShieldPont_0) then {(_this # 0) ctrlSetActiveColor [0.302, 0.502, 0.302, 1]; (_this # 0) ctrlSetBackgroundColor [0.302, 0.502, 0.302, 1];} else {(_this # 0) ctrlSetActiveColor [0.6, 0, 0, 1]; (_this # 0) ctrlSetBackgroundColor [0.6, 0, 0, 1];};";
 		};
-		class Prison // bouton 6
+		class HangarShield // bouton 6
 		{
 			type = 1;
 			idc = -1;
@@ -244,7 +244,7 @@ class CIM_Dialog_Shield
 			w = 0.28030304;
 			h = 0.14141415;
 			style = 0 + 2;
-			text = "Prison";
+			text = "Bouclier Hangar";
 			borderSize = 0;
 			colorBackground[] = {0.302, 0.502, 0.302, 1};
 			colorBackgroundActive[] = {0.2, 0.4, 0.2, 1};
@@ -264,9 +264,9 @@ class CIM_Dialog_Shield
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1.0};
-			onbuttonclick = "['Prison'] spawn DIALOG_fnc_openShield;";
+			onbuttonclick = "['HangarShield'] spawn DIALOG_fnc_openShield;";
 			shadow = 0;
-			onload = "if (isObjectHidden ShieldPrison_0) then {(_this # 0) ctrlSetActiveColor [0.302, 0.502, 0.302, 1]; (_this # 0) ctrlSetBackgroundColor [0.302, 0.502, 0.302, 1];} else {(_this # 0) ctrlSetActiveColor [0.6, 0, 0, 1]; (_this # 0) ctrlSetBackgroundColor [0.6, 0, 0, 1];};";
+			onload = "if (isObjectHidden ShieldHangar_0) then {(_this # 0) ctrlSetActiveColor [0.302, 0.502, 0.302, 1]; (_this # 0) ctrlSetBackgroundColor [0.302, 0.502, 0.302, 1];} else {(_this # 0) ctrlSetActiveColor [0.302, 0.302, 0.502, 1]; (_this # 0) ctrlSetBackgroundColor [0.302, 0.302, 0.502, 1];};";
 		};
 		class StockageExplosif // bouton 7
 		{

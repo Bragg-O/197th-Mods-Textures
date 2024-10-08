@@ -14,8 +14,8 @@ switch (_shield) do {
 	case "Pont": {
 		_shieldlist = [ShieldPont_0];
 	};
-	case "Prison": {
-		_shieldlist = [ShieldPrison_0, ShieldPrison_1];
+	case "HangarShield": {
+		_shieldlist = [ShieldHangar_0, ShieldHangar_1, ShieldHangar_2, ShieldHangar_3, ShieldHangar_4];
 	};
 	case "StockageExplosif": {
 		_shieldlist = [ShieldStockageExplosif_0];
