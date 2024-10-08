@@ -52,21 +52,21 @@ class CfgVehicles
 	HeadgearItem_197th_XX(Customs,Blast);
 	HeadgearItem_197th_XX(Customs,Bragg);
 	HeadgearItem_197th_XX(Customs,Cahir);
+	HeadgearItem_197th_XX(Customs,Chanceux);
 	HeadgearItem_197th_XX(Customs,Damos);
 	HeadgearItem_197th_XX(Customs,Doc);
 	HeadgearItem_197th_XX(Customs,Elektro);
 	HeadgearItem_197th_XX(Customs,Grim);
+	HeadgearItem_197th_XX(Customs,Ironteck);
 	HeadgearItem_197th_XX(Customs,Launcher);
+	HeadgearItem_197th_XX(Customs,Pink);
 	HeadgearItem_197th_XX(Customs,Resko);
+	HeadgearItem_197th_XX(Customs,SixDeux);
 	HeadgearItem_197th_XX(Customs,Skibur);
 	HeadgearItem_197th_XX(Customs,Tesler);
 	HeadgearItem_197th_XX(Customs,Tiger);
 	HeadgearItem_197th_XX(Customs,Vanguard);
 	HeadgearItem_197th_XX(Customs,Volk);
-	HeadgearItem_197th_XX(Customs,Ironteck);
-	HeadgearItem_197th_XX(Customs,Chanceux);
-	HeadgearItem_197th_XX(Customs,Pink);
-	HeadgearItem_197th_XX(Customs,SixDeux);
 	// HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
 	HeadgearItemPilot_197th_XX(Customs,Skibur);
 	// HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
@@ -129,16 +129,16 @@ class CfgWeapons
 
 	// Uniforms
 	// Uniform_197th_XX(type,name) -> 197th_Uniform_##type##_##name##
+	Uniform_197th_XX(Customs,Agira);
 	Uniform_197th_XX(Customs,Apollyon);
 	Uniform_197th_XX(Customs,Bragg);
 	Uniform_197th_XX(Customs,Cahir);
 	Uniform_197th_XX(Customs,Elektro);
 	Uniform_197th_XX(Customs,Hermes);
+	Uniform_197th_XX(Customs,Pink);
 	Uniform_197th_XX(Customs,Tiger);
 	Uniform_197th_XX(Customs,Vanguard);
 	Uniform_197th_XX(Customs,Volk);
-	Uniform_197th_XX(Customs,Pink);
-	Uniform_197th_XX(Customs,Agira);
 	// Helmets
 	// Helmet_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
 	Helmet_197th_XX(Customs,Agira);
@@ -147,21 +147,21 @@ class CfgWeapons
 	Helmet_197th_XX(Customs,Azurre);
 	Helmet_197th_XX(Customs,Blast);
 	Helmet_197th_XX(Customs,Cahir);
+	Helmet_197th_XX(Customs,Chanceux);
 	Helmet_197th_XX(Customs,Damos);
 	Helmet_197th_XX(Customs,Doc);
 	Helmet_197th_XX(Customs,Elektro);
 	Helmet_197th_XX(Customs,Grim);
+	Helmet_197th_XX(Customs,Ironteck);
 	Helmet_197th_XX(Customs,Launcher);
+	Helmet_197th_XX(Customs,Pink);
 	Helmet_197th_XX(Customs,Resko);
+	Helmet_197th_XX(Customs,SixDeux);
 	Helmet_197th_XX(Customs,Skibur);
 	Helmet_197th_XX(Customs,Tesler);
 	Helmet_197th_XX(Customs,Tiger);
 	Helmet_197th_XX(Customs,Vanguard);
 	Helmet_197th_XX(Customs,Volk);
-	Helmet_197th_XX(Customs,Ironteck);
-	Helmet_197th_XX(Customs,Chanceux);
-	Helmet_197th_XX(Customs,Pink);
-	Helmet_197th_XX(Customs,SixDeux);
 	// HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
 	HelmetVisorLight_197th_XX(Customs,Bragg);
 	// HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
