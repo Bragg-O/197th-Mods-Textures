@@ -3,6 +3,10 @@ class CfgMissions
 {
 	class Cutscenes
 	{
+		class spaceMenuSceneSpace2
+		{
+			directory = "CIM_Core\MainMenu\scenes\Intro1.Space2";
+		};
 		class spaceMenuSceneVR
 		{
 			directory = "CIM_Core\MainMenu\scenes\Intro1.VR";
@@ -32,6 +36,10 @@ class CfgWorlds
 	class VR : CAWorld
 	{
 		cutscenes[] = {"spaceMenuSceneVR"};
+	};
+	class Space2 : CAWorld
+	{
+		cutscenes[] = {"spaceMenuSceneSpace2"};
 	};
 	initWorld = "Altis";
 	demoWorld = "Altis";
