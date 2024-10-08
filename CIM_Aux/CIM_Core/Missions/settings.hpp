@@ -92,4 +92,13 @@ class CfgDebriefing
 		pictureBackground = "";
 		picture = "\CIM_Core\Missions\Data\logo.paa";
 	};
+
+	class ZeusNotAllowed
+	{
+		title = "[CIM] Zeus";
+		subTitle = "Vous n'avez pas le droit d'utiliser le Zeus";
+		description = "Vous n'avez pas le droit d'utiliser le Zeus";
+		pictureBackground = "";
+		picture = "\CIM_Core\Missions\Data\logo.paa";
+	};
 };

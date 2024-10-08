@@ -1,16 +1,10 @@
 _this spawn {
-	private _maxBactaGrenades = 0;
-
-	if (player getUnitTrait "Medic") then {
-		_maxBactaGrenades = 1;
-	};
-
 	if (player getVariable ["CIM_BactaFilter", false]) exitWith {};
 
 	while {
 		(({
 			_x == "197th_BactaGrenade_Mag"
-		} count (magazines player)) > _maxBactaGrenades)
+		} count (magazines player)) > (player getVariable ["CIM_MedicLevel", 0]))
 	} do {
 		player setVariable ["CIM_BactaFilter", true];
 

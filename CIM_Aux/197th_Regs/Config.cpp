@@ -19,9 +19,6 @@ class CfgPatches
 			"197th_ATTE",
 			"197th_BARC",
 			"197th_BARCSideCar",
-			"197th_Bison_APC",
-			"197th_Bison_IFV",
-			"197th_Bison_MGS",
 			"197th_ITT",
 			"197th_ITT_Logistic",
 			"197th_ITT_Medical",
@@ -31,18 +28,11 @@ class CfgPatches
 			"197th_LAATI_Mk1Lights",
 			"197th_LAATI_Mk2",
 			"197th_LAATI_Mk2Lights",
-			"197th_M12A1_LRV",
-			"197th_M12G1_LRV",
-			"197th_M12R_AA",
-			"197th_M12_APC",
-			"197th_M12_FAV",
-			"197th_M12_LRV",
-			"197th_M813_TT",
-			"197th_M914_RV",
 			"197th_PX10",
 			"197th_PX10_Armored",
 			"197th_PX10_Repair",
-			"197th_RTT",
+			"197th_ISP",
+			"197th_ISP_Transport",
 			"197th_Saber",
 			"197th_Saber_GL",
 			"197th_Saber_Recon",
@@ -50,6 +40,7 @@ class CfgPatches
 			"197th_VWing",
 			"197th_YWing",
 			"197th_Z95",
+			"197th_Mortar",
 
 			// Unit
 			"197th_Unit_Regs_AA",
@@ -101,9 +92,6 @@ class CfgVehicles
 	// BARC
 #include "Vehicules\BARC\CfgVehicles.hpp"
 
-	// Bison
-#include "Vehicules\Bison\CfgVehicles.hpp"
-
 	// ITT
 #include "Vehicules\ITT\CfgVehicles.hpp"
 
@@ -116,17 +104,14 @@ class CfgVehicles
 	// PX_10
 #include "Vehicules\PX_10\CfgVehicles.hpp"
 
-	// RTT
-#include "Vehicules\RTT\CfgVehicles.hpp"
+	// ISP
+#include "Vehicules\ISP\CfgVehicles.hpp"
 
 	// Saber
 #include "Vehicules\Saber\CfgVehicles.hpp"
 
 	// V_Wing
 #include "Vehicules\V_Wing\CfgVehicles.hpp"
-
-	// Warthog
-#include "Vehicules\Warthog\CfgVehicles.hpp"
 
 	// Y_Wing
 #include "Vehicules\Y_Wing\CfgVehicles.hpp"
@@ -157,6 +142,9 @@ class CfgVehicles
 
 	// Explosives
 #include "Weapons\Explosives\CfgVehicles.hpp"
+
+	// Mortar
+#include "Weapons\Mortar\CfgVehicles.hpp"
 
 	// FortifyTools
 #include "FortifyTools\CfgVehicles.hpp"

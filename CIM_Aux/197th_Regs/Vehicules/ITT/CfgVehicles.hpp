@@ -4,7 +4,7 @@ class 3AS_ITT_Logistic;
 
 class 197th_ITT: 3AS_ITT
 {
-	displayName="[197th] ITT";
+	displayName="[197th] RTT";
 	author = "[CIM] Bragg";
 	scope=2;
 	scopeCurator=2;
@@ -12,7 +12,7 @@ class 197th_ITT: 3AS_ITT
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 60;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
@@ -57,7 +57,7 @@ class 197th_ITT: 3AS_ITT
 
 class 197th_ITT_Transport: 3AS_ITT_Medical
 {
-	displayName="[197th] ITT (Transport)";
+	displayName="[197th] RTT (Transport)";
 	author = "[CIM] Bragg";
 	scope=2;
 	scopeCurator=2;
@@ -65,7 +65,7 @@ class 197th_ITT_Transport: 3AS_ITT_Medical
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 80;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
@@ -110,7 +110,7 @@ class 197th_ITT_Transport: 3AS_ITT_Medical
 
 class 197th_ITT_Medical: 3AS_ITT_Medical
 {
-	displayName="[197th] ITT (Medical)";
+	displayName="[197th] RTT (Medical)";
 	author = "[CIM] Bragg";
 	scope=2;
 	scopeCurator=2;
@@ -118,7 +118,7 @@ class 197th_ITT_Medical: 3AS_ITT_Medical
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 60;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;
@@ -164,7 +164,7 @@ class 197th_ITT_Medical: 3AS_ITT_Medical
 
 class 197th_ITT_Logistic: 3AS_ITT_Logistic
 {
-	displayName="[197th] ITT (Logistic)";
+	displayName="[197th] RTT (Logistic)";
 	author = "[CIM] Bragg";
 	scope=2;
 	scopeCurator=2;
@@ -172,7 +172,7 @@ class 197th_ITT_Logistic: 3AS_ITT_Logistic
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 100;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	tas_canBlift = 1;

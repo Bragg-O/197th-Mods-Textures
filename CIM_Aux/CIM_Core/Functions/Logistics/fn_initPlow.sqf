@@ -15,27 +15,6 @@ _target addAction [
 	}, [], -2, false, true, "", "(driver _target) isEqualTo _this && _target animationSourcePhase 'MovePlow' isEqualTo 1", 5
 ];
 
-if (isClass(configFile >> "CfgPatches" >> "ace_interact_menu")) then {
-	_lowerPlow = ["lowerPlowAction", ("<t color=""#00FF00""> Down Plow </t>"), "", {
-		params ["_target", "_player", "_params"];
-		_target animateSource ["MovePlow", 1];
-		_target setCruiseControl [5, false];
-	}, {
-		(driver _target) isEqualTo _player && _target animationSourcePhase 'MovePlow' isEqualTo 0
-	}] call ace_interact_menu_fnc_createAction;
-
-	_raisePlow = ["raisePlowAction", ("<t color=""#FF0000""> Up Plow </t>"), "", {
-		params ["_target", "_player", "_params"];
-		_target animateSource ["MovePlow", 0];
-		_target setCruiseControl [0, false];
-	}, {
-		(driver _target) isEqualTo _player && _target animationSourcePhase 'MovePlow' isEqualTo 1
-	}] call ace_interact_menu_fnc_createAction;
-
-	[_target, 1, ["ACE_SelfActions"], _lowerPlow] call ace_interact_menu_fnc_addActionToObject;
-	[_target, 1, ["ACE_SelfActions"], _raisePlow] call ace_interact_menu_fnc_addActionToObject;
-};
-
 _target addEventHandler ["explosion", {
 	params ["_target", "_damage"];
 	if (_target animationSourcePhase 'MovePlow' isEqualTo 1 && (_target getHitPointDamage "hitengine")<0.9) then {

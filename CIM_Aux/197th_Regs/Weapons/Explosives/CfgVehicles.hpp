@@ -9,7 +9,7 @@
 		editorSubcategory = "CIM_Explosive";
 		displayName="[197th] Breaching Charge";
 		mapSize=0.31;
-		editorPreview="\197th_Regs\Weapons\_EditorPreviews\breach_ca.jpg";
+		editorPreview="";
 		model="ls_weapons\explosives\breach\ls_explosives_breach_defused";
 		ammo="197th_Breach_Ammo";
 		icon="iconExplosiveGP";
@@ -23,7 +23,7 @@
 		editorSubcategory = "CIM_Explosive";
 		displayName="[197th] Seismic Pack";
 		mapSize=0.31;
-		editorPreview="\197th_Regs\Weapons\_EditorPreviews\demoPack_ca.jpg";
+		editorPreview="";
 		model="ls_weapons\explosives\demo\ls_explosives_demoPack_defused";
 		ammo="197th_DemoPack_Ammo";
 		icon="iconExplosiveGP";
@@ -37,7 +37,7 @@
 		editorSubcategory = "CIM_Explosive";
 		displayName="[197th] Detonation Pack";
 		mapSize=0.31;
-		editorPreview="\197th_Regs\Weapons\_EditorPreviews\detPack_ca.jpg";
+		editorPreview="";
 		model="ls_weapons\explosives\detPack\ls_explosives_detpack";
 		ammo="197th_DetPack_Ammo";
 		icon="iconExplosiveGP";

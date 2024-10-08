@@ -10,7 +10,7 @@ class 197th_ATTE: 3AS_ATTE_base
 	side=1;
 	forceInGarage = 2;
 	cargoCanEject = 1;
-	ace_cargo_space = 20;
+	ace_cargo_space = 100;
 	ace_cargo_hasCargo = 1;
 	faction = "197th";
 	

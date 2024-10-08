@@ -11,7 +11,9 @@ if (isClass (configFile >> "CIM_SkyLocker" >> str _locker)) then {
 		_textureselect = _textureselect + 1;
 	} forEach _lockerTextures;
 
-	[_locker, true] call CIM_fnc_initRestrictedArsenal;
+	_locker addAction ["Ouvir le panneau de gestion des presets", {
+		[] spawn DIALOG_fnc_loadGestPreset;
+	}, nil, 1.5, false, false, "", 'player getVariable ["CIM_LockerID", 0] == _target'];
 
 	_locker addAction [ format ["<t color='#ff0000' size='1'> %1 : Occupé </t>", (str _locker)], {}, nil, 1.5, true, true, "", "true", 5, false, "", ""];
 	_locker addAction [ format ["<t color='#ffffff' size='1'> %1 </t>", _lockerOwner], {}, nil, 1.5, true, true, "", "true", 5, false, "", ""];

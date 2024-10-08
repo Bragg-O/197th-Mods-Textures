@@ -13,7 +13,7 @@ class 197th_TerminalMedical: 442_terminal4 {
         "kobra\442_misc\terminal\data\terminal4_lights_co.paa"
 	};
 	hiddenSelectionsMaterials[] = {"","\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
-	editorPreview = "\CIM_Objects\_EditorPreviews\TerminalMedical_ca.jpg";
+	editorPreview = "";
     class EventHandlers {
 		class InitHealTerminal197th {
 			init = "[(_this select 0)] call CIM_fnc_initHealTerminal;";
@@ -33,7 +33,7 @@ class 197th_Terminal: 442_terminal3 {
 		"CIM_Objects\Terminal\Data\Screen_Empty_co.paa"
 	};
 	hiddenSelectionsMaterials[] = {"","\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
-	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
+	editorPreview = "";
 };
 
 class 197th_Terminal_Boat: 197th_Terminal {
@@ -43,17 +43,37 @@ class 197th_Terminal_Boat: 197th_Terminal {
 		"CIM_Objects\Terminal\Data\Terminal_co.paa",
 		"CIM_Objects\Terminal\Data\Screen_Boat_co.paa"
 	};
-	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
+	editorPreview = "";
+};
+
+class 197th_Terminal_Republic: 197th_Terminal {
+	displayName = "[CIM] Terminal (Republique)";
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Terminal\Data\Terminal_co.paa",
+		"CIM_Objects\Terminal\Data\Screen_Rep_co.paa"
+	};
+	editorPreview = "";
 };
 
 class 197th_Terminal_Air: 197th_Terminal {
-	displayName = "[CIM] Terminal (Aerien)";
+	displayName = "[CIM] Terminal (Aerien - Transport)";
 	author = "[CIM] Bragg";
 	hiddenSelectionsTextures[] = {
 		"CIM_Objects\Terminal\Data\Terminal_co.paa",
 		"CIM_Objects\Terminal\Data\Screen_Air_co.paa"
 	};
-	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
+	editorPreview = "";
+};
+
+class 197th_Terminal_AirCombat: 197th_Terminal {
+	displayName = "[CIM] Terminal (Aerien - Combat)";
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Terminal\Data\Terminal_co.paa",
+		"CIM_Objects\Terminal\Data\Screen_AirCombat_co.paa"
+	};
+	editorPreview = "";
 };
 
 class 197th_Terminal_Supply: 197th_Terminal {
@@ -63,7 +83,7 @@ class 197th_Terminal_Supply: 197th_Terminal {
 		"CIM_Objects\Terminal\Data\Terminal_co.paa",
 		"CIM_Objects\Terminal\Data\Screen_Supply_co.paa"
 	};
-	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
+	editorPreview = "";
 };
 
 class 197th_Terminal_Car: 197th_Terminal {
@@ -73,7 +93,7 @@ class 197th_Terminal_Car: 197th_Terminal {
 		"CIM_Objects\Terminal\Data\Terminal_co.paa",
 		"CIM_Objects\Terminal\Data\Screen_Car_co.paa"
 	};
-	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Empty_ca.jpg";
+	editorPreview = "";
 };
 
 class 197th_Terminal_Medical: 197th_Terminal {
@@ -83,7 +103,7 @@ class 197th_Terminal_Medical: 197th_Terminal {
 		"CIM_Objects\Terminal\Data\Terminal_co.paa",
 		"CIM_Objects\Terminal\Data\Screen_Medical_co.paa"
 	};
-	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Medical_ca.jpg";
+	editorPreview = "";
     class EventHandlers {
         init = "[(_this select 0)] call CIM_fnc_initUnitTraitMedic;";
     };
@@ -96,7 +116,7 @@ class 197th_Terminal_Repair: 197th_Terminal {
 		"CIM_Objects\Terminal\Data\Terminal_co.paa",
 		"CIM_Objects\Terminal\Data\Screen_Repair_co.paa"
 	};
-	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Repair_ca.jpg";
+	editorPreview = "";
 };
 
 class 197th_Terminal_Sapeur: 197th_Terminal {
@@ -106,8 +126,21 @@ class 197th_Terminal_Sapeur: 197th_Terminal {
 		"CIM_Objects\Terminal\Data\Terminal_co.paa",
 		"CIM_Objects\Terminal\Data\Screen_Sapeur_co.paa"
 	};
-	editorPreview = "\CIM_Objects\_EditorPreviews\Terminal_Sapeur_ca.jpg";
+	editorPreview = "";
     class EventHandlers {
         init = "[(_this select 0)] call CIM_fnc_initUnitTraitEngineer;";
+    };
+};
+
+class 197th_Terminal_Pilote: 197th_Terminal {
+	displayName = "[CIM] Terminal (Pilote)";
+	author = "[CIM] Bragg";
+	hiddenSelectionsTextures[] = {
+		"CIM_Objects\Terminal\Data\Terminal_co.paa",
+		"CIM_Objects\Terminal\Data\Screen_Rep_co.paa"
+	};
+	editorPreview = "";
+    class EventHandlers {
+        init = "[(_this select 0)] call CIM_fnc_initUnitTraitPilot;";
     };
 };

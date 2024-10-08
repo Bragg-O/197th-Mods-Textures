@@ -3,7 +3,7 @@ class house_F;
 class 197th_R14: house_F {
 	author = "[CIM] Bragg";
 	displayName= "[197th] R-14 Ginger";
-	editorPreview="\CIM_Objects\_EditorPreviews\R14_ca.jpg";
+	editorPreview="";
 	scope=2;
 	scopecurator=2;
 	armor=100;

@@ -35,11 +35,11 @@ class CfgFunctions
         {
             file = "CIM_Core\Functions\Logistics";
             F(canFortify)
+            F(initAllVehicleService)
             F(initGarage)
             F(initPlow)
             F(onLoadLAATC)
             F(onUnLoadLAATC)
-            F(initAllVehicleService)
         };
 
         class Medical
@@ -55,27 +55,32 @@ class CfgFunctions
         class PlayerScripts
         {
             file = "CIM_Core\Functions\PlayerScripts";
+            F(DoNotDisplayForCurators)
+            F(addCurator)
             F(addLoadout)
             F(checkEarPlugs)
+            F(initATM)
             F(initBlockArsenal)
-            F(initCommunication)
+            F(initDeployer)
             F(initLoadout)
             F(initRestrictedArsenal)
             F(initSkyLocker)
             F(initUnitTraitEngineer)
             F(initUnitTraitMedic)
-            F(onCommunication)
+            F(initUnitTraitPilot)
             F(onUnderFire)
             F(switchEarPlugs)
+            F_PostInit(checkVehiclePermission)
+            F_PostInit(initAutoPayment)
             F_PostInit(initEarPlugs)
+            F_PostInit(sitDown)
         };
+    };
 
-        class Dialog_Communication
-        {
-            file = "CIM_Core\Dialog\Communication";
-            F(initDialog1)
-            F(loadDialog1)
-        };
+    class CIM_197th_Dialog
+    {
+        tag = "DIALOG";
+        #include "..\Dialog\Functions.hpp"
     };
 
     class MySQL_Database
@@ -85,15 +90,58 @@ class CfgFunctions
         {
             file = "CIM_Core\Functions\MySQL";
             F(asyncCall)
-            F(extractPlayer)
             F(initMySQL)
-            F(newPlayer)
-            F(server_initialization)
-            F(updatePlayer)
             F(initPlayer)
-            F(checkPlayerExists)
+            F(server_initialization)
             F(syncPlayer)
             F_PostInit(initSyncPlayer)
+        };
+        class MySQL_Extract
+        {
+            file = "CIM_Core\Functions\MySQL\fn_Extract";
+            F(ExtractActualIng)
+            F(ExtractActualMedic)
+            F(ExtractAdminLevel)
+            F(ExtractCrewmanLevel)
+            F(ExtractDonatorLevel)
+            F(ExtractIngLevel)
+            F(ExtractLastView)
+            F(ExtractLoadout)
+            F(ExtractLockerId)
+            F(ExtractMedicLevel)
+            F(ExtractMoney)
+            F(ExtractName)
+            F(ExtractPilotLevel)
+            F(ExtractPresetLocker)
+            F(ExtractRankLevel)
+            F(ExtractZeusLevel)
+        };
+        class MySQL_Update
+        {
+            file = "CIM_Core\Functions\MySQL\fn_Update";
+            F(UpdateActualIng)
+            F(UpdateActualMedic)
+            F(UpdateAdminLevel)
+            F(UpdateCrewmanLevel)
+            F(UpdateDonatorLevel)
+            F(UpdateIngLevel)
+            F(UpdateLastView)
+            F(UpdateLoadout)
+            F(UpdateLockerId)
+            F(UpdateMedicLevel)
+            F(UpdateMoney)
+            F(UpdateName)
+            F(UpdatePilotLevel)
+            F(UpdatePresetLocker)
+            F(UpdateRankLevel)
+            F(UpdateZeusLevel)
+        };
+        class MySQL_Other
+        {
+            file = "CIM_Core\Functions\MySQL\fn_Other";
+            F(CreateNewPlayer)
+            F(GetAllPlayersInfo)
+            F(PlayerCountForUid)
         };
     };
 };

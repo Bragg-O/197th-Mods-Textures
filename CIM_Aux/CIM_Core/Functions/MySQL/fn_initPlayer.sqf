@@ -1,19 +1,36 @@
 params ["_player", "_uid"];
 
-if (!isMultiplayer) exitWith {
-	   diag_log "extDB3 - need to be in Multiplayer!";
+if !(isDedicated) exitWith {
+	diag_log "extDB3 - need to be on Serveur!";
 };
 
-private _playerExists = [_uid] call DB_fnc_checkPlayerExists;
+waitUntil {
+	// to prevent MP / JIP issues
+	sleep 5;
+	!isNull _player
+};
 
-if (((_playerExists select 0) select 0) == 0) then {
-	[_uid] call DB_fnc_newPlayer;
+private _playerExists = [_uid] call DB_fnc_PlayerCountForUid;
+
+sleep 1;
+
+if (_playerExists == 0) then {
+	[_uid, (name _player)] call DB_fnc_CreateNewPlayer;
 } else {
-	_DBextract = [_uid] call DB_fnc_extractPlayer;
-	_player setUnitLoadout (((_DBextract select 0) select 0) select 2);
-};
+	_loadout = [_uid] call DB_fnc_ExtractLoadout;
+	_player setUnitLoadout _loadout;
 
+	_isIng = [_uid] call DB_fnc_ExtractActualIng;
+	_player setUnitTrait ["engineer", _isIng];
+	_player setUnitTrait ["explosiveSpecialist", _isIng];
+
+	_isMedic = [_uid] call DB_fnc_ExtractActualMedic;
+	_player setUnitTrait ["medic", _isMedic];
+	if (_isMedic) then {
+		_player setVariable ["ace_medical_medicclass", 2, true];
+	};
+};
 while { true } do {
-	uiSleep 300;
 	[_player, _uid] call DB_fnc_syncPlayer;
+	uiSleep 300;
 };

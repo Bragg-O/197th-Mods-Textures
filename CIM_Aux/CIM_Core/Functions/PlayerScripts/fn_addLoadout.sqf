@@ -21,5 +21,3 @@ _actionId = _object addAction [ "CIM_fnc_Loadouts", {
 }, _pathToLoadout, 1.5, true, true, "", "true", 5, false, "", ""];
 
 _object setUserActionText [_actionId, _dispalyNameOfVariant, _pathToLogo];
-
-[_object] execVM _pathToLoadout;

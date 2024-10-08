@@ -112,10 +112,10 @@ class CIM_CfgLoadouts
 			Variants_197th_XX(DC15A,DC-15A);
 		};
 	};
-	class Shield_197th : ARC_197th
+	class Mortier_197th : ARC_197th
 	{
-		displayName = "Shield";
-		LoadoutPath = "\197th_Regs\Loadout\Data\Shield";
+		displayName = "Mortier";
+		LoadoutPath = "\197th_Regs\Loadout\Data\Mortier";
 		class CIM_CfgVariants
 		{
 			Variants_197th_XX(DC15S,DC-15S);

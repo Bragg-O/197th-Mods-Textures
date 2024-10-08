@@ -7,5 +7,4 @@
 		scopecurator = 2;                                                 \
 		hiddenSelectionsTextures[] = {                                    \
 			CIM_Objects\Number\Data\##Color##\##Num##_ca.paa};            \
-		editorPreview = CIM_Objects\Number\Data\##Color##\##Num##_ca.paa; \
 	};

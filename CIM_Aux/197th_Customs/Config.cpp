@@ -19,8 +19,6 @@ class CfgPatches
 
 class CfgVehicles
 {
-#include "Vehicules\Warthog_Omega\CfgVehicles.hpp"
-
 	class 197th_Unit;
 	class 197th_Unit_Commander;
 	class 197th_Headgear;
