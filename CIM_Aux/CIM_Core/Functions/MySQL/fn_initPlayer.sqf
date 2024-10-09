@@ -30,6 +30,9 @@ if (_playerExists == 0) then {
 		_player setVariable ["ace_medical_medicclass", 2, true];
 	};
 };
+
+sleep 10;
+
 while { true } do {
 	[_player, _uid] call DB_fnc_syncPlayer;
 	uiSleep 300;
