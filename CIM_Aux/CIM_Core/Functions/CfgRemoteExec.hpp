@@ -28,6 +28,7 @@ class CfgRemoteExec
         F(CIM_fnc_addcurator, SERVER)
         F(CIM_fnc_initAutoPayment, SERVER)
         F(DB_fnc_CreateNewPlayer, SERVER)
+        F(DB_fnc_GetAllPlayersInfo, SERVER)
         F(DB_fnc_ExtractActualIng, SERVER)
         F(DB_fnc_ExtractActualMedic, SERVER)
         F(DB_fnc_ExtractAdminLevel, SERVER)
