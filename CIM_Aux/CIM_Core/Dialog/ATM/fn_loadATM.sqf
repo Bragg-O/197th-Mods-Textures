@@ -6,7 +6,7 @@ createDialog "CIM_Dialog_ATM";
 
 remoteExec ["DB_fnc_GetAllPlayersInfo", 2];
 
-private _AllPlayersInfo = missionNamespace getVariable ["CIM_GetAllPlayersInfo", []];
+private _AllPlayersInfo = CIM_GetAllPlayersInfo;
 
 _players = [];
 
