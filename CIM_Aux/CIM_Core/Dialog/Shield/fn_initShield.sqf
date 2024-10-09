@@ -15,7 +15,7 @@ _statement = {
 };
 
 _condition = {
-	player getVariable ["CIM_RankLevel", 0] >= 4 or player getVariable ["CIM_ZeusLevel", 0] >= 2 or !isDedicated
+	player getVariable ["CIM_RankLevel", 0] >= 4 or player getVariable ["CIM_ZeusLevel", 0] >= 2
 };
 
 _action0 = [" Contrôle des shields", " Contrôle des shields", "\CIM_Core\Dialog\Shield\Data\datapad_ca.paa", _statement, _condition] call ace_interact_menu_fnc_createAction;
