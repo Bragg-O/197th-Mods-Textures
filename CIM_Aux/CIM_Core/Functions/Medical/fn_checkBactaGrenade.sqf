@@ -13,7 +13,7 @@ _this spawn {
 			({
 				_x == "197th_BactaGrenade_Mag"
 			} count (magazines player)),
-			_maxBactaGrenades
+			player getVariable ["CIM_MedicLevel", 0]
 		];
 
 		playSound "AlarmCar";
