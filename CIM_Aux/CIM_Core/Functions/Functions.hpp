@@ -57,6 +57,7 @@ class CfgFunctions
             file = "CIM_Core\Functions\PlayerScripts";
             F(DoNotDisplayForCurators)
             F(addCurator)
+            F(addCuratorForAdmin)
             F(addLoadout)
             F(checkEarPlugs)
             F(initATM)
