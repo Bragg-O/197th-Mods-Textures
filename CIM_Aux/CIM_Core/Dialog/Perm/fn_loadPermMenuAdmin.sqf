@@ -8,13 +8,13 @@ createDialog "CIM_Dialog_Perm";
 
 remoteExec ["DB_fnc_GetAllPlayersInfo", 2];
 
-private _AllPlayersInfo = CIM_GetAllPlayersInfo;
+private _AllPlayersInfo = missionNamespace getVariable ["CIM_GetAllPlayersInfo", []];
 
 _players = [];
 
 {
 	_name = _x select 1;
-	_level = _x select 9;
+	_level = _x select 10;
 	switch (_level) do {
 		case 0: {
 			_level = "";

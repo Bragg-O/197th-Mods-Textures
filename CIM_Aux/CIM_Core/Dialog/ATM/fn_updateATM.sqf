@@ -1,6 +1,6 @@
 private _nameindex = lbCurSel 6000;
 
-private _AllPlayersInfo = CIM_GetAllPlayersInfo;
+private _AllPlayersInfo = missionNamespace getVariable ["CIM_GetAllPlayersInfo", []];
 
 _players = [];
 

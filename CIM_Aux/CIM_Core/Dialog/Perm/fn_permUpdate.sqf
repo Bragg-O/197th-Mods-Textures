@@ -10,7 +10,7 @@ if (_level == -1) exitWith {
 	hint "Vous devez sélectionner une permission !";
 };
 
-private _AllPlayersInfo = CIM_GetAllPlayersInfo;
+private _AllPlayersInfo = missionNamespace getVariable ["CIM_GetAllPlayersInfo", []];
 
 _players = [];
 

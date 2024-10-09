@@ -8,7 +8,7 @@ if (_newrank == -1) exitWith {
 	hint "Vous devez sélectionner un grade !";
 };
 
-private _AllPlayersInfo = CIM_GetAllPlayersInfo;
+private _AllPlayersInfo = missionNamespace getVariable ["CIM_GetAllPlayersInfo", []];
 
 _players = [];
 
