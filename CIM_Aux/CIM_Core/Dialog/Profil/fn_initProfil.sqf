@@ -1,4 +1,3 @@
-if !(isServer) exitWith {};
 [] spawn {
 	while { true } do {
 		_levels = [
