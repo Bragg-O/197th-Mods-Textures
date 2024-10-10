@@ -10,7 +10,7 @@ class CfgPatches
 		requiredAddons[] = {"A3_Functions_F", "A3_Data_F_Enoch_Loadorder", "OPTRE_FC_Loadorder", "OPTRE_Loadorder"};
 		units[] = {};
 		weapons[] = {};
-        Version = "6.0.1";
+        Version = "6.0.2";
 	};
 };
 
