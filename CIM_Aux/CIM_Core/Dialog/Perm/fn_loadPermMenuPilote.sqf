@@ -14,7 +14,7 @@ _players = [];
 
 {
 	_name = _x select 1;
-	_level = _x select 7;
+	_level = _x select 6;
 	switch (_level) do {
 		case 0: {
 			_level = "";
