@@ -36,6 +36,7 @@ class CfgVehicles
 	Unit_197th_XX(Customs,Elektro,,"197th_Helmet_Customs_Elektro","197th_Vest_Regs_Sergent","","","");
 	Unit_197th_XX(Customs,Hermes,197th_Backpack_Customs_Hermes,"197th_HelmetBARC_Customs_Hermes","197th_Vest_Customs_Hermes","197th_NVG_Regs_Rangefinder","","");
 	Unit_197th_XX(Customs,Pink,,"197th_Helmet_Customs_Pink","197th_Vest_Regs_0","","","");
+	Unit_197th_XX(Customs,Tesler,,"197th_Helmet_Customs_Tesler","197th_Vest_Regs_0","","","");
 	Unit_197th_XX(Customs,Vanguard,,"197th_Helmet_Customs_Vanguard","197th_Vest_Regs_Sergent","","","");
 	Unit_197th_XX(Customs,Volk,197th_Backpack_Regs_ARC,"197th_Helmet_Customs_Volk","197th_Vest_Regs_ARC","197th_NVG_Regs_Rangefinder","","");
 	// UnitCC_197th_XX(type,name,sac,"helmet","vest","accessories1","accessories2","accessories3") -> 197th_Unit_##type##_##name##
@@ -136,6 +137,7 @@ class CfgWeapons
 	Uniform_197th_XX(Customs,Elektro);
 	Uniform_197th_XX(Customs,Hermes);
 	Uniform_197th_XX(Customs,Pink);
+	Uniform_197th_XX(Customs,Tesler);
 	Uniform_197th_XX(Customs,Tiger);
 	Uniform_197th_XX(Customs,Vanguard);
 	Uniform_197th_XX(Customs,Volk);
