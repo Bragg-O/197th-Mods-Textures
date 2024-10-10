@@ -1,4 +1,4 @@
-private _chairList = ["3AS_chair_sr", "3AS_chair_s", "3AS_chair_t", "plp_up_ModernArmchairA"];
+private _chairList = ["3AS_chair_sr", "3AS_chair_s", "3AS_chair_t"];
 
 _missionObjects = allMissionObjects "";
 for "_i" from 0 to count _missionObjects -1 do {
