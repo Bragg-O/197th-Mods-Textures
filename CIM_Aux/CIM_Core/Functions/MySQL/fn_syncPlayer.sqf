@@ -3,6 +3,8 @@ params ["_player", "_uid"];
 [_player, _uid] spawn {
 	params ["_player", "_uid"];
 
+	if (isNull _player) exitWith {};
+
 	[_uid, (_player getUnitTrait "engineer")] call DB_fnc_UpdateActualIng;
 
 	[_uid, (_player getUnitTrait "medic")] call DB_fnc_UpdateActualMedic;
