@@ -29,6 +29,7 @@ class Perm
     F(loadPermMenuSapeur)
     F(loadPermMenuZeus)
     F(permUpdate)
+    F_PostInit(initPermModifierAce)
 };
 
 class Rank
