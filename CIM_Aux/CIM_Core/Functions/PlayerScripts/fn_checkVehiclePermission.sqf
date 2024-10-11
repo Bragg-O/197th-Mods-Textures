@@ -22,7 +22,7 @@
 						player setVariable ["CIM_vehRole", "driver", true];
 					};
 					case "turret": {
-						player setVariable ["CIM_Can3rdPerson", false, true];
+						player setVariable ["CIM_Can3rdPerson", true, true];
 						player setVariable ["CIM_vehRole", "turret", true];
 					};
 					case "cargo": {
