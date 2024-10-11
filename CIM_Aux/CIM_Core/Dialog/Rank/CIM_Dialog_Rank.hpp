@@ -24,10 +24,10 @@ class CIM_Dialog_Rank
 		{
 			type = 0;
 			idc = 0;
-			x = 0;
-			y = 0;
+			x = safeZoneX + safeZoneW * 0;
+			y = safeZoneY + safeZoneH * 0;
 			w = 1;
-			h = 0.04;
+			h = safeZoneH * 0.04;
 			style = 2;
 			text = "Atribution de rankission";
 			colorBackground[] = {0.0902, 0.1804, 0.1412, 1};
@@ -54,10 +54,10 @@ class CIM_Dialog_Rank
 		{
 			type = 0;
 			idc = 0;
-			x = 0.55;
-			y = 0.05;
-			w = 0.4;
-			h = 0.04;
+			x = safeZoneX + safeZoneW * 0.55;
+			y = safeZoneY + safeZoneH * 0.05;
+			w = safeZoneW * 0.4;
+			h = safeZoneH * 0.04;
 			style = 2;
 			text = "Liste des rankissions";
 			colorBackground[] = {0.0902, 0.1804, 0.1412, 1};
@@ -158,10 +158,10 @@ class CIM_Dialog_Rank
 		{
 			type = 1;
 			idc = -1;
-			x = 0.970;
-			y = 0;
-			w = 0.030;
-			h = 0.040;
+			x = safeZoneX + safeZoneW * 0.970;
+			y = safeZoneY + safeZoneH * 0;
+			w = safeZoneW * 0.030;
+			h = safeZoneH * 0.040;
 			style = 0 + 2;
 			text = "X";
 			borderSize = 0;

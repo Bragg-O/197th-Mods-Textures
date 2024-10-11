@@ -24,10 +24,10 @@ class CIM_Dialog_ATM
 		{
 			type = 0;
 			idc = 6200;
-			x = 0;
-			y = 0;
-			w = 1;
-			h = 0.04;
+			x = safeZoneX + safeZoneW * 0;
+			y = safeZoneY + safeZoneH * 0;
+			w = safeZoneW * 1;
+			h = safeZoneH * 0.04;
 			style = 2;
 			text = "Banque";
 			colorBackground[] = {0.0902, 0.1804, 0.1412, 1};
@@ -72,10 +72,10 @@ class CIM_Dialog_ATM
 		{
 			type = 5;
 			idc = 6000;
-			x = 0.05;
-			y = 0.1;
-			w = 0.4;
-			h = 0.75;
+			x = safeZoneX + safeZoneW * 0.05;
+			y = safeZoneY + safeZoneH * 0.1;
+			w = safeZoneW * 0.4;
+			h = safeZoneH * 0.75;
 			style = 16;
 			colorBackground[] = {0.102, 0.102, 0.102, 1};
 			colorDisabled[] = {0.2, 0.2, 0.2, 1};
@@ -100,10 +100,10 @@ class CIM_Dialog_ATM
 		{
 			type = 1;
 			idc = 6002;
-			x = 0.55;
-			y = 0.75000002;
-			w = 0.4;
-			h = 0.04;
+			x = safeZoneX + safeZoneW * 0.55;
+			y = safeZoneY + safeZoneH * 0.75000002;
+			w = safeZoneW * 0.4;
+			h = safeZoneH * 0.04;
 			style = 0 + 2;
 			text = "Ajouter";
 			borderSize = 0;
@@ -133,10 +133,10 @@ class CIM_Dialog_ATM
 		{
 			type = 1;
 			idc = 6001;
-			x = 0.55;
-			y = 0.81000002;
-			w = 0.4;
-			h = 0.04;
+			x = safeZoneX + safeZoneW * 0.55;
+			y = safeZoneY + safeZoneH * 0.81000002;
+			w = safeZoneW * 0.4;
+			h = safeZoneH * 0.04;
 			style = 0 + 2;
 			text = "Soustraire";
 			borderSize = 0;
@@ -166,10 +166,10 @@ class CIM_Dialog_ATM
 		{
 			type = 1;
 			idc = -1;
-			x = 0.970;
-			y = 0;
-			w = 0.030;
-			h = 0.040;
+			x = safeZoneX + safeZoneW * 0.970;
+			y = safeZoneY + safeZoneH * 0;
+			w = safeZoneW * 0.030;
+			h = safeZoneH * 0.040;
 			style = 0 + 2;
 			text = "X";
 			borderSize = 0;

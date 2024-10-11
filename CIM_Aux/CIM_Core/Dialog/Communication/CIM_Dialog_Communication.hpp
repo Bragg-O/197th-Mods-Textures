@@ -9,8 +9,8 @@ class CIM_Dialog_Communication
 		{
 			type = 0;
 			idc = 0;
-			x = 0;
-			y = 0;
+			x = safeZoneX + safeZoneW * 0;
+			y = safeZoneY + safeZoneH * 0;
 			w = 1;
 			h = 1;
 			style = 0;
@@ -24,10 +24,10 @@ class CIM_Dialog_Communication
 		{
 			type = 0;
 			idc = 0;
-			x = 0;
-			y = 0;
+			x = safeZoneX + safeZoneW * 0;
+			y = safeZoneY + safeZoneH * 0;
 			w = 1;
-			h = 0.04;
+			h = safeZoneH * 0.04;
 			style = 2;
 			text = "Communication prioritaire";
 			colorBackground[] = {0.0902, 0.1804, 0.1412, 1};
@@ -42,10 +42,10 @@ class CIM_Dialog_Communication
 		{
 			type = 1;
 			idc = 4001;
-			x = 0.03;
-			y = 0.92000002;
-			w = 0.93;
-			h = 0.04;
+			x = safeZoneX + safeZoneW * 0.03;
+			y = safeZoneY + safeZoneH * 0.92000002;
+			w = safeZoneW * 0.93;
+			h = safeZoneH * 0.04;
 			style = 0 + 2;
 			text = "Transmettre";
 			borderSize = 0;
@@ -74,10 +74,10 @@ class CIM_Dialog_Communication
 		{
 			type = 1;
 			idc = -1;
-			x = 0.97;
-			y = 0;
-			w = 0.03;
-			h = 0.04;
+			x = safeZoneX + safeZoneW * 0.97;
+			y = safeZoneY + safeZoneH * 0;
+			w = safeZoneW * 0.03;
+			h = safeZoneH * 0.04;
 			style = 0 + 2;
 			text = "X";
 			borderSize = 0;
@@ -106,10 +106,10 @@ class CIM_Dialog_Communication
 		{
 			type = 2;
 			idc = 4100;
-			x = 0.03;
-			y = 0.84000001;
-			w = 0.94000001;
-			h = 0.04;
+			x = safeZoneX + safeZoneW * 0.03;
+			y = safeZoneY + safeZoneH * 0.84000001;
+			w = safeZoneW * 0.94000001;
+			h = safeZoneH * 0.04;
 			style = 0;
 			text = "";
 			autocomplete = "";
@@ -124,10 +124,10 @@ class CIM_Dialog_Communication
 		{
 			type = 5;
 			idc = 4000;
-			x = 0.03;
-			y = 0.07;
-			w = 0.94000001;
-			h = 0.73000002;
+			x = safeZoneX + safeZoneW * 0.03;
+			y = safeZoneY + safeZoneH * 0.07;
+			w = safeZoneW * 0.94000001;
+			h = safeZoneH * 0.73000002;
 			style = 16;
 			colorBackground[] = {0.102, 0.102, 0.102, 1};
 			colorDisabled[] = {0.2, 0.2, 0.2, 1};
