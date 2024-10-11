@@ -1,7 +1,9 @@
 _this spawn {
 	params ["_unit"];
 	if (side player != west) exitWith {};
-	
+
+	if (isRemoteControlling player) exitWith {};
+
 	CIM_combatTime = 60;
 
 	if ((vehicle player) != player) exitWith {
