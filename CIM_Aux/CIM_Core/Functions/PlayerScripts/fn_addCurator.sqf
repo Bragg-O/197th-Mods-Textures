@@ -8,9 +8,7 @@ waitUntil {
 	!isNull _player
 };
 
-if (_player getVariable ["CIM_ZeusLevel", 0] == 0) exitWith {
-	["ZeusNotAllowed"] remoteExec ["failMission", _player];
-};
+if (_player getVariable ["CIM_ZeusLevel", 0] == 0) exitWith {};
 
 _curator = (createGroup sideLogic) createUnit ["ModuleCurator_F", [0, 0, 0], [], 0, "NONE"];
 _player assignCurator _curator;
