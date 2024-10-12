@@ -9,10 +9,10 @@ class CIM_Dialog_Shield
 		{
 			type = 0;
 			idc = 0;
-			x = safeZoneX + safeZoneW * 0;
-			y = safeZoneY + safeZoneH * 0;
+			x = 0;
+			y = 0;
 			w = 1;
-			h = safeZoneH * 0.6754209;
+			h = 0.6754209;
 			style = 0;
 			text = "";
 			colorBackground[] = {0.1, 0.1, 0.1, 0.7};
@@ -24,10 +24,10 @@ class CIM_Dialog_Shield
 		{
 			type = 0;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0;
-			y = safeZoneY + safeZoneH * 0;
+			x = 0;
+			y = 0;
 			w = 1;
-			h = safeZoneH * 0.04;
+			h = 0.04;
 			style = 2;
 			text = "Panel de controle des boucliers";
 			colorBackground[] = {0.0902, 0.1804, 0.1412, 1};
@@ -42,10 +42,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.970;
-			y = safeZoneY + safeZoneH * 0;
-			w = safeZoneW * 0.030;
-			h = safeZoneH * 0.040;
+			x = 0.970;
+			y = 0;
+			w = 0.030;
+			h = 0.040;
 			style = 0 + 2;
 			text = "X";
 			borderSize = 0;
@@ -74,10 +74,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.05186873;
-			y = safeZoneY + safeZoneH * 0.0824916;
-			w = safeZoneW * 0.28030304;
-			h = safeZoneH * 0.14141415;
+			x = 0.05186873;
+			y = 0.0824916;
+			w = 0.28030304;
+			h = 0.14141415;
 			style = 0 + 2;
 			text = "Dortoir";
 			borderSize = 0;
@@ -107,10 +107,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.36373741;
-			y = safeZoneY + safeZoneH * 0.0824916;
-			w = safeZoneW * 0.28030304;
-			h = safeZoneH * 0.14141415;
+			x = 0.36373741;
+			y = 0.0824916;
+			w = 0.28030304;
+			h = 0.14141415;
 			style = 0 + 2;
 			text = "Zone de formation";
 			borderSize = 0;
@@ -140,10 +140,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.67560608;
-			y = safeZoneY + safeZoneH * 0.0824916;
-			w = safeZoneW * 0.28030304;
-			h = safeZoneH * 0.14141415;
+			x = 0.67560608;
+			y = 0.0824916;
+			w = 0.28030304;
+			h = 0.14141415;
 			style = 0 + 2;
 			text = "Armurerie";
 			borderSize = 0;
@@ -173,10 +173,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.05186873;
-			y = safeZoneY + safeZoneH * 0.28249161;
-			w = safeZoneW * 0.28030304;
-			h = safeZoneH * 0.14141415;
+			x = 0.05186873;
+			y = 0.28249161;
+			w = 0.28030304;
+			h = 0.14141415;
 			style = 0 + 2;
 			text = "MedBay";
 			borderSize = 0;
@@ -206,10 +206,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.36373741;
-			y = safeZoneY + safeZoneH * 0.28249161;
-			w = safeZoneW * 0.28030304;
-			h = safeZoneH * 0.14141415;
+			x = 0.36373741;
+			y = 0.28249161;
+			w = 0.28030304;
+			h = 0.14141415;
 			style = 0 + 2;
 			text = "Pont";
 			borderSize = 0;
@@ -239,10 +239,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.67560608;
-			y = safeZoneY + safeZoneH * 0.28249161;
-			w = safeZoneW * 0.28030304;
-			h = safeZoneH * 0.14141415;
+			x = 0.67560608;
+			y = 0.28249161;
+			w = 0.28030304;
+			h = 0.14141415;
 			style = 0 + 2;
 			text = "Bouclier Hangar";
 			borderSize = 0;
@@ -272,10 +272,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.05186873;
-			y = safeZoneY + safeZoneH * 0.48249166;
-			w = safeZoneW * 0.28030304;
-			h = safeZoneH * 0.14141415;
+			x = 0.05186873;
+			y = 0.48249166;
+			w = 0.28030304;
+			h = 0.14141415;
 			style = 0 + 2;
 			text = "Stockage Explosif";
 			borderSize = 0;
@@ -305,10 +305,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.36373741;
-			y = safeZoneY + safeZoneH * 0.48249166;
-			w = safeZoneW * 0.28030304;
-			h = safeZoneH * 0.14141415;
+			x = 0.36373741;
+			y = 0.48249166;
+			w = 0.28030304;
+			h = 0.14141415;
 			style = 0 + 2;
 			text = "Stockage Medicale";
 			borderSize = 0;
@@ -338,10 +338,10 @@ class CIM_Dialog_Shield
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.67560608;
-			y = safeZoneY + safeZoneH * 0.48249166;
-			w = safeZoneW * 0.28030304;
-			h = safeZoneH * 0.14141415;
+			x = 0.67560608;
+			y = 0.48249166;
+			w = 0.28030304;
+			h = 0.14141415;
 			style = 0 + 2;
 			text = "Stockage Munitions";
 			borderSize = 0;

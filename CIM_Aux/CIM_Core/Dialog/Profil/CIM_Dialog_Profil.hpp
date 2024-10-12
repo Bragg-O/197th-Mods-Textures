@@ -30,8 +30,8 @@ class CIM_Dialog_Profil
 			idc = 2000;
 			x = -0.6060606;
 			y = -0.18181818;
-			w = safeZoneW * 0.33333334;
-			h = safeZoneH * 0.06090913;
+			w = 0.33333334;
+			h = 0.06090913;
 			style = 0;
 			text = "N/A";
 			colorBackground[] = {0.498, 0.5098, 0.6392, 0};
@@ -45,8 +45,8 @@ class CIM_Dialog_Profil
 			idc = 2100;
 			x = -0.6060606;
 			y = -0.09090909;
-			w = safeZoneW * 0.10090912;
-			h = safeZoneH * 0.12636364;
+			w = 0.10090912;
+			h = 0.12636364;
 			style = 48;
 			text = "";
 			colorBackground[] = {0, 0, 0, 0};

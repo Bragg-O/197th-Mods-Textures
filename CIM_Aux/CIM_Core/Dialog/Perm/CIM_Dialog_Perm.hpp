@@ -9,8 +9,8 @@ class CIM_Dialog_Perm
 		{
 			type = 0;
 			idc = 0;
-			x = safeZoneX + safeZoneW * 0;
-			y = safeZoneY + safeZoneH * 0;
+			x = 0;
+			y = 0;
 			w = 1;
 			h = 1;
 			style = 0;
@@ -24,10 +24,10 @@ class CIM_Dialog_Perm
 		{
 			type = 0;
 			idc = 5200;
-			x = safeZoneX + safeZoneW * 0;
-			y = safeZoneY + safeZoneH * 0;
+			x = 0;
+			y = 0;
 			w = 1;
-			h = safeZoneH * 0.04;
+			h = 0.04;
 			style = 2;
 			text = "Atribution de permission";
 			colorBackground[] = {0.0902, 0.1804, 0.1412, 1};
@@ -54,10 +54,10 @@ class CIM_Dialog_Perm
 		{
 			type = 0;
 			idc = 0;
-			x = safeZoneX + safeZoneW * 0.55;
-			y = safeZoneY + safeZoneH * 0.05;
-			w = safeZoneW * 0.4;
-			h = safeZoneH * 0.04;
+			x = 0.55;
+			y = 0.05;
+			w = 0.4;
+			h = 0.04;
 			style = 2;
 			text = "Liste des permissions";
 			colorBackground[] = {0.0902, 0.1804, 0.1412, 1};
@@ -105,10 +105,10 @@ class CIM_Dialog_Perm
 		{
 			type = 1;
 			idc = 5002;
-			x = safeZoneX + safeZoneW * 0.26;
-			y = safeZoneY + safeZoneH * 0.87;
-			w = safeZoneW * 0.22;
-			h = safeZoneH * 0.04;
+			x = 0.26;
+			y = 0.87;
+			w = 0.22;
+			h = 0.04;
 			style = 2;
 			text = "Sapeur";
 			borderSize = 0;
@@ -138,10 +138,10 @@ class CIM_Dialog_Perm
 		{
 			type = 1;
 			idc = 5003;
-			x = safeZoneX + safeZoneW * 0.51;
-			y = safeZoneY + safeZoneH * 0.87;
-			w = safeZoneW * 0.22;
-			h = safeZoneH * 0.04;
+			x = 0.51;
+			y = 0.87;
+			w = 0.22;
+			h = 0.04;
 			style = 2;
 			text = "Pilote";
 			borderSize = 0;
@@ -171,10 +171,10 @@ class CIM_Dialog_Perm
 		{
 			type = 1;
 			idc = 5004;
-			x = safeZoneX + safeZoneW * 0.76;
-			y = safeZoneY + safeZoneH * 0.87;
-			w = safeZoneW * 0.22;
-			h = safeZoneH * 0.04;
+			x = 0.76;
+			y = 0.87;
+			w = 0.22;
+			h = 0.04;
 			style = 2;
 			text = "Crewman";
 			borderSize = 0;
@@ -204,10 +204,10 @@ class CIM_Dialog_Perm
 		{
 			type = 1;
 			idc = 5005;
-			x = safeZoneX + safeZoneW * 0.01;
-			y = safeZoneY + safeZoneH * 0.94;
-			w = safeZoneW * 0.22;
-			h = safeZoneH * 0.04;
+			x = 0.01;
+			y = 0.94;
+			w = 0.22;
+			h = 0.04;
 			style = 0 + 2;
 			text = "Donateur";
 			borderSize = 0;
@@ -237,10 +237,10 @@ class CIM_Dialog_Perm
 		{
 			type = 1;
 			idc = 5006;
-			x = safeZoneX + safeZoneW * 0.26;
-			y = safeZoneY + safeZoneH * 0.94;
-			w = safeZoneW * 0.22;
-			h = safeZoneH * 0.04;
+			x = 0.26;
+			y = 0.94;
+			w = 0.22;
+			h = 0.04;
 			style = 2;
 			text = "Zeus";
 			borderSize = 0;
@@ -270,10 +270,10 @@ class CIM_Dialog_Perm
 		{
 			type = 1;
 			idc = 5007;
-			x = safeZoneX + safeZoneW * 0.51;
-			y = safeZoneY + safeZoneH * 0.94;
-			w = safeZoneW * 0.22;
-			h = safeZoneH * 0.04;
+			x = 0.51;
+			y = 0.94;
+			w = 0.22;
+			h = 0.04;
 			style = 2;
 			text = "Admin";
 			borderSize = 0;
@@ -303,10 +303,10 @@ class CIM_Dialog_Perm
 		{
 			type = 5;
 			idc = 5000;
-			x = safeZoneX + safeZoneW * 0.05;
-			y = safeZoneY + safeZoneH * 0.1;
-			w = safeZoneW * 0.4;
-			h = safeZoneH * 0.75;
+			x = 0.05;
+			y = 0.1;
+			w = 0.4;
+			h = 0.75;
 			style = 16;
 			colorBackground[] = {0.102, 0.102, 0.102, 1};
 			colorDisabled[] = {0.2, 0.2, 0.2, 1};
@@ -330,10 +330,10 @@ class CIM_Dialog_Perm
 		{
 			type = 5;
 			idc = 5100;
-			x = safeZoneX + safeZoneW * 0.55;
-			y = safeZoneY + safeZoneH * 0.1;
-			w = safeZoneW * 0.4;
-			h = safeZoneH * 0.63000002;
+			x = 0.55;
+			y = 0.1;
+			w = 0.4;
+			h = 0.63000002;
 			style = 16;
 			colorBackground[] = {0.102, 0.102, 0.102, 1};
 			colorDisabled[] = {0.2, 0.2, 0.2, 1};
@@ -357,10 +357,10 @@ class CIM_Dialog_Perm
 		{
 			type = 1;
 			idc = 5101;
-			x = safeZoneX + safeZoneW * 0.55;
-			y = safeZoneY + safeZoneH * 0.75000002;
-			w = safeZoneW * 0.4;
-			h = safeZoneH * 0.04;
+			x = 0.55;
+			y = 0.75000002;
+			w = 0.4;
+			h = 0.04;
 			style = 0 + 2;
 			text = "Attribuer cette permission";
 			borderSize = 0;
@@ -389,10 +389,10 @@ class CIM_Dialog_Perm
 		{
 			type = 1;
 			idc = -1;
-			x = safeZoneX + safeZoneW * 0.970;
-			y = safeZoneY + safeZoneH * 0;
-			w = safeZoneW * 0.030;
-			h = safeZoneH * 0.040;
+			x = 0.970;
+			y = 0;
+			w = 0.030;
+			h = 0.040;
 			style = 0 + 2;
 			text = "X";
 			borderSize = 0;
