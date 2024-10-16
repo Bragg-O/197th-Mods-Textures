@@ -8,6 +8,12 @@ waitUntil {
 	!isNull _player
 };
 
+waitUntil {
+	// to prevent MP / JIP issues
+	sleep 5;
+	!(_player isNil "CIM_ZeusLevel")
+};
+
 if (_player getVariable ["CIM_ZeusLevel", 0] == 0) exitWith {};
 
 _curator = (createGroup sideLogic) createUnit ["ModuleCurator_F", [0, 0, 0], [], 0, "NONE"];
