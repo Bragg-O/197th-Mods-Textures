@@ -184,10 +184,6 @@ force force ace_interaction_enableTeamManagement = true;
 force force ace_interaction_enableWeaponAttachments = true;
 force force ace_interaction_interactWithTerrainObjects = false;
 
-// ACE Interaction Menu
-ace_interact_menu_alwaysUseCursorInteraction = true;
-ace_interact_menu_useListMenuSelf = true;
-
 // ACE Kill Tracker
 force force ace_killtracker_trackAI = true;
 
