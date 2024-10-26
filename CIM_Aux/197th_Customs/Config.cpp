@@ -57,6 +57,7 @@ class CfgVehicles
 	HeadgearItem_197th_XX(Customs,Ironteck);
 	HeadgearItem_197th_XX(Customs,Launcher);
 	HeadgearItem_197th_XX(Customs,Pink);
+	HeadgearItem_197th_XX(Customs,Pushup);
 	HeadgearItem_197th_XX(Customs,Resko);
 	HeadgearItem_197th_XX(Customs,SixDeux);
 	HeadgearItem_197th_XX(Customs,Tesler);
@@ -148,6 +149,7 @@ class CfgWeapons
 	Helmet_197th_XX(Customs,Ironteck);
 	Helmet_197th_XX(Customs,Launcher);
 	Helmet_197th_XX(Customs,Pink);
+	Helmet_197th_XX(Customs,Pushup);
 	Helmet_197th_XX(Customs,Resko);
 	Helmet_197th_XX(Customs,SixDeux);
 	Helmet_197th_XX(Customs,Tesler);
