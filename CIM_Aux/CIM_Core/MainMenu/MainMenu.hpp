@@ -1,4 +1,6 @@
 
+#include "CIM_connectToServer.h"
+
 class CfgMissions
 {
 	class Cutscenes
@@ -148,7 +150,7 @@ class RscDisplayMain : RscStandardDisplay
 					"\A3\ui_f\data\sound\RscButton\soundPush",
 					0.090000004,
 					1};
-			onButtonClick = "connectToServer ['5.135.141.171',2302,'197thCompChimaeraByBraggHermesApo']";
+			onButtonClick = CIM_connectToServer;
 		};
 	};
 };
