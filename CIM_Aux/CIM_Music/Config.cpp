@@ -23,6 +23,7 @@ class CfgMusicClasses
 	Categories_XX(SW_Victory,Star Wars (Victory));
 	Categories_XX(SW_Special,Star Wars (Special));
 	Categories_XX(SW_Wait,Star Wars (Wait));
+	Categories_XX(SW_Outlaws, Star Wars (Outlaws));
 	Categories_XX(Halo,Halo);
 	Categories_XX(40K,Warhammer 40k);
 	Categories_XX(2077,Cyberpunk 2077);
