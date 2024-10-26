@@ -31,7 +31,6 @@ class CfgVehicles
 	class 197th_Backpack_ARC;
 	// Units
 	// Unit_197th_XX(type,name,sac,"helmet","vest","accessories1","accessories2","accessories3") -> 197th_Unit_##type##_##name##
-	Unit_197th_XX(Customs,Agira,,"197th_Helmet_Customs_Agira","197th_Vest_Regs_0","","","");
 	Unit_197th_XX(Customs,Cahir,,"197th_Helmet_Customs_Cahir","197th_Vest_Customs_Cahir","","","");
 	Unit_197th_XX(Customs,Elektro,,"197th_Helmet_Customs_Elektro","197th_Vest_Regs_Sergent","","","");
 	Unit_197th_XX(Customs,Hermes,197th_Backpack_Customs_Hermes,"197th_HelmetBARC_Customs_Hermes","197th_Vest_Customs_Hermes","197th_NVG_Regs_Rangefinder","","");
@@ -46,14 +45,11 @@ class CfgVehicles
 
 	// Helmets
 	// HeadgearItem_197th_XX(type,name) -> 197th_Headgear_##type##_##name##
-	HeadgearItem_197th_XX(Customs,Agira);
 	HeadgearItem_197th_XX(Customs,Algo);
 	HeadgearItem_197th_XX(Customs,Apollyon);
 	HeadgearItem_197th_XX(Customs,Azurre);
-	HeadgearItem_197th_XX(Customs,Blast);
 	HeadgearItem_197th_XX(Customs,Bragg);
 	HeadgearItem_197th_XX(Customs,Cahir);
-	HeadgearItem_197th_XX(Customs,Chanceux);
 	HeadgearItem_197th_XX(Customs,Damos);
 	HeadgearItem_197th_XX(Customs,Doc);
 	HeadgearItem_197th_XX(Customs,Elektro);
@@ -63,13 +59,12 @@ class CfgVehicles
 	HeadgearItem_197th_XX(Customs,Pink);
 	HeadgearItem_197th_XX(Customs,Resko);
 	HeadgearItem_197th_XX(Customs,SixDeux);
-	HeadgearItem_197th_XX(Customs,Skibur);
 	HeadgearItem_197th_XX(Customs,Tesler);
 	HeadgearItem_197th_XX(Customs,Tiger);
 	HeadgearItem_197th_XX(Customs,Vanguard);
 	HeadgearItem_197th_XX(Customs,Volk);
 	// HeadgearItemPilot_197th_XX(type,name) -> 197th_HeadgearPilot_##type##_##name##
-	HeadgearItemPilot_197th_XX(Customs,Skibur);
+
 	// HeadgearItemARF_197th_XX(type,name) -> 197th_HeadgearARF_##type##_##name##
 	HeadgearItemARF_197th_XX(Customs,Exo);
 	// HeadgearItemBARC_197th_XX(type,name) -> 197th_HeadgearBARC_##type##_##name##
@@ -130,7 +125,6 @@ class CfgWeapons
 
 	// Uniforms
 	// Uniform_197th_XX(type,name) -> 197th_Uniform_##type##_##name##
-	Uniform_197th_XX(Customs,Agira);
 	Uniform_197th_XX(Customs,Apollyon);
 	Uniform_197th_XX(Customs,Bragg);
 	Uniform_197th_XX(Customs,Cahir);
@@ -143,13 +137,10 @@ class CfgWeapons
 	Uniform_197th_XX(Customs,Volk);
 	// Helmets
 	// Helmet_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
-	Helmet_197th_XX(Customs,Agira);
 	Helmet_197th_XX(Customs,Algo);
 	Helmet_197th_XX(Customs,Apollyon);
 	Helmet_197th_XX(Customs,Azurre);
-	Helmet_197th_XX(Customs,Blast);
 	Helmet_197th_XX(Customs,Cahir);
-	Helmet_197th_XX(Customs,Chanceux);
 	Helmet_197th_XX(Customs,Damos);
 	Helmet_197th_XX(Customs,Doc);
 	Helmet_197th_XX(Customs,Elektro);
@@ -159,7 +150,6 @@ class CfgWeapons
 	Helmet_197th_XX(Customs,Pink);
 	Helmet_197th_XX(Customs,Resko);
 	Helmet_197th_XX(Customs,SixDeux);
-	Helmet_197th_XX(Customs,Skibur);
 	Helmet_197th_XX(Customs,Tesler);
 	Helmet_197th_XX(Customs,Tiger);
 	Helmet_197th_XX(Customs,Vanguard);
@@ -167,7 +157,7 @@ class CfgWeapons
 	// HelmetVisorLight_197th_XX(type,name) -> 197th_Helmet_##type##_##name##
 	HelmetVisorLight_197th_XX(Customs,Bragg);
 	// HelmetPilot_197th_XX(type,name) -> 197th_HelmetPilot_##type##_##name##
-	HelmetPilot_197th_XX(Customs,Skibur);
+
 	// HelmetARF_197th_XX(type,name) -> 197th_HelmetARF_##type##_##name##
 	HelmetARF_197th_XX(Customs,Exo);
 	// HelmetBARC_197th_XX(type,name) -> 197th_HelmetBARC_##type##_##name##
@@ -231,12 +221,10 @@ class CfgWeapons
 class CIM_SkyLocker
 {
 	// Skylocker_197th(id,name,"steamid") -> Skylocker_##id##
-	Skylocker_197th(128,Agira,"76561198929572498");
 	Skylocker_197th(137,Bragg,"76561198113173701");
 	Skylocker_197th(138,Apollyon,"76561198203156987");
 	Skylocker_197th(139,Hermes,"76561198169985342");
 	Skylocker_197th(140,Tiger,"76561198210171331");
 	Skylocker_197th(141,Vanguard,"76561198102465334");
 	Skylocker_197th(142,Elektro,"76561198058787077");
-	Skylocker_197th(145,Skibur,"76561198086870573");
 };
