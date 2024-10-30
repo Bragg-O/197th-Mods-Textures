@@ -394,6 +394,20 @@
 		};                                                                           \
 	}
 
+#define VestLieutenant2_197th_XX(type, name)                                         \
+	class 197th_Vest_##type##_##name : 197th_Vest_Lieutenant2                        \
+	{                                                                                \
+		author = [CIM] Bragg;                                                        \
+		displayName = [197th] Vest(##name##);                                        \
+		scope = 2;                                                                   \
+		scopearsenal = 2;                                                            \
+		picture = \197th_##type##\Equipments\_ui\vest_kama.paa;                      \
+		hiddenselectionstextures[] = {                                               \
+			197th_##type##\Equipments\Vest\Data\##name##\light_accessories_co.paa,   \
+			197th_##type##\Equipments\Vest\Data\##name##\officer_accessories_co.paa, \
+			197th_##type##\Equipments\Vest\Data\##name##\heavy_accessories_co.paa};  \
+	}
+
 #define VestPauldron_197th_XX(type, name)                                             \
 	class 197th_Vest_##type##_##name : 197th_Vest_Lieutenant                          \
 	{                                                                                 \

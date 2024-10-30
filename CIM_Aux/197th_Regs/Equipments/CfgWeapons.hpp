@@ -27,6 +27,8 @@ HelmetBARC_197th_XX(Regs,BARC);
 VestOfficer_197th_XX(Regs,Officier);
 // VestKama_197th_XX(type,name) -> 197th_Vest_##type##_##name##
 VestKama_197th_XX(Regs,Kama);
+// VestLieutenant2_197th_XX(type,name) -> 197th_Vest_##type##_##name##
+
 // VestPauldron_197th_XX(type,name) -> 197th_Vest_##type##_##name##
 VestPauldron_197th_XX(Regs,Pauldron);
 // VestSergent_197th_XX(type,name) -> 197th_Vest_##type##_##name##

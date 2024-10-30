@@ -118,6 +118,7 @@ class CfgWeapons
 	class 197th_Vest_Clone6;
 	class 197th_Vest_Clone7;
 	class 197th_Vest_Clone8;
+	class 197th_Vest_Lieutenant2;
 	class 197th_NVG;
 	class 197th_NVG_SPC;
 	class 197th_NVG_Rangefinder;
@@ -175,6 +176,7 @@ class CfgWeapons
 
 	// VestKama_197th_XX(type,name) -> 197th_Vest_##type##_##name##
 
+	// VestLieutenant2_197th_XX(type,name) -> 197th_Vest_##type##_##name##
 	// VestPauldron_197th_XX(type,name) -> 197th_Vest_##type##_##name##
 
 	// VestSergent_197th_XX(type,name) -> 197th_Vest_##type##_##name##
