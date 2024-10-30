@@ -62,6 +62,7 @@ class SWLB_clone_medic_armor;
 class SWLB_clone_recon_armor;
 class SWLB_clone_specialist_armor;
 class SWLB_CEE_Hazard_Vest;
+class SWLB_CEE_Force_Recon_NCO;
 
 class 197th_Vest_Officer : SWLB_clone_officer_armor
 {
