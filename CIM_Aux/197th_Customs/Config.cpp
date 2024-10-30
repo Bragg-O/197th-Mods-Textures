@@ -31,7 +31,7 @@ class CfgVehicles
 	class 197th_Backpack_ARC;
 	// Units
 	// Unit_197th_XX(type,name,sac,"helmet","vest","accessories1","accessories2","accessories3") -> 197th_Unit_##type##_##name##
-	Unit_197th_XX(Customs,Cahir,,"197th_Helmet_Customs_Cahir","197th_Vest_Customs_Cahir","","","");
+	Unit_197th_XX(Customs,Cahir,,"197th_Helmet_Customs_Cahir","197th_Vest_Regs_ARC","197th_NVG_Regs_Rangefinder","","");
 	Unit_197th_XX(Customs,Elektro,,"197th_Helmet_Customs_Elektro","197th_Vest_Regs_Sergent","","","");
 	Unit_197th_XX(Customs,Hermes,197th_Backpack_Customs_Hermes,"197th_HelmetBARC_Customs_Hermes","197th_Vest_Customs_Hermes","197th_NVG_Regs_Rangefinder","","");
 	Unit_197th_XX(Customs,Pink,,"197th_Helmet_Customs_Pink","197th_Vest_Regs_0","","","");
@@ -181,7 +181,7 @@ class CfgWeapons
 
 	// VestSergent_197th_XX(type,name) -> 197th_Vest_##type##_##name##
 	VestSergent_197th_XX(Customs,Bragg);
-	VestSergent_197th_XX(Customs,Cahir);
+	//VestSergent_197th_XX(Customs,Cahir); //!!! EN attente
 	// VestARC_197th_XX(type,name) -> 197th_Vest_##type##_##name##
 	VestARC_197th_XX(Customs,Hermes);
 	// VestHolster_197th_XX(type,name) -> 197th_Vest_##type##_##name##
