@@ -1,5 +1,3 @@
-class house_F;
-
 class 197th_R14: house_F {
 	author = "[CIM] Bragg";
 	displayName= "[197th] R-14 Ginger";

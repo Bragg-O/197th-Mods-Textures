@@ -54,9 +54,13 @@ class CfgVehicles
 {
     class UserTexture_1x2_F;
     class UserTexture1m_F;
+    class house_F;
 
     // R14
 #include "R14\CfgVehicles.hpp"
+
+    // Sabacc
+#include "Sabacc\CfgVehicles.hpp"
 
     // Flag
 #include "Flag\CfgVehicles.hpp"
