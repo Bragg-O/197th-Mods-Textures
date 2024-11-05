@@ -9,15 +9,6 @@ class 197th_R14: house_F {
 	editorCategory = "CIM_Objects";
 	editorSubcategory = "CIM_Terrestre";
 	model="CIM_Objects\R14\Droid_R14.p3d";
-	hiddenSelections[] = {
-		"Camo1"
-	};
-	hiddenSelectionsTextures[] = {
-		"CIM_Objects\R14\data\R14_co.paa"
-	};
-	hiddenSelectionsMaterials[] = {
-		""
-	};
 	class SimpleObject {
 		eden = 1;
 	};
