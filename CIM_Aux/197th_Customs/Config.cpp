@@ -228,6 +228,7 @@ class CfgWeapons
 class CIM_SkyLocker
 {
 	// Skylocker_197th(id,name,"steamid") -> Skylocker_##id##
+	Skylocker_197th(57,Cahir,"76561198108825738");
 	Skylocker_197th(137,Bragg,"76561198113173701");
 	Skylocker_197th(138,Apollyon,"76561198203156987");
 	Skylocker_197th(139,Hermes,"76561198169985342");
