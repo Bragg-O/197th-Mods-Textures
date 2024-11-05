@@ -125,12 +125,12 @@ class 197th_Vest_Lieutenant2 : SWLB_CEE_Force_Recon_NCO
 	scope = 0;
 	scopearsenal = 0;
 	model = "\SWLB_CEE\data\SWLB_CEE_Force_Recon_NCO.p3d";
-	hiddenSelections[] = {"camo1", "camo2", "camo3"};
+	hiddenSelections[] = {"camo1", "camo2", "pauldron"};
 	class ItemInfo : VestItem
 	{
 		uniformModel = "\SWLB_CEE\data\SWLB_CEE_Force_Recon_NCO.p3d";
 		containerClass = "Supply210";
-		hiddenSelections[] = {"camo1", "camo2", "camo3"};
+		hiddenSelections[] = {"camo1", "camo2", "pauldron"};
 		mass = 80;
 		HITPOINTS_PROTECTION_INFO;
 	};
