@@ -59,9 +59,6 @@ class CfgVehicles
     // R14
 #include "R14\CfgVehicles.hpp"
 
-    // Sabacc
-#include "Sabacc\CfgVehicles.hpp"
-
     // Flag
 #include "Flag\CfgVehicles.hpp"
 
