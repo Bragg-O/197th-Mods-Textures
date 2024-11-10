@@ -37,3 +37,8 @@ class CfgMusic
 {
 #include "CfgMusic.hpp"
 };
+
+class CfgSounds
+{
+#include "CfgSounds.hpp"
+}
