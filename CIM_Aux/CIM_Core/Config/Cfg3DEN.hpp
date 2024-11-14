@@ -20,6 +20,7 @@ class CfgEditorSubcategories
 	CategoriesDouble_XX(CIM_Regs_Helmet,Regs,Helmet);
 	CategoriesDouble_XX(CIM_Regs_Weapon,Regs,Weapon);
 	CategoriesDouble_XX(CIM_Regs_Unit,Regs,Unit);
+	Categories_XX(CIM_Sabacc,Sabacc);
 	Categories_XX(CIM_Number,Number);
 	Categories_XX(CIM_Loadout,Loadout);
 	Categories_XX(CIM_Explosive,Explosive);

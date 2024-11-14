@@ -11,6 +11,7 @@ waitUntil {
 };
 
 private _playerExists = [_uid] call DB_fnc_PlayerCountForUid;
+private _playerExistsSabacc = [_uid] call SABACC_fnc_PlayerCountForUid;
 
 sleep 1;
 
@@ -29,6 +30,10 @@ if (_playerExists == 0) then {
 	if (_isMedic) then {
 		_player setVariable ["ace_medical_medicclass", 2, true];
 	};
+};
+
+if (_playerExistsSabacc == 0) then {
+	[_uid, (name _player)] call SABACC_fnc_CreateNewPlayer;
 };
 
 sleep 10;

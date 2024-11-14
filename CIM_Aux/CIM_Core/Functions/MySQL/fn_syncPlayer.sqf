@@ -64,6 +64,13 @@ params ["_player", "_uid"];
 	_zeus = [_uid] call DB_fnc_ExtractZeusLevel;
 	_player setVariable ["CIM_ZeusLevel", _zeus, true];
 
+	_SabaccActualBonus = [_uid] call SABACC_fnc_extractActualBonus;
+	_player setVariable ["SABACC_SabaccBonus1", _SabaccActualBonus select 0, true];
+	_player setVariable ["SABACC_SabaccBonus2", _SabaccActualBonus select 1, true];
+
+	_SabaccJeton = [_uid] call SABACC_fnc_extractJetons;
+	_player setVariable ["SABACC_Jetons", _SabaccJeton, true];
+
 	uiSleep 5;
 
 	[] call DB_fnc_GetAllPlayersInfo;
