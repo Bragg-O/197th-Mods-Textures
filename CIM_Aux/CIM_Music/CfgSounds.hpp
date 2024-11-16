@@ -166,13 +166,6 @@ class SW_Outlaws_Wake_Up_the_Enrako
   duration = 152;
   titles[] = {0, ""};
 };
-class SW_Outlaws_Walkthrough
-{
-  name = "Walkthrough";
-  sound[] = {"CIM_Music\Data\SW_Outlaws\Walkthrough.ogg", db + 2, 1.0};
-  duration = 633;
-  titles[] = {0, ""};
-};
 class SW_Outlaws_Warm_Jungle_Cold_Heart
 {
   name = "Warm Jungle, Cold Heart";

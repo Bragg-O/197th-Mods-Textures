@@ -25,7 +25,6 @@ private _musicTracks = [
 	"SW_Outlaws_The_Prowl",
 	"SW_Outlaws_This_Cantina_Cant_Contain_Us",
 	"SW_Outlaws_Wake_Up_the_Enrako",
-	"SW_Outlaws_Walkthrough",
 	"SW_Outlaws_Warm_Jungle_Cold_Heart",
 	"SW_Outlaws_Wings_of_Time"
 ];
@@ -52,9 +51,7 @@ while { true } do {
 					[_x, _chosenTrack] remoteExec ["say3D", 0, true];
 				} forEach _boomboxlist;
 
-				private _duration = (getNumber (configFile >> "CfgSounds" >> _chosenTrack >> "duration")) + 30;
-
-				uiSleep _duration;
+				uiSleep 230;
 			};
 
 			_musicPlaying = false;
