@@ -10,7 +10,9 @@ private _timeout = 0;
 
 private _texture = "";
 
-_playerbonus = [getPlayerUID _player] call SABACC_fnc_extractBonus;
+private _playerbonus = [getPlayerUID _player] call SABACC_fnc_extractBonus;
+
+uiSleep 0.1;
 
 _player setVariable ["SABACC_SabaccBonus1", 0, true];
 _player setVariable ["SABACC_SabaccBonus2", 0, true];
