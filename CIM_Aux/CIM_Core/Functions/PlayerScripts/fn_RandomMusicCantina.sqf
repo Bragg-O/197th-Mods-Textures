@@ -52,7 +52,7 @@ while { true } do {
 					[_x, _chosenTrack] remoteExec ["say3D", 0, true];
 				} forEach _boomboxlist;
 
-				private _duration = getNumber (configFile >> "CfgSounds" >> _chosenTrack >> "duration");
+				private _duration = (getNumber (configFile >> "CfgSounds" >> _chosenTrack >> "duration")) + 30;
 
 				uiSleep _duration;
 			};
