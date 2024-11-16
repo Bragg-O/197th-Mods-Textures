@@ -69,7 +69,7 @@ params ["_player", "_uid"];
 	_player setVariable ["SABACC_SabaccBonus2", _SabaccActualBonus select 1, true];
 
 	_SabaccJeton = [_uid] call SABACC_fnc_extractJeton;
-	_player setVariable ["SABACC_Jetons", _SabaccJeton, true];
+	_player setVariable ["SABACC_Jeton", _SabaccJeton, true];
 
 	uiSleep 5;
 
